@@ -1,0 +1,49 @@
+{
+  "FormKey": "00081D:SettlerBuiltSettlements.esp",
+  "MajorRecordFlagsRaw": 134217728,
+  "EditorID": "Prewar_Cabinet_Garage_03_empty_empty",
+  "Fallout4MajorRecordFlags": [
+    "0x8000000"
+  ],
+  "ObjectBounds": {
+    "First": "-56, -33, 0",
+    "Second": "58, 31, 57"
+  },
+  "PreviewTransform": "01AD22:Fallout4.esm",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Cabinet"
+  },
+  "Model": {
+    "File": "SetDressing\\Garage\\CabinetGarage03.nif",
+    "Data": "0x0400000004000000000000000200000001000000AF814A5C646473005841F29C76ED4C3F646473005841F29C680499DF646473005841F29CD000F877646473001CDB88C5C3A774526267736DEB572E60"
+  },
+  "Items": [
+    {
+      "Item": {
+        "Item": "0585A6:Fallout4.esm",
+        "Count": 1
+      }
+    },
+    {
+      "Item": {
+        "Item": "06D4B9:Fallout4.esm",
+        "Count": 1
+      }
+    }
+  ],
+  "Flags": [
+    "AllowSoundsWhenAnimation",
+    "Respawns"
+  ],
+  "Keywords": [
+    "0A7299:Fallout4.esm",
+    "249FC6:Fallout4.esm"
+  ],
+  "OpenSound": "01958E:Fallout4.esm",
+  "CloseSound": "01958D:Fallout4.esm",
+  "TakeAllSound": "093F16:Fallout4.esm",
+  "MajorFlags": [
+    "NavMeshGenerationBoundingBox"
+  ]
+}

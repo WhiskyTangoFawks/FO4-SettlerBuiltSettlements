@@ -1,0 +1,64 @@
+{
+  "FormKey": "00082B:SettlerBuiltSettlements.esp",
+  "EditorID": "smm_SRR_MenuInstaller",
+  "VirtualMachineAdapter": {
+    "Scripts": [
+      {
+        "Name": "SettlementMenuManager:MenuInstaller",
+        "Properties": [
+          {
+            "MutagenObjectType": "ScriptStringProperty",
+            "Name": "Author",
+            "Data": "WhiskyTangoFox"
+          },
+          {
+            "MutagenObjectType": "ScriptStructListProperty",
+            "Name": "Menus",
+            "Structs": [
+              {
+                "Members": [
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "ModMenu",
+                    "Object": "000F9A:SettlerBuiltSettlements.esp"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "TargetMenu",
+                    "Object": "106DA2:Fallout4.esm"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "MutagenObjectType": "ScriptStringProperty",
+            "Name": "ModName",
+            "Data": "SettlerBuiltSettlements"
+          },
+          {
+            "MutagenObjectType": "ScriptStringProperty",
+            "Name": "PluginName",
+            "Data": "SettlerBuiltSettlements.esp"
+          }
+        ]
+      }
+    ],
+    "Versioning": [
+      "Break0"
+    ],
+    "Script": {
+      "Name": ""
+    }
+  },
+  "Data": {
+    "Flags": [
+      "StartGameEnabled",
+      "StartsEnabled",
+      "RunOnce"
+    ],
+    "Unused": 210
+  },
+  "UnusedConditions": [],
+  "Aliases": []
+}

@@ -1,0 +1,68 @@
+{
+  "FormKey": "000829:SettlerBuiltSettlements.esp",
+  "EditorID": "Loot_ToolboxLarge_empty",
+  "VirtualMachineAdapter": {
+    "Scripts": [
+      {
+        "Name": "lockExtraLootSCRIPT",
+        "Properties": [
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "pLLI_Loot_Lock_Expert",
+            "Object": "230754:Fallout4.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "pLLI_Loot_Lock_Advanced",
+            "Object": "230755:Fallout4.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "pLLI_Loot_Lock_Master",
+            "Object": "230756:Fallout4.esm"
+          }
+        ]
+      }
+    ]
+  },
+  "ObjectBounds": {
+    "First": "-17, -26, 0",
+    "Second": "13, 25, 34"
+  },
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Large Toolbox"
+  },
+  "Model": {
+    "File": "SetDressing\\Toolbox\\Toolbox_Large.nif",
+    "Data": "0x0400000004000000000000000200000001000000033A5BE3646473002594F0C1DA565D80646473002594F0C1C4BF8860646473002594F0C148BECB31646473001CDB88C5FD3FD3E96267736D05AA6493"
+  },
+  "Items": [
+    {
+      "Item": {
+        "Item": "0585A6:Fallout4.esm",
+        "Count": 1
+      }
+    },
+    {
+      "Item": {
+        "Item": "1081B9:Fallout4.esm",
+        "Count": 1
+      }
+    },
+    {
+      "Item": {
+        "Item": "21E0AC:Fallout4.esm",
+        "Count": 1
+      }
+    }
+  ],
+  "Flags": [
+    "Respawns"
+  ],
+  "Keywords": [
+    "184462:Fallout4.esm"
+  ],
+  "OpenSound": "1B0652:Fallout4.esm",
+  "CloseSound": "1B0653:Fallout4.esm"
+}

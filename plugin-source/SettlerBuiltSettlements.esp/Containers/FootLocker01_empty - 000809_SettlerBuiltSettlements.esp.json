@@ -1,0 +1,51 @@
+{
+  "FormKey": "000809:SettlerBuiltSettlements.esp",
+  "EditorID": "FootLocker01_empty",
+  "ObjectBounds": {
+    "First": "-27, -12, 0",
+    "Second": "27, 10, 23"
+  },
+  "PreviewTransform": "23C9BB:Fallout4.esm",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Footlocker"
+  },
+  "Model": {
+    "File": "Props\\FootLocker01.nif",
+    "Data": "0x04000000030000000000000001000000010000006D37F32C64647300B7D70CE1B45BF54F64647300B7D70CE1AAB220AF64647300B7D70CE1A459CDC66267736DAEEF2E19"
+  },
+  "Items": [
+    {
+      "Item": {
+        "Item": "0585A7:Fallout4.esm",
+        "Count": 1
+      }
+    },
+    {
+      "Item": {
+        "Item": "0D6E66:Fallout4.esm",
+        "Count": 1
+      }
+    },
+    {
+      "Item": {
+        "Item": "1081B9:Fallout4.esm",
+        "Count": 1
+      }
+    }
+  ],
+  "Flags": [
+    "Respawns"
+  ],
+  "Keywords": [
+    "249FC6:Fallout4.esm"
+  ],
+  "Properties": [
+    {
+      "ActorValue": "00033F:Fallout4.esm",
+      "Value": 1.0
+    }
+  ],
+  "OpenSound": "219C28:Fallout4.esm",
+  "CloseSound": "219C29:Fallout4.esm"
+}

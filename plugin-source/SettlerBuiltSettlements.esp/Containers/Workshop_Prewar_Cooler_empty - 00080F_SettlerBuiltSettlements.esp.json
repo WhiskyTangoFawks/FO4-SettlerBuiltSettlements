@@ -1,0 +1,40 @@
+{
+  "FormKey": "00080F:SettlerBuiltSettlements.esp",
+  "MajorRecordFlagsRaw": 134217728,
+  "EditorID": "Workshop_Prewar_Cooler_empty",
+  "Fallout4MajorRecordFlags": [
+    "0x8000000"
+  ],
+  "ObjectBounds": {
+    "First": "-11, -18, 0",
+    "Second": "11, 18, 27"
+  },
+  "PreviewTransform": "01AD1F:Fallout4.esm",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Cooler"
+  },
+  "Model": {
+    "File": "SetDressing\\Cooler\\Cooler01.nif",
+    "Data": "0x040000000300000000000000010000000100000085665829646473007B461DA35C0A5E4A646473007B461DA342E38BAA646473007B461DA38BC70B116267736DC850C15F"
+  },
+  "Flags": [
+    "AllowSoundsWhenAnimation"
+  ],
+  "Keywords": [
+    "184462:Fallout4.esm",
+    "249FC6:Fallout4.esm"
+  ],
+  "Properties": [
+    {
+      "ActorValue": "00033F:Fallout4.esm",
+      "Value": 1.0
+    }
+  ],
+  "OpenSound": "085927:Fallout4.esm",
+  "CloseSound": "085928:Fallout4.esm",
+  "TakeAllSound": "0965FA:Fallout4.esm",
+  "MajorFlags": [
+    "NavMeshGenerationBoundingBox"
+  ]
+}

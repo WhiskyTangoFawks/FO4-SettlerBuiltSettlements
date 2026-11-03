@@ -1,0 +1,251 @@
+{
+  "FormKey": "000823:SettlerBuiltSettlements.esp",
+  "EditorID": "MagazineRackContainer01_empty",
+  "VirtualMachineAdapter": {
+    "Scripts": [
+      {
+        "Name": "MagazineRackContainerScript",
+        "Properties": [
+          {
+            "MutagenObjectType": "ScriptBoolProperty",
+            "Name": "IsSwivelRack",
+            "Data": true
+          },
+          {
+            "MutagenObjectType": "ScriptStructListProperty",
+            "Name": "DisplayPerkMagStructArray",
+            "Structs": [
+              {
+                "Members": [
+                  {
+                    "MutagenObjectType": "ScriptStringProperty",
+                    "Name": "PerkMagDisplayNode",
+                    "Data": "MagPlacement_01"
+                  }
+                ]
+              },
+              {
+                "Members": [
+                  {
+                    "MutagenObjectType": "ScriptStringProperty",
+                    "Name": "PerkMagDisplayNode",
+                    "Data": "MagPlacement_02"
+                  }
+                ]
+              },
+              {
+                "Members": [
+                  {
+                    "MutagenObjectType": "ScriptStringProperty",
+                    "Name": "PerkMagDisplayNode",
+                    "Data": "MagPlacement_03"
+                  }
+                ]
+              },
+              {
+                "Members": [
+                  {
+                    "MutagenObjectType": "ScriptStringProperty",
+                    "Name": "PerkMagDisplayNode",
+                    "Data": "MagPlacement_04"
+                  }
+                ]
+              },
+              {
+                "Members": [
+                  {
+                    "MutagenObjectType": "ScriptStringProperty",
+                    "Name": "PerkMagDisplayNode",
+                    "Data": "MagPlacement_05"
+                  }
+                ]
+              },
+              {
+                "Members": [
+                  {
+                    "MutagenObjectType": "ScriptStringProperty",
+                    "Name": "PerkMagDisplayNode",
+                    "Data": "MagPlacement_06"
+                  }
+                ]
+              },
+              {
+                "Members": [
+                  {
+                    "MutagenObjectType": "ScriptStringProperty",
+                    "Name": "PerkMagDisplayNode",
+                    "Data": "MagPlacement_07"
+                  }
+                ]
+              },
+              {
+                "Members": [
+                  {
+                    "MutagenObjectType": "ScriptStringProperty",
+                    "Name": "PerkMagDisplayNode",
+                    "Data": "MagPlacement_08"
+                  }
+                ]
+              },
+              {
+                "Members": [
+                  {
+                    "MutagenObjectType": "ScriptStringProperty",
+                    "Name": "PerkMagDisplayNode",
+                    "Data": "MagPlacement_09"
+                  }
+                ]
+              },
+              {
+                "Members": [
+                  {
+                    "MutagenObjectType": "ScriptStringProperty",
+                    "Name": "PerkMagDisplayNode",
+                    "Data": "MagPlacement_10"
+                  }
+                ]
+              },
+              {
+                "Members": [
+                  {
+                    "MutagenObjectType": "ScriptStringProperty",
+                    "Name": "PerkMagDisplayNode",
+                    "Data": "MagPlacement_11"
+                  }
+                ]
+              },
+              {
+                "Members": [
+                  {
+                    "MutagenObjectType": "ScriptStringProperty",
+                    "Name": "PerkMagDisplayNode",
+                    "Data": "MagPlacement_12"
+                  }
+                ]
+              },
+              {
+                "Members": [
+                  {
+                    "MutagenObjectType": "ScriptStringProperty",
+                    "Name": "PerkMagDisplayNode",
+                    "Data": "MagPlacement_13"
+                  }
+                ]
+              },
+              {
+                "Members": [
+                  {
+                    "MutagenObjectType": "ScriptStringProperty",
+                    "Name": "PerkMagDisplayNode",
+                    "Data": "MagPlacement_14"
+                  }
+                ]
+              },
+              {
+                "Members": [
+                  {
+                    "MutagenObjectType": "ScriptStringProperty",
+                    "Name": "PerkMagDisplayNode",
+                    "Data": "MagPlacement_15"
+                  }
+                ]
+              },
+              {
+                "Members": [
+                  {
+                    "MutagenObjectType": "ScriptStringProperty",
+                    "Name": "PerkMagDisplayNode",
+                    "Data": "MagPlacement_16"
+                  }
+                ]
+              },
+              {
+                "Members": [
+                  {
+                    "MutagenObjectType": "ScriptStringProperty",
+                    "Name": "PerkMagDisplayNode",
+                    "Data": "MagPlacement_17"
+                  }
+                ]
+              },
+              {
+                "Members": [
+                  {
+                    "MutagenObjectType": "ScriptStringProperty",
+                    "Name": "PerkMagDisplayNode",
+                    "Data": "MagPlacement_18"
+                  }
+                ]
+              },
+              {
+                "Members": [
+                  {
+                    "MutagenObjectType": "ScriptStringProperty",
+                    "Name": "PerkMagDisplayNode",
+                    "Data": "MagPlacement_19"
+                  }
+                ]
+              },
+              {
+                "Members": [
+                  {
+                    "MutagenObjectType": "ScriptStringProperty",
+                    "Name": "PerkMagDisplayNode",
+                    "Data": "MagPlacement_20"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "BlockWorkshopInteractionKeyword",
+            "Object": "1BDBA6:Fallout4.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "FeaturedItem",
+            "Object": "1B3FAC:Fallout4.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "MagazineRackContainerFullMessage",
+            "Object": "1D4A71:Fallout4.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "PerkMagKeyword",
+            "Object": "1D4A70:Fallout4.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "MagazineRackContainerNotMagazineMessage",
+            "Object": "1D4A73:Fallout4.esm"
+          }
+        ]
+      },
+      {
+        "Name": "defaultblockfolloweractivation"
+      }
+    ]
+  },
+  "ObjectBounds": {
+    "First": "-16, -16, 0",
+    "Second": "16, 16, 105"
+  },
+  "PreviewTransform": "1D4CB2:Fallout4.esm",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Magazine Rack"
+  },
+  "Model": {
+    "File": "SetDressing\\MagazineRack\\MagRackWorkshop.nif",
+    "Data": "0x0400000004000000000000000200000001000000FCA5E637646473002422678825C9E05464647300242267883B2035B464647300242267880F2C2A00646473001CDB88C5B8437BF06267736DD8ADC0CC"
+  },
+  "Flags": [
+    "Respawns"
+  ],
+  "OpenSound": "249C3B:Fallout4.esm",
+  "CloseSound": "249C3C:Fallout4.esm",
+  "FilterList": "21621D:Fallout4.esm"
+}

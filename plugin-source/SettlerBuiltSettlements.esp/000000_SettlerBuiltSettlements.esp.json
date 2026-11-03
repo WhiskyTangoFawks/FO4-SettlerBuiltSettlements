@@ -1,0 +1,15 @@
+{
+  "ModKey": "SettlerBuiltSettlements.esp",
+  "GameRelease": "Fallout4",
+  "ModHeader": {
+    "Flags": [
+      "Small"
+    ],
+    "Stats": {
+      "Version": 0.95,
+      "NextFormID": 2092
+    },
+    "Author": "DEFAULT",
+    "INTV": "0x01000000"
+  }
+}

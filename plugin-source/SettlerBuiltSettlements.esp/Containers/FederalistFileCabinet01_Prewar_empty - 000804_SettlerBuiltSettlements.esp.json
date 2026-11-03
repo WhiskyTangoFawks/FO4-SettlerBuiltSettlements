@@ -1,0 +1,58 @@
+{
+  "FormKey": "000804:SettlerBuiltSettlements.esp",
+  "MajorRecordFlagsRaw": 134217728,
+  "EditorID": "FederalistFileCabinet01_Prewar_empty",
+  "Fallout4MajorRecordFlags": [
+    "0x8000000"
+  ],
+  "ObjectBounds": {
+    "First": "-33, -34, 0",
+    "Second": "33, 34, 119"
+  },
+  "PreviewTransform": "23C9BD:Fallout4.esm",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Filing Cabinet"
+  },
+  "Model": {
+    "File": "SetDressing\\FederalistFurniture\\FederalistFilingCabinet01.nif",
+    "Data": "0x0400000003000000000000000100000001000000D00CFF53646473000BD800020960F930646473000BD8000217892CD0646473000BD80002FD0C35D96267736DC23D6406"
+  },
+  "Items": [
+    {
+      "Item": {
+        "Item": "0585A6:Fallout4.esm",
+        "Count": 1
+      }
+    },
+    {
+      "Item": {
+        "Item": "0AE869:Fallout4.esm",
+        "Count": 1
+      }
+    },
+    {
+      "Item": {
+        "Item": "1081B9:Fallout4.esm",
+        "Count": 1
+      }
+    },
+    {
+      "Item": {
+        "Item": "1B2B06:Fallout4.esm",
+        "Count": 1
+      }
+    }
+  ],
+  "Flags": [
+    "Respawns"
+  ],
+  "Keywords": [
+    "249FC6:Fallout4.esm"
+  ],
+  "OpenSound": "123DE6:Fallout4.esm",
+  "CloseSound": "123DE7:Fallout4.esm",
+  "MajorFlags": [
+    "NavMeshGenerationBoundingBox"
+  ]
+}

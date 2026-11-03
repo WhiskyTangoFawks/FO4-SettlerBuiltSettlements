@@ -1,0 +1,15 @@
+{
+  "FormKey": "00081A:SettlerBuiltSettlements.esp",
+  "MajorRecordFlagsRaw": 134217728,
+  "EditorID": "DLC06WorkshopVault_Locker_01",
+  "Fallout4MajorRecordFlags": [
+    "0x8000000"
+  ],
+  "ObjectBounds": {
+    "First": "-26, -25, 0",
+    "Second": "25, 22, 146"
+  },
+  "MajorFlags": [
+    "NavMeshGenerationBoundingBox"
+  ]
+}

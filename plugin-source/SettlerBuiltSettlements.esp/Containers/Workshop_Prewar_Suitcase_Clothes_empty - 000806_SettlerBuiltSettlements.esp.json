@@ -1,0 +1,38 @@
+{
+  "FormKey": "000806:SettlerBuiltSettlements.esp",
+  "MajorRecordFlagsRaw": 134217728,
+  "EditorID": "Workshop_Prewar_Suitcase_Clothes_empty",
+  "Fallout4MajorRecordFlags": [
+    "0x8000000"
+  ],
+  "ObjectBounds": {
+    "First": "-37, -24, 0",
+    "Second": "37, 23, 19"
+  },
+  "PreviewTransform": "01AD1E:Fallout4.esm",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Suitcase"
+  },
+  "Model": {
+    "File": "SetDressing\\Suitcase\\Suitcase01.nif",
+    "Data": "0x040000000400000000000000020000000000000004B342996464730067D76968DDDF44FA6464730067D76968C336911A6464730067D76968CDE992D8646473001CDB88C5"
+  },
+  "Flags": [
+    "AllowSoundsWhenAnimation"
+  ],
+  "Keywords": [
+    "184462:Fallout4.esm",
+    "249FC6:Fallout4.esm"
+  ],
+  "Properties": [
+    {
+      "ActorValue": "00033F:Fallout4.esm",
+      "Value": 1.0
+    }
+  ],
+  "TakeAllSound": "093F12:Fallout4.esm",
+  "MajorFlags": [
+    "NavMeshGenerationBoundingBox"
+  ]
+}

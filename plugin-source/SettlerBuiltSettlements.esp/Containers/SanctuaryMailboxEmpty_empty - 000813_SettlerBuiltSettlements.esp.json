@@ -1,0 +1,23 @@
+{
+  "FormKey": "000813:SettlerBuiltSettlements.esp",
+  "EditorID": "SanctuaryMailboxEmpty_empty",
+  "ObjectBounds": {
+    "First": "-12, -21, -6",
+    "Second": "13, 27, 100"
+  },
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Mailbox"
+  },
+  "Model": {
+    "File": "SetDressing\\Mailbox\\mailbox02.nif",
+    "Data": "0x040000000400000000000000020000000100000075D523DD64647300E8D9FC86ACB925BE64647300E8D9FC86B250F05E64647300E8D9FC86D000F877646473001CDB88C5229DB11D6267736DC8E768D4"
+  },
+  "Flags": [
+    "AllowSoundsWhenAnimation",
+    "Respawns"
+  ],
+  "OpenSound": "08B6F8:Fallout4.esm",
+  "CloseSound": "08B6F9:Fallout4.esm",
+  "TakeAllSound": "08B702:Fallout4.esm"
+}

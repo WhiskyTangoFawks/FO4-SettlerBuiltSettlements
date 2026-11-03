@@ -1,0 +1,10 @@
+{
+  "FormKey": "000F9A:SettlerBuiltSettlements.esp",
+  "EditorID": "WorkshopRecipeFilterSettlementRenovation",
+  "Color": "#00FFFFFF",
+  "Type": "RecipeFilter",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Building Supplies"
+  }
+}

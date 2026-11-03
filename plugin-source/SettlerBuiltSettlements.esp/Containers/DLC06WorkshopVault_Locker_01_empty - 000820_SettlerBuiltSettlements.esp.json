@@ -1,0 +1,47 @@
+{
+  "FormKey": "000820:SettlerBuiltSettlements.esp",
+  "MajorRecordFlagsRaw": 134217728,
+  "EditorID": "DLC06WorkshopVault_Locker_01_empty",
+  "Fallout4MajorRecordFlags": [
+    "0x8000000"
+  ],
+  "ObjectBounds": {
+    "First": "-26, -25, 0",
+    "Second": "25, 22, 146"
+  },
+  "PreviewTransform": "0049CC:DLCworkshop03.esm",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Locker"
+  },
+  "Model": {
+    "File": "SetDressing\\Vault\\Vault_Locker_01.nif",
+    "Data": "0x040000000400000000000000020000000100000026173F656464730085669892FF7B39066464730085669892E192ECE664647300856698920F2C2A00646473001CDB88C583D47EAB6267736DDEA906F7"
+  },
+  "Items": [
+    {
+      "Item": {
+        "Item": "05859B:Fallout4.esm",
+        "Count": 1
+      }
+    },
+    {
+      "Item": {
+        "Item": "0585A6:Fallout4.esm",
+        "Count": 1
+      }
+    }
+  ],
+  "Flags": [
+    "AllowSoundsWhenAnimation",
+    "Respawns"
+  ],
+  "Keywords": [
+    "249FC6:Fallout4.esm"
+  ],
+  "OpenSound": "02FE30:Fallout4.esm",
+  "CloseSound": "02FE2F:Fallout4.esm",
+  "MajorFlags": [
+    "NavMeshGenerationBoundingBox"
+  ]
+}

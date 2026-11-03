@@ -1,0 +1,53 @@
+{
+  "FormKey": "000814:SettlerBuiltSettlements.esp",
+  "MajorRecordFlagsRaw": 134217728,
+  "EditorID": "PlayerHouse_Ruin_Dresser02_empty",
+  "Fallout4MajorRecordFlags": [
+    "0x8000000"
+  ],
+  "ObjectBounds": {
+    "First": "-57, -31, 0",
+    "Second": "18, 29, 75"
+  },
+  "PreviewTransform": "01AD62:Fallout4.esm",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Dresser"
+  },
+  "Model": {
+    "File": "SetDressing\\PlayerHouse_Ruin\\PlayerHouse_Ruin_Dresser02.nif",
+    "Data": "0x0400000003000000000000000100000001000000428697B364647300EA8E64999BEA91D064647300EA8E64998503443064647300EA8E64998EC98E286267736DD5B613D1"
+  },
+  "Items": [
+    {
+      "Item": {
+        "Item": "0585A6:Fallout4.esm",
+        "Count": 1
+      }
+    },
+    {
+      "Item": {
+        "Item": "06D4BB:Fallout4.esm",
+        "Count": 1
+      }
+    },
+    {
+      "Item": {
+        "Item": "1081B9:Fallout4.esm",
+        "Count": 1
+      }
+    }
+  ],
+  "Flags": [
+    "AllowSoundsWhenAnimation",
+    "Respawns"
+  ],
+  "Keywords": [
+    "249FC6:Fallout4.esm"
+  ],
+  "OpenSound": "0B1D35:Fallout4.esm",
+  "CloseSound": "0B1D36:Fallout4.esm",
+  "MajorFlags": [
+    "NavMeshGenerationBoundingBox"
+  ]
+}

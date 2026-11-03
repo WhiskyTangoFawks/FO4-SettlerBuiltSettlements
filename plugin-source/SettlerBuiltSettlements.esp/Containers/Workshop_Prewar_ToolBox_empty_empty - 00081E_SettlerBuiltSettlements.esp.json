@@ -1,0 +1,34 @@
+{
+  "FormKey": "00081E:SettlerBuiltSettlements.esp",
+  "MajorRecordFlagsRaw": 134217728,
+  "EditorID": "Workshop_Prewar_ToolBox_empty_empty",
+  "Fallout4MajorRecordFlags": [
+    "0x8000000"
+  ],
+  "ObjectBounds": {
+    "First": "-12, -25, 0",
+    "Second": "11, 25, 22"
+  },
+  "PreviewTransform": "01AD06:Fallout4.esm",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Toolbox"
+  },
+  "Model": {
+    "File": "SetDressing\\Toolbox\\Toolbox.nif",
+    "Data": "0x04000000050000000000000003000000010000006E483688646473002594F0C1B72430EB646473002594F0C1A9CDE50B646473002594F0C171D5D693646473001CDB88C5CDE992D8646473001CDB88C5B870FF7C6267736D05AA6493"
+  },
+  "Keywords": [
+    "184462:Fallout4.esm",
+    "249FC6:Fallout4.esm"
+  ],
+  "Properties": [
+    {
+      "ActorValue": "00033F:Fallout4.esm",
+      "Value": 1.0
+    }
+  ],
+  "MajorFlags": [
+    "NavMeshGenerationBoundingBox"
+  ]
+}

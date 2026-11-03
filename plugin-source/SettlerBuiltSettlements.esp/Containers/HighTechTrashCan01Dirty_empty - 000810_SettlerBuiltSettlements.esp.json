@@ -1,0 +1,50 @@
+{
+  "FormKey": "000810:SettlerBuiltSettlements.esp",
+  "MajorRecordFlagsRaw": 134217728,
+  "EditorID": "HighTechTrashCan01Dirty_empty",
+  "Fallout4MajorRecordFlags": [
+    "0x8000000"
+  ],
+  "ObjectBounds": {
+    "First": "-20, -20, 0",
+    "Second": "20, 20, 75"
+  },
+  "PreviewTransform": "2381B5:Fallout4.esm",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Trash Can"
+  },
+  "Model": {
+    "File": "SetDressing\\HighTech\\HighTechTrashcan01.nif",
+    "Data": "0x0400000004000000000000000200000002000000238B39A86464730045BE6888FAE73FCB6464730045BE6888E40EEA2B6464730045BE68880F2C2A00646473001CDB88C527D08F8A6267736DB30A54B3056C301F6267736DD550C98A",
+    "MaterialSwap": "19AC74:Fallout4.esm"
+  },
+  "Items": [
+    {
+      "Item": {
+        "Item": "0585A6:Fallout4.esm",
+        "Count": 1
+      }
+    },
+    {
+      "Item": {
+        "Item": "0C446A:Fallout4.esm",
+        "Count": 1
+      }
+    },
+    {
+      "Item": {
+        "Item": "1081B9:Fallout4.esm",
+        "Count": 1
+      }
+    }
+  ],
+  "Flags": [
+    "Respawns"
+  ],
+  "OpenSound": "0F40FA:Fallout4.esm",
+  "CloseSound": "0F40F9:Fallout4.esm",
+  "MajorFlags": [
+    "NavMeshGenerationBoundingBox"
+  ]
+}

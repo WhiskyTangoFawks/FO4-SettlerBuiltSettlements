@@ -1,0 +1,31 @@
+{
+  "FormKey": "00080E:SettlerBuiltSettlements.esp",
+  "EditorID": "Workshop_WoodCrate_empty",
+  "ObjectBounds": {
+    "First": "-33, -19, 6",
+    "Second": "33, 17, 42"
+  },
+  "PreviewTransform": "2381C0:Fallout4.esm",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Wooden Crate"
+  },
+  "Model": {
+    "File": "SetDressing\\WoodCrate\\WoodCrate.nif",
+    "Data": "0x0400000004000000000000000200000002000000EB03062664647300CAEF2030326F004564647300CAEF20302C86D5A564647300CAEF2030CDE992D8646473001CDB88C514A471716267736D5784C5645DF0A3256267736D5784C564"
+  },
+  "Flags": [
+    "AllowSoundsWhenAnimation"
+  ],
+  "Keywords": [
+    "249FC6:Fallout4.esm"
+  ],
+  "Properties": [
+    {
+      "ActorValue": "00033F:Fallout4.esm",
+      "Value": 1.0
+    }
+  ],
+  "OpenSound": "02365A:Fallout4.esm",
+  "CloseSound": "02365C:Fallout4.esm"
+}

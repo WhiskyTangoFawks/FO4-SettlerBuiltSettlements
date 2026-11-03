@@ -1,0 +1,47 @@
+{
+  "FormKey": "000816:SettlerBuiltSettlements.esp",
+  "EditorID": "Workshop_BossTrunk_empty",
+  "ObjectBounds": {
+    "First": "-45, -28, 0",
+    "Second": "45, 26, 54"
+  },
+  "PreviewTransform": "2381C1:Fallout4.esm",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Steamer Trunk"
+  },
+  "Model": {
+    "File": "SetDressing\\SteamerTrunk\\SteamerTrunk.nif",
+    "Data": "0x04000000040000000000000002000000010000000BFDDB1564647300188A8F21D291DD7664647300188A8F21CC78089664647300188A8F21CDE992D8646473001CDB88C5DFAA6C6F6267736D74052D82"
+  },
+  "Items": [
+    {
+      "Item": {
+        "Item": "0192FA:Fallout4.esm",
+        "Count": 1
+      }
+    },
+    {
+      "Item": {
+        "Item": "05859B:Fallout4.esm",
+        "Count": 1
+      }
+    },
+    {
+      "Item": {
+        "Item": "0585A7:Fallout4.esm",
+        "Count": 1
+      }
+    }
+  ],
+  "Flags": [
+    "AllowSoundsWhenAnimation"
+  ],
+  "Keywords": [
+    "184462:Fallout4.esm",
+    "249FC6:Fallout4.esm"
+  ],
+  "OpenSound": "085929:Fallout4.esm",
+  "CloseSound": "08592A:Fallout4.esm",
+  "TakeAllSound": "093F13:Fallout4.esm"
+}

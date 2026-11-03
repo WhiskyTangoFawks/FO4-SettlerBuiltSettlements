@@ -1,0 +1,46 @@
+{
+  "FormKey": "000819:SettlerBuiltSettlements.esp",
+  "EditorID": "Loot_DuffleBag_Guns_empty",
+  "ObjectBounds": {
+    "First": "-48, -14, -1",
+    "Second": "47, 14, 30"
+  },
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Duffle Bag"
+  },
+  "Model": {
+    "File": "SetDressing\\DuffleBag\\DuffleBag.nif",
+    "Data": "0x0400000003000000000000000100000001000000FF4A600464647300D39925042626666764647300D399250438CFB38764647300D3992504EAF6AD676267736D4EF2C050"
+  },
+  "Items": [
+    {
+      "Item": {
+        "Item": "05859B:Fallout4.esm",
+        "Count": 1
+      }
+    },
+    {
+      "Item": {
+        "Item": "0585A7:Fallout4.esm",
+        "Count": 1
+      }
+    },
+    {
+      "Item": {
+        "Item": "06D4A8:Fallout4.esm",
+        "Count": 1
+      }
+    }
+  ],
+  "Flags": [
+    "AllowSoundsWhenAnimation",
+    "Respawns"
+  ],
+  "Keywords": [
+    "184462:Fallout4.esm"
+  ],
+  "OpenSound": "03C602:Fallout4.esm",
+  "CloseSound": "03C603:Fallout4.esm",
+  "TakeAllSound": "03C604:Fallout4.esm"
+}

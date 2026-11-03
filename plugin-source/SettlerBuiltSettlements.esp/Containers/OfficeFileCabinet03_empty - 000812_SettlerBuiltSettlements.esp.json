@@ -1,0 +1,60 @@
+{
+  "FormKey": "000812:SettlerBuiltSettlements.esp",
+  "MajorRecordFlagsRaw": 134217728,
+  "EditorID": "OfficeFileCabinet03_empty",
+  "Fallout4MajorRecordFlags": [
+    "0x8000000"
+  ],
+  "ObjectBounds": {
+    "First": "-20, -48, 0",
+    "Second": "20, 9, 55"
+  },
+  "PreviewTransform": "01AD09:Fallout4.esm",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "File Cabinet"
+  },
+  "Model": {
+    "File": "SetDressing\\Office\\OfficeFileCabinet03.nif",
+    "Data": "0x0400000004000000000000000200000001000000037A7E8C64647300514B8577DA1678EF64647300514B8577C4FFAD0F64647300514B85770F2C2A00646473001CDB88C5356B78616267736DE25D598B",
+    "MaterialSwap": "0BD530:Fallout4.esm"
+  },
+  "Items": [
+    {
+      "Item": {
+        "Item": "0585A6:Fallout4.esm",
+        "Count": 1
+      }
+    },
+    {
+      "Item": {
+        "Item": "0C446C:Fallout4.esm",
+        "Count": 1
+      }
+    },
+    {
+      "Item": {
+        "Item": "1081B9:Fallout4.esm",
+        "Count": 1
+      }
+    },
+    {
+      "Item": {
+        "Item": "1B2B06:Fallout4.esm",
+        "Count": 1
+      }
+    }
+  ],
+  "Flags": [
+    "AllowSoundsWhenAnimation",
+    "Respawns"
+  ],
+  "Keywords": [
+    "249FC6:Fallout4.esm"
+  ],
+  "OpenSound": "0B9A81:Fallout4.esm",
+  "CloseSound": "0B9A82:Fallout4.esm",
+  "MajorFlags": [
+    "NavMeshGenerationBoundingBox"
+  ]
+}

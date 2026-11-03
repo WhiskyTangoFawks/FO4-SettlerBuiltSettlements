@@ -1,0 +1,49 @@
+{
+  "FormKey": "000807:SettlerBuiltSettlements.esp",
+  "MajorRecordFlagsRaw": 134217728,
+  "EditorID": "MetalBoxWorkshop_empty",
+  "Fallout4MajorRecordFlags": [
+    "0x8000000"
+  ],
+  "ObjectBounds": {
+    "First": "-39, -24, 0",
+    "Second": "40, 24, 40"
+  },
+  "PreviewTransform": "23D2C7:Fallout4.esm",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Metal Box"
+  },
+  "Model": {
+    "File": "SetDressing\\MetalBox\\MetalBox.nif",
+    "Data": "0x0400000004000000000000000200000001000000BCC77A66646473008CFE9AAE65AB7C05646473008CFE9AAE7B42A9E5646473008CFE9AAE24389F9F646473001CDB88C5911E99206267736D7A4AA695"
+  },
+  "Items": [
+    {
+      "Item": {
+        "Item": "0585A6:Fallout4.esm",
+        "Count": 1
+      }
+    },
+    {
+      "Item": {
+        "Item": "0C446A:Fallout4.esm",
+        "Count": 1
+      }
+    },
+    {
+      "Item": {
+        "Item": "1081B9:Fallout4.esm",
+        "Count": 1
+      }
+    }
+  ],
+  "Keywords": [
+    "249FC6:Fallout4.esm"
+  ],
+  "OpenSound": "1AE684:Fallout4.esm",
+  "CloseSound": "1AE683:Fallout4.esm",
+  "MajorFlags": [
+    "NavMeshGenerationBoundingBox"
+  ]
+}
