@@ -1,0 +1,3135 @@
+{
+  "FormKey": "00DD5F:Fallout4.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "SanctuaryExt06",
+  "Fallout4MajorRecordFlags": [
+    "Compressed"
+  ],
+  "Flags": [
+    "HasWater"
+  ],
+  "PreVisFilesTimestamp": 7972,
+  "InPreVisFileOf": "00DD5E:Fallout4.esm",
+  "PreCombinedFilesTimestamp": 7972,
+  "Grid": {
+    "Point": "-19, 21"
+  },
+  "MaxHeightData": {
+    "Offset": 7296.0,
+    "HeightMap": [
+      [2,2,2,2,2,2,3,3,8,3,3,5,5,4,4,4,4,4,4,4,4,4,4,4,8,7,4,4,4,5,7,8],
+      [3,3,2,2,2,2,3,3,10,3,3,3,5,5,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,7,7,7],
+      [3,3,2,2,3,3,3,3,3,3,4,4,4,3,4,4,4,4,5,5,7,13,4,11,10,4,4,4,4,5,7,7],
+      [2,2,2,2,3,3,3,3,3,4,5,5,5,5,4,4,4,5,5,5,5,8,4,8,8,4,4,4,4,5,7,7],
+      [2,3,2,2,2,3,3,3,3,3,5,5,5,5,9,4,5,5,6,6,6,5,6,4,5,5,4,4,5,5,5,7],
+      [6,4,2,2,2,3,3,3,3,3,3,5,5,4,7,4,5,5,6,6,6,4,7,7,7,5,5,5,5,5,5,7],
+      [2,2,2,2,2,3,3,3,3,3,3,3,4,4,4,5,5,4,4,4,4,7,7,7,8,8,8,5,5,5,5,5],
+      [2,1,2,2,2,2,3,3,3,3,3,3,4,4,4,5,5,4,4,4,4,7,7,7,8,8,8,7,5,5,5,5],
+      [2,2,2,2,5,2,2,5,4,3,3,3,4,4,5,5,4,4,4,5,7,7,7,8,8,8,8,7,7,6,5,5],
+      [2,2,2,2,3,2,2,2,2,3,3,3,4,4,5,4,4,4,4,6,7,7,7,8,8,8,7,7,7,5,5,5],
+      [2,2,2,2,2,2,2,2,2,3,3,3,3,4,5,5,6,4,4,7,7,7,8,8,8,8,7,7,7,5,4,4],
+      [1,2,2,2,2,2,2,2,2,2,3,3,3,4,4,5,5,5,6,7,7,8,8,8,8,7,7,7,5,5,5,4],
+      [0,2,2,2,2,2,2,2,2,2,2,3,3,4,4,4,5,5,7,7,7,8,8,8,7,7,7,6,4,5,5,4],
+      [0,2,2,2,2,2,2,2,2,2,2,3,3,3,4,4,4,7,7,7,8,8,8,8,7,7,7,5,4,5,4,4],
+      [0,2,2,1,2,2,2,2,2,2,2,3,3,3,4,4,4,4,7,7,8,8,8,7,7,7,4,4,4,4,4,4],
+      [0,2,2,1,2,2,2,2,2,2,2,2,3,3,3,3,4,4,4,4,8,8,8,7,7,7,4,4,4,4,4,4],
+      [1,1,2,2,2,2,2,2,2,2,2,2,3,3,3,3,4,4,4,4,4,7,7,7,7,4,4,4,4,4,4,4],
+      [1,1,2,2,2,2,2,2,2,2,2,2,3,3,3,3,4,4,4,4,4,5,5,7,6,4,4,4,4,4,4,4],
+      [1,1,3,3,1,2,2,2,2,2,2,2,2,3,3,3,12,6,4,4,4,5,5,4,4,4,4,4,4,4,4,4],
+      [1,1,3,3,1,1,2,2,2,2,2,2,2,3,3,3,3,4,5,6,5,5,4,4,4,4,4,7,4,4,4,4],
+      [0,0,1,1,1,1,2,6,5,5,2,2,2,3,3,3,3,3,4,8,5,5,4,4,4,4,5,4,4,4,4,4],
+      [0,0,1,1,1,1,1,2,5,6,2,2,2,10,3,3,3,3,3,4,6,6,4,4,4,4,4,4,4,4,4,4],
+      [0,0,1,1,1,1,1,2,2,2,2,2,5,8,3,3,3,3,4,4,5,6,5,4,4,4,4,4,4,4,4,4],
+      [1,1,1,1,1,1,1,1,2,2,2,2,5,5,3,3,3,3,4,4,4,5,5,4,5,5,5,4,4,4,4,4],
+      [1,1,1,1,1,1,1,1,2,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,6,6,6,5,4,4,4,5],
+      [1,1,1,1,1,1,1,1,10,4,2,2,2,3,3,3,3,4,4,4,4,4,5,6,6,6,6,6,6,4,4,4],
+      [1,1,1,0,1,1,1,5,7,7,2,2,2,2,3,3,3,4,4,4,4,5,6,6,7,7,6,6,6,6,4,4],
+      [0,0,1,0,1,1,1,1,4,2,8,2,2,2,3,3,3,4,4,4,5,6,6,6,7,7,6,6,6,6,5,4],
+      [0,0,0,0,1,1,1,1,1,1,6,2,2,2,3,3,3,3,4,4,5,6,6,6,6,6,7,7,6,6,5,5],
+      [0,0,0,0,1,1,1,1,1,1,2,2,2,2,3,3,3,3,3,4,4,6,6,5,6,6,7,7,7,6,5,4],
+      [0,0,0,0,1,1,1,1,1,1,2,2,2,2,3,3,3,3,3,3,4,4,6,6,6,6,7,7,6,6,5,4],
+      [0,0,0,0,1,1,1,1,1,1,2,2,2,2,3,3,3,3,7,5,3,4,4,6,6,6,6,6,6,6,4,4]
+    ]
+  },
+  "WaterHeight": 7250.0,
+  "Regions": [
+    "0E4755:Fallout4.esm",
+    "23AE12:Fallout4.esm",
+    "03A2CC:Fallout4.esm",
+    "039C9D:Fallout4.esm",
+    "001175:Fallout4.esm",
+    "049BE0:Fallout4.esm"
+  ],
+  "Location": "01F228:Fallout4.esm",
+  "Water": "034519:Fallout4.esm",
+  "PhysicsReferences": [
+    "0AEDEA:Fallout4.esm"
+  ],
+  "CombinedMeshes": [
+    28861806,
+    176306026,
+    316928405,
+    324769019,
+    425316049,
+    462555487,
+    524771173,
+    662107564,
+    850632099,
+    942779081,
+    1043282813,
+    1250047850,
+    1499057873,
+    1735849388,
+    1924373923,
+    2016520905,
+    2572799697,
+    2672254821,
+    2809591212,
+    4071857571
+  ],
+  "CombinedMeshReferences": [
+    {
+      "Reference": "021838:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "0BDD50:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "053327:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "06D72B:Fallout4.esm",
+      "CombinedMesh": 1250047850
+    },
+    {
+      "Reference": "057037:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "027400:Fallout4.esm",
+      "CombinedMesh": 524771173
+    },
+    {
+      "Reference": "189007:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "0BDD67:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "02785D:Fallout4.esm",
+      "CombinedMesh": 2572799697
+    },
+    {
+      "Reference": "05702E:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "055E2D:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "078AA9:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "189042:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "078A82:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0788CD:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "057040:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "05702B:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "078AAC:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "078B02:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "07898D:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "078A5B:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0BDD55:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "06D72E:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "057032:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0BDD68:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "189008:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "078A66:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0789DB:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "078B3F:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "078A3A:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "057038:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "053328:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "078B3A:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "078A7A:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "248402:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "02182B:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "078A63:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "05E22E:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "06D729:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "078A37:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "078A5C:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "18901C:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "078AF7:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "05702C:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "078B05:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "078AAB:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "0BDD65:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "078B40:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "078A2E:Fallout4.esm",
+      "CombinedMesh": 1250047850
+    },
+    {
+      "Reference": "057029:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "078B00:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "02176D:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "023B8A:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "0AEDB4:Fallout4.esm",
+      "CombinedMesh": 4071857571
+    },
+    {
+      "Reference": "06D72C:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "0AEDF1:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "0789B8:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "063F46:Fallout4.esm",
+      "CombinedMesh": 462555487
+    },
+    {
+      "Reference": "18900A:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "0BDD6A:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "05332A:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "078B3D:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "0789D9:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "078A38:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "05703F:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "078B38:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "0789DC:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "021830:Fallout4.esm",
+      "CombinedMesh": 1043282813
+    },
+    {
+      "Reference": "0AED95:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "048399:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "057026:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "021833:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "078B3B:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "05332C:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "078A7B:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "02740B:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "021307:Fallout4.esm",
+      "CombinedMesh": 1043282813
+    },
+    {
+      "Reference": "0BDD6C:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "078A62:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0BDD69:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "189009:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "063F45:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "078A67:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "078A3B:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "022220:Fallout4.esm",
+      "CombinedMesh": 316928405
+    },
+    {
+      "Reference": "0789DA:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "053329:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "02790A:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "027864:Fallout4.esm",
+      "CombinedMesh": 2809591212
+    },
+    {
+      "Reference": "0788CC:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "053314:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "189003:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "078B03:Fallout4.esm",
+      "CombinedMesh": 1250047850
+    },
+    {
+      "Reference": "078AAD:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "021777:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "078A5A:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "027404:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "0AEDB7:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "057036:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "06D72A:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "0BDD51:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "023B8C:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "078A2D:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "189006:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "0BDD66:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "055E2C:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "189043:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "078AA8:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "078A68:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "078AD2:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "0AEDBA:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "078A3C:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0789DD:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "078B39:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "057027:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "048398:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "189020:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0BDD6B:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "05331C:Fallout4.esm",
+      "CombinedMesh": 2809591212
+    },
+    {
+      "Reference": "189057:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "05332B:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "05703B:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "078A39:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "021834:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "078B01:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "057028:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "023B8B:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "06D72D:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "0AEDB5:Fallout4.esm",
+      "CombinedMesh": 4071857571
+    },
+    {
+      "Reference": "078997:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "078B36:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0482CE:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "08471E:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "06D728:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "057034:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "189005:Fallout4.esm",
+      "CombinedMesh": 1250047850
+    },
+    {
+      "Reference": "1A760E:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "021770:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "027863:Fallout4.esm",
+      "CombinedMesh": 2809591212
+    },
+    {
+      "Reference": "0BDD64:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "0BDD4F:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "0AEDFB:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "021309:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "078B04:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0AEDFA:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "0AEDF9:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "0AEDB9:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0AEDB8:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "05E23F:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "057035:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "057033:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "078A2F:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "022C0D:Fallout4.esm",
+      "CombinedMesh": 316928405
+    },
+    {
+      "Reference": "0270BE:Fallout4.esm",
+      "CombinedMesh": 2572799697
+    },
+    {
+      "Reference": "078B2A:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "027871:Fallout4.esm",
+      "CombinedMesh": 2672254821
+    },
+    {
+      "Reference": "189004:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "0B4674:Fallout4.esm",
+      "CombinedMesh": 316928405
+    }
+  ],
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "03FED3:Fallout4.esm",
+      "FormVersion": 119,
+      "Base": "029BAF:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "-74249.7, 89252.22, 7800.612",
+      "Rotation": "0, 0, 2.2899382"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000072:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0211F4:Fallout4.esm",
+      "Layer": "000136:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "000135:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-75901.47, 89168.266, 7820.0347",
+      "Rotation": "0, 0, 5.8800964"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000073:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "05E0DB:Fallout4.esm",
+      "Layer": "000136:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "000135:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-75776.48, 88883.95, 7869.0923",
+      "Rotation": "0, 0, 5.1717877"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000074:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B85:Fallout4.esm",
+      "Layer": "000136:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "000135:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-76846.06, 89313.414, 8107.834",
+      "Rotation": "0, 0, 2.1190338"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000075:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "05457B:DLCCoast.esm",
+      "Layer": "000136:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "000135:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-76294.02, 89255.33, 8070.1987",
+      "Rotation": "0, 0, 3.6767683"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000076:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "Layer": "000136:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "000135:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-76976.1, 88892.34, 7830.695",
+      "Rotation": "0, 0, 2.0978858"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000077:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "Layer": "000136:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "000135:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-76155.875, 88816.89, 7785.8643",
+      "Rotation": "0, 0, 5.262735"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000078:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "05457A:DLCCoast.esm",
+      "Layer": "000136:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "000135:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-76775.34, 88945.484, 8070.1987",
+      "Rotation": "0, 0, 0.5351546"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000079:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054583:DLCCoast.esm",
+      "Layer": "000136:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "000135:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-76204.38, 88904.56, 8070.199",
+      "Rotation": "0, 0, 3.6767716"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00007A:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "Layer": "000136:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "000135:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-76040.48, 88913.49, 7835.825",
+      "Rotation": "0, 0, 3.7094896"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00007B:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B99:Fallout4.esm",
+      "Layer": "000136:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "000135:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-76301.13, 88490.93, 7837.841",
+      "Rotation": "0, 0, 5.232612"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00007C:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054579:DLCCoast.esm",
+      "Layer": "000136:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "000135:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-76514.23, 89385.89, 8070.198",
+      "Rotation": "0, 0, 3.6767683"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00007D:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054564:DLCCoast.esm",
+      "Layer": "000136:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "000135:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-76767.51, 89565.11, 8014.8096",
+      "Rotation": "0, 0, 2.1069336"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00007E:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054563:DLCCoast.esm",
+      "Layer": "000136:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "000135:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-76898.27, 89345.03, 8014.8096",
+      "Rotation": "0, 0, 2.1069353"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00007F:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "19EFCB:Fallout4.esm",
+      "Layer": "000136:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "000135:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-76240.55, 89311.25, 7822.2227",
+      "Rotation": "0, 0, 3.676866"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000080:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "05457B:DLCCoast.esm",
+      "Layer": "000136:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "000135:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-76073.82, 89124.766, 8070.1987",
+      "Rotation": "0, 0, 3.6767683"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000081:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054583:DLCCoast.esm",
+      "Layer": "000136:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "000135:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-76644.79, 89165.69, 8070.198",
+      "Rotation": "0, 0, 3.6767578"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000082:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054579:DLCCoast.esm",
+      "Layer": "000136:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "000135:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-76334.94, 88684.375, 8070.1987",
+      "Rotation": "0, 0, 0.53517205"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000083:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054583:DLCCoast.esm",
+      "Layer": "000136:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "000135:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-76424.586, 89035.125, 8070.198",
+      "Rotation": "0, 0, 3.6767612"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000084:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054565:DLCCoast.esm",
+      "Layer": "000136:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "000135:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-77029.04, 89124.95, 8014.8096",
+      "Rotation": "0, 0, 2.10693"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000085:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "05457B:DLCCoast.esm",
+      "Layer": "000136:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "000135:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-76555.14, 88814.93, 8070.1987",
+      "Rotation": "0, 0, 0.53516155"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000138:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BA0:Fallout4.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-73914.81, 89678.21, 7806.6123",
+      "Rotation": "0, 0, 3.858649"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013A:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "05C2A1:Fallout4.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-73930.586, 89567.86, 7806.6123",
+      "Rotation": "0, 0, 0.7073104"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013D:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0025EF:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74051.9, 89890.14, 7806",
+      "Rotation": "0, 0, 2.3892195"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013E:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0296BB:DLCNukaWorld.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-73802.484, 89284.33, 7806.6123",
+      "Rotation": "0, 0, 3.8551042"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000140:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "05457B:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74058.34, 89124.08, 8062.6123",
+      "Rotation": "0, 0, 5.4294157"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000141:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054596:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-73961.86, 89039.945, 7806.6123",
+      "Rotation": "0, 0, 5.4294367"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000142:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0211F4:Fallout4.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-73860.25, 89205.64, 7806.1123",
+      "Rotation": "0, 0, 2.335029"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000143:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "143AD1:Fallout4.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-73862.94, 89205.414, 7869.623",
+      "Rotation": "0, 0, 1.4259095"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000144:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B91:Fallout4.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-73998.93, 89581.734, 7806.6123",
+      "Rotation": "0, 0, 3.8586385"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000145:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054595:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74310.69, 88834.63, 7806.6123",
+      "Rotation": "0, 0, 0.71703887"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000146:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "002B7A:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-73838.09, 89525.914, 7805.6123",
+      "Rotation": "0, 0, 3.8523257"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000148:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "001511:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74256.59, 89300.38, 8071.7974",
+      "Rotation": "0.16580628, 6.143559, 0.7048233"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000149:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054573:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74444.24, 89460.53, 7790.6123",
+      "Rotation": "0, 0, 0.717079"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014A:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0472E7:Fallout4.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74096.414, 88900.85, 7960.374",
+      "Rotation": "0, 0, 5.429419"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014B:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1C176D:Fallout4.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74560.8, 89308.945, 7805.6123",
+      "Rotation": "0, 0, 0.7111728"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014C:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054591:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74540.72, 89544.65, 7806.6123",
+      "Rotation": "0, 0, 2.2878702"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014D:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054594:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74372.484, 89737.6, 7806.6123",
+      "Rotation": "0, 0, 2.287863"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014E:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054573:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74083.055, 89485.25, 7790.6123",
+      "Rotation": "0, 0, 3.858656"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014F:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00091B:DLCworkshop01.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-73908.04, 89523.445, 7882.8647",
+      "Rotation": "0, 0, 1.3493594"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000150:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054573:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74612.48, 89267.58, 7790.6123",
+      "Rotation": "0, 0, 3.8586822"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000151:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000B01:DLCworkshop01.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74400.99, 88926.66, 7960.537",
+      "Rotation": "0, 0, 3.8587153"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000153:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "05459A:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74696.59, 89171.1, 7806.6123",
+      "Rotation": "0, 0, 0.71709293"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000154:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054580:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74612.48, 89267.58, 8062.6123",
+      "Rotation": "0, 0, 0.7170842"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000156:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054574:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74149.83, 89798.2, 7790.6123",
+      "Rotation": "0, 0, 3.8586752"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000157:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B91:Fallout4.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-73805.97, 89413.5, 7806.6123",
+      "Rotation": "0, 0, 3.858628"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000158:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054573:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74251.29, 89292.3, 7790.6123",
+      "Rotation": "0, 0, 3.8586717"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000159:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054580:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74226.58, 88931.11, 8062.6123",
+      "Rotation": "0, 0, 5.4294224"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00015A:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054563:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74204.25, 89930.555, 7806.6123",
+      "Rotation": "0, 0, 2.287856"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00015D:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "05459A:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74708.95, 89351.695, 7806.6123",
+      "Rotation": "0, 0, 2.2878807"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00015F:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054573:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74226.57, 88931.11, 7790.6123",
+      "Rotation": "0, 0, 3.8586369"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000160:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00160A:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74108.25, 89650.86, 8004.6074",
+      "Rotation": "0, 0, 0.07847873"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000161:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "143B1C:Fallout4.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74210.57, 89852.9, 7806.6123",
+      "Rotation": "0, 0, 3.85564"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000162:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054580:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74276.01, 89653.484, 8062.6123",
+      "Rotation": "0, 0, 2.2878509"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000163:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054580:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-73890.11, 89317.016, 8062.6123",
+      "Rotation": "0, 0, 3.8586297"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000164:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000B01:DLCworkshop01.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74617.11, 89442.64, 7959.516",
+      "Rotation": "0, 0, 5.4531364"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000169:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054563:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74167.17, 89388.77, 8190.611",
+      "Rotation": "0, 0, 3.8586524"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00016B:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0472E5:Fallout4.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74533.05, 89538.234, 7966.9272",
+      "Rotation": "0, 0, 2.2878213"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00016C:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054583:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74251.31, 89292.28, 8062.6123",
+      "Rotation": "0, 0, 5.4294314"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00016E:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054592:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74130.09, 88846.99, 7806.6123",
+      "Rotation": "0, 0, 5.4294224"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000171:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054573:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-73890.1, 89317.016, 7790.6123",
+      "Rotation": "0, 0, 3.8586454"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000173:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054591:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74503.64, 89002.87, 7806.6123",
+      "Rotation": "0, 0, 0.717079"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000175:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000B01:DLCworkshop01.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74448.58, 89635.15, 7960.0806",
+      "Rotation": "0, 0, 5.4295115"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000176:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "05457F:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74251.29, 89292.3, 8318.611",
+      "Rotation": "0, 0, 2.287865"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000178:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054573:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74058.336, 89124.06, 7790.6123",
+      "Rotation": "0, 0, 3.8586402"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000179:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000D62:DLCworkshop02.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-77706.9, 90050.85, 7840.7036",
+      "Rotation": "0, 0, 0.9595384"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00017A:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054591:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-73793.625, 89232.9, 7806.6123",
+      "Rotation": "0, 0, 5.4294367"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00017C:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054573:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74419.52, 89099.34, 7790.6123",
+      "Rotation": "0, 0, 3.8586822"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00017D:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B95:Fallout4.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-73805.98, 89413.49, 7806.6123",
+      "Rotation": "0, 0, 2.2878666"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00017E:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1C176D:Fallout4.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74393.04, 89501.74, 7805.6123",
+      "Rotation": "0, 0, 0.7111728"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000180:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B90:Fallout4.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74191.88, 89749.97, 7806.6123",
+      "Rotation": "0, 0, 3.858649"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000182:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1A6E37:Fallout4.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74392.06, 89667.766, 7806.6123",
+      "Rotation": "0, 0, 4.15351"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000183:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B94:Fallout4.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74107.77, 89846.44, 7806.6123",
+      "Rotation": "0, 0, 0.71708775"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000184:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B9F:Fallout4.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74107.766, 89846.44, 7806.6123",
+      "Rotation": "0, 0, 3.8586874"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000187:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000B01:DLCworkshop01.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74594.32, 89094.54, 7960.5005",
+      "Rotation": "0, 0, 3.8350503"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000188:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "017C0D:Fallout4.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74279.57, 89774.78, 7805.6123",
+      "Rotation": "0, 0, 0.72273386"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00018B:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054573:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74276.01, 89653.484, 7790.6123",
+      "Rotation": "0, 0, 3.8586648"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00018C:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054563:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74154.81, 89208.18, 8190.6113",
+      "Rotation": "0, 0, 5.4294486"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00018D:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054579:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74083.055, 89485.25, 8062.6123",
+      "Rotation": "0, 0, 3.8586454"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00018E:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054574:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-73956.875, 89629.97, 7790.6123",
+      "Rotation": "0, 0, 3.8586595"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000192:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "097609:Fallout4.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74497.945, 89011.164, 7956.548",
+      "Rotation": "0, 0, 3.858677"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000193:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0545A3:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-77589.76, 88939.766, 7748.7993",
+      "Rotation": "0, 0, 2.8223736"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000197:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BB7:Fallout4.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-73805.98, 89413.5, 7806.6123",
+      "Rotation": "0, 0, 0.7170703"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00019B:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054574:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-73763.92, 89461.734, 7790.6123",
+      "Rotation": "0, 0, 3.8586543"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00019C:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0545A5:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74419.52, 89099.34, 8062.6123",
+      "Rotation": "0, 0, 0.7170755"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00019D:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "05457B:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74444.24, 89460.53, 8062.6123",
+      "Rotation": "0, 0, 2.2878735"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00019F:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054563:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74347.766, 89376.414, 8190.612",
+      "Rotation": "0, 0, 2.287865"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001A2:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02C59C:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-73950.53, 89384.8, 7805.6123",
+      "Rotation": "0, 0, 3.1069252"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001A8:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000D62:DLCworkshop02.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-77528.62, 90019.49, 7840.7036",
+      "Rotation": "0, 0, 5.6719275"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001B4:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054557:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74352.74, 88786.39, 7790.6123",
+      "Rotation": "0, 0, 3.858635"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001B5:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BB2:Fallout4.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74377.84, 88757.59, 7693.318",
+      "Rotation": "0, 0, 2.2878282"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001B6:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "05D70B:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74323.83, 88676.52, 7673.6123",
+      "Rotation": "0, 0, 3.8586316"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001B7:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "05D70B:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74465.77, 88799.78, 7673.6123",
+      "Rotation": "0, 0, 3.8586369"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001B8:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000810:SettlerBuiltSettlements.esp",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74220.05, 88795.89, 7806.6123",
+      "Rotation": "0, 0, 3.0733416"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001B9:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000810:SettlerBuiltSettlements.esp",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74235.336, 89753.055, 7805.6123",
+      "Rotation": "0, 0, 6.2075725"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001BA:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1C176D:Fallout4.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74285.27, 89136.27, 7805.6123",
+      "Rotation": "0, 0, 2.2796304"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001BB:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000CCC:DLCworkshop01.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74376.37, 89901.6, 7755.245",
+      "Rotation": "0, 0, 2.2678022"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001BC:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0566C2:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74372.484, 89737.6, 7806.6123",
+      "Rotation": "0, 0, 2.2878666"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001BD:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "249E9D:Fallout4.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-73899.26, 89306.78, 7806.6123",
+      "Rotation": "0, 0, 0.717079"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001BE:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "249EAB:Fallout4.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74373.805, 89736.87, 8021.258",
+      "Rotation": "0, 0, 2.287865"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001BF:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054552:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74245.875, 89883.57, 7903.753",
+      "Rotation": "0, 0, 2.2879066"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C0:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0566C3:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74310.69, 88834.63, 7806.6123",
+      "Rotation": "0, 0, 0.7170476"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C1:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "05459E:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74879.39, 88640.78, 7731.168",
+      "Rotation": "0, 0, 6.1144676"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C2:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0545A0:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74879.39, 88640.78, 7731.168",
+      "Rotation": "0, 0, 6.1144624"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C3:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0545A2:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74868.64, 88577.695, 7731.168",
+      "Rotation": "0, 0, 6.114473"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C4:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B87:Fallout4.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74880.08, 88639.94, 7743.7573",
+      "Rotation": "0, 0, 4.531435"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C5:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "05459D:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-77569.67, 88879, 7748.7993",
+      "Rotation": "0, 0, 2.8223615"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C6:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0545A0:DLCCoast.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-77569.67, 88879, 7748.7993",
+      "Rotation": "0, 0, 2.822351"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C7:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "EnableParent": {
+        "Reference": "0001C8:SBS - PerfektSanctuary.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74350.7, 88867.6, 7812.6143",
+      "Rotation": "0, 0, 2.2758884"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C8:SBS - PerfektSanctuary.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00003B:Fallout4.esm",
+      "Layer": "0001C9:SBS - PerfektSanctuary.esp",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "0250FE:Fallout4.esm"
+        }
+      ],
+      "Position": "-74350.7, 88867.6, 7812.6143",
+      "Rotation": "0, 0, 2.2758884"
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

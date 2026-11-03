@@ -1,0 +1,38 @@
+{
+  "FormKey": "0001CB:SBS - PerfektSanctuary.esp",
+  "MajorRecordFlagsRaw": 2048,
+  "EditorID": "PerfektSanctuaryT2_SettlementSupplies",
+  "Fallout4MajorRecordFlags": [
+    "InitiallyDisabled"
+  ],
+  "VirtualMachineAdapter": {
+    "Scripts": [
+      {
+        "Name": "SettlementAutoBuildSupplies",
+        "Properties": [
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "EnableParentRef",
+            "Object": "0001C8:SBS - PerfektSanctuary.esp"
+          }
+        ]
+      }
+    ]
+  },
+  "ObjectBounds": {
+    "First": "-96, -122, 0",
+    "Second": "103, 112, 128"
+  },
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Settlement Cultivation Supplies"
+  },
+  "Model": {
+    "File": "SetDressing\\IceMachine\\IceMachine01.nif"
+  },
+  "MarkerColor": "#00CC4C33",
+  "Flags": [],
+  "MajorFlags": [
+    "UsedAsPlatform"
+  ]
+}

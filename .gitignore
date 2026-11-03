@@ -1,0 +1,7 @@
+*
+!/.gitignore
+!/.gitattributes
+!/build.json
+!/plugin-source/
+!/plugin-source/**
+!/SBS\ -\ PerfektMind's\ Sanctuary.manifest.json

@@ -1,0 +1,33 @@
+{
+  "FormKey": "00026C:SBS - PerfektSanctuary.esp",
+  "MajorRecordFlagsRaw": 134217728,
+  "EditorID": "DLC06HighTechFilingCabinet01ACleanShort_empty",
+  "Fallout4MajorRecordFlags": [
+    "0x8000000"
+  ],
+  "ObjectBounds": {
+    "First": "-28, -28, 0",
+    "Second": "28, 28, 78"
+  },
+  "PreviewTransform": "23B47F:Fallout4.esm",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "File Cabinet"
+  },
+  "Model": {
+    "File": "SetDressing\\HighTech\\FileCabinetSet01ACleanShort01.nif",
+    "Data": "0x04000000040000000000000002000000010000001DC7D871646473009BE7C7B5C4ABDE12646473009BE7C7B53945847C646473009BE7C7B50F2C2A00646473001CDB88C562BBC2C26267736DF9FF48AB"
+  },
+  "Flags": [
+    "AllowSoundsWhenAnimation",
+    "Respawns"
+  ],
+  "Keywords": [
+    "249FC6:Fallout4.esm"
+  ],
+  "OpenSound": "0758F2:Fallout4.esm",
+  "CloseSound": "0758F0:Fallout4.esm",
+  "MajorFlags": [
+    "NavMeshGenerationBoundingBox"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "FormKey": "00026D:SBS - PerfektSanctuary.esp",
+  "MajorRecordFlagsRaw": 134217728,
+  "EditorID": "Prewar_TrashCan_empty",
+  "Fallout4MajorRecordFlags": [
+    "0x8000000"
+  ],
+  "ObjectBounds": {
+    "First": "-35, -36, 0",
+    "Second": "36, 31, 119"
+  },
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Trash Can"
+  },
+  "Model": {
+    "File": "SetDressing\\Trashcan\\trashcan01.nif",
+    "Data": "0x04000000040000000000000002000000010000001886D24F64647300B944DBC2C1EAD42C64647300B944DBC2DF0301CC64647300B944DBC20F2C2A00646473001CDB88C50D6448956267736D4FF0E7F9"
+  },
+  "Flags": [
+    "AllowSoundsWhenAnimation",
+    "Respawns"
+  ],
+  "Keywords": [
+    "0A7299:Fallout4.esm"
+  ],
+  "OpenSound": "0392FF:Fallout4.esm",
+  "CloseSound": "039300:Fallout4.esm",
+  "MajorFlags": [
+    "NavMeshGenerationBoundingBox"
+  ]
+}
