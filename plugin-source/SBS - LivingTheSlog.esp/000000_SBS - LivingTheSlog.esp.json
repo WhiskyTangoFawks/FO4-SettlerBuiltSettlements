@@ -1,0 +1,16 @@
+{
+  "ModKey": "SBS - LivingTheSlog.esp",
+  "GameRelease": "Fallout4",
+  "ModHeader": {
+    "Flags": [
+      "Small"
+    ],
+    "Stats": {
+      "NextFormID": 344
+    },
+    "Author": "",
+    "OverriddenForms": [
+      "131E37:Fallout4.esm"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "FormKey": "0000BA:SBS - LivingTheSlog.esp",
+  "EditorID": "vss_flst_shackwood_prefab",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "vss_flst_shackwood_prefab"
+  },
+  "Items": [
+    "000017:SBS - LivingTheSlog.esp",
+    "000018:SBS - LivingTheSlog.esp",
+    "000019:SBS - LivingTheSlog.esp",
+    "00001A:SBS - LivingTheSlog.esp",
+    "00001B:SBS - LivingTheSlog.esp",
+    "00001C:SBS - LivingTheSlog.esp",
+    "00001D:SBS - LivingTheSlog.esp",
+    "00001E:SBS - LivingTheSlog.esp",
+    "00001F:SBS - LivingTheSlog.esp",
+    "000020:SBS - LivingTheSlog.esp"
+  ]
+}

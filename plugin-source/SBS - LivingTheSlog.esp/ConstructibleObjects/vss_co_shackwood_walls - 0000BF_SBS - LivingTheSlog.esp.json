@@ -1,0 +1,38 @@
+{
+  "FormKey": "0000BF:SBS - LivingTheSlog.esp",
+  "MajorRecordFlagsRaw": 4096,
+  "EditorID": "vss_co_shackwood_walls",
+  "Fallout4MajorRecordFlags": [
+    "Ignored"
+  ],
+  "PickUpSound": "0196B1:Fallout4.esm",
+  "PutDownSound": "0196BB:Fallout4.esm",
+  "Components": [
+    {
+      "Component": "01FAA5:Fallout4.esm",
+      "Count": 1
+    },
+    {
+      "Component": "01FABD:Fallout4.esm",
+      "Count": 1
+    },
+    {
+      "Component": "01FAC2:Fallout4.esm",
+      "Count": 2
+    },
+    {
+      "Component": "03D294:Fallout4.esm",
+      "Count": 2
+    }
+  ],
+  "CreatedObject": "0000BC:SBS - LivingTheSlog.esp",
+  "WorkbenchKeyword": "05A0C8:Fallout4.esm",
+  "Categories": [
+    "0000CB:SBS - LivingTheSlog.esp"
+  ],
+  "CreatedObjectCounts": [
+    {
+      "Count": 1
+    }
+  ]
+}

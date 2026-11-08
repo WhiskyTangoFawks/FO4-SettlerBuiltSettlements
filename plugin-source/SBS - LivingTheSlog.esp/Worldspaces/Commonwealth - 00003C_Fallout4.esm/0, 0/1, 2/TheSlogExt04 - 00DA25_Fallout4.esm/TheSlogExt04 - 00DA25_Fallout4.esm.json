@@ -1,0 +1,2601 @@
+{
+  "FormKey": "00DA25:Fallout4.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "TheSlogExt04",
+  "Fallout4MajorRecordFlags": [
+    "Compressed"
+  ],
+  "Flags": [
+    "HasWater"
+  ],
+  "PreVisFilesTimestamp": 7972,
+  "InPreVisFileOf": "00DA44:Fallout4.esm",
+  "PreCombinedFilesTimestamp": 7972,
+  "Grid": {
+    "Point": "12, 16"
+  },
+  "MaxHeightData": {
+    "Offset": 1280.0,
+    "HeightMap": [
+      [3,3,3,2,2,2,2,8,8,2,2,2,2,3,3,3,3,3,3,4,4,4,4,4,4,5,5,5,5,5,5,5],
+      [2,2,2,2,2,2,2,8,8,8,2,2,2,2,3,3,3,3,3,3,4,4,4,4,4,4,5,5,5,5,5,5],
+      [2,2,2,2,2,2,2,2,2,2,2,2,2,3,3,2,2,2,3,3,3,3,4,4,4,4,4,4,5,5,5,5],
+      [2,2,2,2,2,2,2,2,2,2,2,2,2,13,11,2,2,2,3,3,3,3,3,3,4,4,4,4,4,4,4,4],
+      [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3,4,4,4,4,4,4,4,4],
+      [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,3,3,3,4,4,4,4,4,4,4],
+      [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3],
+      [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3],
+      [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,7,12,2,2,2,2,2,2,3,3,3,3,3,2,2,2,2],
+      [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,14,14,2,2,2,2,2,2,2,2,2,2,2,2,2,2],
+      [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2],
+      [1,1,1,1,2,2,2,2,2,2,2,2,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,3],
+      [1,1,1,1,2,1,2,2,2,2,2,3,3,3,7,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,3],
+      [1,1,1,1,2,2,2,2,2,2,2,3,3,7,13,13,2,2,2,2,2,2,2,9,12,13,2,2,2,2,3,3],
+      [1,1,1,1,1,1,2,2,2,2,2,3,3,5,5,14,2,2,2,2,2,2,2,6,7,2,2,2,2,2,3,3],
+      [1,1,7,7,1,1,2,2,2,2,2,3,3,5,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,3,1],
+      [1,1,1,1,1,1,2,2,2,2,2,3,3,3,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,3,3],
+      [0,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,3,3],
+      [1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,2,2,2,2,2,2,1,1,3,3],
+      [0,0,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,2,2,2,2,2,2,1,1,3,3],
+      [0,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,2,2,2,2,2,2,1,1,3,3],
+      [1,1,1,1,1,4,4,2,2,2,2,2,2,2,2,2,2,3,2,2,1,1,1,2,2,2,2,1,1,1,3,1],
+      [1,1,1,1,7,6,4,2,2,2,2,2,2,2,2,2,4,5,6,7,1,1,1,1,1,2,1,1,1,1,3,3],
+      [1,1,1,1,1,7,1,3,3,3,3,3,3,3,3,2,4,2,6,7,3,1,1,1,1,1,1,1,1,1,3,3],
+      [0,0,1,1,1,1,1,3,3,4,3,3,3,3,3,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,3,1],
+      [0,0,1,1,1,1,1,1,3,3,3,3,3,3,3,2,2,2,2,2,1,1,3,1,1,1,1,1,1,1,3,2],
+      [0,0,1,1,1,1,1,1,2,2,2,2,3,3,2,2,2,2,2,2,1,1,3,1,1,1,1,1,1,1,2,2],
+      [0,0,1,1,1,1,1,1,2,3,4,4,2,2,2,2,2,2,2,2,1,1,1,1,1,2,3,1,3,3,3,1],
+      [0,3,0,1,1,1,1,1,1,1,4,5,6,6,2,2,2,2,2,1,1,1,1,1,1,2,3,3,3,3,3,1],
+      [4,3,1,1,1,1,1,1,1,1,1,1,6,7,8,8,2,2,2,1,1,1,1,1,1,1,3,2,1,1,1,1],
+      [2,2,0,1,1,1,1,1,1,1,1,1,2,2,8,9,2,2,1,1,1,1,1,1,1,1,3,2,1,1,1,1],
+      [4,0,0,0,1,1,1,1,1,1,1,1,1,2,2,2,2,2,1,1,1,1,1,1,1,1,3,2,3,1,2,2]
+    ]
+  },
+  "WaterHeight": 3.4028235E+38,
+  "Regions": [
+    "0E4755:Fallout4.esm",
+    "109E91:Fallout4.esm",
+    "049BE0:Fallout4.esm"
+  ],
+  "Location": "06260D:Fallout4.esm",
+  "CombinedMeshes": [
+    82877219,
+    176306026,
+    324769019,
+    425316049,
+    524771173,
+    662107564,
+    850632099,
+    851700405,
+    942779081,
+    973764369,
+    1001525887,
+    1015007986,
+    1043282813,
+    1499057873,
+    1735849388,
+    2016520905,
+    2117024637,
+    2572799697,
+    2809591212,
+    2884260722,
+    2998115747,
+    3090262729,
+    3190766461,
+    3883333036,
+    4071857571
+  ],
+  "CombinedMeshReferences": [
+    {
+      "Reference": "05E7A1:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "0FEA6C:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "131D49:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1EB7B6:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1EB7BD:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "172674:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "05E7B8:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "131DFB:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1EB7A4:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1EB7AF:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "17266D:Fallout4.esm",
+      "CombinedMesh": 2572799697
+    },
+    {
+      "Reference": "1EB7C4:Fallout4.esm",
+      "CombinedMesh": 3883333036
+    },
+    {
+      "Reference": "1EB764:Fallout4.esm",
+      "CombinedMesh": 1043282813
+    },
+    {
+      "Reference": "0FEABB:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "17264D:Fallout4.esm",
+      "CombinedMesh": 82877219
+    },
+    {
+      "Reference": "172668:Fallout4.esm",
+      "CombinedMesh": 973764369
+    },
+    {
+      "Reference": "1EB7C1:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "131E31:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "06FEEF:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "17267A:Fallout4.esm",
+      "CombinedMesh": 3090262729
+    },
+    {
+      "Reference": "1EB7B3:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1EB7B8:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "05E7B7:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "131D3F:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "22BA30:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "131E30:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "131D1A:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1EB7C0:Fallout4.esm",
+      "CombinedMesh": 1043282813
+    },
+    {
+      "Reference": "172669:Fallout4.esm",
+      "CombinedMesh": 1001525887
+    },
+    {
+      "Reference": "1EB7AB:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "131D46:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "06FEEE:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "172670:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1EB7B2:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "131D08:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "131D03:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "131D43:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "131D48:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0FEA6D:Fallout4.esm",
+      "CombinedMesh": 2884260722
+    },
+    {
+      "Reference": "1EB7B7:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "172675:Fallout4.esm",
+      "CombinedMesh": 2572799697
+    },
+    {
+      "Reference": "131DFA:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "131D3A:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1EB765:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1EB7A5:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "17266C:Fallout4.esm",
+      "CombinedMesh": 3190766461
+    },
+    {
+      "Reference": "131E2F:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1EB7BF:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1EB7B4:Fallout4.esm",
+      "CombinedMesh": 2117024637
+    },
+    {
+      "Reference": "17266F:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "231665:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1EB7A6:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "131D17:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "23D753:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1EB7A8:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1EB7C3:Fallout4.esm",
+      "CombinedMesh": 3883333036
+    },
+    {
+      "Reference": "17266A:Fallout4.esm",
+      "CombinedMesh": 2572799697
+    },
+    {
+      "Reference": "1EB763:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "131D3C:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "0FE83D:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "172644:Fallout4.esm",
+      "CombinedMesh": 973764369
+    },
+    {
+      "Reference": "131DF7:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1C9C36:Fallout4.esm",
+      "CombinedMesh": 524771173
+    },
+    {
+      "Reference": "172673:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "172678:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0FEA6B:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "131D18:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "131E32:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1EB7A9:Fallout4.esm",
+      "CombinedMesh": 1043282813
+    },
+    {
+      "Reference": "17266B:Fallout4.esm",
+      "CombinedMesh": 1043282813
+    },
+    {
+      "Reference": "1EB7C2:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "131D3D:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "1EB7B0:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "172679:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "231670:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "172616:Fallout4.esm",
+      "CombinedMesh": 524771173
+    },
+    {
+      "Reference": "131DFC:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "131CEA:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "131D44:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0FE961:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "0E7432:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "0FEA6A:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "0FE96A:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "131DF8:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "172677:Fallout4.esm",
+      "CombinedMesh": 2809591212
+    },
+    {
+      "Reference": "1EB7B5:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1EB7BE:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "0E7933:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "05E79E:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "131D04:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1EB7A7:Fallout4.esm",
+      "CombinedMesh": 1043282813
+    },
+    {
+      "Reference": "131D4A:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "131D41:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "172665:Fallout4.esm",
+      "CombinedMesh": 82877219
+    },
+    {
+      "Reference": "0E7932:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "135E31:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "131D81:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "05E7A2:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1EB79B:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "0DD302:Fallout4.esm",
+      "CombinedMesh": 1043282813
+    },
+    {
+      "Reference": "0DD334:Fallout4.esm",
+      "CombinedMesh": 1043282813
+    },
+    {
+      "Reference": "0DD38F:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "0FEA93:Fallout4.esm",
+      "CombinedMesh": 4071857571
+    },
+    {
+      "Reference": "17266E:Fallout4.esm",
+      "CombinedMesh": 2572799697
+    },
+    {
+      "Reference": "1EB7C7:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "23166F:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1EB7AC:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "231664:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "172640:Fallout4.esm",
+      "CombinedMesh": 973764369
+    },
+    {
+      "Reference": "05E79A:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "06FEF0:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1D779E:Fallout4.esm",
+      "CombinedMesh": 1015007986
+    },
+    {
+      "Reference": "231642:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "23165B:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "131D38:Fallout4.esm",
+      "CombinedMesh": 942779081
+    }
+  ],
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "131E37:Fallout4.esm",
+      "FormVersion": 126,
+      "Base": "02C17D:Fallout4.esm",
+      "Layer": "131EF3:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "52521.367, 69428.375, 1400.6968",
+      "Rotation": "4.84261, 5.0978885, 5.954894"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000CD:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BB3:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "52721.72, 69394.56, 1340.5549",
+      "Rotation": "0, 0, 1.5986937"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000CF:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "04CD9A:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50881.188, 69229.92, 1503.5269",
+      "Rotation": "0, 0, 4.0958323"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000D0:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000024:SBS - LivingTheSlog.esp",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50553.523, 68808.73, 1501.374",
+      "Rotation": "0, 0, 1.5627242"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000D1:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BB7:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50935.44, 69067.81, 1501.374",
+      "Rotation": "0, 0, 4.7043014"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000D2:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "51066.54, 68684.86, 1501.374",
+      "Rotation": "0, 0, 4.7043085"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000D4:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "020C40:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50554.93, 68805.74, 1505.7277",
+      "Rotation": "0, 0, 3.3795822"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000D5:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "020C40:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "52030.207, 68234.055, 1468.5552",
+      "Rotation": "0, 0, 1.4420382"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000D6:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000025:SBS - LivingTheSlog.esp",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50682.555, 68681.766, 1501.374",
+      "Rotation": "0, 0, 6.275111"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000D7:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B8C:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50935.44, 69067.82, 1501.374",
+      "Rotation": "0, 0, 3.1334858"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000D9:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0A46FB:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "52128.66, 69068.22, 1375.1171",
+      "Rotation": "0, 0, 3.9634578"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000DB:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "082447:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50628.547, 69249.88, 1559.3099",
+      "Rotation": "0, 0, 5.561176"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000DC:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "51064.477, 68940.85, 1501.374",
+      "Rotation": "0, 0, 4.704329"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000DD:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "118F4B:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "52647.62, 68387.734, 1443.4763",
+      "Rotation": "0, 0, 3.1479561"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000DF:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BB2:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "51065.594, 69068.86, 1388.0798",
+      "Rotation": "0, 0, 6.275108"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E0:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000808:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50611.188, 68945.25, 1507.9785",
+      "Rotation": "0, 0, 5.7130804"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E2:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000150:SBS - LivingTheSlog.esp",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "51292.21, 68834.14, 1407.3271",
+      "Rotation": "0, 0, 0.058215283"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E3:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0711B5:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50541.254, 68820.42, 1503.6481",
+      "Rotation": "0, 0, 1.6228857"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E4:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "51062.402, 69196.84, 1501.374",
+      "Rotation": "0, 0, 3.1334996"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E5:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50545.645, 69063.414, 1503.1824",
+      "Rotation": "0, 0, 1.5422845"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E6:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB8:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "53060.82, 68361.12, 1443.4813",
+      "Rotation": "0, 0, 0.006858969"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000EA:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50554.56, 68680.73, 1501.374",
+      "Rotation": "0, 0, 6.2751026"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000EB:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50939.445, 69166.02, 1501.3741",
+      "Rotation": "0, 0, 0.0056461403"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000EC:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000809:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50610.48, 68944.74, 1564.3066",
+      "Rotation": "0, 0, 5.079015"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000ED:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000021:SBS - LivingTheSlog.esp",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50678.414, 69193.734, 1501.374",
+      "Rotation": "0, 0, 3.1335032"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000EE:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00080B:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50618.82, 69250.53, 1502.9478",
+      "Rotation": "0, 0, 5.897375"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000EF:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0711B5:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50696.74, 68953.3, 1505.7205",
+      "Rotation": "0, 0, 5.497241"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F0:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B8C:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50681.523, 68809.76, 1501.374",
+      "Rotation": "0, 0, 6.2751217"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F1:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "22C663:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50935.44, 69067.81, 1501.374",
+      "Rotation": "0, 0, 4.704294"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F2:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "22C663:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50679.45, 69065.74, 1501.374",
+      "Rotation": "0, 0, 4.704291"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F3:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "22C663:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50681.52, 68809.76, 1501.374",
+      "Rotation": "0, 0, 4.7043114"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F6:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB8:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50835.36, 68857.94, 1494.8779",
+      "Rotation": "0, 0, 1.2484305"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F8:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00080E:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50478.86, 69139.65, 1504.6339",
+      "Rotation": "0, 0, 2.0847554"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F9:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000918:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50493.34, 68922.36, 1505.32",
+      "Rotation": "0, 0, 3.93233"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000FA:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000807:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50597.703, 68619.47, 1503.1547",
+      "Rotation": "0, 0, 4.401951"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000FB:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB8:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50676.168, 69210.55, 1501.3741",
+      "Rotation": "0, 0, 3.202543"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000FC:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000025:SBS - LivingTheSlog.esp",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "51065.508, 68812.85, 1501.374",
+      "Rotation": "0, 0, 4.7043185"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000FD:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "22C663:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50937.51, 68811.82, 1501.374",
+      "Rotation": "0, 0, 1.5627224"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000FE:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BB2:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "52830.84, 68518.164, 1330.1809",
+      "Rotation": "0, 0, 4.7249293"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000FF:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B96:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50937.51, 68811.83, 1501.374",
+      "Rotation": "0, 0, 6.2750993"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000101:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000025:SBS - LivingTheSlog.esp",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50551.453, 69064.7, 1501.374",
+      "Rotation": "0, 0, 1.5627067"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000102:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000022:SBS - LivingTheSlog.esp",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50934.406, 69195.805, 1501.374",
+      "Rotation": "0, 0, 3.1335082"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000103:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000918:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "51018.64, 69261.5, 1502.8597",
+      "Rotation": "0, 0, 0.59200346"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000105:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50678.45, 68667.52, 1501.4133",
+      "Rotation": "0, 0, 6.2555776"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000106:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B8C:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50679.45, 69065.74, 1501.374",
+      "Rotation": "0, 0, 3.133496"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000107:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50554.56, 68680.73, 1501.374",
+      "Rotation": "0, 0, 1.5627191"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000108:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B8C:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50937.51, 68811.83, 1501.374",
+      "Rotation": "0, 0, 6.275108"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00010A:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0008EE:DLCworkshop02.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "53193.6, 69522.016, 1392.4253",
+      "Rotation": "0, 0, 4.7319646"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00010C:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50550.418, 69192.7, 1501.374",
+      "Rotation": "0, 0, 3.1335013"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00010D:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0008E7:DLCworkshop02.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "53193.6, 69522.016, 1648.4253",
+      "Rotation": "0, 0, 1.5903807"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00010E:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50550.418, 69192.7, 1501.374",
+      "Rotation": "0, 0, 1.5626962"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000115:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BB3:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "52596.54, 69398.91, 1340.8619",
+      "Rotation": "0, 0, 1.6040466"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000116:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000017:SBS - LivingTheSlog.esp",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "51770.14, 68379.945, 1466.3246",
+      "Rotation": "0, 0, 4.7254353"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000117:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000017:SBS - LivingTheSlog.esp",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "52026.113, 68376.59, 1466.3246",
+      "Rotation": "0, 0, 1.5838339"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000118:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000021:SBS - LivingTheSlog.esp",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "51768.473, 68251.96, 1466.3246",
+      "Rotation": "0, 0, 0.013049827"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000119:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000025:SBS - LivingTheSlog.esp",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "52024.46, 68248.61, 1466.3246",
+      "Rotation": "0, 0, 0.013030628"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011A:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000025:SBS - LivingTheSlog.esp",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "51771.816, 68507.93, 1466.3246",
+      "Rotation": "0, 0, 3.1546462"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011B:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BB7:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "52026.11, 68376.59, 1466.3246",
+      "Rotation": "0, 0, 3.154634"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011C:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BB2:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "52027.824, 68506.74, 1353.0304",
+      "Rotation": "0, 0, 4.725439"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011D:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00002B:SBS - LivingTheSlog.esp",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "52155.77, 68502.91, 1466.3246",
+      "Rotation": "0, 0, 4.725418"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011E:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00001B:SBS - LivingTheSlog.esp",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "52829.21, 68388.016, 1443.4751",
+      "Rotation": "0, 0, 3.1541173"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011F:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00001B:SBS - LivingTheSlog.esp",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "53085.19, 68384.82, 1443.4751",
+      "Rotation": "0, 0, 1.583333"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000120:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000025:SBS - LivingTheSlog.esp",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "53086.797, 68512.81, 1443.4751",
+      "Rotation": "0, 0, 3.154126"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000121:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00002B:SBS - LivingTheSlog.esp",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "53214.79, 68511.21, 1443.4751",
+      "Rotation": "0, 0, 4.7249274"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000122:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00002B:SBS - LivingTheSlog.esp",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "51643.824, 68509.6, 1466.3246",
+      "Rotation": "0, 0, 3.1546426"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000123:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00002B:SBS - LivingTheSlog.esp",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "51640.484, 68253.625, 1466.3246",
+      "Rotation": "0, 0, 1.5838497"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000124:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "52958.805, 68514.414, 1443.4751",
+      "Rotation": "0, 0, 3.1541312"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000125:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "51899.81, 68506.26, 1466.3246",
+      "Rotation": "0, 0, 3.1546373"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000126:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "52155.77, 68502.91, 1466.3246",
+      "Rotation": "0, 0, 3.1546304"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000127:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "52152.45, 68246.945, 1466.3246",
+      "Rotation": "0, 0, 0.013027312"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000128:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "52151.434, 68246.95, 1466.3246",
+      "Rotation": "0, 0, 4.725425"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000129:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BB7:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "52829.207, 68388.016, 1443.4751",
+      "Rotation": "0, 0, 3.1541293"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012A:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "52703.824, 68517.6, 1443.4751",
+      "Rotation": "0, 0, 1.5833173"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012B:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "12F2F5:Fallout4.esm",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "51103.246, 68800.46, 1501.4133",
+      "Rotation": "0, 0, 1.5461419"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012C:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "17E787:Fallout4.esm",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "52159.83, 68393.43, 1466.3282",
+      "Rotation": "0, 0, 1.5840626"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012D:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000918:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "52220.574, 68488.516, 1466.3278",
+      "Rotation": "0, 0, 1.1601169"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012F:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0711B5:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "52033.645, 68297.516, 1466.3639",
+      "Rotation": "0, 0, 3.2643504"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000130:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0711B5:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "51884.023, 68381.016, 1467.7742",
+      "Rotation": "0, 0, 4.5812345"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000131:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000918:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "51605.39, 68575.4, 1466.3246",
+      "Rotation": "0, 0, 5.4972706"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000132:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000808:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "51598.055, 68203.17, 1466.3246",
+      "Rotation": "0, 0, 3.3557096"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000133:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000807:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "51901.69, 68183.305, 1466.3639",
+      "Rotation": "0, 0, 4.754387"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000134:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000805:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "51600.7, 68205.055, 1522.6526",
+      "Rotation": "0, 0, 5.776806"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000135:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "082447:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "51902.49, 68186.19, 1506.8906",
+      "Rotation": "0, 0, 4.6851687"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000137:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "118F4B:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "52835.81, 68208.84, 1443.4794",
+      "Rotation": "0, 0, 4.739991"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000138:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000918:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "52682.76, 68199.516, 1443.4785",
+      "Rotation": "0, 0, 4.307134"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000139:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50935.75, 68928.6, 1501.3741",
+      "Rotation": "0, 0, 3.2581265"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013A:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000816:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50669.215, 68626.62, 1503.269",
+      "Rotation": "0, 0, 1.5139667"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013B:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000919:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "53195.51, 68364.25, 1520.531",
+      "Rotation": "0, 0, 1.5027983"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013C:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000810:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "52989.31, 68598.33, 1443.5144",
+      "Rotation": "0, 0, 5.4306846"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013D:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "52863.36, 68379.63, 1443.4874",
+      "Rotation": "0, 0, 4.836534"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013E:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00080E:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50750.195, 68618.57, 1502.8052",
+      "Rotation": "0, 0, 5.657228"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013F:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000809:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50747.863, 68621.49, 1539.4779",
+      "Rotation": "0, 0, 5.6020184"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000141:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00119A:DLCworkshop03.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "51403.824, 69593.17, 1392.7158",
+      "Rotation": "0, 0, 3.239956"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000142:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00119A:DLCworkshop03.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "52367.58, 69549.79, 1392.7174",
+      "Rotation": "0, 0, 3.181901"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000144:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00119A:DLCworkshop03.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50994.242, 69574.555, 1392.7128",
+      "Rotation": "0, 0, 3.1498322"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000152:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "020C40:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50725.258, 68736.31, 1505.0647",
+      "Rotation": "0, 0, 1.4443228"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000153:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "020C40:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "50553.805, 69058.94, 1507.5776",
+      "Rotation": "0, 0, 3.6167777"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000154:SBS - LivingTheSlog.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "020C40:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000155:SBS - LivingTheSlog.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B197:Fallout4.esm"
+        }
+      ],
+      "Position": "51780.613, 68204.086, 1466.304",
+      "Rotation": "0, 0, 1.5654573"
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

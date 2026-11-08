@@ -1,0 +1,19 @@
+{
+  "FormKey": "0000BB:SBS - LivingTheSlog.esp",
+  "EditorID": "vss_flst_shackmetal_wall",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "vss_flst_shackmetal_wall"
+  },
+  "Items": [
+    "00000E:SBS - LivingTheSlog.esp",
+    "00000F:SBS - LivingTheSlog.esp",
+    "000010:SBS - LivingTheSlog.esp",
+    "000011:SBS - LivingTheSlog.esp",
+    "000012:SBS - LivingTheSlog.esp",
+    "000013:SBS - LivingTheSlog.esp",
+    "000014:SBS - LivingTheSlog.esp",
+    "000015:SBS - LivingTheSlog.esp",
+    "000016:SBS - LivingTheSlog.esp"
+  ]
+}
