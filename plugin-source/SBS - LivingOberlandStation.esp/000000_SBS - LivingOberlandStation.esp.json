@@ -1,0 +1,55 @@
+{
+  "ModKey": "SBS - LivingOberlandStation.esp",
+  "GameRelease": "Fallout4",
+  "ModHeader": {
+    "Flags": [
+      "Small"
+    ],
+    "Stats": {
+      "NextFormID": 647
+    },
+    "Author": "",
+    "OverriddenForms": [
+      "1381CB:Fallout4.esm",
+      "1381CC:Fallout4.esm",
+      "1381CD:Fallout4.esm",
+      "1381CE:Fallout4.esm",
+      "159F94:Fallout4.esm",
+      "159F95:Fallout4.esm",
+      "159F96:Fallout4.esm",
+      "159F97:Fallout4.esm",
+      "159F98:Fallout4.esm",
+      "159F99:Fallout4.esm",
+      "159F9A:Fallout4.esm",
+      "159F9B:Fallout4.esm",
+      "159F9C:Fallout4.esm",
+      "159F9D:Fallout4.esm",
+      "159F9E:Fallout4.esm",
+      "159FA1:Fallout4.esm",
+      "159FA5:Fallout4.esm",
+      "159FA6:Fallout4.esm",
+      "159FA7:Fallout4.esm",
+      "159FA8:Fallout4.esm",
+      "159FAA:Fallout4.esm",
+      "159FAB:Fallout4.esm",
+      "159FAC:Fallout4.esm",
+      "159FAD:Fallout4.esm",
+      "159FAE:Fallout4.esm",
+      "159FAF:Fallout4.esm",
+      "159FB0:Fallout4.esm",
+      "159FB1:Fallout4.esm",
+      "159FB2:Fallout4.esm",
+      "159FB3:Fallout4.esm",
+      "1C67C2:Fallout4.esm",
+      "1C67C3:Fallout4.esm",
+      "1C67C4:Fallout4.esm",
+      "1C67C5:Fallout4.esm",
+      "1C67C6:Fallout4.esm",
+      "1C67DB:Fallout4.esm",
+      "1C67DC:Fallout4.esm",
+      "1C67DF:Fallout4.esm",
+      "1C67E0:Fallout4.esm",
+      "1C67E1:Fallout4.esm"
+    ]
+  }
+}

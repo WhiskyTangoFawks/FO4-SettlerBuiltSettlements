@@ -1,0 +1,10 @@
+{
+  "FormKey": "0000C9:SBS - LivingOberlandStation.esp",
+  "EditorID": "vss_kywd_shackmetal_wall",
+  "Color": "#00FFFFFF",
+  "Type": "RecipeFilter",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Shack Metal Wall"
+  }
+}

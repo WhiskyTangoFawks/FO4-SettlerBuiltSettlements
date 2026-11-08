@@ -1,0 +1,82 @@
+{
+  "FormKey": "0000C4:SBS - LivingOberlandStation.esp",
+  "MajorRecordFlagsRaw": 4096,
+  "EditorID": "vss_qust_smm",
+  "Fallout4MajorRecordFlags": [
+    "Ignored"
+  ],
+  "VirtualMachineAdapter": {
+    "Scripts": [
+      {
+        "Name": "SettlementMenuManager:MenuInstaller",
+        "Properties": [
+          {
+            "MutagenObjectType": "ScriptStringProperty",
+            "Name": "Author",
+            "Data": "zed140"
+          },
+          {
+            "MutagenObjectType": "ScriptStructListProperty",
+            "Name": "Menus",
+            "Structs": [
+              {
+                "Members": [
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "ModMenu",
+                    "Object": "0000C3:SBS - LivingOberlandStation.esp"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "TargetMenu",
+                    "Object": "106DAA:Fallout4.esm"
+                  }
+                ]
+              },
+              {
+                "Members": [
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "ModMenu",
+                    "Object": "0000C5:SBS - LivingOberlandStation.esp"
+                  },
+                  {
+                    "MutagenObjectType": "ScriptObjectProperty",
+                    "Name": "TargetMenu",
+                    "Object": "106DA9:Fallout4.esm"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "MutagenObjectType": "ScriptStringProperty",
+            "Name": "ModName",
+            "Data": "a198 Vanilla Shack Support"
+          },
+          {
+            "MutagenObjectType": "ScriptStringProperty",
+            "Name": "PluginName",
+            "Data": "a198 Vanilla Shack Support.esp"
+          }
+        ]
+      }
+    ],
+    "ExtraBindDataVersion": 0,
+    "Script": {
+      "Name": ""
+    }
+  },
+  "Data": {
+    "Flags": [
+      "StartGameEnabled",
+      "StartsEnabled",
+      "RunOnce"
+    ]
+  },
+  "UnusedConditions": [],
+  "Aliases": [],
+  "MajorFlags": [
+    "0x1000"
+  ]
+}

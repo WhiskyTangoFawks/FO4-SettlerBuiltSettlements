@@ -1,0 +1,6 @@
+{
+  "FormKey": "000269:SBS - LivingOberlandStation.esp",
+  "Malformed": [
+    "FURN 06000269 (Crates02Water3) — furn-missing-fnam-and-mnam, repairable (lossless): FNAM and MNAM are missing; vanilla always writes both"
+  ]
+}

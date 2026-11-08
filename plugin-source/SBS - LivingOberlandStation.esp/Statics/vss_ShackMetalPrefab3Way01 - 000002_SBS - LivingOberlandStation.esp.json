@@ -1,0 +1,438 @@
+{
+  "FormKey": "000002:SBS - LivingOberlandStation.esp",
+  "EditorID": "vss_ShackMetalPrefab3Way01",
+  "ObjectBounds": {
+    "First": "-128, -264, -13",
+    "Second": "128, 129, 220"
+  },
+  "PreviewTransform": "140D96:Fallout4.esm",
+  "Model": {
+    "File": "Architecture\\Shacks\\vss\\Prefabs\\ShackMetalPrefab3Way01.nif",
+    "Data": "0x040000000D000000000000000500000005000000E5589F2D646473007A7C3A5ABF79ECA764647300BE643C4C003D5B8464647300DAC2327CD9515DE764647300DAC2327C784B48B664647300DAC2327CA1274ED564647300DAC2327CC8DCFF0264647300DAC2327C11B0F96164647300DAC2327C0F592C8164647300DAC2327C0F2C2A00646473001CDB88C5BFCE9B3564647300DAC2327CC7B8880764647300DAC2327C22DD4CAE646473007A7C3A5A932B4C9D6267736DFAFCA62E22CD48D26267736DFAFCA62E050363256267736DFAFCA62E926D60A96267736DFAFCA62E09E1D9A16267736DFAFCA62E"
+  },
+  "Properties": [
+    {
+      "ActorValue": "000337:Fallout4.esm",
+      "Value": 32.0
+    },
+    {
+      "ActorValue": "00033D:Fallout4.esm",
+      "Value": 1.0
+    },
+    {
+      "ActorValue": "249E6A:Fallout4.esm",
+      "Value": 128.0
+    },
+    {
+      "ActorValue": "249E6B:Fallout4.esm",
+      "Value": -128.0
+    },
+    {
+      "ActorValue": "249E6C:Fallout4.esm",
+      "Value": -128.0
+    },
+    {
+      "ActorValue": "249E6D:Fallout4.esm",
+      "Value": 256.0
+    }
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Metal floor and roof 01"
+  },
+  "MaxAngle": 90.0,
+  "LeafAmplitude": 1.0,
+  "LeafFrequency": 1.0,
+  "NavmeshGeometry": {
+    "Parent": {
+      "MutagenObjectType": "CellNavmeshParent",
+      "Parent": "000025:Fallout4.esm"
+    },
+    "Vertices": [
+      "-126.650894, 115.97485, 0",
+      "-127.12204, -126.13993, -1.5258789E-05",
+      "-112.67504, 115.963425, 0",
+      "-113.11574, -126.44202, 1.5258789E-05",
+      "115.51994, 116.03641, 0",
+      "114.08234, -125.02248, -7.6293945E-06",
+      "127.075165, 115.09304, 0",
+      "126.6674, -123.482086, -1.5258789E-05",
+      "-10.562949, -125.47628, 4.927155E-06",
+      "10.766777, -124.79511, 3.0289152E-06",
+      "-8.290955, -140.93703, -1.5258789E-05",
+      "-113.58588, -140.80846, -3.0517578E-05",
+      "113.60173, -142.81282, 1.5258789E-05",
+      "10.858446, -142.42245, 0",
+      "125.90072, -250.3445, 0",
+      "0.84584045, -249.42006, 0",
+      "126.0358, -140.54228, 0",
+      "-126.01057, -250.23972, 1.5258789E-05",
+      "-126.2286, -140.23894, 0",
+      "-112.53831, 127.13955, 1.5258789E-05",
+      "113.74244, 125.9513, 1.5258789E-05",
+      "-123.834175, 123.16885, 209.00003",
+      "-125.055664, -123.96173, 208.99997",
+      "124.86575, 125.32765, 209.00003",
+      "126.492584, -124.22867, 208.99997"
+    ],
+    "Triangles": [
+      {
+        "Vertices": "0, 1, 2",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": 1,
+        "EdgeLink_2_0": -1,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ],
+        "CoverFlags": 1
+      },
+      {
+        "Vertices": "1, 3, 2",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": 2,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "2, 3, 4",
+        "EdgeLink_0_1": 1,
+        "EdgeLink_1_2": 6,
+        "EdgeLink_2_0": 19,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "9, 5, 4",
+        "EdgeLink_0_1": 10,
+        "EdgeLink_1_2": 4,
+        "EdgeLink_2_0": 7,
+        "Height": 198.00003,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "4, 5, 6",
+        "EdgeLink_0_1": 3,
+        "EdgeLink_1_2": 5,
+        "EdgeLink_2_0": -1,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "5, 7, 6",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": 4,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ],
+        "CoverFlags": 2
+      },
+      {
+        "Vertices": "4, 3, 8",
+        "EdgeLink_0_1": 2,
+        "EdgeLink_1_2": 8,
+        "EdgeLink_2_0": 7,
+        "Height": 198.00002,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "4, 8, 9",
+        "EdgeLink_0_1": 6,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": 3,
+        "Height": 198.00003,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "8, 3, 10",
+        "EdgeLink_0_1": 6,
+        "EdgeLink_1_2": 9,
+        "EdgeLink_2_0": -1,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "3, 11, 10",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": 16,
+        "EdgeLink_2_0": 8,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "5, 9, 12",
+        "EdgeLink_0_1": 3,
+        "EdgeLink_1_2": 11,
+        "EdgeLink_2_0": -1,
+        "Height": 198.00002,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "9, 13, 12",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": 12,
+        "EdgeLink_2_0": 10,
+        "Height": 198.00002,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "12, 13, 14",
+        "EdgeLink_0_1": 11,
+        "EdgeLink_1_2": 13,
+        "EdgeLink_2_0": 14,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "13, 15, 14",
+        "EdgeLink_0_1": 15,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": 12,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ],
+        "CoverFlags": 2
+      },
+      {
+        "Vertices": "14, 16, 12",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": 12,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ],
+        "CoverFlags": 1
+      },
+      {
+        "Vertices": "13, 10, 15",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": 16,
+        "EdgeLink_2_0": 13,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "10, 11, 15",
+        "EdgeLink_0_1": 9,
+        "EdgeLink_1_2": 17,
+        "EdgeLink_2_0": 15,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "15, 11, 17",
+        "EdgeLink_0_1": 16,
+        "EdgeLink_1_2": 18,
+        "EdgeLink_2_0": -1,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ],
+        "CoverFlags": 4
+      },
+      {
+        "Vertices": "11, 18, 17",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": 17,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ],
+        "CoverFlags": 2
+      },
+      {
+        "Vertices": "2, 4, 19",
+        "EdgeLink_0_1": 2,
+        "EdgeLink_1_2": 20,
+        "EdgeLink_2_0": -1,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "4, 20, 19",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": 19,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ],
+        "CoverFlags": 2
+      },
+      {
+        "Vertices": "21, 22, 23",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": 22,
+        "EdgeLink_2_0": -1,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ],
+        "CoverFlags": 5
+      },
+      {
+        "Vertices": "23, 22, 24",
+        "EdgeLink_0_1": 21,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": -1,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ],
+        "CoverFlags": 6
+      }
+    ],
+    "Cover": [
+      {
+        "Vertex1": 1,
+        "Data": 2147485968
+      },
+      {
+        "Vertex1": 19,
+        "Vertex2": 20,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 6,
+        "Vertex2": 7,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 16,
+        "Vertex2": 14,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 14,
+        "Vertex2": 17,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 17,
+        "Vertex2": 18,
+        "Data": 2320
+      }
+    ],
+    "CoverTriangleMappings": [
+      {},
+      {
+        "Cover": 70,
+        "Triangle": 4
+      },
+      {
+        "Cover": 53,
+        "Triangle": 4
+      },
+      {
+        "Cover": 81,
+        "Triangle": 1
+      },
+      {
+        "Cover": 21,
+        "Triangle": 2
+      },
+      {
+        "Cover": 56,
+        "Triangle": 3
+      },
+      {
+        "Cover": 73,
+        "Triangle": 5
+      }
+    ],
+    "GridSize": 2,
+    "GridMaxDistance": "127.0986, 188.74202",
+    "GridMin": "-127.12204, -250.3445, -3.0517578E-05",
+    "GridMax": "127.075165, 127.13955, 379.00003",
+    "GridArrays": {
+      "GridCell": [
+        13,
+        0,
+        0,
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        15,
+        16,
+        17,
+        18,
+        21,
+        22,
+        14,
+        0,
+        3,
+        4,
+        5,
+        6,
+        7,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        22,
+        8,
+        0,
+        0,
+        1,
+        2,
+        6,
+        19,
+        20,
+        21,
+        22,
+        10,
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        19,
+        20,
+        21,
+        22
+      ]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "FormKey": "0000C2:SBS - LivingOberlandStation.esp",
+  "EditorID": "vss_kywd_shackwood",
+  "Color": "#00FFFFFF",
+  "Type": "RecipeFilter",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Shack Wood"
+  }
+}
