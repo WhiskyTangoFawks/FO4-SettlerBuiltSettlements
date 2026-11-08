@@ -1,0 +1,10 @@
+{
+  "FormKey": "0000CF:SBS - LivingHangmanAlley.esp",
+  "EditorID": "vss_kywd_shackwood_other",
+  "Color": "#00FFFFFF",
+  "Type": "RecipeFilter",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Shack Wood Others"
+  }
+}

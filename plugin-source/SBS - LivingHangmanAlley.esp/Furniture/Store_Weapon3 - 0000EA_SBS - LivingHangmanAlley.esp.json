@@ -1,0 +1,153 @@
+{
+  "FormKey": "0000EA:SBS - LivingHangmanAlley.esp",
+  "MajorRecordFlagsRaw": 8192,
+  "EditorID": "Store_Weapon3",
+  "Fallout4MajorRecordFlags": [
+    "0x2000"
+  ],
+  "VirtualMachineAdapter": {
+    "Scripts": [
+      {
+        "Name": "DefaultBlockActivationOnLoad"
+      },
+      {
+        "Name": "workshopobjectscript",
+        "Properties": [
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "FurnitureBase",
+            "Object": "249F17:Fallout4.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptStringListProperty",
+            "Name": "FurnitureMarkerNodes",
+            "Data": [
+              "RobotNode"
+            ]
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "SpecialFurnitureBase",
+            "Object": "249F17:Fallout4.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptStringProperty",
+            "Name": "SpecialFurnitureBaseNode",
+            "Data": "RobotNode"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "SpecialFurniturePlacementKeyword",
+            "Object": "02CB73:Fallout4.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptIntProperty",
+            "Name": "vendorLevel",
+            "Data": 2
+          },
+          {
+            "MutagenObjectType": "ScriptIntProperty",
+            "Name": "VendorType",
+            "Data": 2
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "WorkshopParent",
+            "Object": "02058E:Fallout4.esm"
+          }
+        ]
+      }
+    ]
+  },
+  "ObjectBounds": {
+    "First": "-39, -25, 0",
+    "Second": "39, 25, 1"
+  },
+  "PreviewTransform": "1A726D:Fallout4.esm",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Weapons3 - Sit Read"
+  },
+  "Model": {
+    "File": "Props\\WelcomeMat\\WelcomeMat6.nif",
+    "Data": "0x0400000000000000000000000000000000000000"
+  },
+  "Destructible": {
+    "Data": {
+      "Health": 50,
+      "DESTCount": 2
+    },
+    "Stages": [
+      {
+        "HealthPercent": 1
+      },
+      {
+        "Index": 1,
+        "Flags": [
+          "Destroy"
+        ]
+      }
+    ]
+  },
+  "Keywords": [
+    "020592:Fallout4.esm",
+    "06E9C7:Fallout4.esm",
+    "12F848:Fallout4.esm",
+    "1338F8:Fallout4.esm",
+    "18F691:Fallout4.esm",
+    "1CD02B:Fallout4.esm"
+  ],
+  "Properties": [
+    {
+      "ActorValue": "10C847:Fallout4.esm",
+      "Value": 6.0
+    },
+    {
+      "ActorValue": "129A8C:Fallout4.esm",
+      "Value": 1.0
+    },
+    {
+      "ActorValue": "249E5C:Fallout4.esm",
+      "Value": 1.0
+    }
+  ],
+  "PNAM": "0x00000000",
+  "Flags": [
+    "HasModel"
+  ],
+  "MarkerEntryPoints": [
+    {
+      "Type": [
+        "Sit"
+      ],
+      "Points": [
+        "Front",
+        "Right",
+        "Left"
+      ]
+    }
+  ],
+  "MarkerParameters": [
+    {
+      "Enabled": true,
+      "RotationZ": 180.00006,
+      "EntryTypes": [
+        "Front",
+        "Behind",
+        "Right",
+        "Left",
+        "Other",
+        "0x20",
+        "0x40",
+        "0x80"
+      ],
+      "Unknown": "0xFFFFFF"
+    }
+  ],
+  "WBDTDataTypeState": [
+    "Break0"
+  ],
+  "MajorFlags": [
+    "0x2000"
+  ]
+}
