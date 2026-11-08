@@ -2714,28 +2714,6 @@
     },
     {
       "MutagenObjectType": "PlacedObject",
-      "FormKey": "0000BE:SBS - FalloutTheBedsCastle.esp",
-      "MajorRecordFlagsRaw": 2048,
-      "Fallout4MajorRecordFlags": [
-        "InitiallyDisabled"
-      ],
-      "Base": "000831:SettlerBuiltSettlements.esp",
-      "Layer": "000001:SBS - FalloutTheBedsCastle.esp",
-      "EnableParent": {
-        "Reference": "0000FC:SBS - FalloutTheBedsCastle.esp",
-        "Unknown": "0x000000"
-      },
-      "LinkedReferences": [
-        {
-          "KeywordOrReference": "054BA6:Fallout4.esm",
-          "Reference": "066EB6:Fallout4.esm"
-        }
-      ],
-      "Position": "47620.11, -47105.19, 831.51874",
-      "Rotation": "0, 0, 0.9291958"
-    },
-    {
-      "MutagenObjectType": "PlacedObject",
       "FormKey": "0000BF:SBS - FalloutTheBedsCastle.esp",
       "MajorRecordFlagsRaw": 2048,
       "Fallout4MajorRecordFlags": [
