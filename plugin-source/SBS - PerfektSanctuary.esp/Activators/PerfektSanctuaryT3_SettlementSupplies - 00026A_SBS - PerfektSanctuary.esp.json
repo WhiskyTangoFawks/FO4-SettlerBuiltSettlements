@@ -1,0 +1,38 @@
+{
+  "FormKey": "00026A:SBS - PerfektSanctuary.esp",
+  "MajorRecordFlagsRaw": 2048,
+  "EditorID": "PerfektSanctuaryT3_SettlementSupplies",
+  "Fallout4MajorRecordFlags": [
+    "InitiallyDisabled"
+  ],
+  "VirtualMachineAdapter": {
+    "Scripts": [
+      {
+        "Name": "SettlementAutoBuildSupplies",
+        "Properties": [
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "EnableParentRef",
+            "Object": "0001CC:SBS - PerfektSanctuary.esp"
+          }
+        ]
+      }
+    ]
+  },
+  "ObjectBounds": {
+    "First": "-96, -122, 0",
+    "Second": "103, 112, 128"
+  },
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Settlement Industrialization Supplies"
+  },
+  "Model": {
+    "File": "SetDressing\\TrashBin\\TrashBin01.nif"
+  },
+  "MarkerColor": "#00CC4C33",
+  "Flags": [],
+  "MajorFlags": [
+    "UsedAsPlatform"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "FormKey": "000132:SBS - PerfektSanctuary.esp",
+  "MajorRecordFlagsRaw": 134217728,
+  "EditorID": "Loot_Raider_AmmoBox_empty",
+  "Fallout4MajorRecordFlags": [
+    "0x8000000"
+  ],
+  "ObjectBounds": {
+    "First": "-8, -20, 0",
+    "Second": "8, 19, 28"
+  },
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Ammo Box"
+  },
+  "Model": {
+    "File": "SetDressing\\Ammo\\AmmoBox01.nif",
+    "Data": "0x0400000004000000000000000200000001000000AA2B4F3D64647300C97AABD17347495E64647300C97AABD16DAE9CBE64647300C97AABD1B8EC307B646473001CDB88C5549EA46C6267736DE9443F83"
+  },
+  "Flags": [
+    "AllowSoundsWhenAnimation",
+    "Respawns"
+  ],
+  "Keywords": [
+    "184462:Fallout4.esm"
+  ],
+  "OpenSound": "03C656:Fallout4.esm",
+  "CloseSound": "03C657:Fallout4.esm",
+  "MajorFlags": [
+    "NavMeshGenerationBoundingBox"
+  ]
+}

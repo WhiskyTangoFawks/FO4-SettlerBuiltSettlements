@@ -1,4 +1,4 @@
 {"version":1,"steps":[
 {"copy":["Scripts","meshes"]},
-{"compile":["SettlerBuiltSettlements.esp","SBS - FalloutTheBedsCastle.esp"]}
+{"compile":["SettlerBuiltSettlements.esp","SBS - FalloutTheBedsCastle.esp","SBS - PerfektSanctuary.esp"]}
 ]}

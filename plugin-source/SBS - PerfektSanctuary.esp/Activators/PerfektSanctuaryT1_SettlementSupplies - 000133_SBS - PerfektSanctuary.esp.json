@@ -1,0 +1,38 @@
+{
+  "FormKey": "000133:SBS - PerfektSanctuary.esp",
+  "MajorRecordFlagsRaw": 2048,
+  "EditorID": "PerfektSanctuaryT1_SettlementSupplies",
+  "Fallout4MajorRecordFlags": [
+    "InitiallyDisabled"
+  ],
+  "VirtualMachineAdapter": {
+    "Scripts": [
+      {
+        "Name": "SettlementAutoBuildSupplies",
+        "Properties": [
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "EnableParentRef",
+            "Object": "000135:SBS - PerfektSanctuary.esp"
+          }
+        ]
+      }
+    ]
+  },
+  "ObjectBounds": {
+    "First": "-96, -122, 0",
+    "Second": "103, 112, 128"
+  },
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Settlement Repair Supplies"
+  },
+  "Model": {
+    "File": "Furniture\\Workshop\\WorkshopScavengingStation01.nif"
+  },
+  "MarkerColor": "#00CC4C33",
+  "Flags": [],
+  "MajorFlags": [
+    "UsedAsPlatform"
+  ]
+}

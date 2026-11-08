@@ -1,0 +1,33 @@
+{
+  "ModKey": "SBS - PerfektSanctuary.esp",
+  "GameRelease": "Fallout4",
+  "ModHeader": {
+    "Flags": [
+      "Small"
+    ],
+    "Stats": {
+      "NextFormID": 622
+    },
+    "Author": "",
+    "OverriddenForms": [
+      "022C12:Fallout4.esm",
+      "02A640:Fallout4.esm",
+      "02A641:Fallout4.esm",
+      "02A643:Fallout4.esm",
+      "02A666:Fallout4.esm",
+      "02A667:Fallout4.esm",
+      "02A66E:Fallout4.esm",
+      "03FED3:Fallout4.esm",
+      "056FFF:Fallout4.esm",
+      "0670A0:Fallout4.esm",
+      "0AC965:Fallout4.esm",
+      "0AE0C2:Fallout4.esm",
+      "170429:Fallout4.esm",
+      "249BEC:Fallout4.esm",
+      "249BED:Fallout4.esm",
+      "249BEE:Fallout4.esm",
+      "249BEF:Fallout4.esm",
+      "249BF0:Fallout4.esm"
+    ]
+  }
+}
