@@ -1,0 +1,6 @@
+{
+  "FormKey": "0001AD:SBS - LivingKingsportLighthouse.esp",
+  "Malformed": [
+    "FURN 060001AD (CratesWater3) — furn-missing-fnam-and-mnam, repairable (lossless): FNAM and MNAM are missing; vanilla always writes both"
+  ]
+}

@@ -1,0 +1,6245 @@
+{
+  "FormKey": "00DA5A:Fallout4.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "KingsportLighthouseExt04",
+  "Fallout4MajorRecordFlags": [
+    "Compressed"
+  ],
+  "Flags": [
+    "HasWater"
+  ],
+  "PreVisFilesTimestamp": 7972,
+  "InPreVisFileOf": "00DA3B:Fallout4.esm",
+  "PreCombinedFilesTimestamp": 7972,
+  "Grid": {
+    "Point": "21, 14"
+  },
+  "MaxHeightData": {
+    "Offset": 512.0,
+    "HeightMap": [
+      [5,5,5,5,5,5,6,6,5,5,5,6,9,8,11,12,6,8,8,5,10,6,6,5,5,5,5,5,4,4,4,4],
+      [5,5,5,5,5,5,6,5,5,5,6,6,8,8,10,11,11,11,10,9,8,5,5,5,5,5,5,5,4,4,4,4],
+      [5,5,5,5,5,5,6,5,5,5,7,7,6,11,8,6,9,8,6,7,7,6,6,6,7,7,7,5,4,4,4,4],
+      [5,5,5,5,5,5,5,5,5,6,7,7,7,8,9,9,6,9,7,7,7,7,7,7,7,7,7,7,6,5,4,4],
+      [5,5,5,5,5,5,5,5,7,8,8,7,6,6,9,10,6,6,7,7,7,7,7,7,7,7,7,7,7,6,5,5],
+      [5,5,5,13,6,5,5,5,7,8,8,7,7,7,7,12,6,6,7,7,7,7,7,7,7,7,7,7,7,7,6,5],
+      [5,5,5,5,5,5,5,5,7,8,8,7,10,9,9,6,6,6,7,7,7,7,7,7,7,7,7,7,7,7,6,6],
+      [5,5,5,5,6,9,9,5,7,7,7,7,10,10,6,6,6,6,6,6,6,7,7,7,10,10,7,7,7,7,7,7],
+      [5,5,5,5,7,5,5,5,7,7,7,7,6,6,6,6,6,7,6,6,6,6,11,10,10,7,10,13,7,7,7,7],
+      [5,5,5,5,5,5,8,5,7,7,7,7,6,6,6,6,6,6,6,6,6,6,7,12,10,9,10,7,7,7,12,7],
+      [5,5,5,5,5,9,8,5,7,7,7,7,6,6,6,6,6,6,6,6,6,6,6,12,6,7,7,7,7,11,11,7],
+      [5,5,5,5,5,5,5,5,7,7,7,7,5,6,6,6,10,10,6,6,6,6,6,6,6,6,7,7,16,15,11,10],
+      [5,5,5,5,5,5,5,5,5,5,5,5,5,5,11,6,6,10,6,6,6,6,6,6,6,6,6,7,7,7,6,7],
+      [5,5,5,5,5,5,5,5,14,9,9,5,5,5,11,11,11,15,10,6,6,6,6,7,8,6,6,7,7,7,7,7],
+      [5,5,5,5,5,5,5,5,13,10,8,5,5,5,6,6,11,14,13,13,6,6,7,8,8,6,6,7,7,7,7,7],
+      [5,5,5,5,5,5,5,5,5,8,5,5,5,5,10,10,10,11,16,14,10,9,7,8,7,6,6,6,7,7,7,7],
+      [5,5,5,5,5,5,5,5,12,12,8,5,5,5,10,10,6,6,15,13,12,13,11,7,8,8,8,8,6,7,7,7],
+      [5,5,5,5,5,5,5,5,13,12,9,6,6,6,6,6,6,8,15,6,6,13,6,11,12,13,12,11,6,7,7,7],
+      [5,5,5,5,5,5,5,5,5,5,5,6,6,6,6,10,6,6,6,6,6,6,6,11,12,13,12,11,9,7,7,7],
+      [5,5,5,5,5,5,5,5,5,5,5,6,6,6,9,10,10,6,6,6,9,9,10,11,12,12,12,11,9,8,8,7],
+      [5,5,5,5,5,5,5,5,6,6,6,5,6,6,10,9,9,6,6,6,11,11,10,11,12,8,12,11,9,8,8,6],
+      [5,5,5,5,5,5,5,6,6,6,6,6,6,6,14,10,10,6,6,6,11,10,10,10,10,9,9,10,9,7,7,6],
+      [5,5,5,5,5,5,5,6,10,5,6,6,6,6,6,6,6,6,6,6,9,9,9,11,12,12,12,11,9,6,6,6],
+      [4,5,5,6,6,6,6,6,11,15,5,6,6,6,6,6,6,6,6,6,6,6,6,6,12,12,12,11,7,6,6,6],
+      [4,5,5,6,6,6,6,6,6,8,5,6,6,6,6,6,6,6,6,6,6,6,6,6,12,13,12,11,7,6,6,6],
+      [2,4,5,5,6,6,6,6,6,6,6,5,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6],
+      [1,3,5,5,5,6,6,6,6,6,6,6,6,5,5,5,8,8,9,8,11,12,6,6,6,6,6,6,7,13,6,6],
+      [1,2,5,5,5,6,6,6,6,6,6,6,5,5,5,5,10,10,8,9,9,6,6,6,7,7,6,6,10,12,6,6],
+      [1,2,2,3,3,3,5,6,6,6,6,6,5,5,5,5,6,11,6,6,6,6,6,6,7,7,6,6,6,10,14,14],
+      [1,1,2,2,2,3,4,5,6,6,6,6,5,5,5,5,5,6,6,6,7,6,6,6,6,6,6,6,6,6,6,6],
+      [0,1,1,1,1,3,4,4,5,5,5,5,4,5,5,5,5,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6],
+      [0,0,0,1,1,1,1,2,2,2,2,3,3,4,4,5,5,6,6,6,6,6,6,19,19,19,6,6,7,7,7,6]
+    ]
+  },
+  "WaterHeight": 3.4028235E+38,
+  "Regions": [
+    "049BE0:Fallout4.esm",
+    "109E91:Fallout4.esm",
+    "15D2F9:Fallout4.esm",
+    "1CFDBE:Fallout4.esm",
+    "23F1FE:Fallout4.esm"
+  ],
+  "Location": "05A5E4:Fallout4.esm",
+  "PhysicsReferences": [
+    "08CC55:Fallout4.esm",
+    "08CCA6:Fallout4.esm",
+    "08CC8F:Fallout4.esm",
+    "08CC6F:Fallout4.esm"
+  ],
+  "CombinedMeshes": [
+    28861806,
+    158464202,
+    176306026,
+    316928405,
+    324769019,
+    425316049,
+    524771173,
+    563641934,
+    662107564,
+    736777074,
+    773568110,
+    850632099,
+    851700405,
+    883756055,
+    942779081,
+    948916689,
+    965332903,
+    973764369,
+    1102603630,
+    1250047850,
+    1598512997,
+    1735849388,
+    1810518898,
+    1924373923,
+    2016520905,
+    2039074727,
+    2176345454,
+    2230360867,
+    2305947850,
+    2323789674,
+    2464412053,
+    2472252667,
+    2572799697,
+    2672254821,
+    2809591212,
+    2998115747,
+    2999184053,
+    3112816551,
+    3190766461,
+    3745996645,
+    3883333036
+  ],
+  "CombinedMeshReferences": [
+    {
+      "Reference": "0BADDA:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1EC7D2:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "01B30B:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "14411E:Fallout4.esm",
+      "CombinedMesh": 2809591212
+    },
+    {
+      "Reference": "05C353:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1B5929:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "0BAE49:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "0BAE0C:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "08C2EB:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "1EC7E0:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "0BAE4C:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0BAE09:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "08C2EE:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "0BADDF:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1EC7D7:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "01B30E:Fallout4.esm",
+      "CombinedMesh": 1102603630
+    },
+    {
+      "Reference": "14411B:Fallout4.esm",
+      "CombinedMesh": 2809591212
+    },
+    {
+      "Reference": "140F0F:Fallout4.esm",
+      "CombinedMesh": 524771173
+    },
+    {
+      "Reference": "144126:Fallout4.esm",
+      "CombinedMesh": 524771173
+    },
+    {
+      "Reference": "1A8E72:Fallout4.esm",
+      "CombinedMesh": 3112816551
+    },
+    {
+      "Reference": "08C2E4:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "0BADE2:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0BAE03:Fallout4.esm",
+      "CombinedMesh": 2176345454
+    },
+    {
+      "Reference": "08CC9D:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "0BADFB:Fallout4.esm",
+      "CombinedMesh": 2809591212
+    },
+    {
+      "Reference": "0BADFE:Fallout4.esm",
+      "CombinedMesh": 3190766461
+    },
+    {
+      "Reference": "144123:Fallout4.esm",
+      "CombinedMesh": 3883333036
+    },
+    {
+      "Reference": "1A8E59:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "08C2E1:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "0BAE06:Fallout4.esm",
+      "CombinedMesh": 2572799697
+    },
+    {
+      "Reference": "08C2F0:Fallout4.esm",
+      "CombinedMesh": 965332903
+    },
+    {
+      "Reference": "1B5657:Fallout4.esm",
+      "CombinedMesh": 2323789674
+    },
+    {
+      "Reference": "14411C:Fallout4.esm",
+      "CombinedMesh": 2809591212
+    },
+    {
+      "Reference": "0BADD8:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "08CCA7:Fallout4.esm",
+      "CombinedMesh": 2039074727
+    },
+    {
+      "Reference": "0BAE0E:Fallout4.esm",
+      "CombinedMesh": 736777074
+    },
+    {
+      "Reference": "08C2E9:Fallout4.esm",
+      "CombinedMesh": 316928405
+    },
+    {
+      "Reference": "05AD08:Fallout4.esm",
+      "CombinedMesh": 563641934
+    },
+    {
+      "Reference": "1B5660:Fallout4.esm",
+      "CombinedMesh": 2809591212
+    },
+    {
+      "Reference": "0BAE0B:Fallout4.esm",
+      "CombinedMesh": 736777074
+    },
+    {
+      "Reference": "08CCA2:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "0BADEA:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1B5665:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "01B30C:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0BADF3:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "0BACD8:Fallout4.esm",
+      "CombinedMesh": 973764369
+    },
+    {
+      "Reference": "0BADDD:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "0BADE0:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "08C2E6:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "0976EF:Fallout4.esm",
+      "CombinedMesh": 158464202
+    },
+    {
+      "Reference": "144124:Fallout4.esm",
+      "CombinedMesh": 3745996645
+    },
+    {
+      "Reference": "1EC7E8:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "05AD07:Fallout4.esm",
+      "CombinedMesh": 773568110
+    },
+    {
+      "Reference": "0BADF9:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "0BADD7:Fallout4.esm",
+      "CombinedMesh": 524771173
+    },
+    {
+      "Reference": "05ACDB:Fallout4.esm",
+      "CombinedMesh": 563641934
+    },
+    {
+      "Reference": "14417D:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "0BADFC:Fallout4.esm",
+      "CombinedMesh": 2809591212
+    },
+    {
+      "Reference": "05ACDE:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "08C2E3:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "0BAE04:Fallout4.esm",
+      "CombinedMesh": 2464412053
+    },
+    {
+      "Reference": "144121:Fallout4.esm",
+      "CombinedMesh": 3883333036
+    },
+    {
+      "Reference": "1B566A:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0BAE5B:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1A8E6F:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "0BADFF:Fallout4.esm",
+      "CombinedMesh": 2572799697
+    },
+    {
+      "Reference": "1B5922:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "144122:Fallout4.esm",
+      "CombinedMesh": 3745996645
+    },
+    {
+      "Reference": "0BAE07:Fallout4.esm",
+      "CombinedMesh": 2572799697
+    },
+    {
+      "Reference": "1A8E58:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "08C2E0:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "1A8E73:Fallout4.esm",
+      "CombinedMesh": 965332903
+    },
+    {
+      "Reference": "0BAE47:Fallout4.esm",
+      "CombinedMesh": 563641934
+    },
+    {
+      "Reference": "0BAE02:Fallout4.esm",
+      "CombinedMesh": 2176345454
+    },
+    {
+      "Reference": "08C2E5:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "0BADE3:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "08CC72:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "0BAE4D:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1EC7E1:Fallout4.esm",
+      "CombinedMesh": 736777074
+    },
+    {
+      "Reference": "08C2EF:Fallout4.esm",
+      "CombinedMesh": 965332903
+    },
+    {
+      "Reference": "1A8E57:Fallout4.esm",
+      "CombinedMesh": 965332903
+    },
+    {
+      "Reference": "0BAE08:Fallout4.esm",
+      "CombinedMesh": 2572799697
+    },
+    {
+      "Reference": "0BADDE:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "0D04F1:Fallout4.esm",
+      "CombinedMesh": 158464202
+    },
+    {
+      "Reference": "0BAD9B:Fallout4.esm",
+      "CombinedMesh": 524771173
+    },
+    {
+      "Reference": "05ACD7:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "14411F:Fallout4.esm",
+      "CombinedMesh": 3883333036
+    },
+    {
+      "Reference": "08CC7D:Fallout4.esm",
+      "CombinedMesh": 2039074727
+    },
+    {
+      "Reference": "0BAE48:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1EC7E4:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "05AD0B:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "0BAE0D:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "0BADFD:Fallout4.esm",
+      "CombinedMesh": 3190766461
+    },
+    {
+      "Reference": "144117:Fallout4.esm",
+      "CombinedMesh": 2809591212
+    },
+    {
+      "Reference": "0BE81D:Fallout4.esm",
+      "CombinedMesh": 158464202
+    },
+    {
+      "Reference": "0BAE05:Fallout4.esm",
+      "CombinedMesh": 2305947850
+    },
+    {
+      "Reference": "08C2E2:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "144120:Fallout4.esm",
+      "CombinedMesh": 3745996645
+    },
+    {
+      "Reference": "0BADE1:Fallout4.esm",
+      "CombinedMesh": 524771173
+    },
+    {
+      "Reference": "08C2E7:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "1B56C5:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "1EC7DE:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0BAE5C:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "05ACDA:Fallout4.esm",
+      "CombinedMesh": 563641934
+    },
+    {
+      "Reference": "21B35B:Fallout4.esm",
+      "CombinedMesh": 2999184053
+    },
+    {
+      "Reference": "08C2ED:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "05C350:Fallout4.esm",
+      "CombinedMesh": 2230360867
+    },
+    {
+      "Reference": "0BAE0A:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "08CC86:Fallout4.esm",
+      "CombinedMesh": 2039074727
+    },
+    {
+      "Reference": "144181:Fallout4.esm",
+      "CombinedMesh": 524771173
+    },
+    {
+      "Reference": "08CC83:Fallout4.esm",
+      "CombinedMesh": 2039074727
+    },
+    {
+      "Reference": "08CC80:Fallout4.esm",
+      "CombinedMesh": 2039074727
+    },
+    {
+      "Reference": "08CC77:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "05C386:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "1B5664:Fallout4.esm",
+      "CombinedMesh": 1250047850
+    },
+    {
+      "Reference": "1EC7DD:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "05C385:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "0BADE9:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "05C34F:Fallout4.esm",
+      "CombinedMesh": 563641934
+    },
+    {
+      "Reference": "1EC7D9:Fallout4.esm",
+      "CombinedMesh": 316928405
+    },
+    {
+      "Reference": "05C34D:Fallout4.esm",
+      "CombinedMesh": 563641934
+    },
+    {
+      "Reference": "1EC7D5:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "08CC7A:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "05AD2C:Fallout4.esm",
+      "CombinedMesh": 883756055
+    },
+    {
+      "Reference": "08C2F4:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "05AD2B:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "05AD2A:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "05C389:Fallout4.esm",
+      "CombinedMesh": 948916689
+    },
+    {
+      "Reference": "05AD29:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1EC7BB:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "05C355:Fallout4.esm",
+      "CombinedMesh": 563641934
+    },
+    {
+      "Reference": "1EC7EA:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "05AD28:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "18190A:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "14411D:Fallout4.esm",
+      "CombinedMesh": 3883333036
+    },
+    {
+      "Reference": "1B5661:Fallout4.esm",
+      "CombinedMesh": 524771173
+    },
+    {
+      "Reference": "05C34E:Fallout4.esm",
+      "CombinedMesh": 563641934
+    },
+    {
+      "Reference": "1B5658:Fallout4.esm",
+      "CombinedMesh": 2472252667
+    },
+    {
+      "Reference": "1B565E:Fallout4.esm",
+      "CombinedMesh": 2672254821
+    },
+    {
+      "Reference": "1B565F:Fallout4.esm",
+      "CombinedMesh": 2809591212
+    },
+    {
+      "Reference": "1EC7D1:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1B5662:Fallout4.esm",
+      "CombinedMesh": 1598512997
+    },
+    {
+      "Reference": "1EC7D0:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "0BAE46:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "05ACD5:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "0BADD9:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1EC7CC:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "1B56B8:Fallout4.esm",
+      "CombinedMesh": 2809591212
+    },
+    {
+      "Reference": "0AB28F:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "1EC7D3:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "1EC7D4:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "08C2E8:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1EC7D8:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "1B564F:Fallout4.esm",
+      "CombinedMesh": 316928405
+    },
+    {
+      "Reference": "1EC7DA:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "1EC7DB:Fallout4.esm",
+      "CombinedMesh": 1250047850
+    },
+    {
+      "Reference": "1EC7DC:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0BAE0F:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1EC7E3:Fallout4.esm",
+      "CombinedMesh": 736777074
+    },
+    {
+      "Reference": "1EC7DF:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1EC7E2:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1EC7E5:Fallout4.esm",
+      "CombinedMesh": 1810518898
+    },
+    {
+      "Reference": "05AD09:Fallout4.esm",
+      "CombinedMesh": 563641934
+    },
+    {
+      "Reference": "1EC7E7:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "1EC7E6:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1B592A:Fallout4.esm",
+      "CombinedMesh": 324769019
+    }
+  ],
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "05C37F:Fallout4.esm",
+      "FormVersion": 118,
+      "Base": "0039E0:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "87626.05, 61060.93, 1279.7095",
+      "Rotation": "0, 0, 3.3431888"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "05C380:Fallout4.esm",
+      "FormVersion": 118,
+      "Base": "001E09:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "87465.61, 61027.906, 1292.5243",
+      "Rotation": "0, 0, 0.20000076"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "05C381:Fallout4.esm",
+      "FormVersion": 118,
+      "Base": "001E0B:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "87680.07, 60977.27, 1251.3533",
+      "Rotation": "0, 0, 0.27999967"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "05C383:Fallout4.esm",
+      "FormVersion": 118,
+      "Base": "03A651:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "87913.03, 60278.98, 1269.2156",
+      "Rotation": "0, 0, 4.3131866"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "08CC4D:Fallout4.esm",
+      "FormVersion": 118,
+      "Base": "06F9D9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "88717.164, 60007.418, 1266.6415",
+      "Rotation": "0, 0, 6.2596846"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "08CC4E:Fallout4.esm",
+      "FormVersion": 122,
+      "Base": "0EA1BC:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "88928.39, 60584.023, 1266.6415"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "08CC58:Fallout4.esm",
+      "FormVersion": 118,
+      "Base": "07326C:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "88998.93, 60816.914, 1266.6415"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "08CC59:Fallout4.esm",
+      "FormVersion": 118,
+      "Base": "07830A:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "89091.766, 60808.62, 1571.2352"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "08CC5C:Fallout4.esm",
+      "FormVersion": 118,
+      "Base": "073270:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "88449.52, 60464.52, 1266.6415",
+      "Rotation": "0, 0, 3.1180918"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "08CC5D:Fallout4.esm",
+      "FormVersion": 118,
+      "Base": "074BB0:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "88403.76, 60592.19, 1266.6415",
+      "Rotation": "0, 0, 1.5472955"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "08CC5F:Fallout4.esm",
+      "FormVersion": 118,
+      "Base": "02FDFB:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "88542.45, 60227.43, 1266.6089",
+      "Rotation": "0, 0, 4.688888"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "08CC91:Fallout4.esm",
+      "FormVersion": 118,
+      "Base": "06F9DC:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "88635.14, 60024.895, 1269.0403",
+      "Rotation": "0, 0, 2.0399985"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "08CC92:Fallout4.esm",
+      "FormVersion": 118,
+      "Base": "072A3E:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "88735.28, 60004.547, 1268.9293",
+      "Rotation": "0, 0, 5.032486"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "08CC93:Fallout4.esm",
+      "FormVersion": 118,
+      "Base": "072A3F:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "88708.83, 60024.336, 1268.9529",
+      "Rotation": "0, 0, 3.2731853"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "08CC97:Fallout4.esm",
+      "FormVersion": 130,
+      "Base": "059A71:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "88800.62, 60367.645, 1269.5538",
+      "Rotation": "4.712206, 0.32916385, 4.7113366"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "08CC98:Fallout4.esm",
+      "FormVersion": 130,
+      "Base": "0211CC:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "88836.984, 60353.605, 1333.6241",
+      "Rotation": "0.0007749262, 6.2821627, 3.7271"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "08CC9B:Fallout4.esm",
+      "FormVersion": 118,
+      "Base": "01F74E:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "88325.77, 60468.18, 1264.4221",
+      "Rotation": "0, 0, 5.3231845"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0BADE4:Fallout4.esm",
+      "FormVersion": 118,
+      "Base": "0ADEB6:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "89758.83, 59982.32, 1194.5906",
+      "Rotation": "5.9802938, 6.2236013, 0.048930306"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0BADE5:Fallout4.esm",
+      "FormVersion": 118,
+      "Base": "0ADEC3:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "89642.13, 59890.953, 1191.1847",
+      "Rotation": "6.220774, 0, 1.4277369"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0BADE6:Fallout4.esm",
+      "FormVersion": 118,
+      "Base": "0ADEC3:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "89125.11, 59034.72, 1171.361",
+      "Rotation": "0, 6.1588306, 3.549183"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0BADE7:Fallout4.esm",
+      "FormVersion": 118,
+      "Base": "0AF0DE:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "88966.29, 58967.184, 1171.1499",
+      "Rotation": "6.220774, 0.062297784, 2.2520525"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0BADE8:Fallout4.esm",
+      "FormVersion": 118,
+      "Base": "0AF0DE:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "89132.31, 59516.1, 1202.7698",
+      "Rotation": "0, 0.06241821, 4.791604"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0BADF0:Fallout4.esm",
+      "FormVersion": 118,
+      "Base": "0AF0DB:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "88923.68, 61365.7, 1232",
+      "Rotation": "0, 0, 4.159619"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0BADF1:Fallout4.esm",
+      "FormVersion": 118,
+      "Base": "0AF0DB:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "89004.2, 61437.594, 1234.7626",
+      "Rotation": "0, 0.06241821, 2.6777208"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0BADF7:Fallout4.esm",
+      "FormVersion": 118,
+      "Base": "0B23FD:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "89288.74, 59403.473, 1162.1865"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0BAF40:Fallout4.esm",
+      "FormVersion": 129,
+      "Base": "0625D0:Fallout4.esm",
+      "RagdollData": [
+        {
+          "Unused": "0xF12542",
+          "Rotation": "0.14443351, -0.75216484, -0.5347378"
+        },
+        {
+          "Unused": "0x000080",
+          "Position": "15.3515625, 0.009765625, 0",
+          "Rotation": "-0.11679195, -0.85457844, 0.22979562"
+        }
+      ],
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "89102.445, 59343.38, 1201.3475"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "181908:Fallout4.esm",
+      "FormVersion": 118,
+      "Base": "145713:Fallout4.esm",
+      "ActivateParents": {
+        "Parents": [
+          {
+            "Reference": "181909:Fallout4.esm"
+          }
+        ]
+      },
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "88936.78, 60449.79, 1631.6415",
+      "Rotation": "1.5707964, 0.023500858, 0"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1A8E6B:Fallout4.esm",
+      "FormVersion": 118,
+      "Base": "059B40:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "88841.07, 60307.375, 1344.6632"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1A8E70:Fallout4.esm",
+      "FormVersion": 126,
+      "Base": "18C56F:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89044, 60702.75, 1523.6255",
+      "Rotation": "0, 0, 1.5472955"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1B5650:Fallout4.esm",
+      "FormVersion": 120,
+      "Base": "001DFC:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "87801.81, 60943.082, 1275.1935",
+      "Rotation": "0, 0, 0.29999942"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1B5651:Fallout4.esm",
+      "FormVersion": 120,
+      "Base": "001DFD:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "87726.41, 60919.445, 1269.9137",
+      "Rotation": "0, 0, 0.5000002"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1B5652:Fallout4.esm",
+      "FormVersion": 120,
+      "Base": "001DFD:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "87762.61, 61065.8, 1286.7705",
+      "Rotation": "0, 0, 5.9331856"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1B5653:Fallout4.esm",
+      "FormVersion": 120,
+      "Base": "001DFB:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "87606.53, 61346.37, 1265.1381"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1B5654:Fallout4.esm",
+      "FormVersion": 120,
+      "Base": "001DFD:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "87619.18, 61365.543, 1272"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1B5655:Fallout4.esm",
+      "FormVersion": 120,
+      "Base": "001DFD:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "87694.13, 61320.31, 1263.0452",
+      "Rotation": "0, 0, 0.6999992"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1B5656:Fallout4.esm",
+      "FormVersion": 120,
+      "Base": "001E01:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "87450.375, 60983.664, 1273.0549",
+      "Rotation": "0, 0, 5.483184"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1B5663:Fallout4.esm",
+      "Base": "05325E:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "88495.945, 59328.69, 1176"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1B5666:Fallout4.esm",
+      "FormVersion": 128,
+      "Base": "189160:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "89270.05, 61100.25, 1241.3851",
+      "Rotation": "3.786532, 4.8805513, 3.3007615"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1B5667:Fallout4.esm",
+      "FormVersion": 120,
+      "Base": "189160:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "89068.586, 60913.684, 1239.3494",
+      "Rotation": "6.2389693, 6.265472, 0.006789331"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1B5668:Fallout4.esm",
+      "FormVersion": 120,
+      "Base": "189160:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "88903.34, 60900.74, 1266.9786",
+      "Rotation": "4.717824, 4.9810634, 3.6077213"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1B5669:Fallout4.esm",
+      "FormVersion": 120,
+      "Base": "189163:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "89025.69, 60950.527, 1251.6932",
+      "Rotation": "3.294979, 5.929847, 2.9614887"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1B591F:Fallout4.esm",
+      "FormVersion": 126,
+      "Base": "1B8AA2:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "88523.945, 61199.547, 1263.9288",
+      "Rotation": "6.2514114, 6.2326126, 3.5263872"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1EC7D6:Fallout4.esm",
+      "FormVersion": 126,
+      "Base": "1B496E:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "87948.42, 60445.02, 1315.9377",
+      "Rotation": "4.4516, 0.23301019, 6.2667637"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000DE:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88887.77, 60184.53, 1290.9685",
+      "Rotation": "0, 0, 6.2516947"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000DF:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88849.086, 61002.547, 1305.0974",
+      "Rotation": "0, 0, 1.6318654"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E0:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "020C40:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88869.37, 60748.902, 1521.575",
+      "Rotation": "0, 0, 4.710687"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E1:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88563.56, 60017.996, 1296.1646",
+      "Rotation": "0, 0, 5.2385674"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E2:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88493.45, 60864.125, 1291.556",
+      "Rotation": "0, 0, 3.126314"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E3:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0000DA:SBS - LivingKingsportLighthouse.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88706.47, 60438.84, 1515.4177",
+      "Rotation": "0, 0, 0.0058676223"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E5:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B99:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88566.02, 60524.094, 1536.5276",
+      "Rotation": "0, 0, 0.014449406"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E6:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0000D8:SBS - LivingKingsportLighthouse.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88630.31, 60634.883, 1778.9834",
+      "Rotation": "0, 0, 1.5608026"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E7:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "020C40:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88670.984, 60720.863, 1526.384",
+      "Rotation": "0, 0, 4.2942677"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E8:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0000DA:SBS - LivingKingsportLighthouse.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88707.83, 60435.39, 1501.6804",
+      "Rotation": "0, 0, 0.003626794"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E9:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B99:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88356.52, 60782.535, 1558.9122",
+      "Rotation": "0, 0, 6.2720537"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000EA:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88501.125, 60365.625, 1310.8279",
+      "Rotation": "0, 0, 6.272511"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000EB:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88839.55, 60034.062, 1302.0298",
+      "Rotation": "0, 0, 0.9715531"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000EC:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B99:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88506.586, 60179.9, 1303.7777",
+      "Rotation": "0, 0, 6.2615695"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000ED:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "027EB8:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88713.06, 60665.406, 1524.1351",
+      "Rotation": "0, 0, 0.5662354"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000EE:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89133.09, 60673.605, 1586.9109",
+      "Rotation": "0, 0, 3.148609"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000EF:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88849.48, 61013.234, 1305.877",
+      "Rotation": "0, 0, 1.560134"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F0:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0711B5:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89021.086, 60721.363, 1523.6725",
+      "Rotation": "0, 0, 4.4312515"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F1:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0000DA:SBS - LivingKingsportLighthouse.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88711.83, 59980.89, 1515.2521",
+      "Rotation": "0, 0, 3.0987327"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F2:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B95:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88637.45, 61136.766, 1302.6847",
+      "Rotation": "0, 0, 6.2639675"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F3:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88507.625, 60235.246, 1298.8527",
+      "Rotation": "0, 0, 3.1090631"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F4:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89138.44, 60610.07, 1581.2247",
+      "Rotation": "0, 0, 6.2675786"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F5:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89137.8, 60673.33, 1566.2534",
+      "Rotation": "0, 0, 3.113685"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F6:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88873.086, 60868.637, 1305.4443",
+      "Rotation": "0, 0, 3.1725862"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F7:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88557.92, 60825.23, 1548.7216",
+      "Rotation": "0, 0, 6.256234"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F8:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88887.93, 60252.035, 1281.5131",
+      "Rotation": "0, 0, 3.115624"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F9:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "020C40:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89052.8, 60713.57, 1524.6652",
+      "Rotation": "0, 0, 5.855578"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000FA:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88684.43, 60444.254, 1529.7793",
+      "Rotation": "0, 0, 1.5441417"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000FB:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88660.45, 60442.383, 1500.4761",
+      "Rotation": "0, 0, 4.736403"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000FC:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00085A:DLCworkshop02.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88504.97, 60771.77, 1778.512",
+      "Rotation": "0, 0, 3.12774"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000FD:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000859:DLCworkshop02.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88507.63, 60579.79, 1778.512",
+      "Rotation": "0, 0, 4.6985292"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000FE:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1865B9:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88635.23, 60077.65, 1267.4691",
+      "Rotation": "0, 0, 4.30908"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000FF:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000859:DLCworkshop02.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88763.6, 60583.34, 1778.512",
+      "Rotation": "0, 0, 4.6985188"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000100:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000859:DLCworkshop02.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89019.57, 60586.89, 1778.512",
+      "Rotation": "0, 0, 1.5569159"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000101:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00085A:DLCworkshop02.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89016.91, 60778.87, 1778.512",
+      "Rotation": "0, 0, 3.1277227"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000102:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00085A:DLCworkshop02.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88760.94, 60775.32, 1778.512",
+      "Rotation": "0, 0, 6.2693086"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000103:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0000DA:SBS - LivingKingsportLighthouse.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88698.06, 60110.81, 1526.8464",
+      "Rotation": "0, 0, 3.0995476"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000104:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B92:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89022.79, 60312.734, 1270.4955",
+      "Rotation": "0, 0, 0.023425635"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000105:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "054576:DLCCoast.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89125.61, 60194.83, 1212.7446",
+      "Rotation": "0, 0, 3.1650205"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000106:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "12EA9B:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89058.22, 60357.96, 1239.4781",
+      "Rotation": "0, 0, 6.2512703"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000107:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0DB83B:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89936.45, 61019.297, 1272.899",
+      "Rotation": "0, 0, 3.488831"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000108:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "054576:DLCCoast.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88905.125, 60200.46, 1212.4955",
+      "Rotation": "0, 0, 3.165001"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000109:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000816:SettlerBuiltSettlements.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88943.53, 60360.598, 1239.9982",
+      "Rotation": "0, 0, 4.946996"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00010A:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00091B:DLCworkshop01.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88961.54, 60376.676, 1294.6627",
+      "Rotation": "0, 0, 1.3390199"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00010B:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "027EB9:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88695.81, 60255.453, 1267.4691",
+      "Rotation": "0, 0, 3.2686753"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00010C:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "12F2F5:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88462.66, 60518.07, 1267.3329",
+      "Rotation": "0, 0, 3.113634"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00010D:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00085A:DLCworkshop02.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89013.4, 60901.57, 1489.5784",
+      "Rotation": "0, 0, 3.1089306"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00010E:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000815:SettlerBuiltSettlements.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88553.51, 60307.56, 1267.4691",
+      "Rotation": "0, 0, 4.6930943"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00010F:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000808:SettlerBuiltSettlements.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88554.195, 60174.63, 1267.4691",
+      "Rotation": "0, 0, 4.6838474"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000110:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00080E:SettlerBuiltSettlements.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88547.24, 60355.66, 1323.6432",
+      "Rotation": "0, 0, 1.8423362"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000111:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000809:SettlerBuiltSettlements.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88548.28, 60276.71, 1323.6432",
+      "Rotation": "0, 0, 4.394985"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000112:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00091B:DLCworkshop01.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88561.75, 60169.934, 1323.7971",
+      "Rotation": "0, 0, 2.0365357"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000113:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "04CD99:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "87963.8, 59432.2, 1228.1824",
+      "Rotation": "0, 0, 6.029559"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000114:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "072BDC:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88397.3, 60608.766, 1267.3329",
+      "Rotation": "0, 0, 4.687047"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000115:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "143AD1:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88398.24, 60622.977, 1345.4924",
+      "Rotation": "0, 0, 5.143796"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000116:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00080F:SettlerBuiltSettlements.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88541.11, 60187.715, 1323.7971",
+      "Rotation": "0, 0, 3.2085662"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000117:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89033.44, 60593.156, 1525.0354",
+      "Rotation": "0, 0, 2.573371"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000118:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000816:SettlerBuiltSettlements.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88629.22, 60483.402, 1523.6565",
+      "Rotation": "0, 0, 3.126513"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000119:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89044.18, 60590.383, 1544.1528",
+      "Rotation": "0, 0, 3.025502"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011A:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88631.23, 60483.37, 1578.321",
+      "Rotation": "0, 0, 3.3757339"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011B:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000919:DLCworkshop01.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89095.05, 60803.492, 1571.2449",
+      "Rotation": "0, 0, 0.3012386"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011C:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000919:DLCworkshop01.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88613.31, 60785.797, 1556.3583",
+      "Rotation": "0, 0, 1.5458746"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011D:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "075F3F:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88603.695, 60792.74, 1523.6725",
+      "Rotation": "0, 0, 1.4461203"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011E:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000918:DLCworkshop01.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88862.81, 60577.363, 1525.0349",
+      "Rotation": "0, 0, 3.2891462"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011F:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000918:DLCworkshop01.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88768.08, 60045.47, 1268.5057",
+      "Rotation": "0, 0, 4.0721917"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000120:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "027EB8:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88694.51, 60669.195, 1269.4735",
+      "Rotation": "0, 0, 0.30070627"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000121:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "075F3F:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88822.88, 60573.883, 1267.3329",
+      "Rotation": "0, 0, 1.5234089"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000122:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "074BB1:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88937.58, 60590.56, 1268.9446",
+      "Rotation": "0, 0, 6.2632327"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000123:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00091B:DLCworkshop01.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88818.54, 60573.676, 1300.0187",
+      "Rotation": "0, 0, 5.764559"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000124:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000919:DLCworkshop01.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88395.27, 60589.75, 1345.4924",
+      "Rotation": "0, 0, 4.92826"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000126:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "09763B:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88369.805, 60548.54, 1425.2026",
+      "Rotation": "0, 0, 4.6888356"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000127:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "09763E:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88828.82, 60830.14, 1685.8223",
+      "Rotation": "0, 0, 6.2695527"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000128:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0001AD:SBS - LivingKingsportLighthouse.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88989.51, 60947.027, 1229.2253",
+      "Rotation": "0, 0, 2.4830852"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000129:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "03A64E:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "87174.49, 59982.707, 1262.983",
+      "Rotation": "0, 0, 5.3974237"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012A:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0025EF:DLCCoast.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88297.96, 60335.746, 1231.9949",
+      "Rotation": "0, 0, 1.7431179"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012B:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0001AF:SBS - LivingKingsportLighthouse.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88984.74, 60137.78, 1235.0918",
+      "Rotation": "0, 0, 0.24733934"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012C:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "03A650:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "87795.28, 59593.395, 1222.9752",
+      "Rotation": "0, 0, 1.5821863"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012D:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "03A651:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88779.125, 59027.668, 1177.5864",
+      "Rotation": "0, 0, 4.287504"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012E:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "03A651:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88771.54, 59167.82, 1187.1501",
+      "Rotation": "0, 0, 5.4325557"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012F:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "03A650:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89360.336, 58891.48, 1157.7744",
+      "Rotation": "0, 0, 4.31108"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000130:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1B4AC4:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88564.41, 59222.184, 1058.3167",
+      "Rotation": "0, 0, 0.30869797"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000131:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1B4ABD:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "86932.71, 60143.305, 1132.7194",
+      "Rotation": "0, 0, 3.4634366"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000132:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "03A650:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89165.69, 58785.195, 1184.9944",
+      "Rotation": "0, 0, 5.3242598"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000133:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "110001:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88998.586, 59097.32, 1166.9604",
+      "Rotation": "0, 0, 0.49202734"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000134:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000918:DLCworkshop01.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89008.734, 58985.316, 1175.9926",
+      "Rotation": "0, 0, 5.1916513"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000135:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1B4ABD:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "87282.35, 61242.023, 1184.0048",
+      "Rotation": "0, 0, 5.36927"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000138:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1B4AC4:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "86992.38, 60849.207, 1214.2631",
+      "Rotation": "0, 0, 4.9525514"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013C:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000024:SBS - LivingKingsportLighthouse.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88290.79, 59298.72, 1225.897",
+      "Rotation": "0, 0, 0.45454326"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013D:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00001F:SBS - LivingKingsportLighthouse.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88346.984, 59413.723, 1225.897",
+      "Rotation": "0, 0, 3.5961375"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013E:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000025:SBS - LivingKingsportLighthouse.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88060.79, 59411.117, 1225.897",
+      "Rotation": "0, 0, 0.454545"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013F:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00001F:SBS - LivingKingsportLighthouse.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88116.984, 59526.12, 1225.897",
+      "Rotation": "0, 0, 2.0253413"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000140:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BB7:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88116.984, 59526.12, 1225.897",
+      "Rotation": "0, 0, 3.5961392"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000141:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BB3:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88185.266, 59665.848, 1183.2302",
+      "Rotation": "0, 0, 5.1669254"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000142:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88405.79, 59242.52, 1225.897",
+      "Rotation": "0, 0, 0.45453978"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000143:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B95:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88116.984, 59526.12, 1225.897",
+      "Rotation": "0, 0, 2.0253394"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000144:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "87945.79, 59467.316, 1225.897",
+      "Rotation": "0, 0, 0.45454815"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000145:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B95:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88346.984, 59413.723, 1225.897",
+      "Rotation": "0, 0, 5.166936"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000146:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BA4:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88346.99, 59413.723, 1225.897",
+      "Rotation": "0, 0, 3.5961342"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000147:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1B4ABF:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88998.586, 59097.32, 1022.96045",
+      "Rotation": "0, 0, 2.0628343"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000148:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "027EB9:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88311.19, 59328.246, 1225.9362",
+      "Rotation": "0, 0, 3.7893715"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000149:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "027EB8:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88062.266, 59401.355, 1225.9362",
+      "Rotation": "0, 0, 0.035389867"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014A:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0711B5:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88276, 59458.152, 1227.5276",
+      "Rotation": "0, 0, 4.8843913"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014B:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "14D092:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88272.38, 59222.355, 1228.1364",
+      "Rotation": "0, 0, 5.130432"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014C:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "14D092:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "87999.27, 59353.605, 1227.3538",
+      "Rotation": "0, 0, 5.176952"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014D:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "14D092:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88408.93, 59419.902, 1227.2529",
+      "Rotation": "0, 0, 0.3706102"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014E:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "118F57:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88405.39, 59422.39, 1244.4753",
+      "Rotation": "0, 0, 3.5506995"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014F:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "118F57:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88275.7, 59225.082, 1245.3756",
+      "Rotation": "0, 0, 5.170725"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000150:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "118F57:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88001.43, 59355.49, 1244.5798",
+      "Rotation": "0, 0, 5.192559"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000151:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000918:DLCworkshop01.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88149.23, 59280.87, 1227.2448",
+      "Rotation": "0, 0, 4.719742"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000152:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00080E:SettlerBuiltSettlements.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88388.07, 59294.91, 1227.8809",
+      "Rotation": "0, 0, 4.959074"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000153:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000809:SettlerBuiltSettlements.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88385.18, 59296.11, 1264.5535",
+      "Rotation": "0, 0, 1.9374098"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000154:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00080F:SettlerBuiltSettlements.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88398.48, 59516.49, 1225.8481",
+      "Rotation": "0, 0, 2.639868"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000155:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88404.88, 59430.45, 1225.8481",
+      "Rotation": "0, 0, 2.3546934"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000156:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000805:SettlerBuiltSettlements.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88196.13, 59271.297, 1227.4025",
+      "Rotation": "0, 0, 3.562257"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000157:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000807:SettlerBuiltSettlements.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88099.29, 59325.03, 1227.4113",
+      "Rotation": "0, 0, 2.1502876"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000158:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "16BD71:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88004.32, 59581.5, 1366.1008",
+      "Rotation": "0, 0, 5.166932"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000159:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "001511:DLCCoast.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88402.945, 59577.49, 1337.2961",
+      "Rotation": "0, 0, 0.41964364"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00015A:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "02C59C:DLCCoast.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88097.65, 59323.605, 1267.9379",
+      "Rotation": "0, 0, 0.82343584"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00015C:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000CBB:DLCworkshop01.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88612.64, 60359.777, 1267.4691",
+      "Rotation": "0, 0, 4.939467"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00015D:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "09760A:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88816.914, 60498.17, 1427.6512",
+      "Rotation": "0, 0, 1.5473391"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00015E:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "04CDB8:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88652.33, 60790.99, 1523.6725",
+      "Rotation": "0, 0, 1.1021037"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00015F:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88945.88, 60585.707, 1601.737",
+      "Rotation": "0, 0, 2.911342"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000160:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000823:SettlerBuiltSettlements.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88794.23, 60805.902, 1267.3329",
+      "Rotation": "0, 0, 5.010666"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000162:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88871.22, 60984.12, 1339.4388",
+      "Rotation": "0, 0, 0.035918877"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000163:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1A6B78:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88306.78, 60485.586, 1264.637",
+      "Rotation": "0, 0, 0.62735337"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000165:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000818:SettlerBuiltSettlements.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88359.35, 59312.65, 1227.8585",
+      "Rotation": "0, 0, 3.7260597"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000166:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000818:SettlerBuiltSettlements.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88130.94, 59369.52, 1227.4071",
+      "Rotation": "0, 0, 4.7649755"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000167:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000818:SettlerBuiltSettlements.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88889.61, 59120.875, 1180.2308",
+      "Rotation": "0, 0, 0.4098712"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000168:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000818:SettlerBuiltSettlements.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88872.98, 59070.5, 1178.9066",
+      "Rotation": "0, 0, 6.203237"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000169:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00080E:SettlerBuiltSettlements.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89047.58, 59038.777, 1175.9926",
+      "Rotation": "0, 0, 2.3794038"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00016A:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "05D70B:DLCCoast.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89075.27, 60967.625, 1121.5784",
+      "Rotation": "0, 0, 6.2505164"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00016B:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "054576:DLCCoast.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89075.27, 60967.625, 1249.5784",
+      "Rotation": "0, 0, 6.250527"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00017A:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000024:SBS - LivingKingsportLighthouse.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "90100.09, 59882.76, 1244.7855",
+      "Rotation": "0, 0, 5.0939198"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00017B:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000025:SBS - LivingKingsportLighthouse.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "90004.77, 59645.168, 1244.7855",
+      "Rotation": "0, 0, 5.093911"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00017C:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "10005C:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89885.98, 59692.83, 1244.7855",
+      "Rotation": "0, 0, 5.0939183"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00017D:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "10005C:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89981.3, 59930.42, 1244.7855",
+      "Rotation": "0, 0, 5.093929"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00017E:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BA4:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89981.3, 59930.42, 1244.7855",
+      "Rotation": "0, 0, 3.5231445"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00017F:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BA4:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89885.98, 59692.83, 1244.7855",
+      "Rotation": "0, 0, 0.38153422"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000180:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BA5:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89885.98, 59692.83, 1244.7855",
+      "Rotation": "0, 0, 1.9523165"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000181:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BB7:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89981.3, 59930.42, 1244.7855",
+      "Rotation": "0, 0, 1.9523412"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000182:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BB3:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89836.96, 59988.332, 1202.1188",
+      "Rotation": "0, 0, 3.5231323"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000183:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89957.12, 59526.367, 1244.7855",
+      "Rotation": "0, 0, 5.093906"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000185:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B93:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89981.3, 59930.42, 1244.7855",
+      "Rotation": "0, 0, 3.523134"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000186:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B93:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89885.98, 59692.824, 1244.7855",
+      "Rotation": "0, 0, 0.38151327"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000187:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "027EB8:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "90011.52, 59633.15, 1244.8248",
+      "Rotation": "0, 0, 4.986814"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000188:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "027EB8:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89872.914, 59733.56, 1246.7991",
+      "Rotation": "0, 0, 0.4154545"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000189:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "027EB9:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89948.586, 59902.2, 1248.9685",
+      "Rotation": "0, 0, 0.34362218"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00018A:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0711B5:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "90063.414, 59886.785, 1250.5433",
+      "Rotation": "0, 0, 1.9705501"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00018B:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "14D092:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "90009.875, 59558.25, 1247.1185",
+      "Rotation": "0, 0, 1.9543289"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00018C:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "14D092:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89974.45, 60037.94, 1251.8076",
+      "Rotation": "0, 0, 5.091583"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00018D:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "14D092:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89806.83, 59616.734, 1246.5818",
+      "Rotation": "0, 0, 5.0815887"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00018E:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "118F57:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89809.18, 59620.035, 1265.9703",
+      "Rotation": "0, 0, 5.0796413"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00018F:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "118F57:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "90006.18, 59556.742, 1266.581",
+      "Rotation": "0, 0, 1.983846"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000190:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "118F57:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89971.98, 60037.484, 1270.0684",
+      "Rotation": "0, 0, 1.9857676"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000191:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000918:DLCworkshop01.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89909.41, 59595.25, 1247.1156",
+      "Rotation": "0, 0, 4.801453"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000192:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000919:DLCworkshop01.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "90066.586, 60001.4, 1308.7659",
+      "Rotation": "0, 0, 2.006626"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000193:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000808:SettlerBuiltSettlements.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "90079.04, 60000.566, 1252.4379",
+      "Rotation": "0, 0, 0.4162942"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000195:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000805:SettlerBuiltSettlements.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "90088.42, 59995.566, 1308.7659",
+      "Rotation": "0, 0, 3.2531593"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000198:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89793.09, 59624.254, 1244.7855",
+      "Rotation": "0, 0, 4.0385103"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000199:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "90018.28, 59552.93, 1246.7094",
+      "Rotation": "0, 0, 3.269745"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00019A:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "90110.71, 59714.207, 1246.1096",
+      "Rotation": "0, 0, 1.7463206"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00019B:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "90111.734, 59714.105, 1265.2272",
+      "Rotation": "0, 0, 1.9804304"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00019D:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "04CDB8:Fallout4.esm",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "90109.86, 59657.29, 1245.3583",
+      "Rotation": "0, 0, 0.98880756"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00019E:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000809:SettlerBuiltSettlements.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88768.59, 60781.004, 1525.9985",
+      "Rotation": "0, 0, 4.882775"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00019F:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000814:SettlerBuiltSettlements.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "88925.19, 60588.426, 1525.7937",
+      "Rotation": "0, 0, 3.0388522"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001A0:SBS - LivingKingsportLighthouse.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00080F:SettlerBuiltSettlements.esp",
+      "Layer": "0000DD:SBS - LivingKingsportLighthouse.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingKingsportLighthouse.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654B8:Fallout4.esm"
+        }
+      ],
+      "Position": "89019.82, 60810.555, 1524.9529",
+      "Rotation": "0, 0, 4.7871695"
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

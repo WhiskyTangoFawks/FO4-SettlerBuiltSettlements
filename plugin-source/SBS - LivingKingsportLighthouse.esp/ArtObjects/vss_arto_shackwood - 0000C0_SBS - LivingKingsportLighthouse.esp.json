@@ -1,0 +1,12 @@
+{
+  "FormKey": "0000C0:SBS - LivingKingsportLighthouse.esp",
+  "EditorID": "vss_arto_shackwood",
+  "PreviewTransform": "13FF18:Fallout4.esm",
+  "Keywords": [
+    "0000C2:SBS - LivingKingsportLighthouse.esp"
+  ],
+  "Model": {
+    "File": "Architecture\\Shacks\\vss\\Prefabs\\ShackPrefab3Way01.nif"
+  },
+  "Type": "MagicCasting"
+}

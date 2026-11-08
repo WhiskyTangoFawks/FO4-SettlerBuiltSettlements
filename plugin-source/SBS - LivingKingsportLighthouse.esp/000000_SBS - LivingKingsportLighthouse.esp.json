@@ -1,0 +1,59 @@
+{
+  "ModKey": "SBS - LivingKingsportLighthouse.esp",
+  "GameRelease": "Fallout4",
+  "ModHeader": {
+    "Flags": [
+      "Small"
+    ],
+    "Stats": {
+      "NextFormID": 435
+    },
+    "Author": "",
+    "OverriddenForms": [
+      "05C37F:Fallout4.esm",
+      "05C380:Fallout4.esm",
+      "05C381:Fallout4.esm",
+      "05C383:Fallout4.esm",
+      "08CC4D:Fallout4.esm",
+      "08CC4E:Fallout4.esm",
+      "08CC58:Fallout4.esm",
+      "08CC59:Fallout4.esm",
+      "08CC5C:Fallout4.esm",
+      "08CC5D:Fallout4.esm",
+      "08CC5F:Fallout4.esm",
+      "08CC91:Fallout4.esm",
+      "08CC92:Fallout4.esm",
+      "08CC93:Fallout4.esm",
+      "08CC97:Fallout4.esm",
+      "08CC98:Fallout4.esm",
+      "08CC9B:Fallout4.esm",
+      "0BADE4:Fallout4.esm",
+      "0BADE5:Fallout4.esm",
+      "0BADE6:Fallout4.esm",
+      "0BADE7:Fallout4.esm",
+      "0BADE8:Fallout4.esm",
+      "0BADF0:Fallout4.esm",
+      "0BADF1:Fallout4.esm",
+      "0BADF2:Fallout4.esm",
+      "0BADF7:Fallout4.esm",
+      "0BAF40:Fallout4.esm",
+      "181908:Fallout4.esm",
+      "1A8E6B:Fallout4.esm",
+      "1A8E70:Fallout4.esm",
+      "1B5650:Fallout4.esm",
+      "1B5651:Fallout4.esm",
+      "1B5652:Fallout4.esm",
+      "1B5653:Fallout4.esm",
+      "1B5654:Fallout4.esm",
+      "1B5655:Fallout4.esm",
+      "1B5656:Fallout4.esm",
+      "1B5663:Fallout4.esm",
+      "1B5666:Fallout4.esm",
+      "1B5667:Fallout4.esm",
+      "1B5668:Fallout4.esm",
+      "1B5669:Fallout4.esm",
+      "1B591F:Fallout4.esm",
+      "1EC7D6:Fallout4.esm"
+    ]
+  }
+}
