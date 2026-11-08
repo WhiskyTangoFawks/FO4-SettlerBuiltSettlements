@@ -1,0 +1,10 @@
+{
+  "FormKey": "000175:SBS - LivingGraygarden.esp",
+  "EditorID": "vss_kywd_food",
+  "Color": "#00FFFFFF",
+  "Type": "RecipeFilter",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Shack Food"
+  }
+}

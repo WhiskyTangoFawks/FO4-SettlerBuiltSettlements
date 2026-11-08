@@ -1,0 +1,128 @@
+{
+  "FormKey": "0000D8:SBS - LivingGraygarden.esp",
+  "MajorRecordFlagsRaw": 8192,
+  "EditorID": "Store_Medic_Couch_Sit1",
+  "Fallout4MajorRecordFlags": [
+    "0x2000"
+  ],
+  "VirtualMachineAdapter": {
+    "Scripts": [
+      {
+        "Name": "workshopobjectscript",
+        "Properties": [
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "FurnitureBase",
+            "Object": "249F17:Fallout4.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptStringListProperty",
+            "Name": "FurnitureMarkerNodes",
+            "Data": [
+              "RobotNode"
+            ]
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "SpecialFurnitureBase",
+            "Object": "249F17:Fallout4.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptStringProperty",
+            "Name": "SpecialFurnitureBaseNode",
+            "Data": "RobotNode"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "SpecialFurniturePlacementKeyword",
+            "Object": "02CB73:Fallout4.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptIntProperty",
+            "Name": "VendorType",
+            "Data": 4
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "WorkshopParent",
+            "Object": "02058E:Fallout4.esm"
+          }
+        ]
+      }
+    ]
+  },
+  "ObjectBounds": {
+    "First": "-88, -34, 0",
+    "Second": "84, 23, 62"
+  },
+  "PreviewTransform": "1A03D2:Fallout4.esm",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Store Medic Couch1"
+  },
+  "Model": {
+    "File": "Furniture\\ModernDomestic\\ModernDomesticCouch01.nif",
+    "Data": "0x040000000300000000000000010000000100000014694810646473007F84FD96CD054E73646473007F84FD96D3EC9B93646473007F84FD969372C0C16267736DC79DB222"
+  },
+  "Keywords": [
+    "10013D:Fallout4.esm",
+    "020592:Fallout4.esm",
+    "06E9C7:Fallout4.esm",
+    "18F691:Fallout4.esm",
+    "1CD02B:Fallout4.esm"
+  ],
+  "Properties": [
+    {
+      "ActorValue": "10C847:Fallout4.esm",
+      "Value": 1.0
+    },
+    {
+      "ActorValue": "12722C:Fallout4.esm",
+      "Value": 10.0
+    },
+    {
+      "ActorValue": "129A8C:Fallout4.esm",
+      "Value": 1.0
+    },
+    {
+      "ActorValue": "249E5F:Fallout4.esm",
+      "Value": 1.0
+    }
+  ],
+  "PNAM": "0x00000000",
+  "Flags": [
+    "HasModel"
+  ],
+  "MarkerParameters": [
+    {
+      "Enabled": true,
+      "Offset": "-43, 0, 0",
+      "EntryTypes": [
+        "Front",
+        "Other",
+        "0x20",
+        "0x40",
+        "0x80"
+      ],
+      "Unknown": "0xFFFFFF"
+    },
+    {
+      "Enabled": true,
+      "Offset": "34, 0, 0",
+      "EntryTypes": [
+        "Front",
+        "Other",
+        "0x20",
+        "0x40",
+        "0x80"
+      ],
+      "Unknown": "0xFFFFFF"
+    }
+  ],
+  "WBDTDataTypeState": [
+    "Break0"
+  ],
+  "MajorFlags": [
+    "0x2000"
+  ]
+}

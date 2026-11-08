@@ -1,0 +1,6 @@
+{
+  "FormKey": "00016A:SBS - LivingGraygarden.esp",
+  "Malformed": [
+    "FURN 0500016A (Food_RazorGrain_Barrel3) — furn-missing-fnam-and-mnam, repairable (lossless): FNAM and MNAM are missing; vanilla always writes both"
+  ]
+}

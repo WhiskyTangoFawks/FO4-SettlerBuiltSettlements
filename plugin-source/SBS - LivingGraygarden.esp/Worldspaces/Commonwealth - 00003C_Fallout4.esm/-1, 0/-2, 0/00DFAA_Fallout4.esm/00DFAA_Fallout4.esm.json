@@ -1,0 +1,3799 @@
+{
+  "FormKey": "00DFAA:Fallout4.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "Fallout4MajorRecordFlags": [
+    "Compressed"
+  ],
+  "Flags": [
+    "HasWater"
+  ],
+  "PreVisFilesTimestamp": 7972,
+  "InPreVisFileOf": "00DFAA:Fallout4.esm",
+  "PreCombinedFilesTimestamp": 7972,
+  "Grid": {
+    "Point": "-12, 3"
+  },
+  "MaxHeightData": {
+    "Offset": 896.0,
+    "HeightMap": [
+      [0,0,0,0,0,0,1,2,4,6,6,6,6,6,7,7,8,8,23,22,22,22,22,22,22,22,21,21,21,21,21,13],
+      [0,0,0,0,0,1,2,4,4,5,6,6,6,6,7,7,8,8,23,23,22,22,22,22,22,22,22,22,22,22,22,13],
+      [0,0,0,0,0,1,2,4,4,5,5,6,6,6,7,7,8,19,23,23,22,22,22,22,23,22,22,22,22,22,22,18],
+      [0,0,0,0,0,1,2,4,4,4,5,5,6,6,7,7,8,19,23,23,19,23,23,23,23,23,22,22,23,23,23,13],
+      [0,0,0,0,4,4,4,4,4,4,5,5,5,6,6,7,8,8,23,23,23,23,23,23,23,23,23,23,23,23,23,13],
+      [4,4,4,4,4,4,4,4,4,4,5,5,5,6,6,7,7,20,24,23,23,23,23,23,24,23,23,23,23,23,24,13],
+      [4,4,4,4,4,4,4,4,4,4,5,5,5,6,6,7,7,20,24,24,24,24,23,23,24,24,24,23,24,24,24,13],
+      [4,4,4,4,4,4,4,4,4,4,4,5,6,6,6,10,11,21,24,24,24,24,24,24,24,24,24,24,24,24,24,12],
+      [4,4,4,4,0,1,1,2,4,4,4,6,6,6,6,8,7,25,25,24,24,24,24,24,24,24,24,24,24,24,25,14],
+      [0,0,0,0,0,1,1,2,4,4,4,5,6,9,6,7,7,25,25,24,24,24,24,25,25,24,24,24,24,25,25,14],
+      [0,0,0,0,0,1,2,2,3,4,4,5,10,9,6,7,7,25,25,25,25,25,25,25,25,25,25,25,25,25,25,13],
+      [0,0,0,0,0,1,2,2,3,4,4,6,6,13,6,7,7,25,25,25,25,25,25,25,25,25,25,25,25,25,25,14],
+      [0,0,0,0,0,1,2,2,4,4,4,6,13,13,6,7,7,25,25,25,25,25,25,26,25,25,25,25,25,26,14,14],
+      [0,0,0,0,0,1,2,2,4,4,4,5,6,6,6,6,7,26,25,25,25,25,25,26,25,25,25,25,25,26,14,16],
+      [0,0,0,0,0,0,1,2,3,4,4,5,6,6,6,6,7,26,26,26,25,25,25,26,25,25,25,26,26,26,14,14],
+      [1,0,0,0,0,0,1,2,4,4,4,5,6,6,6,6,7,26,26,26,25,25,25,26,25,25,25,26,26,26,14,14],
+      [0,0,0,0,0,1,1,2,4,4,4,4,6,6,6,6,7,26,26,26,25,25,25,26,25,25,25,26,26,26,14,14],
+      [0,0,0,0,0,1,1,2,4,4,4,4,5,6,6,7,25,26,26,26,25,25,25,26,25,25,25,26,26,26,25,15],
+      [0,0,0,0,0,1,1,2,3,4,4,4,5,6,6,7,26,26,25,25,26,26,25,26,25,25,25,25,26,26,26,15],
+      [0,0,0,0,0,1,1,2,2,3,4,4,5,6,6,7,26,25,26,28,28,26,26,26,25,25,25,25,27,27,26,14],
+      [0,0,0,0,0,1,1,2,2,3,4,4,5,6,9,7,26,26,28,28,28,26,26,26,25,25,25,26,27,27,26,14],
+      [0,0,0,0,1,1,1,2,2,3,4,4,5,6,9,19,26,26,28,28,28,26,26,26,25,25,25,26,26,26,26,19],
+      [0,0,0,0,1,1,1,2,3,3,4,4,5,6,11,19,26,26,28,28,28,26,26,26,25,25,25,26,26,26,26,19],
+      [0,0,0,0,0,0,1,2,3,3,4,5,5,6,11,18,26,26,28,28,28,26,26,26,25,25,25,26,26,26,26,18],
+      [0,0,0,0,0,0,1,2,3,4,4,5,5,6,11,16,26,26,28,28,28,26,26,26,25,25,25,26,26,26,26,16],
+      [0,0,0,1,1,0,1,2,3,4,4,5,6,6,9,14,26,26,28,28,26,26,25,26,25,25,25,26,26,26,26,14],
+      [0,0,0,1,1,1,0,2,2,3,4,5,6,7,7,10,26,26,28,28,26,25,25,26,25,25,25,26,26,26,26,14],
+      [0,0,0,1,1,1,0,8,7,3,4,5,7,7,7,13,25,26,27,27,27,25,25,26,25,25,25,26,26,26,25,14],
+      [0,0,0,1,1,1,0,7,7,2,3,5,7,8,7,14,14,26,27,27,27,25,26,26,26,26,25,26,26,26,13,13],
+      [0,0,0,0,1,1,1,1,3,3,4,6,7,8,7,11,10,26,27,27,27,25,26,26,26,26,25,26,26,26,13,13],
+      [0,0,0,0,1,0,1,1,5,3,5,6,8,8,7,7,7,26,26,26,25,26,26,26,26,26,26,26,26,26,13,13],
+      [0,0,0,0,0,1,1,1,2,3,5,6,7,7,7,7,7,26,26,26,25,26,26,26,26,26,26,26,26,26,13,13]
+    ]
+  },
+  "WaterHeight": 3.4028235E+38,
+  "Regions": [
+    "23C94E:Fallout4.esm",
+    "049BE0:Fallout4.esm",
+    "109E91:Fallout4.esm",
+    "13625A:Fallout4.esm",
+    "1F57C3:Fallout4.esm"
+  ],
+  "Location": "0482CF:Fallout4.esm",
+  "CombinedMeshes": [
+    28861806,
+    42280640,
+    46030353,
+    50740095,
+    82877219,
+    210030716,
+    262638997,
+    316928405,
+    387373347,
+    425316049,
+    451342079,
+    462555487,
+    472446773,
+    523160650,
+    563641934,
+    568854872,
+    662107564,
+    676688732,
+    693283943,
+    730310264,
+    851700405,
+    934236493,
+    973764369,
+    990832551,
+    1015007986,
+    1043282813,
+    1124481919,
+    1499057873,
+    1596902474,
+    1735849388,
+    2039074727,
+    2117024637,
+    2176345454,
+    2198223743,
+    2410122645,
+    2424914399,
+    2572799697,
+    2610039135,
+    2619930421,
+    2670644298,
+    2711125582,
+    2716338520,
+    2809591212,
+    3087588568,
+    3096400337,
+    3112816551,
+    3121248017,
+    3129996504,
+    3138316199,
+    3149009535,
+    3190766461,
+    3271965567,
+    3483864469,
+    3646541521
+  ],
+  "CombinedMeshReferences": [
+    {
+      "Reference": "15A911:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1FA071:Fallout4.esm",
+      "CombinedMesh": 50740095
+    },
+    {
+      "Reference": "1FA05F:Fallout4.esm",
+      "CombinedMesh": 3271965567
+    },
+    {
+      "Reference": "15A93F:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "15A8FA:Fallout4.esm",
+      "CombinedMesh": 316928405
+    },
+    {
+      "Reference": "1FA068:Fallout4.esm",
+      "CombinedMesh": 50740095
+    },
+    {
+      "Reference": "15A908:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1FA06D:Fallout4.esm",
+      "CombinedMesh": 50740095
+    },
+    {
+      "Reference": "15A90D:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "15A923:Fallout4.esm",
+      "CombinedMesh": 2809591212
+    },
+    {
+      "Reference": "15A914:Fallout4.esm",
+      "CombinedMesh": 973764369
+    },
+    {
+      "Reference": "1FA05A:Fallout4.esm",
+      "CombinedMesh": 1124481919
+    },
+    {
+      "Reference": "15A8FF:Fallout4.esm",
+      "CombinedMesh": 1043282813
+    },
+    {
+      "Reference": "15A93A:Fallout4.esm",
+      "CombinedMesh": 3121248017
+    },
+    {
+      "Reference": "15A907:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1FA067:Fallout4.esm",
+      "CombinedMesh": 50740095
+    },
+    {
+      "Reference": "15A942:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "15A929:Fallout4.esm",
+      "CombinedMesh": 2711125582
+    },
+    {
+      "Reference": "1380BD:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "15A91E:Fallout4.esm",
+      "CombinedMesh": 1043282813
+    },
+    {
+      "Reference": "15A8B5:Fallout4.esm",
+      "CombinedMesh": 46030353
+    },
+    {
+      "Reference": "15A91B:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "15A935:Fallout4.esm",
+      "CombinedMesh": 2809591212
+    },
+    {
+      "Reference": "1FA055:Fallout4.esm",
+      "CombinedMesh": 50740095
+    },
+    {
+      "Reference": "15A902:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1FA062:Fallout4.esm",
+      "CombinedMesh": 50740095
+    },
+    {
+      "Reference": "15AAA6:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "15A92C:Fallout4.esm",
+      "CombinedMesh": 2716338520
+    },
+    {
+      "Reference": "14E5AA:Fallout4.esm",
+      "CombinedMesh": 1043282813
+    },
+    {
+      "Reference": "1FA05D:Fallout4.esm",
+      "CombinedMesh": 1124481919
+    },
+    {
+      "Reference": "15A8F8:Fallout4.esm",
+      "CombinedMesh": 462555487
+    },
+    {
+      "Reference": "15A93D:Fallout4.esm",
+      "CombinedMesh": 3129996504
+    },
+    {
+      "Reference": "15A913:Fallout4.esm",
+      "CombinedMesh": 3121248017
+    },
+    {
+      "Reference": "1FA073:Fallout4.esm",
+      "CombinedMesh": 50740095
+    },
+    {
+      "Reference": "15A924:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1FA06A:Fallout4.esm",
+      "CombinedMesh": 50740095
+    },
+    {
+      "Reference": "15A90A:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "15A921:Fallout4.esm",
+      "CombinedMesh": 2572799697
+    },
+    {
+      "Reference": "1FA06F:Fallout4.esm",
+      "CombinedMesh": 50740095
+    },
+    {
+      "Reference": "15A90F:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "15A8FD:Fallout4.esm",
+      "CombinedMesh": 973764369
+    },
+    {
+      "Reference": "15A916:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "15A8B8:Fallout4.esm",
+      "CombinedMesh": 973764369
+    },
+    {
+      "Reference": "15A92B:Fallout4.esm",
+      "CombinedMesh": 2716338520
+    },
+    {
+      "Reference": "15A940:Fallout4.esm",
+      "CombinedMesh": 2039074727
+    },
+    {
+      "Reference": "15A905:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "1FA065:Fallout4.esm",
+      "CombinedMesh": 472446773
+    },
+    {
+      "Reference": "15A932:Fallout4.esm",
+      "CombinedMesh": 3121248017
+    },
+    {
+      "Reference": "15A91C:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "15A937:Fallout4.esm",
+      "CombinedMesh": 3121248017
+    },
+    {
+      "Reference": "1FA079:Fallout4.esm",
+      "CombinedMesh": 50740095
+    },
+    {
+      "Reference": "15A919:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "15A8B7:Fallout4.esm",
+      "CombinedMesh": 973764369
+    },
+    {
+      "Reference": "1FA04E:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "15A945:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "15A900:Fallout4.esm",
+      "CombinedMesh": 1043282813
+    },
+    {
+      "Reference": "1FA0BA:Fallout4.esm",
+      "CombinedMesh": 472446773
+    },
+    {
+      "Reference": "1FA114:Fallout4.esm",
+      "CombinedMesh": 262638997
+    },
+    {
+      "Reference": "1FA0D1:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "0EC9DD:Fallout4.esm",
+      "CombinedMesh": 451342079
+    },
+    {
+      "Reference": "1F9F21:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1C665A:Fallout4.esm",
+      "CombinedMesh": 1043282813
+    },
+    {
+      "Reference": "1FA151:Fallout4.esm",
+      "CombinedMesh": 730310264
+    },
+    {
+      "Reference": "1FA10D:Fallout4.esm",
+      "CombinedMesh": 1596902474
+    },
+    {
+      "Reference": "1FA123:Fallout4.esm",
+      "CombinedMesh": 2670644298
+    },
+    {
+      "Reference": "1FA0E6:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "1FA148:Fallout4.esm",
+      "CombinedMesh": 50740095
+    },
+    {
+      "Reference": "1C6643:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1C6628:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1FA0E3:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "1C6646:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1FA0BF:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "1C6634:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1F9F24:Fallout4.esm",
+      "CombinedMesh": 3646541521
+    },
+    {
+      "Reference": "1FA154:Fallout4.esm",
+      "CombinedMesh": 1351172575
+    },
+    {
+      "Reference": "1FA0FA:Fallout4.esm",
+      "CombinedMesh": 2619930421
+    },
+    {
+      "Reference": "1FA13F:Fallout4.esm",
+      "CombinedMesh": 472446773
+    },
+    {
+      "Reference": "1FA0C7:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "1FA0AC:Fallout4.esm",
+      "CombinedMesh": 990832551
+    },
+    {
+      "Reference": "1C6662:Fallout4.esm",
+      "CombinedMesh": 2117024637
+    },
+    {
+      "Reference": "1C6627:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1C664C:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "1FA147:Fallout4.esm",
+      "CombinedMesh": 472446773
+    },
+    {
+      "Reference": "0543C2:Fallout4.esm",
+      "CombinedMesh": 210030716
+    },
+    {
+      "Reference": "1FA0DE:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "1FA0B5:Fallout4.esm",
+      "CombinedMesh": 472446773
+    },
+    {
+      "Reference": "1FA0F0:Fallout4.esm",
+      "CombinedMesh": 2670644298
+    },
+    {
+      "Reference": "1FA09B:Fallout4.esm",
+      "CombinedMesh": 50740095
+    },
+    {
+      "Reference": "1C663E:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1C6655:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1FA0B0:Fallout4.esm",
+      "CombinedMesh": 3138316199
+    },
+    {
+      "Reference": "1FA0DB:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "1FA09E:Fallout4.esm",
+      "CombinedMesh": 2198223743
+    },
+    {
+      "Reference": "1FA0F5:Fallout4.esm",
+      "CombinedMesh": 2619930421
+    },
+    {
+      "Reference": "1C6650:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1FA0C2:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "1C6649:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1C6622:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1FA0EC:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "1FA142:Fallout4.esm",
+      "CombinedMesh": 472446773
+    },
+    {
+      "Reference": "1C6633:Fallout4.esm",
+      "CombinedMesh": 2572799697
+    },
+    {
+      "Reference": "1F9F23:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1FA0FD:Fallout4.esm",
+      "CombinedMesh": 2619930421
+    },
+    {
+      "Reference": "1FA14A:Fallout4.esm",
+      "CombinedMesh": 472446773
+    },
+    {
+      "Reference": "1FA0E4:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "1C662A:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1FA124:Fallout4.esm",
+      "CombinedMesh": 2424914399
+    },
+    {
+      "Reference": "1FA14F:Fallout4.esm",
+      "CombinedMesh": 730310264
+    },
+    {
+      "Reference": "1FA0E1:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "1C6644:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1C662F:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1FA10A:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "1FA0CF:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "1C665D:Fallout4.esm",
+      "CombinedMesh": 3190766461
+    },
+    {
+      "Reference": "1C6636:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1FA13D:Fallout4.esm",
+      "CombinedMesh": 387373347
+    },
+    {
+      "Reference": "1FA0F8:Fallout4.esm",
+      "CombinedMesh": 2619930421
+    },
+    {
+      "Reference": "1FA113:Fallout4.esm",
+      "CombinedMesh": 472446773
+    },
+    {
+      "Reference": "1FA0BD:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "1FA0D6:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "1C664E:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1C6625:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1FA145:Fallout4.esm",
+      "CombinedMesh": 693283943
+    },
+    {
+      "Reference": "1FA0EB:Fallout4.esm",
+      "CombinedMesh": 1596902474
+    },
+    {
+      "Reference": "1FA0AE:Fallout4.esm",
+      "CombinedMesh": 3138316199
+    },
+    {
+      "Reference": "1FA0C5:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "1FA099:Fallout4.esm",
+      "CombinedMesh": 50740095
+    },
+    {
+      "Reference": "1C6657:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "1C663C:Fallout4.esm",
+      "CombinedMesh": 1043282813
+    },
+    {
+      "Reference": "1FA0DC:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "1FA0F7:Fallout4.esm",
+      "CombinedMesh": 2670644298
+    },
+    {
+      "Reference": "1FA09C:Fallout4.esm",
+      "CombinedMesh": 50740095
+    },
+    {
+      "Reference": "1C6639:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1C6652:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1FA0D9:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "1C664B:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1FA140:Fallout4.esm",
+      "CombinedMesh": 472446773
+    },
+    {
+      "Reference": "1FA0C0:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "1FA0AB:Fallout4.esm",
+      "CombinedMesh": 990832551
+    },
+    {
+      "Reference": "1FA0DA:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "1C6651:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1FA09F:Fallout4.esm",
+      "CombinedMesh": 3087588568
+    },
+    {
+      "Reference": "1FA0F4:Fallout4.esm",
+      "CombinedMesh": 472446773
+    },
+    {
+      "Reference": "1FA15A:Fallout4.esm",
+      "CombinedMesh": 990832551
+    },
+    {
+      "Reference": "1FA0C3:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "1FA143:Fallout4.esm",
+      "CombinedMesh": 50740095
+    },
+    {
+      "Reference": "1FA0ED:Fallout4.esm",
+      "CombinedMesh": 472446773
+    },
+    {
+      "Reference": "1C6648:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1C6623:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1FA0C6:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "1FA0AD:Fallout4.esm",
+      "CombinedMesh": 990832551
+    },
+    {
+      "Reference": "1FA146:Fallout4.esm",
+      "CombinedMesh": 472446773
+    },
+    {
+      "Reference": "1FA0E8:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "1C6626:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1C664D:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1FA0DF:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "1FA0B4:Fallout4.esm",
+      "CombinedMesh": 472446773
+    },
+    {
+      "Reference": "1C6654:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1FA09A:Fallout4.esm",
+      "CombinedMesh": 50740095
+    },
+    {
+      "Reference": "1FA109:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "1C6647:Fallout4.esm",
+      "CombinedMesh": 2572799697
+    },
+    {
+      "Reference": "1FA14C:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "1FA0E2:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "1FA0D5:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "1FA0BE:Fallout4.esm",
+      "CombinedMesh": 1596902474
+    },
+    {
+      "Reference": "1FA0FB:Fallout4.esm",
+      "CombinedMesh": 2670644298
+    },
+    {
+      "Reference": "1FA155:Fallout4.esm",
+      "CombinedMesh": 990832551
+    },
+    {
+      "Reference": "1FA13E:Fallout4.esm",
+      "CombinedMesh": 42280640
+    },
+    {
+      "Reference": "1C6635:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1C665E:Fallout4.esm",
+      "CombinedMesh": 2809591212
+    },
+    {
+      "Reference": "1F9F25:Fallout4.esm",
+      "CombinedMesh": 2711125582
+    },
+    {
+      "Reference": "1FA115:Fallout4.esm",
+      "CombinedMesh": 934236493
+    },
+    {
+      "Reference": "1FA0BB:Fallout4.esm",
+      "CombinedMesh": 1596902474
+    },
+    {
+      "Reference": "1FA0D0:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "1FA13B:Fallout4.esm",
+      "CombinedMesh": 472446773
+    },
+    {
+      "Reference": "1FA0FE:Fallout4.esm",
+      "CombinedMesh": 2670644298
+    },
+    {
+      "Reference": "1FA150:Fallout4.esm",
+      "CombinedMesh": 451342079
+    },
+    {
+      "Reference": "1C665B:Fallout4.esm",
+      "CombinedMesh": 2809591212
+    },
+    {
+      "Reference": "1F9F20:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1C6630:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1FA10C:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "1C6642:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1C6629:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1FA149:Fallout4.esm",
+      "CombinedMesh": 693283943
+    },
+    {
+      "Reference": "1FA0E7:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "1C6653:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1FA158:Fallout4.esm",
+      "CombinedMesh": 990832551
+    },
+    {
+      "Reference": "1FA0F6:Fallout4.esm",
+      "CombinedMesh": 2670644298
+    },
+    {
+      "Reference": "1FA09D:Fallout4.esm",
+      "CombinedMesh": 50740095
+    },
+    {
+      "Reference": "1FA0D8:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "1FA0B3:Fallout4.esm",
+      "CombinedMesh": 472446773
+    },
+    {
+      "Reference": "1FA0EF:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "1FA141:Fallout4.esm",
+      "CombinedMesh": 472446773
+    },
+    {
+      "Reference": "1C6621:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1C664A:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1F9F1F:Fallout4.esm",
+      "CombinedMesh": 2711125582
+    },
+    {
+      "Reference": "1FA0C1:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "1FA0AA:Fallout4.esm",
+      "CombinedMesh": 990832551
+    },
+    {
+      "Reference": "1FA144:Fallout4.esm",
+      "CombinedMesh": 1596902474
+    },
+    {
+      "Reference": "1C664F:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1C6624:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1C6661:Fallout4.esm",
+      "CombinedMesh": 1043282813
+    },
+    {
+      "Reference": "1FA0AF:Fallout4.esm",
+      "CombinedMesh": 3138316199
+    },
+    {
+      "Reference": "1FA0C4:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "1C6656:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1C663D:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1FA098:Fallout4.esm",
+      "CombinedMesh": 50740095
+    },
+    {
+      "Reference": "1FA0DD:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "1C6645:Fallout4.esm",
+      "CombinedMesh": 2572799697
+    },
+    {
+      "Reference": "1C662E:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1FA125:Fallout4.esm",
+      "CombinedMesh": 3483864469
+    },
+    {
+      "Reference": "1FA0E0:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "1FA14E:Fallout4.esm",
+      "CombinedMesh": 730310264
+    },
+    {
+      "Reference": "1FA10B:Fallout4.esm",
+      "CombinedMesh": 1596902474
+    },
+    {
+      "Reference": "1FA0CE:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "1FA13C:Fallout4.esm",
+      "CombinedMesh": 472446773
+    },
+    {
+      "Reference": "1FA157:Fallout4.esm",
+      "CombinedMesh": 990832551
+    },
+    {
+      "Reference": "1FA0F9:Fallout4.esm",
+      "CombinedMesh": 2670644298
+    },
+    {
+      "Reference": "1C665C:Fallout4.esm",
+      "CombinedMesh": 2117024637
+    },
+    {
+      "Reference": "1C6637:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1FA0D7:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "1FA152:Fallout4.esm",
+      "CombinedMesh": 730310264
+    },
+    {
+      "Reference": "1FA0FC:Fallout4.esm",
+      "CombinedMesh": 2410122645
+    },
+    {
+      "Reference": "1F9F22:Fallout4.esm",
+      "CombinedMesh": 2610039135
+    },
+    {
+      "Reference": "1FA0B9:Fallout4.esm",
+      "CombinedMesh": 1596902474
+    },
+    {
+      "Reference": "1FA0E5:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "1FA14B:Fallout4.esm",
+      "CombinedMesh": 472446773
+    },
+    {
+      "Reference": "15A91A:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "15A8B4:Fallout4.esm",
+      "CombinedMesh": 82877219
+    },
+    {
+      "Reference": "15A934:Fallout4.esm",
+      "CombinedMesh": 3149009535
+    },
+    {
+      "Reference": "15A903:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "15A92D:Fallout4.esm",
+      "CombinedMesh": 568854872
+    },
+    {
+      "Reference": "15A946:Fallout4.esm",
+      "CombinedMesh": 2176345454
+    },
+    {
+      "Reference": "1FA04D:Fallout4.esm",
+      "CombinedMesh": 693283943
+    },
+    {
+      "Reference": "1FA066:Fallout4.esm",
+      "CombinedMesh": 50740095
+    },
+    {
+      "Reference": "15A906:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "15A943:Fallout4.esm",
+      "CombinedMesh": 3112816551
+    },
+    {
+      "Reference": "15A928:Fallout4.esm",
+      "CombinedMesh": 2572799697
+    },
+    {
+      "Reference": "15A91F:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "15A90C:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1FA06C:Fallout4.esm",
+      "CombinedMesh": 50740095
+    },
+    {
+      "Reference": "15A922:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "15A915:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "15A8FE:Fallout4.esm",
+      "CombinedMesh": 973764369
+    },
+    {
+      "Reference": "15A93B:Fallout4.esm",
+      "CombinedMesh": 3121248017
+    },
+    {
+      "Reference": "1FA05B:Fallout4.esm",
+      "CombinedMesh": 50740095
+    },
+    {
+      "Reference": "1FA070:Fallout4.esm",
+      "CombinedMesh": 50740095
+    },
+    {
+      "Reference": "15A910:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "15A93E:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "15A8FB:Fallout4.esm",
+      "CombinedMesh": 462555487
+    },
+    {
+      "Reference": "1FA05E:Fallout4.esm",
+      "CombinedMesh": 50740095
+    },
+    {
+      "Reference": "15A909:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1FA069:Fallout4.esm",
+      "CombinedMesh": 50740095
+    },
+    {
+      "Reference": "15A927:Fallout4.esm",
+      "CombinedMesh": 563641934
+    },
+    {
+      "Reference": "1FA056:Fallout4.esm",
+      "CombinedMesh": 50740095
+    },
+    {
+      "Reference": "15A936:Fallout4.esm",
+      "CombinedMesh": 2809591212
+    },
+    {
+      "Reference": "15A8B6:Fallout4.esm",
+      "CombinedMesh": 973764369
+    },
+    {
+      "Reference": "15A918:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "1FA078:Fallout4.esm",
+      "CombinedMesh": 50740095
+    },
+    {
+      "Reference": "15A944:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "1FA04F:Fallout4.esm",
+      "CombinedMesh": 523160650
+    },
+    {
+      "Reference": "1FA061:Fallout4.esm",
+      "CombinedMesh": 693283943
+    },
+    {
+      "Reference": "15A901:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "15A92A:Fallout4.esm",
+      "CombinedMesh": 2716338520
+    },
+    {
+      "Reference": "15A941:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "1FA064:Fallout4.esm",
+      "CombinedMesh": 472446773
+    },
+    {
+      "Reference": "15A904:Fallout4.esm",
+      "CombinedMesh": 568854872
+    },
+    {
+      "Reference": "1C6704:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1FA053:Fallout4.esm",
+      "CombinedMesh": 934236493
+    },
+    {
+      "Reference": "15A933:Fallout4.esm",
+      "CombinedMesh": 2809591212
+    },
+    {
+      "Reference": "15A8B3:Fallout4.esm",
+      "CombinedMesh": 462555487
+    },
+    {
+      "Reference": "15A91D:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "15A920:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "15A90E:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1FA06E:Fallout4.esm",
+      "CombinedMesh": 50740095
+    },
+    {
+      "Reference": "15A939:Fallout4.esm",
+      "CombinedMesh": 3096400337
+    },
+    {
+      "Reference": "15A8FC:Fallout4.esm",
+      "CombinedMesh": 462555487
+    },
+    {
+      "Reference": "1FA059:Fallout4.esm",
+      "CombinedMesh": 2198223743
+    },
+    {
+      "Reference": "15A8B9:Fallout4.esm",
+      "CombinedMesh": 82877219
+    },
+    {
+      "Reference": "15A917:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "15A8F9:Fallout4.esm",
+      "CombinedMesh": 676688732
+    },
+    {
+      "Reference": "15A93C:Fallout4.esm",
+      "CombinedMesh": 973764369
+    },
+    {
+      "Reference": "1FA05C:Fallout4.esm",
+      "CombinedMesh": 2198223743
+    },
+    {
+      "Reference": "1FA072:Fallout4.esm",
+      "CombinedMesh": 50740095
+    },
+    {
+      "Reference": "15AAA5:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "15A912:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "15AA8D:Fallout4.esm",
+      "CombinedMesh": 2572799697
+    },
+    {
+      "Reference": "14DB95:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1FA06B:Fallout4.esm",
+      "CombinedMesh": 50740095
+    },
+    {
+      "Reference": "14E5A8:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "14DB9B:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "14DB9A:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "14DB97:Fallout4.esm",
+      "CombinedMesh": 1015007986
+    },
+    {
+      "Reference": "15A925:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "14DB99:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "0748B6:Fallout4.esm",
+      "CombinedMesh": 210030716
+    },
+    {
+      "Reference": "15A90B:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "14DB9C:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "14DB96:Fallout4.esm",
+      "CombinedMesh": 563641934
+    },
+    {
+      "Reference": "14E5A9:Fallout4.esm",
+      "CombinedMesh": 1043282813
+    },
+    {
+      "Reference": "14E5AB:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1C1D75:Fallout4.esm",
+      "CombinedMesh": 2716338520
+    }
+  ],
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001B8:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-46565.66, 16103.408, 2783.9912",
+      "Rotation": "0, 0, 1.59658"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001B9:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000024:SBS - LivingGraygarden.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48494.7, 15857.584, 2515.1975",
+      "Rotation": "0, 0, 6.0412235"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001BA:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000025:SBS - LivingGraygarden.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48246.152, 15918.935, 2515.1975",
+      "Rotation": "0, 0, 6.041211"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001BB:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00001F:SBS - LivingGraygarden.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48586.715, 16230.398, 2515.1975",
+      "Rotation": "0, 0, 4.470408"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001BC:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "10005C:Fallout4.esm",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48276.836, 16043.198, 2515.1975",
+      "Rotation": "0, 0, 1.328838"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001BD:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BB9:Fallout4.esm",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48338.176, 16291.741, 2515.1975",
+      "Rotation": "0, 0, 4.47042"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001BE:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000022:SBS - LivingGraygarden.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48743.24, 15796.245, 2515.1975",
+      "Rotation": "0, 0, 6.041211"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001BF:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00002B:SBS - LivingGraygarden.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48121.883, 15949.607, 2515.1975",
+      "Rotation": "0, 0, 6.041217"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C0:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BB9:Fallout4.esm",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48835.254, 16169.055, 2515.1975",
+      "Rotation": "0, 0, 2.899617"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C1:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00002B:SBS - LivingGraygarden.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48867.508, 15765.574, 2515.1975",
+      "Rotation": "0, 0, 1.3288151"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C2:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BB7:Fallout4.esm",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48586.715, 16230.397, 2515.1975",
+      "Rotation": "0, 0, 2.8996098"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C3:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BB3:Fallout4.esm",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48623.98, 16381.386, 2472.5308",
+      "Rotation": "0, 0, 4.470406"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C4:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48184.195, 16197.907, 2515.1975",
+      "Rotation": "0, 0, 4.4704065"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C5:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48927.88, 16014.356, 2515.1975",
+      "Rotation": "0, 0, 1.3288412"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C6:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "027EB8:Fallout4.esm",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48556.66, 15987.293, 2517.136",
+      "Rotation": "0, 0, 0.39211965"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C7:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "027EB8:Fallout4.esm",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48255.773, 15939.031, 2517.4204",
+      "Rotation": "0, 0, 5.804883"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C8:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "027EB8:Fallout4.esm",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48158.24, 16062.493, 2515.2073",
+      "Rotation": "0, 0, 4.280568"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C9:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0711B5:Fallout4.esm",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48733.297, 15786.65, 2516.9902",
+      "Rotation": "0, 0, 5.9276285"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001CA:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0711B5:Fallout4.esm",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48516.56, 15873.341, 2515.2368",
+      "Rotation": "0, 0, 2.8778787"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001CB:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0711B5:Fallout4.esm",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48899.93, 15896.623, 2515.205",
+      "Rotation": "0, 0, 1.641723"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001CC:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000918:DLCworkshop01.esm",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48754.594, 16011.828, 2515.1975",
+      "Rotation": "0, 0, 2.1662679"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001CD:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0000F0:SBS - LivingGraygarden.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48935.992, 15890.173, 2516.9763",
+      "Rotation": "0, 0, 0.025354223"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001CE:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0000F0:SBS - LivingGraygarden.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48085.453, 16053.543, 2516.619",
+      "Rotation": "0, 0, 2.9414208"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001CF:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0000F0:SBS - LivingGraygarden.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48722.53, 15766.329, 2519.001",
+      "Rotation": "0, 0, 4.5969234"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001E9:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0000F0:SBS - LivingGraygarden.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-45961.902, 16376.083, 2771.7903",
+      "Rotation": "0, 0, 1.5937631"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001EE:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000818:SettlerBuiltSettlements.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-46083.457, 16377.184, 2766.4102",
+      "Rotation": "0, 0, 3.2705183"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001F1:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000818:SettlerBuiltSettlements.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-46108.793, 16381.368, 2766.4102",
+      "Rotation": "0, 0, 0.25690898"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001F9:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000824:SettlerBuiltSettlements.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-45725.523, 16358, 2771.921",
+      "Rotation": "0, 0, 3.213436"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001FE:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-45716.176, 16356.9795, 2871.1162",
+      "Rotation": "0, 0, 3.3673947"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00021A:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-46926.336, 15954.696, 2716.8486",
+      "Rotation": "0, 0, 3.4555426"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00021D:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0000F0:SBS - LivingGraygarden.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-46702.51, 15951.948, 2715.1836",
+      "Rotation": "0, 0, 1.8571072"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00021E:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0000F0:SBS - LivingGraygarden.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-47079.918, 16095.8125, 2715.1497",
+      "Rotation": "0, 0, 3.30931"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00021F:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0000F0:SBS - LivingGraygarden.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-46923.887, 15954.833, 2716.969",
+      "Rotation": "0, 0, 4.899389"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000220:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "074BB1:Fallout4.esm",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48331.375, 16113.837, 2516.505",
+      "Rotation": "0, 0, 2.8576066"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000221:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0000DA:SBS - LivingGraygarden.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-46497.23, 16354.092, 2684.035",
+      "Rotation": "0, 0, 5.547129"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000222:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "10005C:Fallout4.esm",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48525.363, 15981.859, 2515.1975",
+      "Rotation": "0, 0, 1.3288049"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000223:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "10005C:Fallout4.esm",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48773.91, 15920.514, 2515.1975",
+      "Rotation": "0, 0, 4.470404"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000224:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000022:SBS - LivingGraygarden.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48152.55, 16073.879, 2515.1975",
+      "Rotation": "0, 0, 4.470429"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000225:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000024:SBS - LivingGraygarden.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48898.184, 15889.846, 2515.1975",
+      "Rotation": "0, 0, 1.3288064"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000226:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B8A:Fallout4.esm",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48773.91, 15920.516, 2515.1975",
+      "Rotation": "0, 0, 2.8996062"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000227:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B8A:Fallout4.esm",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48276.832, 16043.199, 2515.1975",
+      "Rotation": "0, 0, 6.041206"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000228:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B8A:Fallout4.esm",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48525.37, 15981.86, 2515.1975",
+      "Rotation": "0, 0, 6.041208"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000229:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000024:SBS - LivingGraygarden.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-46673.125, 15984.08, 2713.18",
+      "Rotation": "0, 0, 0.01937839"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00022A:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00001F:SBS - LivingGraygarden.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-46926.586, 16117.016, 2713.18",
+      "Rotation": "0, 0, 4.7317867"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00022B:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000025:SBS - LivingGraygarden.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-46929.074, 15989.04, 2713.18",
+      "Rotation": "0, 0, 0.019388862"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00022C:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000025:SBS - LivingGraygarden.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-47054.562, 16119.5, 2713.18",
+      "Rotation": "0, 0, 1.5901904"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00022D:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00001F:SBS - LivingGraygarden.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-46670.637, 16112.052, 2713.18",
+      "Rotation": "0, 0, 4.731799"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00022E:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BB7:Fallout4.esm",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-46670.637, 16112.052, 2713.18",
+      "Rotation": "0, 0, 3.1610026"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00022F:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BA4:Fallout4.esm",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-46926.586, 16117.016, 2713.18",
+      "Rotation": "0, 0, 3.1609833"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000230:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BB3:Fallout4.esm",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-46667.62, 16267.541, 2670.5132",
+      "Rotation": "0, 0, 4.7317886"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000231:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-47057.05, 15991.523, 2713.18",
+      "Rotation": "0, 0, 1.5901991"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000232:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BA4:Fallout4.esm",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-46670.637, 16112.053, 2713.18",
+      "Rotation": "0, 0, 4.7318096"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000233:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-46545.145, 15981.601, 2713.18",
+      "Rotation": "0, 0, 0.0193749"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000234:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-47052.08, 16247.476, 2713.18",
+      "Rotation": "0, 0, 1.5901922"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000235:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-47057.05, 15991.522, 2713.18",
+      "Rotation": "0, 0, 0.019395843"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000236:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "027EB9:Fallout4.esm",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-47074.383, 16127.516, 2713.2192",
+      "Rotation": "0, 0, 1.7053281"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000237:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0711B5:Fallout4.esm",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-46831.28, 16117.994, 2716.7593",
+      "Rotation": "0, 0, 1.6539298"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000238:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "027EB9:Fallout4.esm",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-46659.473, 16017.881, 2713.2192",
+      "Rotation": "0, 0, 3.2995975"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000239:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "027EB8:Fallout4.esm",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-46931.215, 15972.599, 2714.9976",
+      "Rotation": "0, 0, 0.14112209"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000240:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0008DC:DLCworkshop02.esm",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48983.742, 16167.451, 2491.2236",
+      "Rotation": "0, 0, 6.059654"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000241:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0008D8:DLCworkshop02.esm",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48983.742, 16167.451, 2747.2236",
+      "Rotation": "0, 0, 1.3472755"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000244:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000918:DLCworkshop01.esm",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-46821.54, 15933.352, 2716.2302",
+      "Rotation": "0, 0, 4.197908"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000245:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000807:SettlerBuiltSettlements.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-47068.777, 16203.067, 2715.3076",
+      "Rotation": "0, 0, 3.1577144"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000246:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000805:SettlerBuiltSettlements.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-47062.11, 16201.171, 2755.8345",
+      "Rotation": "0, 0, 1.5343502"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000247:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "074BB1:Fallout4.esm",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-46914.76, 16203.783, 2718.5828",
+      "Rotation": "0, 0, 3.221019"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00024A:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000808:SettlerBuiltSettlements.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-46592.168, 15927.075, 2715.4487",
+      "Rotation": "0, 0, 3.1140304"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00024B:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00080E:SettlerBuiltSettlements.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-46574.05, 16209.432, 2713.131",
+      "Rotation": "0, 0, 3.9567924"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00024C:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000817:SettlerBuiltSettlements.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-46568.758, 16086.837, 2714.9124",
+      "Rotation": "0, 0, 1.5806941"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00024D:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000919:DLCworkshop01.esm",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-46577.8, 16042.951, 2783.9912",
+      "Rotation": "0, 0, 2.763631"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00024F:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000816:SettlerBuiltSettlements.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48552.773, 15797.523, 2516.9788",
+      "Rotation": "0, 0, 3.5266595"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000250:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000817:SettlerBuiltSettlements.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48433.254, 15814.463, 2517.0593",
+      "Rotation": "0, 0, 2.708601"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000251:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48556.07, 15792.472, 2571.6433",
+      "Rotation": "0, 0, 3.1913292"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000252:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00080F:SettlerBuiltSettlements.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48459.227, 15798.102, 2586.1382",
+      "Rotation": "0, 0, 0.9939231"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000253:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000814:SettlerBuiltSettlements.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48083.887, 15878.061, 2515.2368",
+      "Rotation": "0, 0, 1.5124744"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000254:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48412.812, 15821.777, 2586.1382",
+      "Rotation": "0, 0, 0.7392096"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000255:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000804:SettlerBuiltSettlements.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48128.33, 16159.818, 2516.6516",
+      "Rotation": "0, 0, 5.8537717"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000256:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000809:SettlerBuiltSettlements.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48936.082, 15786.902, 2515.2368",
+      "Rotation": "0, 0, 2.9728367"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000257:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000808:SettlerBuiltSettlements.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48859.66, 15713.899, 2515.1975",
+      "Rotation": "0, 0, 4.451951"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000258:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000805:SettlerBuiltSettlements.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48696.7, 15792.364, 2518.6445",
+      "Rotation": "0, 0, 4.6033616"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000259:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "082447:Fallout4.esm",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48858.684, 15721.05, 2571.5256",
+      "Rotation": "0, 0, 4.126751"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00025A:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000810:SettlerBuiltSettlements.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48693.3, 16295.779, 2515.1487",
+      "Rotation": "0, 0, 5.7411923"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00025B:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "04CD99:Fallout4.esm",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48145.54, 15857.256, 2515.2368",
+      "Rotation": "0, 0, 2.4280078"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00025C:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000919:DLCworkshop01.esm",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-48091.953, 15906.336, 2591.1802",
+      "Rotation": "0, 0, 1.9452794"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00025D:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000809:SettlerBuiltSettlements.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-47013.69, 15971.888, 2716.9185",
+      "Rotation": "0, 0, 4.8251877"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00025E:SBS - LivingGraygarden.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00080F:SettlerBuiltSettlements.esp",
+      "Layer": "0001B7:SBS - LivingGraygarden.esp",
+      "EnableParent": {
+        "Reference": "00026B:SBS - LivingGraygarden.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B18F:Fallout4.esm"
+        }
+      ],
+      "Position": "-46583.53, 15926.71, 2771.7766",
+      "Rotation": "0, 0, 3.438131"
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

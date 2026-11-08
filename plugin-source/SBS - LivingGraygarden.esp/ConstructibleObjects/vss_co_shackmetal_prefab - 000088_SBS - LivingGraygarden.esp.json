@@ -1,0 +1,38 @@
+{
+  "FormKey": "000088:SBS - LivingGraygarden.esp",
+  "MajorRecordFlagsRaw": 4096,
+  "EditorID": "vss_co_shackmetal_prefab",
+  "Fallout4MajorRecordFlags": [
+    "Ignored"
+  ],
+  "PickUpSound": "0196B1:Fallout4.esm",
+  "PutDownSound": "0196BB:Fallout4.esm",
+  "Components": [
+    {
+      "Component": "01FABD:Fallout4.esm",
+      "Count": 2
+    },
+    {
+      "Component": "01FAA5:Fallout4.esm",
+      "Count": 1
+    },
+    {
+      "Component": "01FAC2:Fallout4.esm",
+      "Count": 1
+    },
+    {
+      "Component": "03D294:Fallout4.esm",
+      "Count": 2
+    }
+  ],
+  "CreatedObject": "0000B9:SBS - LivingGraygarden.esp",
+  "WorkbenchKeyword": "05A0C8:Fallout4.esm",
+  "Categories": [
+    "0000C8:SBS - LivingGraygarden.esp"
+  ],
+  "CreatedObjectCounts": [
+    {
+      "Count": 1
+    }
+  ]
+}

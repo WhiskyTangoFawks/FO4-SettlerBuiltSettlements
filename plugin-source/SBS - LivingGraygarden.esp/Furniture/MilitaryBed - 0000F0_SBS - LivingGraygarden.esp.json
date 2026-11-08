@@ -1,0 +1,114 @@
+{
+  "FormKey": "0000F0:SBS - LivingGraygarden.esp",
+  "MajorRecordFlagsRaw": 268435456,
+  "EditorID": "MilitaryBed",
+  "Fallout4MajorRecordFlags": [
+    "0x10000000"
+  ],
+  "VirtualMachineAdapter": {
+    "Scripts": [
+      {
+        "Name": "workshopobjectscript",
+        "Properties": [
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "WorkshopParent",
+            "Object": "02058E:Fallout4.esm"
+          }
+        ]
+      }
+    ]
+  },
+  "ObjectBounds": {
+    "First": "-34, -67, 0",
+    "Second": "34, 67, 45"
+  },
+  "PreviewTransform": "0F902D:Fallout4.esm",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Military Bed"
+  },
+  "Model": {
+    "File": "Architecture\\Shacks\\vss\\Furn\\MilitaryBed.nif",
+    "Data": "0x04000000030000000000000001000000020000008EE69ECE64647300146CFEA1578A98AD64647300146CFEA149634D4D64647300146CFEA1DC42AEB46267736D767471BF86747B0D6267736D767471BF"
+  },
+  "Keywords": [
+    "020592:Fallout4.esm",
+    "021B18:Fallout4.esm",
+    "0BC262:Fallout4.esm",
+    "12F848:Fallout4.esm"
+  ],
+  "Properties": [
+    {
+      "ActorValue": "000334:Fallout4.esm",
+      "Value": 1.0
+    },
+    {
+      "ActorValue": "129A8C:Fallout4.esm",
+      "Value": 1.0
+    }
+  ],
+  "PNAM": "0x00000000",
+  "Flags": [
+    "MustExitToTalk",
+    "IsSleepFurniture"
+  ],
+  "EnabledEntryPoints": [
+    "Right",
+    "Left"
+  ],
+  "MarkerEntryPoints": [
+    {
+      "Type": [
+        "Sit"
+      ],
+      "Points": [
+        "Front",
+        "Right",
+        "Left"
+      ]
+    },
+    {
+      "Type": [
+        "Sit"
+      ],
+      "Points": [
+        "Front",
+        "Right",
+        "Left"
+      ]
+    },
+    {
+      "Type": [
+        "Sit"
+      ],
+      "Points": [
+        "Front",
+        "Right",
+        "Left"
+      ]
+    }
+  ],
+  "MarkerModel": "Architecture\\Shacks\\vss\\Furn\\MilitaryBed.nif",
+  "MarkerParameters": [
+    {
+      "Enabled": true,
+      "Offset": "0, -6, -7.2",
+      "RotationZ": 90.00003,
+      "EntryTypes": [
+        "Right",
+        "Left",
+        "0x20",
+        "0x40",
+        "0x80"
+      ],
+      "Unknown": "0xFFFFFF"
+    }
+  ],
+  "WBDTDataTypeState": [
+    "Break0"
+  ],
+  "MajorFlags": [
+    "MustExitToTalk"
+  ]
+}
