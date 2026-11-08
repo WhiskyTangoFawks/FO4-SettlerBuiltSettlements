@@ -1,0 +1,6 @@
+{
+  "FormKey": "000185:SBS - LivingTaffington.esp",
+  "Malformed": [
+    "FURN 05000185 (TatoCrate03) — furn-missing-fnam-and-mnam, repairable (lossless): FNAM and MNAM are missing; vanilla always writes both"
+  ]
+}
