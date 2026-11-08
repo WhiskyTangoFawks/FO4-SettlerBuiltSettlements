@@ -1,0 +1,13 @@
+{
+  "ModKey": "SBS - FalloutTheBedsCastle.esp",
+  "GameRelease": "Fallout4",
+  "ModHeader": {
+    "Flags": [
+      "Small"
+    ],
+    "Stats": {
+      "NextFormID": 256
+    },
+    "Author": ""
+  }
+}

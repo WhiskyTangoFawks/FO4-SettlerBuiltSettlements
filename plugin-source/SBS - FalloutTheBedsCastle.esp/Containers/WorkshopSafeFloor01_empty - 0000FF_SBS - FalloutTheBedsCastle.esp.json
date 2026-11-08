@@ -1,0 +1,31 @@
+{
+  "FormKey": "0000FF:SBS - FalloutTheBedsCastle.esp",
+  "MajorRecordFlagsRaw": 134217728,
+  "EditorID": "WorkshopSafeFloor01_empty",
+  "Fallout4MajorRecordFlags": [
+    "0x8000000"
+  ],
+  "ObjectBounds": {
+    "First": "-25, -24, 0",
+    "Second": "25, 24, 7"
+  },
+  "PreviewTransform": "1A4B21:Fallout4.esm",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Safe"
+  },
+  "Model": {
+    "File": "SetDressing\\SafeFloor\\SafeFloor01.nif",
+    "Data": "0x04000000040000000000000002000000000000000A5DC7BA64647300BC170565D331C1D964647300BC170565CDD8143964647300BC17056524389F9F646473001CDB88C5"
+  },
+  "Keywords": [
+    "108B4D:Fallout4.esm",
+    "249FC6:Fallout4.esm"
+  ],
+  "NativeTerminal": "108B4B:Fallout4.esm",
+  "OpenSound": "20AF1A:Fallout4.esm",
+  "CloseSound": "20AF1B:Fallout4.esm",
+  "MajorFlags": [
+    "NavMeshGenerationBoundingBox"
+  ]
+}

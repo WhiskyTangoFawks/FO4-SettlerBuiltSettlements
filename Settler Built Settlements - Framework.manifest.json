@@ -1,7 +1,8 @@
 {
 "version":1,
 "packages":[
-{"kind":"installationFile","name":"Settler Built Settlements-84015-1-1718009841.7z","packageVersion":"1.0.0.0","size":1115773,"hash":"GnXjSkuwc0w=","host":{"nexus":{"game":"fallout4","mod":84015,"file":321944}}}
+{"kind":"installationFile","name":"Settler Built Settlements-84015-1-1718009841.7z","packageVersion":"1.0.0.0","size":1115773,"hash":"GnXjSkuwc0w=","host":{"nexus":{"game":"fallout4","mod":84015,"file":321944}}},
+{"kind":"installationFile","name":"SBS - FalloutTheBedsCastle-84015-1-1725167827.7z","packageVersion":"1.0.0.0","size":20949,"hash":"N/fd/mqfA1A=","host":{"nexus":{"game":"fallout4","mod":84015,"file":332409}}}
 ],
 "files":{
 "meshes/architecture/shacks/vss/furn/militarybed.nif":"Gg45d5pwyS4=",

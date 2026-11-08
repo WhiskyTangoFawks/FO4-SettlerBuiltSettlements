@@ -1,0 +1,38 @@
+{
+  "FormKey": "0000FD:SBS - FalloutTheBedsCastle.esp",
+  "MajorRecordFlagsRaw": 2048,
+  "EditorID": "TheCastle_SettlementSupplies",
+  "Fallout4MajorRecordFlags": [
+    "InitiallyDisabled"
+  ],
+  "VirtualMachineAdapter": {
+    "Scripts": [
+      {
+        "Name": "SettlementAutoBuildSupplies",
+        "Properties": [
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "EnableParentRef",
+            "Object": "0000FC:SBS - FalloutTheBedsCastle.esp"
+          }
+        ]
+      }
+    ]
+  },
+  "ObjectBounds": {
+    "First": "-96, -122, 0",
+    "Second": "103, 112, 128"
+  },
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Castle Repair Supplies"
+  },
+  "Model": {
+    "File": "DLC03\\SetDressing\\FishNets\\FishNetFallenCrates01.nif"
+  },
+  "MarkerColor": "#00CC4C33",
+  "Flags": [],
+  "MajorFlags": [
+    "UsedAsPlatform"
+  ]
+}
