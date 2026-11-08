@@ -1,6 +1,92 @@
 {
   "FormKey": "0000E0:SBS - LivingSomervillePlace.esp",
-  "Malformed": [
-    "FURN 050000E0 (Food_Mutfruit_Crate3) — furn-missing-fnam-and-mnam, repairable (lossless): FNAM and MNAM are missing; vanilla always writes both"
+  "MajorRecordFlagsRaw": 8208,
+  "EditorID": "Food_Mutfruit_Crate3",
+  "Fallout4MajorRecordFlags": [
+    "0x10",
+    "0x2000"
+  ],
+  "VirtualMachineAdapter": {
+    "Scripts": [
+      {
+        "Name": "workshopobjectscript",
+        "Properties": [
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "WorkshopParent",
+            "Object": "02058E:Fallout4.esm"
+          }
+        ]
+      }
+    ]
+  },
+  "ObjectBounds": {
+    "First": "-25, -36, 0",
+    "Second": "25, 36, 38"
+  },
+  "PreviewTransform": "00016B:SBS - LivingSomervillePlace.esp",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Mutfruit Crate 3"
+  },
+  "Model": {
+    "File": "SetDressing\\ConcMuseum\\WoodCrate02.nif"
+  },
+  "Destructible": {
+    "Data": {
+      "Health": 100,
+      "DESTCount": 1
+    },
+    "Stages": [
+      {
+        "Flags": [
+          "Destroy"
+        ],
+        "Model": {
+          "File": "SetDressing\\Crates\\WoodenCrate02Dest.nif"
+        }
+      }
+    ]
+  },
+  "Keywords": [
+    "06E9C7:Fallout4.esm",
+    "0A56F5:Fallout4.esm",
+    "1CD02B:Fallout4.esm"
+  ],
+  "Properties": [
+    {
+      "ActorValue": "000331:Fallout4.esm",
+      "Value": 3.0
+    },
+    {
+      "ActorValue": "00033D:Fallout4.esm",
+      "Value": 1.0
+    },
+    {
+      "ActorValue": "00033F:Fallout4.esm",
+      "Value": 1.0
+    },
+    {
+      "ActorValue": "00034D:Fallout4.esm",
+      "Value": 1.0
+    },
+    {
+      "ActorValue": "00034E:Fallout4.esm",
+      "Value": 1.0
+    },
+    {
+      "ActorValue": "0A4703:Fallout4.esm",
+      "Value": 3.0
+    },
+    {
+      "ActorValue": "129A8C:Fallout4.esm",
+      "Value": 1.0
+    }
+  ],
+  "Flags": [],
+  "UsesSkill": "0",
+  "MajorFlags": [
+    "0x10",
+    "0x2000"
   ]
 }
