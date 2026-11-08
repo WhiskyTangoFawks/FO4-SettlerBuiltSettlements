@@ -1,0 +1,18 @@
+{
+  "ModKey": "SBS - LivingCroupManor.esp",
+  "GameRelease": "Fallout4",
+  "ModHeader": {
+    "Flags": [
+      "Small"
+    ],
+    "Stats": {
+      "NextFormID": 365
+    },
+    "Author": "",
+    "OverriddenForms": [
+      "0A06A4:Fallout4.esm",
+      "188BFD:Fallout4.esm",
+      "23A07B:Fallout4.esm"
+    ]
+  }
+}

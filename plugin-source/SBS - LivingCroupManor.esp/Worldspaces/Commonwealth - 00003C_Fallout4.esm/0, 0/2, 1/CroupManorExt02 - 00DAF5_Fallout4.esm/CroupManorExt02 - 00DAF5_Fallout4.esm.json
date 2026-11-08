@@ -1,0 +1,4510 @@
+{
+  "FormKey": "00DAF5:Fallout4.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "CroupManorExt02",
+  "Fallout4MajorRecordFlags": [
+    "Compressed"
+  ],
+  "Flags": [
+    "HasWater"
+  ],
+  "PreVisFilesTimestamp": 7972,
+  "InPreVisFileOf": "00DAF6:Fallout4.esm",
+  "PreCombinedFilesTimestamp": 7972,
+  "Grid": {
+    "Point": "22, 9"
+  },
+  "MaxHeightData": {
+    "Offset": 512.0,
+    "HeightMap": [
+      [5,4,8,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,3,2,0,0,0,0,0,0,0,0,0,0,0],
+      [4,4,4,4,4,5,5,4,4,4,4,4,4,4,4,4,4,4,4,3,2,1,0,0,0,0,0,0,0,0,0,0],
+      [4,4,4,5,5,5,5,5,4,4,4,4,4,4,4,4,4,4,4,3,2,1,0,0,0,0,0,0,0,0,0,0],
+      [4,4,5,5,5,5,6,6,6,6,4,4,4,4,4,4,4,4,4,4,1,1,0,0,0,0,0,0,0,0,0,0],
+      [4,4,4,5,5,4,6,6,6,6,4,4,4,4,4,4,4,4,4,4,1,0,0,0,0,0,0,0,0,0,0,0],
+      [4,4,4,4,4,4,6,6,10,10,4,4,4,4,4,4,4,4,4,4,1,0,0,0,0,0,0,0,0,0,0,0],
+      [4,4,4,4,6,10,11,10,10,10,10,10,10,4,4,10,10,4,4,4,1,0,0,0,0,0,0,0,0,0,0,0],
+      [4,4,4,4,6,10,11,10,10,10,10,10,10,4,4,8,6,4,4,3,2,0,0,0,0,0,0,0,0,0,0,0],
+      [4,4,4,4,6,10,11,10,10,10,10,10,10,4,9,9,4,4,4,3,1,0,0,0,0,0,0,0,0,0,0,0],
+      [4,4,4,4,6,10,10,10,10,10,10,10,10,4,4,6,6,4,4,2,1,0,0,0,0,0,0,0,0,0,0,0],
+      [4,4,5,4,6,10,10,10,10,10,10,10,10,4,4,4,4,4,4,3,1,1,0,0,0,0,0,0,0,0,0,0],
+      [4,4,4,4,6,10,10,10,10,10,10,10,10,4,4,4,4,4,4,3,1,1,0,0,0,0,0,0,0,0,0,0],
+      [4,4,5,4,6,10,10,10,10,8,10,10,10,4,4,4,4,4,4,3,1,0,0,0,0,0,0,0,0,0,0,0],
+      [4,4,4,4,6,6,6,8,8,8,8,8,8,4,4,4,4,4,4,3,1,0,0,0,0,0,0,0,0,0,0,0],
+      [4,4,4,4,6,6,6,8,8,8,8,8,8,4,4,4,4,4,4,3,1,0,0,0,0,0,0,0,0,0,0,0],
+      [4,4,4,4,4,4,4,8,8,8,8,8,8,4,4,4,4,4,4,3,0,0,0,0,0,0,0,0,0,0,0,0],
+      [4,7,4,4,4,4,4,8,8,8,8,8,8,4,4,4,4,4,3,1,0,0,0,0,0,0,0,0,0,0,0,0],
+      [8,7,6,6,4,6,6,4,4,4,4,4,4,5,4,4,4,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0],
+      [4,5,8,10,5,9,9,4,4,4,4,4,5,5,5,4,4,4,1,1,0,0,0,0,0,0,0,0,0,0,0,0],
+      [7,7,8,9,6,10,4,4,4,4,4,4,4,4,4,4,4,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      [4,4,8,9,4,8,4,3,3,3,4,4,4,4,4,4,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      [4,4,4,4,4,4,3,3,3,3,3,4,3,3,3,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      [4,4,4,4,4,3,3,3,3,3,3,2,2,2,2,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0],
+      [3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0],
+      [3,3,3,3,3,3,2,2,2,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      [3,3,3,3,2,2,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      [3,3,3,3,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      [3,3,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      [3,3,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      [3,3,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0],
+      [3,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0],
+      [3,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+    ]
+  },
+  "WaterHeight": 3.4028235E+38,
+  "Regions": [
+    "181C1A:Fallout4.esm",
+    "1CFDBE:Fallout4.esm",
+    "109E91:Fallout4.esm",
+    "049BE0:Fallout4.esm",
+    "23F1FE:Fallout4.esm"
+  ],
+  "Location": "03C0FE:Fallout4.esm",
+  "PhysicsReferences": [
+    "1BEF27:Fallout4.esm",
+    "1CF29F:Fallout4.esm",
+    "148CC1:Fallout4.esm",
+    "148CC2:Fallout4.esm",
+    "1BEF26:Fallout4.esm",
+    "21920E:Fallout4.esm"
+  ],
+  "CombinedMeshes": [
+    28861806,
+    82877219,
+    158464202,
+    175254844,
+    225671039,
+    316928405,
+    324769019,
+    462555487,
+    482666451,
+    524771173,
+    563641934,
+    662107564,
+    731522148,
+    850632099,
+    851700405,
+    928957367,
+    942779081,
+    973764369,
+    1001525887,
+    1248996668,
+    1250047850,
+    1299412863,
+    1556408275,
+    1735849388,
+    1805263972,
+    1924373923,
+    2016520905,
+    2305947850,
+    2879005796,
+    3076441015,
+    3952747620,
+    4071857571,
+    4150182839,
+    4164004553
+  ],
+  "CombinedMeshReferences": [
+    {
+      "Reference": "130498:Fallout4.esm",
+      "CombinedMesh": 928957367
+    },
+    {
+      "Reference": "1BEF00:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1BEF45:Fallout4.esm",
+      "CombinedMesh": 563641934
+    },
+    {
+      "Reference": "1BEEEB:Fallout4.esm",
+      "CombinedMesh": 973764369
+    },
+    {
+      "Reference": "0CA164:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1BEEF2:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0CA0F8:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1EC9EB:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1BEEF7:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1304AA:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "1304F6:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "13049D:Fallout4.esm",
+      "CombinedMesh": 225671039
+    },
+    {
+      "Reference": "1BEEEE:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "1A6C5B:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "0CA161:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "0CA15C:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1BEEFD:Fallout4.esm",
+      "CombinedMesh": 4164004553
+    },
+    {
+      "Reference": "1304A0:Fallout4.esm",
+      "CombinedMesh": 225671039
+    },
+    {
+      "Reference": "1304FC:Fallout4.esm",
+      "CombinedMesh": 4150182839
+    },
+    {
+      "Reference": "130497:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1BEF4A:Fallout4.esm",
+      "CombinedMesh": 1001525887
+    },
+    {
+      "Reference": "1304F9:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "0CAE25:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1BEEE1:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "0CA0F7:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "1BEEF8:Fallout4.esm",
+      "CombinedMesh": 524771173
+    },
+    {
+      "Reference": "1304A5:Fallout4.esm",
+      "CombinedMesh": 928957367
+    },
+    {
+      "Reference": "0C8CAA:Fallout4.esm",
+      "CombinedMesh": 563641934
+    },
+    {
+      "Reference": "1BEF02:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "13049A:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "0A0675:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1BEEDE:Fallout4.esm",
+      "CombinedMesh": 1001525887
+    },
+    {
+      "Reference": "1304A8:Fallout4.esm",
+      "CombinedMesh": 928957367
+    },
+    {
+      "Reference": "1BEEF5:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "159A7B:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1BEEEC:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "0CA163:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1A6C59:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "13049F:Fallout4.esm",
+      "CombinedMesh": 225671039
+    },
+    {
+      "Reference": "1304F4:Fallout4.esm",
+      "CombinedMesh": 2879005796
+    },
+    {
+      "Reference": "1304A2:Fallout4.esm",
+      "CombinedMesh": 225671039
+    },
+    {
+      "Reference": "1BEEFF:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0CA15E:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "130495:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1304FE:Fallout4.esm",
+      "CombinedMesh": 3952747620
+    },
+    {
+      "Reference": "0CAE27:Fallout4.esm",
+      "CombinedMesh": 4071857571
+    },
+    {
+      "Reference": "1BB54C:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1BEEE3:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1304FB:Fallout4.esm",
+      "CombinedMesh": 3952747620
+    },
+    {
+      "Reference": "1304A7:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1BEEFA:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0CA15B:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "0CA0F5:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1304E2:Fallout4.esm",
+      "CombinedMesh": 1299412863
+    },
+    {
+      "Reference": "130438:Fallout4.esm",
+      "CombinedMesh": 225671039
+    },
+    {
+      "Reference": "130453:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1303D4:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1303FA:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "0C9DFB:Fallout4.esm",
+      "CombinedMesh": 175254844
+    },
+    {
+      "Reference": "219213:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "130416:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "0A06A5:Fallout4.esm",
+      "CombinedMesh": 3952747620
+    },
+    {
+      "Reference": "188C15:Fallout4.esm",
+      "CombinedMesh": 1805263972
+    },
+    {
+      "Reference": "188BF9:Fallout4.esm",
+      "CombinedMesh": 928957367
+    },
+    {
+      "Reference": "13044A:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "13040F:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "21920A:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "130464:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1303E3:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1BB637:Fallout4.esm",
+      "CombinedMesh": 1805263972
+    },
+    {
+      "Reference": "188C10:Fallout4.esm",
+      "CombinedMesh": 1805263972
+    },
+    {
+      "Reference": "13044F:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "130424:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "130461:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "13040A:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "21920F:Fallout4.esm",
+      "CombinedMesh": 1250047850
+    },
+    {
+      "Reference": "1303E6:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "130456:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "0C5464:Fallout4.esm",
+      "CombinedMesh": 82877219
+    },
+    {
+      "Reference": "188C09:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "188C4C:Fallout4.esm",
+      "CombinedMesh": 1805263972
+    },
+    {
+      "Reference": "1303FF:Fallout4.esm",
+      "CombinedMesh": 3952747620
+    },
+    {
+      "Reference": "1BB5E1:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "219216:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "130413:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "130445:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "188BF6:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1BB63D:Fallout4.esm",
+      "CombinedMesh": 175254844
+    },
+    {
+      "Reference": "1303EC:Fallout4.esm",
+      "CombinedMesh": 928957367
+    },
+    {
+      "Reference": "13046B:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "130400:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "219205:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1303DB:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "13045C:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "130437:Fallout4.esm",
+      "CombinedMesh": 225671039
+    },
+    {
+      "Reference": "130419:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "2191FD:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1303DE:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "188BEA:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "130459:Fallout4.esm",
+      "CombinedMesh": 3952747620
+    },
+    {
+      "Reference": "219219:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "13041C:Fallout4.esm",
+      "CombinedMesh": 928957367
+    },
+    {
+      "Reference": "1303F0:Fallout4.esm",
+      "CombinedMesh": 928957367
+    },
+    {
+      "Reference": "13042B:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "130440:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "1BB638:Fallout4.esm",
+      "CombinedMesh": 1805263972
+    },
+    {
+      "Reference": "1303E9:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "130405:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "219200:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "13046E:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "188C4B:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "0C9DF9:Fallout4.esm",
+      "CombinedMesh": 175254844
+    },
+    {
+      "Reference": "1303F8:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "0A06A7:Fallout4.esm",
+      "CombinedMesh": 3952747620
+    },
+    {
+      "Reference": "130414:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "219211:Fallout4.esm",
+      "CombinedMesh": 1250047850
+    },
+    {
+      "Reference": "130451:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "13043A:Fallout4.esm",
+      "CombinedMesh": 225671039
+    },
+    {
+      "Reference": "0C5463:Fallout4.esm",
+      "CombinedMesh": 462555487
+    },
+    {
+      "Reference": "1303D6:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "130466:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "13040D:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1303E1:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1BB630:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "130448:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "188BFB:Fallout4.esm",
+      "CombinedMesh": 928957367
+    },
+    {
+      "Reference": "130408:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "130463:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "1303E4:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "188C12:Fallout4.esm",
+      "CombinedMesh": 1805263972
+    },
+    {
+      "Reference": "1BB635:Fallout4.esm",
+      "CombinedMesh": 1805263972
+    },
+    {
+      "Reference": "188BFE:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "13044D:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "0C9DFC:Fallout4.esm",
+      "CombinedMesh": 1556408275
+    },
+    {
+      "Reference": "1303FD:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "130411:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "219214:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "0A06A2:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "188BE7:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "130454:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "188C0B:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "1303EE:Fallout4.esm",
+      "CombinedMesh": 928957367
+    },
+    {
+      "Reference": "130402:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "0A06B1:Fallout4.esm",
+      "CombinedMesh": 1805263972
+    },
+    {
+      "Reference": "13042C:Fallout4.esm",
+      "CombinedMesh": 2879005796
+    },
+    {
+      "Reference": "130447:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "1BB5DE:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1BB63F:Fallout4.esm",
+      "CombinedMesh": 482666451
+    },
+    {
+      "Reference": "13041B:Fallout4.esm",
+      "CombinedMesh": 928957367
+    },
+    {
+      "Reference": "2191FF:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1303D9:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "188BED:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "13045E:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "13041E:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1303F2:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1303DC:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "13045B:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "188BE8:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1BB614:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1303EB:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "13046C:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "130407:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "130442:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "130429:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "188BEB:Fallout4.esm",
+      "CombinedMesh": 1805263972
+    },
+    {
+      "Reference": "130458:Fallout4.esm",
+      "CombinedMesh": 928957367
+    },
+    {
+      "Reference": "188C07:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1303F1:Fallout4.esm",
+      "CombinedMesh": 928957367
+    },
+    {
+      "Reference": "13041D:Fallout4.esm",
+      "CombinedMesh": 928957367
+    },
+    {
+      "Reference": "219218:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1BB639:Fallout4.esm",
+      "CombinedMesh": 563641934
+    },
+    {
+      "Reference": "13042A:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "130441:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "219201:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "130404:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "0A06B7:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "1303E8:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1BB63C:Fallout4.esm",
+      "CombinedMesh": 175254844
+    },
+    {
+      "Reference": "130444:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "1BB5DD:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "188BF7:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "13046A:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "130401:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1BB612:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "1303ED:Fallout4.esm",
+      "CombinedMesh": 928957367
+    },
+    {
+      "Reference": "13045D:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "130436:Fallout4.esm",
+      "CombinedMesh": 225671039
+    },
+    {
+      "Reference": "1303DA:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1BB60B:Fallout4.esm",
+      "CombinedMesh": 2879005796
+    },
+    {
+      "Reference": "2191FC:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "130418:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "13044E:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "130425:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1BB636:Fallout4.esm",
+      "CombinedMesh": 1805263972
+    },
+    {
+      "Reference": "188C11:Fallout4.esm",
+      "CombinedMesh": 928957367
+    },
+    {
+      "Reference": "1303E7:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "0A06B8:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "13040B:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "0C5465:Fallout4.esm",
+      "CombinedMesh": 462555487
+    },
+    {
+      "Reference": "188C08:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "130457:Fallout4.esm",
+      "CombinedMesh": 928957367
+    },
+    {
+      "Reference": "13043C:Fallout4.esm",
+      "CombinedMesh": 225671039
+    },
+    {
+      "Reference": "1BB5E0:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "130412:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "219217:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1303FE:Fallout4.esm",
+      "CombinedMesh": 2879005796
+    },
+    {
+      "Reference": "1BB641:Fallout4.esm",
+      "CombinedMesh": 1001525887
+    },
+    {
+      "Reference": "130439:Fallout4.esm",
+      "CombinedMesh": 225671039
+    },
+    {
+      "Reference": "130452:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "130417:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "219212:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "0C9DFA:Fallout4.esm",
+      "CombinedMesh": 1248996668
+    },
+    {
+      "Reference": "1303FB:Fallout4.esm",
+      "CombinedMesh": 2879005796
+    },
+    {
+      "Reference": "188BF8:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "13044B:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "188C14:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1A6CC8:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1303E2:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "21920B:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "13040E:Fallout4.esm",
+      "CombinedMesh": 928957367
+    },
+    {
+      "Reference": "130465:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "1303F3:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "21921A:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "13041F:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "13045A:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "188BE9:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1303DD:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "13046D:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "130406:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1BB615:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "159A90:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "1303EA:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1BB650:Fallout4.esm",
+      "CombinedMesh": 1805263972
+    },
+    {
+      "Reference": "130443:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "130428:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "219206:Fallout4.esm",
+      "CombinedMesh": 1250047850
+    },
+    {
+      "Reference": "130468:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "1303EF:Fallout4.esm",
+      "CombinedMesh": 3076441015
+    },
+    {
+      "Reference": "1BB610:Fallout4.esm",
+      "CombinedMesh": 1805263972
+    },
+    {
+      "Reference": "1BB63E:Fallout4.esm",
+      "CombinedMesh": 563641934
+    },
+    {
+      "Reference": "13042D:Fallout4.esm",
+      "CombinedMesh": 225671039
+    },
+    {
+      "Reference": "1BB5DF:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "130446:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "2191FE:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1BB609:Fallout4.esm",
+      "CombinedMesh": 1805263972
+    },
+    {
+      "Reference": "13041A:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1BE0C9:Fallout4.esm",
+      "CombinedMesh": 316928405
+    },
+    {
+      "Reference": "0D15AA:Fallout4.esm",
+      "CombinedMesh": 1001525887
+    },
+    {
+      "Reference": "188BEC:Fallout4.esm",
+      "CombinedMesh": 1805263972
+    },
+    {
+      "Reference": "13045F:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "188C00:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1BB627:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "159A9F:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "1303E5:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "130409:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "21920C:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "130462:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "188BFF:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "13044C:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "188C13:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "219215:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "130410:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1303FC:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "188C0A:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "1A6CD6:Fallout4.esm",
+      "CombinedMesh": 1805263972
+    },
+    {
+      "Reference": "13043E:Fallout4.esm",
+      "CombinedMesh": 158464202
+    },
+    {
+      "Reference": "130455:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "0A06A6:Fallout4.esm",
+      "CombinedMesh": 2879005796
+    },
+    {
+      "Reference": "219210:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "130415:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "188C4A:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1303F9:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "188C0F:Fallout4.esm",
+      "CombinedMesh": 1805263972
+    },
+    {
+      "Reference": "130450:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "13043B:Fallout4.esm",
+      "CombinedMesh": 225671039
+    },
+    {
+      "Reference": "1303E0:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "130467:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "13040C:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "130449:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "188BFA:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1BB631:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "188C16:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1304F8:Fallout4.esm",
+      "CombinedMesh": 928957367
+    },
+    {
+      "Reference": "1BEEE0:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "0CAE24:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0CA0F6:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1304A4:Fallout4.esm",
+      "CombinedMesh": 928957367
+    },
+    {
+      "Reference": "1BEEF9:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0CA15D:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1304A1:Fallout4.esm",
+      "CombinedMesh": 225671039
+    },
+    {
+      "Reference": "1BEEFC:Fallout4.esm",
+      "CombinedMesh": 4164004553
+    },
+    {
+      "Reference": "248C78:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1304FD:Fallout4.esm",
+      "CombinedMesh": 3952747620
+    },
+    {
+      "Reference": "130496:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1BEF4B:Fallout4.esm",
+      "CombinedMesh": 1001525887
+    },
+    {
+      "Reference": "0CA0F9:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1304AB:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "1BEEF6:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1304F7:Fallout4.esm",
+      "CombinedMesh": 928957367
+    },
+    {
+      "Reference": "13049C:Fallout4.esm",
+      "CombinedMesh": 225671039
+    },
+    {
+      "Reference": "0CA160:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1A6C5A:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1BEEEF:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "130499:Fallout4.esm",
+      "CombinedMesh": 928957367
+    },
+    {
+      "Reference": "1BEF01:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "248C77:Fallout4.esm",
+      "CombinedMesh": 1250047850
+    },
+    {
+      "Reference": "1BEEEA:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "0A066F:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1BEEDD:Fallout4.esm",
+      "CombinedMesh": 1001525887
+    },
+    {
+      "Reference": "0A0676:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1BEEF3:Fallout4.esm",
+      "CombinedMesh": 973764369
+    },
+    {
+      "Reference": "1BDFA3:Fallout4.esm",
+      "CombinedMesh": 1556408275
+    },
+    {
+      "Reference": "1BB54D:Fallout4.esm",
+      "CombinedMesh": 1805263972
+    },
+    {
+      "Reference": "1BEF4C:Fallout4.esm",
+      "CombinedMesh": 563641934
+    },
+    {
+      "Reference": "1BEEE2:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "0CAE26:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1304FA:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1EC9E7:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1BEEFB:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1304A6:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1304E3:Fallout4.esm",
+      "CombinedMesh": 1299412863
+    },
+    {
+      "Reference": "148CF2:Fallout4.esm",
+      "CombinedMesh": 1805263972
+    },
+    {
+      "Reference": "248C74:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "130435:Fallout4.esm",
+      "CombinedMesh": 225671039
+    },
+    {
+      "Reference": "130434:Fallout4.esm",
+      "CombinedMesh": 225671039
+    },
+    {
+      "Reference": "1BEF44:Fallout4.esm",
+      "CombinedMesh": 563641934
+    },
+    {
+      "Reference": "1BEEFE:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1304A3:Fallout4.esm",
+      "CombinedMesh": 225671039
+    },
+    {
+      "Reference": "130433:Fallout4.esm",
+      "CombinedMesh": 225671039
+    },
+    {
+      "Reference": "130432:Fallout4.esm",
+      "CombinedMesh": 225671039
+    },
+    {
+      "Reference": "130431:Fallout4.esm",
+      "CombinedMesh": 225671039
+    },
+    {
+      "Reference": "130430:Fallout4.esm",
+      "CombinedMesh": 3076441015
+    },
+    {
+      "Reference": "13042F:Fallout4.esm",
+      "CombinedMesh": 225671039
+    },
+    {
+      "Reference": "13042E:Fallout4.esm",
+      "CombinedMesh": 225671039
+    },
+    {
+      "Reference": "130427:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "130426:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1304AC:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "0CA15F:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1BEF49:Fallout4.esm",
+      "CombinedMesh": 563641934
+    },
+    {
+      "Reference": "1BEEE7:Fallout4.esm",
+      "CombinedMesh": 524771173
+    },
+    {
+      "Reference": "1BB64F:Fallout4.esm",
+      "CombinedMesh": 1805263972
+    },
+    {
+      "Reference": "130422:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "130420:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1303F7:Fallout4.esm",
+      "CombinedMesh": 928957367
+    },
+    {
+      "Reference": "1303F6:Fallout4.esm",
+      "CombinedMesh": 928957367
+    },
+    {
+      "Reference": "1303F5:Fallout4.esm",
+      "CombinedMesh": 928957367
+    },
+    {
+      "Reference": "0C8CAB:Fallout4.esm",
+      "CombinedMesh": 2305947850
+    },
+    {
+      "Reference": "159A82:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "1303D7:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "148CF4:Fallout4.esm",
+      "CombinedMesh": 1556408275
+    },
+    {
+      "Reference": "1303D8:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "130494:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "0D15C8:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0A0683:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1BEEF4:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "1304A9:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "0C559C:Fallout4.esm",
+      "CombinedMesh": 1001525887
+    },
+    {
+      "Reference": "0A06BB:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "0A06BA:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "0A06B4:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "0A06B6:Fallout4.esm",
+      "CombinedMesh": 158464202
+    },
+    {
+      "Reference": "0A06B5:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "0A06B0:Fallout4.esm",
+      "CombinedMesh": 1805263972
+    },
+    {
+      "Reference": "0A068E:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "0A068D:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "0A068C:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "1304F5:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "0A068B:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "0A067E:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "0A068A:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "0A0688:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "0A0687:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "0A0682:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "0CA162:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "0A0684:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "1BEEED:Fallout4.esm",
+      "CombinedMesh": 524771173
+    },
+    {
+      "Reference": "0A0681:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "0A0680:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "0A067F:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "13049E:Fallout4.esm",
+      "CombinedMesh": 225671039
+    },
+    {
+      "Reference": "0A067D:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1BEF06:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "0A067C:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "0A067A:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "0A0679:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "0A0678:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "13043F:Fallout4.esm",
+      "CombinedMesh": 158464202
+    },
+    {
+      "Reference": "0A0673:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "0A0671:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "0A0670:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "0C55AA:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "1303F4:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "0A066D:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1BEEE8:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "148CF3:Fallout4.esm",
+      "CombinedMesh": 1805263972
+    },
+    {
+      "Reference": "1BEF03:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "148CF5:Fallout4.esm",
+      "CombinedMesh": 1556408275
+    },
+    {
+      "Reference": "13049B:Fallout4.esm",
+      "CombinedMesh": 225671039
+    },
+    {
+      "Reference": "248C75:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1A6C57:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1A6CD4:Fallout4.esm",
+      "CombinedMesh": 158464202
+    },
+    {
+      "Reference": "1A6CD5:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1BB640:Fallout4.esm",
+      "CombinedMesh": 1001525887
+    },
+    {
+      "Reference": "1BB64E:Fallout4.esm",
+      "CombinedMesh": 1805263972
+    },
+    {
+      "Reference": "1BEEF1:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "0A0674:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1303D3:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "130423:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "0C559A:Fallout4.esm",
+      "CombinedMesh": 462555487
+    },
+    {
+      "Reference": "1303DF:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1BEF04:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1BEF05:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1BEF07:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1BEF09:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1304E9:Fallout4.esm",
+      "CombinedMesh": 928957367
+    },
+    {
+      "Reference": "0A0686:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "1BEF55:Fallout4.esm",
+      "CombinedMesh": 462555487
+    },
+    {
+      "Reference": "1BEEDF:Fallout4.esm",
+      "CombinedMesh": 973764369
+    }
+  ],
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0A06A4:Fallout4.esm",
+      "FormVersion": 130,
+      "Base": "02FDA7:Fallout4.esm",
+      "Layer": "130421:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "91026.98, 37821.504, 1514.9226",
+      "Rotation": "6.263423, 6.2759666, 2.7905912"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "188BFD:Fallout4.esm",
+      "Base": "01E953:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "1C5EDD:Fallout4.esm",
+          "Reference": "0A06F6:Fallout4.esm"
+        }
+      ],
+      "Position": "91316.516, 37702.71, 1256.3185",
+      "Rotation": "0, 0, 4.7123923"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "23A07B:Fallout4.esm",
+      "FormVersion": 130,
+      "Base": "0978C2:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "91320.3, 37908.074, 1000.3185"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F2:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "097633:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91760.27, 38380.66, 1662.4486",
+      "Rotation": "0, 0, 0.011452676"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F3:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B97:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "92075.26, 37998.55, 1535.2119",
+      "Rotation": "0, 0, 4.7237773"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F4:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1865B9:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "92124.305, 37990.82, 1000.31866",
+      "Rotation": "0, 0, 2.2476246"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F5:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000811:SettlerBuiltSettlements.esp",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "92029.71, 38334.434, 1514.5393",
+      "Rotation": "0, 0, 0.08825606"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F6:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0000F0:SBS - LivingCroupManor.esp",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "92082.375, 38149.3, 1513.8068",
+      "Rotation": "0, 0, 1.5401064"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F7:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B8F:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91822.2, 38257.457, 1535.2119",
+      "Rotation": "0, 0, 3.153002"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F8:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1B4AB9:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "92877.3, 37132.566, 842.4408",
+      "Rotation": "0, 0, 4.6189146"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F9:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000809:SettlerBuiltSettlements.esp",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91088.555, 37863.535, 1512.3186",
+      "Rotation": "0, 0, 4.415568"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000FA:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0000F0:SBS - LivingCroupManor.esp",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91186.14, 37704.395, 1512.2312",
+      "Rotation": "0, 0, 3.0579548"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000FB:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0000F0:SBS - LivingCroupManor.esp",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "92079.586, 38005.707, 1513.631",
+      "Rotation": "0, 0, 1.594648"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000FC:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B8F:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91819.28, 38001.473, 1535.2119",
+      "Rotation": "0, 0, 0.011400665"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000FD:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000809:SettlerBuiltSettlements.esp",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91997.38, 38004.44, 1513.631",
+      "Rotation": "0, 0, 1.6157385"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000FE:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0DB83B:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "92012.46, 37468.68, 981.92194",
+      "Rotation": "0, 0, 3.1857128"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000FF:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "082447:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91948.65, 38138.652, 1056.8185",
+      "Rotation": "0, 0, 0.28074494"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000100:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000809:SettlerBuiltSettlements.esp",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "92059.68, 38338.137, 1571.0422",
+      "Rotation": "0, 0, 0.7504689"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000102:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BB9:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91017.81, 38289.55, 1270.3818",
+      "Rotation": "0, 0, 0.014798472"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000104:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00080E:SettlerBuiltSettlements.esp",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91848.16, 38346.91, 1554.1577",
+      "Rotation": "0, 0, 0.010323622"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000105:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0000F0:SBS - LivingCroupManor.esp",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91000.68, 37859.285, 1512.3188",
+      "Rotation": "0, 0, 4.670466"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000106:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "027EB8:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91492.4, 37830.664, 1512.3185",
+      "Rotation": "0, 0, 0.14594425"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000108:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B95:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91426.164, 38260.69, 1001.8313",
+      "Rotation": "0, 0, 1.5719867"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000109:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "04CD99:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "92171.73, 38324.03, 1258.7819",
+      "Rotation": "0, 0, 0.34147018"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00010A:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0000E1:SBS - LivingCroupManor.esp",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "92156.67, 38118.2, 1000.3293",
+      "Rotation": "0, 0, 2.995697"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00010B:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0EC530:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91813.47, 38002.26, 1513.631",
+      "Rotation": "0, 0, 1.5697055"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00010D:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0EC530:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91561.46, 38274.562, 1762.6182",
+      "Rotation": "0, 0, 4.717372"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00010F:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "027EB9:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "92035.945, 38241.227, 1512.3834",
+      "Rotation": "0, 0, 1.582216"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000111:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1B4AC4:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "92583.66, 37828.82, 842.4406",
+      "Rotation": "0, 0, 1.2155608"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000112:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91182.89, 37726.48, 1514.1572",
+      "Rotation": "0, 0, 4.535999"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000113:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B97:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "90781.64, 38007.637, 1249.082",
+      "Rotation": "0, 0, 4.756193"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000114:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0000E1:SBS - LivingCroupManor.esp",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "92166.49, 38199.207, 1002.57043",
+      "Rotation": "0, 0, 0.46214223"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000115:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "01F74E:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "92032.766, 38266.19, 1514.2701",
+      "Rotation": "0, 0, 5.593332"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000116:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B89:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "92063.38, 38257.688, 1258.7817",
+      "Rotation": "0, 0, 0.014931117"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000118:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1B4AB9:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "92702.24, 37604.418, 842.4406",
+      "Rotation": "0, 0, 4.0953455"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000119:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0DF45A:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91075.31, 37566.95, 999.05383",
+      "Rotation": "0, 0, 3.147745"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011B:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0C01D0:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "90531.99, 38017.7, 965.3502",
+      "Rotation": "0, 0, 6.279749"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011C:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B89:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91049.56, 37995.773, 1257.308",
+      "Rotation": "0, 0, 4.717419"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011D:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0EC530:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "92069.47, 38002.543, 1513.631",
+      "Rotation": "0, 0, 1.5697073"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011F:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0EC530:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91147.49, 37752.656, 1512.2312",
+      "Rotation": "0, 0, 4.714157"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000120:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1BDDBB:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "90658.65, 37869.867, 998.4225",
+      "Rotation": "0, 0, 2.0916617"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000121:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1B4AC4:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "92560.58, 38075.02, 842.4407",
+      "Rotation": "0, 0, 1.7391595"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000123:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0EC530:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91560.18, 38018.562, 1762.6182",
+      "Rotation": "0, 0, 4.717374"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000124:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "09763B:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "92193.76, 37985.996, 1665.6467",
+      "Rotation": "0, 0, 1.5821375"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000125:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0000F0:SBS - LivingCroupManor.esp",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "92117.65, 38250.508, 1258.7819",
+      "Rotation": "0, 0, 1.5336418"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000126:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00080F:SettlerBuiltSettlements.esp",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91992.56, 38337.688, 1571.0422",
+      "Rotation": "0, 0, 0.95973736"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000127:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91747.51, 38329.586, 1532.7484",
+      "Rotation": "0, 0, 6.2472386"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000128:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B97:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "90778.99, 38001.977, 1000.30945",
+      "Rotation": "0, 0, 4.728505"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000129:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000807:SettlerBuiltSettlements.esp",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91846.85, 38350.12, 1513.631",
+      "Rotation": "0, 0, 0.0067071253"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012B:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1B4AC4:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "92820.83, 37380.016, 842.44073",
+      "Rotation": "0, 0, 4.3571324"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012C:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1B4ABC:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "92901.19, 36877.684, 778.4408",
+      "Rotation": "0, 0, 4.618916"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012D:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1487C1:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91781.984, 38265.05, 1000.3187",
+      "Rotation": "0, 0, 4.7176375"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012E:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "04CD9A:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "92152.555, 38322.04, 1514.3558",
+      "Rotation": "0, 0, 5.967145"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012F:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0EC530:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91813.19, 38258.26, 1513.631",
+      "Rotation": "0, 0, 1.5697055"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000131:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00091B:DLCworkshop01.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91904.914, 38150.223, 1056.8185",
+      "Rotation": "0, 0, 2.7508745"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000134:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B89:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91553.5, 37749.594, 1261.1547",
+      "Rotation": "0, 0, 3.1509285"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000138:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0000F0:SBS - LivingCroupManor.esp",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91100.39, 38284.06, 1512.3185",
+      "Rotation": "0, 0, 0.04873832"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013B:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "027EB8:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91169.28, 37731.973, 1512.2957",
+      "Rotation": "0, 0, 4.806785"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013C:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0000F0:SBS - LivingCroupManor.esp",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91798.66, 38190.336, 1257.5935",
+      "Rotation": "0, 0, 4.85467"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013D:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B96:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "92078.18, 38254.535, 1535.2119",
+      "Rotation": "0, 0, 4.7237844"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013E:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B96:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91825.125, 38513.44, 1535.2119",
+      "Rotation": "0, 0, 0.011416199"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013F:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B97:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "90770.43, 37751.883, 1249.082",
+      "Rotation": "0, 0, 4.756183"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000140:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0000F0:SBS - LivingCroupManor.esp",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91565.97, 37752.316, 1261.1548",
+      "Rotation": "0, 0, 1.7071991"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000141:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B8F:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "92078.19, 38254.535, 1535.2119",
+      "Rotation": "0, 0, 3.1530054"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000142:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0000F0:SBS - LivingCroupManor.esp",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91808.85, 37968.44, 1513.631",
+      "Rotation": "0, 0, 3.0970886"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000143:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000809:SettlerBuiltSettlements.esp",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91978.375, 38144.62, 1513.6418",
+      "Rotation": "0, 0, 1.1639898"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000144:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00080E:SettlerBuiltSettlements.esp",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91094.81, 37668.395, 1514.5269",
+      "Rotation": "0, 0, 3.9364052"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000145:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0000DA:SBS - LivingCroupManor.esp",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91492.42, 38530.93, 975.99786",
+      "Rotation": "0, 0, 5.1769557"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000146:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91742.086, 38328.2, 1513.631",
+      "Rotation": "0, 0, 0.40765986"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000147:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B97:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "92075.26, 37998.56, 1535.2119",
+      "Rotation": "0, 0, 0.011386703"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000148:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B8F:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "92075.266, 37998.55, 1535.2119",
+      "Rotation": "0, 0, 0.011410963"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000149:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B95:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "92078.19, 38254.535, 1535.2119",
+      "Rotation": "0, 0, 3.1530125"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014A:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B96:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91819.28, 38001.473, 1535.2119",
+      "Rotation": "0, 0, 0.011390018"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014B:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000918:DLCworkshop01.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "90955.39, 37726.426, 1512.2954",
+      "Rotation": "0, 0, 5.60302"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014C:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000818:SettlerBuiltSettlements.esp",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91176.695, 37784.953, 1513.7542",
+      "Rotation": "0, 0, 4.522546"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014D:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000819:SettlerBuiltSettlements.esp",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91894.67, 38304.652, 1258.7819",
+      "Rotation": "0, 0, 3.3633647"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014E:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000818:SettlerBuiltSettlements.esp",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "92045.6, 38254.617, 1258.7819",
+      "Rotation": "0, 0, 3.0984848"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014F:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000805:SettlerBuiltSettlements.esp",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91615.15, 37861.574, 1308.8231",
+      "Rotation": "0, 0, 2.287207"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000150:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00080E:SettlerBuiltSettlements.esp",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91535.14, 37914.363, 1306.201",
+      "Rotation": "0, 0, 3.2154183"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000151:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000809:SettlerBuiltSettlements.esp",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91477.07, 37762.484, 1261.1548",
+      "Rotation": "0, 0, 4.998089"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000152:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000817:SettlerBuiltSettlements.esp",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91633.81, 38177.773, 1256.3369",
+      "Rotation": "0, 0, 1.5618567"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000153:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00080F:SettlerBuiltSettlements.esp",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91533.95, 37913.777, 1342.8737",
+      "Rotation": "0, 0, 1.2522981"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000154:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91566.38, 37760.87, 1261.1548",
+      "Rotation": "0, 0, 2.9067237"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000155:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000919:DLCworkshop01.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91553.18, 37872.73, 1305.8948",
+      "Rotation": "0, 0, 1.482556"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000156:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000919:DLCworkshop01.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "92056.19, 37932.867, 1312.7694",
+      "Rotation": "0, 0, 3.1811593"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000157:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000919:DLCworkshop01.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91972.32, 37904.055, 1071.0482",
+      "Rotation": "0, 0, 4.318393"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000158:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B89:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91111.3, 38325.582, 1495.1033",
+      "Rotation": "0, 0, 0.20198521"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000159:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B89:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91313.086, 38014.086, 1510.9733",
+      "Rotation": "0, 0, 1.5254823"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00015A:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "075F3F:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91170.69, 38362.41, 1512.3281",
+      "Rotation": "0, 0, 1.6604958"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00015B:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000919:DLCworkshop01.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91171.125, 38360.492, 1545.0139",
+      "Rotation": "0, 0, 1.6729645"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00015C:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000807:SettlerBuiltSettlements.esp",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91246.664, 38157.7, 1512.3242",
+      "Rotation": "0, 0, 1.066103"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00015D:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0711B5:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91818.28, 38175.574, 1513.631",
+      "Rotation": "0, 0, 2.9217632"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00015E:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0711B5:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "91076.086, 38078.777, 1512.3636",
+      "Rotation": "0, 0, 1.865481"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00015F:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "074BB1:Fallout4.esm",
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "EnableParent": {
+        "Reference": "00016A:SBS - LivingCroupManor.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Position": "90961.12, 38069.887, 1000.3187",
+      "Rotation": "0, 0, 1.588644"
+    },
+    {
+      "MutagenObjectType": "PlacedNpc",
+      "FormKey": "000161:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1167A8:Fallout4.esm",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "Position": "90942.28, 37444.85, 1254.2439",
+      "Rotation": "0, 0, 3.8269851",
+      "MajorFlags": [
+        "InitiallyDisabled"
+      ]
+    },
+    {
+      "MutagenObjectType": "PlacedNpc",
+      "FormKey": "000162:SBS - LivingCroupManor.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1167A8:Fallout4.esm",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654BD:Fallout4.esm"
+        }
+      ],
+      "Layer": "0000F1:SBS - LivingCroupManor.esp",
+      "Position": "91877.92, 37430.223, 1245.373",
+      "Rotation": "0, 0, 2.4537811",
+      "MajorFlags": [
+        "InitiallyDisabled"
+      ]
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}
