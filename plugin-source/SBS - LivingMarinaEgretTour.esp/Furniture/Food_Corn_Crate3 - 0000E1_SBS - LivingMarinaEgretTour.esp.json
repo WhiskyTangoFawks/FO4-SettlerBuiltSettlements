@@ -1,0 +1,6 @@
+{
+  "FormKey": "0000E1:SBS - LivingMarinaEgretTour.esp",
+  "Malformed": [
+    "FURN 060000E1 (Food_Corn_Crate3) — furn-missing-fnam-and-mnam, repairable (lossless): FNAM and MNAM are missing; vanilla always writes both"
+  ]
+}
