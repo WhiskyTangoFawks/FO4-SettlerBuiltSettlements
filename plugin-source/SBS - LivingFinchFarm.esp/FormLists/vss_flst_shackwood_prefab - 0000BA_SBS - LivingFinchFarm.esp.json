@@ -1,0 +1,20 @@
+{
+  "FormKey": "0000BA:SBS - LivingFinchFarm.esp",
+  "EditorID": "vss_flst_shackwood_prefab",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "vss_flst_shackwood_prefab"
+  },
+  "Items": [
+    "000017:SBS - LivingFinchFarm.esp",
+    "000018:SBS - LivingFinchFarm.esp",
+    "000019:SBS - LivingFinchFarm.esp",
+    "00001A:SBS - LivingFinchFarm.esp",
+    "00001B:SBS - LivingFinchFarm.esp",
+    "00001C:SBS - LivingFinchFarm.esp",
+    "00001D:SBS - LivingFinchFarm.esp",
+    "00001E:SBS - LivingFinchFarm.esp",
+    "00001F:SBS - LivingFinchFarm.esp",
+    "000020:SBS - LivingFinchFarm.esp"
+  ]
+}

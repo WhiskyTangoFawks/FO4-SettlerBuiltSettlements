@@ -1,0 +1,10 @@
+{
+  "FormKey": "0000CB:SBS - LivingFinchFarm.esp",
+  "EditorID": "vss_kywd_shackwood_wall",
+  "Color": "#00FFFFFF",
+  "Type": "RecipeFilter",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Shack Wood Wall"
+  }
+}

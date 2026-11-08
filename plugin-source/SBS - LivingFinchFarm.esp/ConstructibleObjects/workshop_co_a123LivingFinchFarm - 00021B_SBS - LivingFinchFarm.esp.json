@@ -1,0 +1,123 @@
+{
+  "FormKey": "00021B:SBS - LivingFinchFarm.esp",
+  "EditorID": "workshop_co_a123LivingFinchFarm",
+  "PickUpSound": "02B012:Fallout4.esm",
+  "PutDownSound": "02B012:Fallout4.esm",
+  "Components": [
+    {
+      "Component": "01FAA5:Fallout4.esm",
+      "Count": 8
+    },
+    {
+      "Component": "01FABD:Fallout4.esm",
+      "Count": 115
+    },
+    {
+      "Component": "01FAC2:Fallout4.esm",
+      "Count": 175
+    },
+    {
+      "Component": "03D294:Fallout4.esm",
+      "Count": 14
+    },
+    {
+      "Component": "1223C7:Fallout4.esm",
+      "Count": 80
+    },
+    {
+      "Component": "01FAA4:Fallout4.esm",
+      "Count": 6
+    },
+    {
+      "Component": "01FAB4:Fallout4.esm",
+      "Count": 6
+    },
+    {
+      "Component": "033102:Fallout4.esm",
+      "Count": 6
+    }
+  ],
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": "Supplies for your settlers to build a larger settlement."
+  },
+  "Conditions": [
+    {
+      "MutagenObjectType": "ConditionFloat",
+      "Unknown1": "0x000000",
+      "Data": {
+        "MutagenObjectType": "FunctionConditionData",
+        "Function": "GetWorkshopObjectCount",
+        "ParameterOneRecord": "00021A:SBS - LivingFinchFarm.esp",
+        "ParameterOneNumber": 117441050
+      }
+    },
+    {
+      "MutagenObjectType": "ConditionFloat",
+      "Flags": [
+        "OR"
+      ],
+      "Unknown1": "0x000000",
+      "ComparisonValue": 1.0,
+      "Data": {
+        "MutagenObjectType": "FunctionConditionData",
+        "Function": "GetInCell",
+        "ParameterOneRecord": "00DABF:Fallout4.esm",
+        "ParameterOneNumber": 55999
+      }
+    },
+    {
+      "MutagenObjectType": "ConditionFloat",
+      "Flags": [
+        "OR"
+      ],
+      "Unknown1": "0x000000",
+      "ComparisonValue": 1.0,
+      "Data": {
+        "MutagenObjectType": "FunctionConditionData",
+        "Function": "GetInCell",
+        "ParameterOneRecord": "00DABE:Fallout4.esm",
+        "ParameterOneNumber": 55998
+      }
+    },
+    {
+      "MutagenObjectType": "ConditionFloat",
+      "Flags": [
+        "OR"
+      ],
+      "Unknown1": "0x000000",
+      "ComparisonValue": 1.0,
+      "Data": {
+        "MutagenObjectType": "FunctionConditionData",
+        "Function": "GetInCell",
+        "ParameterOneRecord": "00DAA0:Fallout4.esm",
+        "ParameterOneNumber": 55968
+      }
+    },
+    {
+      "MutagenObjectType": "ConditionFloat",
+      "Flags": [
+        "OR"
+      ],
+      "Unknown1": "0x000000",
+      "ComparisonValue": 1.0,
+      "Data": {
+        "MutagenObjectType": "FunctionConditionData",
+        "Function": "GetInCell",
+        "ParameterOneRecord": "00DA9F:Fallout4.esm",
+        "ParameterOneNumber": 55967
+      }
+    }
+  ],
+  "CreatedObject": "00021A:SBS - LivingFinchFarm.esp",
+  "WorkbenchKeyword": "05A0C8:Fallout4.esm",
+  "Categories": [
+    "000F9A:SettlerBuiltSettlements.esp"
+  ],
+  "CreatedObjectCounts": [
+    {
+      "Count": 1,
+      "Priority": 200
+    }
+  ]
+}
