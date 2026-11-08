@@ -1,0 +1,29 @@
+{
+  "FormKey": "00034E:SBS - LivingStarlightDrive in.esp",
+  "MajorRecordFlagsRaw": 4096,
+  "EditorID": "cobj_StarlightCrateRazorGrain3",
+  "Fallout4MajorRecordFlags": [
+    "Ignored"
+  ],
+  "PickUpSound": "02B012:Fallout4.esm",
+  "PutDownSound": "02B013:Fallout4.esm",
+  "Components": [
+    {
+      "Component": "0E0043:Fallout4.esm",
+      "Count": 6
+    },
+    {
+      "Component": "01FAC2:Fallout4.esm",
+      "Count": 6
+    },
+    {
+      "Component": "01FABD:Fallout4.esm",
+      "Count": 3
+    }
+  ],
+  "CreatedObject": "00034C:SBS - LivingStarlightDrive in.esp",
+  "WorkbenchKeyword": "246F85:Fallout4.esm",
+  "Categories": [
+    "118F61:Fallout4.esm"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "FormKey": "00034D:SBS - LivingStarlightDrive in.esp",
+  "Malformed": [
+    "FURN 0600034D (StarlightCratesWater3) — furn-missing-fnam-and-mnam, repairable (lossless): FNAM and MNAM are missing; vanilla always writes both"
+  ]
+}
