@@ -1,0 +1,97 @@
+{
+  "FormKey": "00023B:SBS - LivingJamaicaPlain.esp",
+  "EditorID": "workshop_co_a123LivingJamaicaPlain",
+  "PickUpSound": "02B012:Fallout4.esm",
+  "PutDownSound": "02B012:Fallout4.esm",
+  "Components": [
+    {
+      "Component": "01FABD:Fallout4.esm",
+      "Count": 50
+    },
+    {
+      "Component": "01FAC2:Fallout4.esm",
+      "Count": 65
+    },
+    {
+      "Component": "03D294:Fallout4.esm",
+      "Count": 10
+    },
+    {
+      "Component": "01FAB9:Fallout4.esm",
+      "Count": 15
+    },
+    {
+      "Component": "1223C7:Fallout4.esm",
+      "Count": 20
+    }
+  ],
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": "Supplies for your settlers to build a larger settlement."
+  },
+  "Conditions": [
+    {
+      "MutagenObjectType": "ConditionFloat",
+      "Unknown1": "0x000000",
+      "Data": {
+        "MutagenObjectType": "FunctionConditionData",
+        "Function": "GetWorkshopObjectCount",
+        "ParameterOneRecord": "00023A:SBS - LivingJamaicaPlain.esp",
+        "ParameterOneNumber": 67109434
+      }
+    },
+    {
+      "MutagenObjectType": "ConditionFloat",
+      "Flags": [
+        "OR"
+      ],
+      "Unknown1": "0x000000",
+      "ComparisonValue": 1.0,
+      "Data": {
+        "MutagenObjectType": "FunctionConditionData",
+        "Function": "GetInCell",
+        "ParameterOneRecord": "00E20E:Fallout4.esm",
+        "ParameterOneNumber": 57870
+      }
+    },
+    {
+      "MutagenObjectType": "ConditionFloat",
+      "Flags": [
+        "OR"
+      ],
+      "Unknown1": "0x000000",
+      "ComparisonValue": 1.0,
+      "Data": {
+        "MutagenObjectType": "FunctionConditionData",
+        "Function": "GetInCell",
+        "ParameterOneRecord": "00E22E:Fallout4.esm",
+        "ParameterOneNumber": 57902
+      }
+    },
+    {
+      "MutagenObjectType": "ConditionFloat",
+      "Flags": [
+        "OR"
+      ],
+      "Unknown1": "0x000000",
+      "ComparisonValue": 1.0,
+      "Data": {
+        "MutagenObjectType": "FunctionConditionData",
+        "Function": "GetInCell",
+        "ParameterOneRecord": "00E22D:Fallout4.esm",
+        "ParameterOneNumber": 57901
+      }
+    }
+  ],
+  "CreatedObject": "00023A:SBS - LivingJamaicaPlain.esp",
+  "WorkbenchKeyword": "05A0C8:Fallout4.esm",
+  "Categories": [
+    "000F9A:SettlerBuiltSettlements.esp"
+  ],
+  "CreatedObjectCounts": [
+    {
+      "Count": 1,
+      "Priority": 200
+    }
+  ]
+}

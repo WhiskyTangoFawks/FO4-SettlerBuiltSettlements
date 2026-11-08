@@ -1,0 +1,31 @@
+{
+  "ModKey": "SBS - LivingJamaicaPlain.esp",
+  "GameRelease": "Fallout4",
+  "ModHeader": {
+    "Flags": [
+      "Small"
+    ],
+    "Stats": {
+      "NextFormID": 572
+    },
+    "Author": "",
+    "OverriddenForms": [
+      "093BAD:Fallout4.esm",
+      "094F46:Fallout4.esm",
+      "094FA2:Fallout4.esm",
+      "095010:Fallout4.esm",
+      "0950F9:Fallout4.esm",
+      "095106:Fallout4.esm",
+      "095147:Fallout4.esm",
+      "09515E:Fallout4.esm",
+      "095180:Fallout4.esm",
+      "0951C4:Fallout4.esm",
+      "0951CE:Fallout4.esm",
+      "095363:Fallout4.esm",
+      "095368:Fallout4.esm",
+      "230DC6:Fallout4.esm",
+      "230DC7:Fallout4.esm",
+      "23ACBA:Fallout4.esm"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "FormKey": "0000DC:SBS - LivingJamaicaPlain.esp",
+  "Malformed": [
+    "FURN 040000DC (Food_RazorGrain_Crate3) — furn-missing-fnam-and-mnam, repairable (lossless): FNAM and MNAM are missing; vanilla always writes both"
+  ]
+}
