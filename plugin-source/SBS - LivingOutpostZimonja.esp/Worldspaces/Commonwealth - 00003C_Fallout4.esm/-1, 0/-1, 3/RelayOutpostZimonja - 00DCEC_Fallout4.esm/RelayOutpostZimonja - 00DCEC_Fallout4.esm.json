@@ -1,0 +1,4213 @@
+{
+  "FormKey": "00DCEC:Fallout4.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "RelayOutpostZimonja",
+  "Fallout4MajorRecordFlags": [
+    "Compressed"
+  ],
+  "Flags": [
+    "HasWater"
+  ],
+  "PreVisFilesTimestamp": 7972,
+  "InPreVisFileOf": "00DCEC:Fallout4.esm",
+  "PreCombinedFilesTimestamp": 7972,
+  "Grid": {
+    "Point": "-3, 24"
+  },
+  "MaxHeightData": {
+    "Offset": 3584.0,
+    "HeightMap": [
+      [7,7,8,8,7,7,7,7,7,7,7,7,7,7,7,7,7,6,5,5,5,6,6,6,6,6,6,6,6,6,6,7],
+      [6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,5,5,5,6,6,6,6,6,6,6,11,6,6,6],
+      [6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,6,5,5,5,5,6,6,6,6,6,6,6,10,9,6,6],
+      [6,7,7,7,7,7,7,7,7,7,7,7,7,6,6,6,6,5,4,4,5,5,5,5,5,5,6,6,9,8,6,6],
+      [6,7,7,7,7,7,7,7,7,7,7,6,5,5,5,4,4,4,4,4,5,5,5,5,5,5,5,6,6,6,6,6],
+      [6,7,7,7,7,7,7,7,7,7,6,5,3,4,4,4,4,4,3,4,4,4,5,5,11,5,5,6,6,6,6,6],
+      [5,6,7,7,7,7,7,7,8,7,6,3,3,3,3,3,3,3,3,3,4,4,4,5,11,6,8,5,6,6,6,6],
+      [5,6,7,7,7,7,8,8,8,7,5,2,2,2,2,6,6,6,6,3,3,4,4,7,6,9,9,9,5,5,5,6],
+      [5,5,6,7,7,7,8,8,7,5,3,2,2,2,4,6,6,6,6,2,3,3,7,6,9,12,5,5,5,5,5,5],
+      [4,4,6,6,7,7,7,7,6,4,2,2,2,4,4,6,6,6,6,2,3,3,7,6,4,4,4,5,5,5,5,5],
+      [4,3,5,5,7,7,7,5,5,4,4,4,4,4,4,5,23,23,5,2,3,3,3,8,4,4,4,4,5,5,5,5],
+      [4,3,4,5,5,6,6,2,4,5,5,5,4,4,4,5,6,6,6,6,2,3,3,3,3,4,4,4,4,5,5,5],
+      [3,3,3,5,5,3,2,3,4,5,5,5,4,4,4,4,6,6,6,6,2,3,3,3,3,3,4,7,8,4,4,4],
+      [3,3,3,2,3,2,8,3,4,4,4,4,4,4,3,3,6,6,6,6,2,3,3,3,3,11,8,7,7,4,4,4],
+      [3,3,3,9,9,5,8,2,2,2,2,2,4,3,3,3,6,6,6,2,2,3,3,3,3,3,7,4,4,4,4,4],
+      [3,3,3,2,2,7,7,7,2,2,2,2,4,4,4,4,4,3,3,2,3,3,3,7,3,3,3,3,4,4,4,4],
+      [4,4,3,3,3,7,2,3,3,2,2,2,3,3,3,3,5,3,3,3,3,2,3,3,3,3,3,3,4,4,4,4],
+      [4,4,4,3,3,3,4,3,3,3,3,2,2,2,2,2,5,3,3,3,3,3,3,3,3,3,3,4,4,4,4,4],
+      [4,4,4,3,3,3,4,4,5,4,3,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3,4,4,4,4,4],
+      [4,4,4,3,3,2,4,4,4,4,4,2,2,2,2,2,2,2,3,3,3,7,10,3,3,3,3,4,4,4,4,4],
+      [4,4,4,3,2,2,2,3,4,4,2,2,2,2,4,2,3,2,2,2,2,6,6,3,6,7,4,4,4,4,4,4],
+      [4,4,4,2,2,2,2,2,2,2,2,2,2,2,3,3,3,2,2,8,8,7,3,3,3,3,4,4,4,4,4,4],
+      [4,2,2,2,2,2,2,2,2,2,2,2,3,3,3,2,2,2,2,8,12,3,3,3,4,4,4,4,4,4,4,4],
+      [2,2,2,2,2,2,2,2,2,2,2,3,3,3,3,4,3,3,3,3,13,3,3,4,4,4,4,4,4,4,4,4],
+      [2,2,2,2,2,2,2,2,2,2,2,3,3,3,4,4,4,3,3,3,3,4,4,4,4,4,9,9,4,5,5,5],
+      [2,2,2,2,2,2,2,2,2,2,2,3,3,4,4,4,5,5,4,4,4,4,4,4,4,11,10,4,4,5,5,5],
+      [2,2,2,2,2,2,2,2,8,7,2,3,3,4,5,5,5,5,5,5,4,4,4,4,4,14,8,5,5,5,5,5],
+      [2,2,2,2,2,2,2,2,7,2,2,3,3,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5],
+      [1,1,2,2,2,2,2,9,10,6,2,3,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5],
+      [1,1,1,2,2,2,2,8,10,5,3,3,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,6,6],
+      [1,1,1,1,2,2,4,5,6,3,3,4,5,5,5,5,5,5,5,5,5,6,6,6,5,5,5,5,5,5,6,6],
+      [0,1,1,1,2,2,7,2,3,3,3,4,5,5,5,5,5,5,5,6,6,6,6,6,6,5,5,5,5,5,6,6]
+    ]
+  },
+  "WaterHeight": 3.4028235E+38,
+  "Regions": [
+    "049BE0:Fallout4.esm",
+    "109E91:Fallout4.esm",
+    "0B25CA:Fallout4.esm",
+    "0E4755:Fallout4.esm"
+  ],
+  "Location": "055402:Fallout4.esm",
+  "PhysicsReferences": [
+    "091B9C:Fallout4.esm",
+    "091B9B:Fallout4.esm",
+    "091B92:Fallout4.esm"
+  ],
+  "CombinedMeshes": [
+    28861806,
+    210030716,
+    324769019,
+    425316049,
+    524771173,
+    563641934,
+    662107564,
+    720055629,
+    736777074,
+    850632099,
+    851700405,
+    883756055,
+    942779081,
+    973764369,
+    1001525887,
+    1043282813,
+    1924373923,
+    2323789674,
+    2472252667,
+    2572799697,
+    2809591212,
+    2884260722,
+    2998115747,
+    2999184053,
+    3090262729,
+    3190766461
+  ],
+  "CombinedMeshReferences": [
+    {
+      "Reference": "06584E:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "024A55:Fallout4.esm",
+      "CombinedMesh": 2572799697
+    },
+    {
+      "Reference": "065847:Fallout4.esm",
+      "CombinedMesh": 563641934
+    },
+    {
+      "Reference": "06584C:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "065837:Fallout4.esm",
+      "CombinedMesh": 2323789674
+    },
+    {
+      "Reference": "06583C:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "024A25:Fallout4.esm",
+      "CombinedMesh": 1043282813
+    },
+    {
+      "Reference": "06583E:Fallout4.esm",
+      "CombinedMesh": 2323789674
+    },
+    {
+      "Reference": "065835:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "07280B:Fallout4.esm",
+      "CombinedMesh": 2809591212
+    },
+    {
+      "Reference": "0249A4:Fallout4.esm",
+      "CombinedMesh": 736777074
+    },
+    {
+      "Reference": "024A42:Fallout4.esm",
+      "CombinedMesh": 2572799697
+    },
+    {
+      "Reference": "065839:Fallout4.esm",
+      "CombinedMesh": 3090262729
+    },
+    {
+      "Reference": "0249A3:Fallout4.esm",
+      "CombinedMesh": 736777074
+    },
+    {
+      "Reference": "024961:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "065850:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "0249A1:Fallout4.esm",
+      "CombinedMesh": 736777074
+    },
+    {
+      "Reference": "06583B:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "024A77:Fallout4.esm",
+      "CombinedMesh": 2572799697
+    },
+    {
+      "Reference": "06584B:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "072852:Fallout4.esm",
+      "CombinedMesh": 883756055
+    },
+    {
+      "Reference": "065842:Fallout4.esm",
+      "CombinedMesh": 1001525887
+    },
+    {
+      "Reference": "02495F:Fallout4.esm",
+      "CombinedMesh": 736777074
+    },
+    {
+      "Reference": "065829:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "065838:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "065833:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "0249A2:Fallout4.esm",
+      "CombinedMesh": 736777074
+    },
+    {
+      "Reference": "065851:Fallout4.esm",
+      "CombinedMesh": 3090262729
+    },
+    {
+      "Reference": "06583A:Fallout4.esm",
+      "CombinedMesh": 2884260722
+    },
+    {
+      "Reference": "0D3246:Fallout4.esm",
+      "CombinedMesh": 720055629
+    },
+    {
+      "Reference": "024A76:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "024A1D:Fallout4.esm",
+      "CombinedMesh": 563641934
+    },
+    {
+      "Reference": "06584A:Fallout4.esm",
+      "CombinedMesh": 3190766461
+    },
+    {
+      "Reference": "065848:Fallout4.esm",
+      "CombinedMesh": 3190766461
+    },
+    {
+      "Reference": "065843:Fallout4.esm",
+      "CombinedMesh": 1001525887
+    },
+    {
+      "Reference": "065828:Fallout4.esm",
+      "CombinedMesh": 973764369
+    },
+    {
+      "Reference": "07285D:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "18BDF6:Fallout4.esm",
+      "CombinedMesh": 2999184053
+    },
+    {
+      "Reference": "06584F:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "024A56:Fallout4.esm",
+      "CombinedMesh": 2572799697
+    },
+    {
+      "Reference": "0727F3:Fallout4.esm",
+      "CombinedMesh": 2884260722
+    },
+    {
+      "Reference": "024A7A:Fallout4.esm",
+      "CombinedMesh": 2884260722
+    },
+    {
+      "Reference": "23CAB0:Fallout4.esm",
+      "CombinedMesh": 210030716
+    },
+    {
+      "Reference": "06584D:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "065846:Fallout4.esm",
+      "CombinedMesh": 524771173
+    },
+    {
+      "Reference": "06583D:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "065836:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "02495C:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "065834:Fallout4.esm",
+      "CombinedMesh": 2472252667
+    },
+    {
+      "Reference": "02495E:Fallout4.esm",
+      "CombinedMesh": 736777074
+    },
+    {
+      "Reference": "024A6F:Fallout4.esm",
+      "CombinedMesh": 2572799697
+    },
+    {
+      "Reference": "024A83:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "024A84:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "024A86:Fallout4.esm",
+      "CombinedMesh": 2884260722
+    },
+    {
+      "Reference": "024A99:Fallout4.esm",
+      "CombinedMesh": 2572799697
+    },
+    {
+      "Reference": "18BE00:Fallout4.esm",
+      "CombinedMesh": 851700405
+    }
+  ],
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "024A21:Fallout4.esm",
+      "Base": "05325A:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "-10595.779, 99026.7, 3845.4434",
+      "Rotation": "6.1941857, 6.067311, 3.344173"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "024A71:Fallout4.esm",
+      "Base": "03F432:Fallout4.esm",
+      "Layer": "024A90:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "-10728.18, 99567.44, 3854.2493",
+      "Rotation": "0, 0, 0.55999935"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "06582A:Fallout4.esm",
+      "Base": "046E66:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Scale": 0.97,
+      "Position": "-11336.275, 101538.26, 4064.5894",
+      "Rotation": "0.0068731066, 6.267339, 0.34173197"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "06582B:Fallout4.esm",
+      "Base": "05E20C:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Scale": 0.92,
+      "Position": "-11070.423, 101300.04, 3934.5635",
+      "Rotation": "0.01566782, 6.2761326, 5.648348"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "06582C:Fallout4.esm",
+      "Base": "0358D1:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Scale": 0.91,
+      "Position": "-10557.276, 101783.9, 3937.2615",
+      "Rotation": "0.04634198, 6.160564, 0.94650775"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "06582D:Fallout4.esm",
+      "Base": "0299B3:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Scale": 0.83,
+      "Position": "-10966.384, 101373.12, 3960.8105",
+      "Rotation": "6.2461653, 5.90459, 0.6661224"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "06582E:Fallout4.esm",
+      "Base": "02B8DB:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Scale": 0.76,
+      "Position": "-10387.843, 101246.664, 3858.3135",
+      "Rotation": "6.0995297, 6.1840734, 5.3249"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "06582F:Fallout4.esm",
+      "Base": "034F55:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Scale": 0.81,
+      "Position": "-10615.25, 101489.734, 3912.6465",
+      "Rotation": "6.1030025, 6.2145047, 3.3105545"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "065830:Fallout4.esm",
+      "Base": "034F55:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Scale": 0.98,
+      "Position": "-10567.469, 101972.05, 3995.6665",
+      "Rotation": "6.0910597, 6.1660423, 6.1357484"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "065831:Fallout4.esm",
+      "Base": "02B8DB:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Scale": 0.69,
+      "Position": "-11324.589, 101235.586, 4017.7163",
+      "Rotation": "5.855644, 6.082174, 4.264651"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "06583F:Fallout4.esm",
+      "Base": "0358D6:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Scale": 1.01,
+      "Position": "-9035.8125, 101645.66, 4064.1428",
+      "Rotation": "0.019228293, 6.2566476, 3.4399707"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "065841:Fallout4.esm",
+      "Base": "035887:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Scale": 1.15,
+      "Position": "-9502.753, 100997.02, 3854.2712",
+      "Rotation": "6.2742615, 0.025164157, 5.829164"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "072806:Fallout4.esm",
+      "Base": "0DB83B:Fallout4.esm",
+      "Layer": "024A90:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10560.386, 99256.52, 3849.2188",
+      "Rotation": "0, 0, 3.9269907"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "072807:Fallout4.esm",
+      "Base": "001E0B:Fallout4.esm",
+      "Layer": "024A90:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "-9869.203, 99389.54, 3748.463",
+      "Rotation": "0, 0, 4.712389"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "072808:Fallout4.esm",
+      "Base": "05325A:Fallout4.esm",
+      "Layer": "024A90:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "-10002.025, 100469.99, 3805.314",
+      "Rotation": "6.220774, 0, 4.8623896"
+    },
+    {
+      "MutagenObjectType": "PlacedNpc",
+      "FormKey": "07280D:Fallout4.esm",
+      "Base": "111327:Fallout4.esm",
+      "EncounterZone": "055403:Fallout4.esm",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        },
+        {
+          "KeywordOrReference": "1C5EDD:Fallout4.esm",
+          "Reference": "07280C:Fallout4.esm"
+        }
+      ],
+      "Layer": "024A90:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "-9588.856, 99485.84, 3831.7178",
+      "Rotation": "0, 0, 2.3816833"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "072851:Fallout4.esm",
+      "Base": "0469B7:Fallout4.esm",
+      "Layer": "024A90:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "1C5EDD:Fallout4.esm",
+          "Reference": "07280C:Fallout4.esm"
+        }
+      ],
+      "Position": "-9788.178, 99416.52, 3770.997",
+      "Rotation": "0.30937707, 0.39932436, 5.400478"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "072856:Fallout4.esm",
+      "Base": "088FAD:Fallout4.esm",
+      "Layer": "024A90:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9914.175, 100817.65, 3840.5427",
+      "Rotation": "0, 0, 3.1831925"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "07285E:Fallout4.esm",
+      "Base": "018CD9:Fallout4.esm",
+      "Layer": "024A90:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "-10497.014, 100477.51, 3872.0635",
+      "Rotation": "0, 6.220767, 0"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "072860:Fallout4.esm",
+      "Base": "0F5D8F:Fallout4.esm",
+      "Layer": "024A90:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10094.042, 100567.62, 3844.9492"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "072861:Fallout4.esm",
+      "Base": "0F5D8F:Fallout4.esm",
+      "Layer": "024A90:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10105.966, 100858.7, 3839.4377"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "072864:Fallout4.esm",
+      "Base": "088FAD:Fallout4.esm",
+      "Layer": "024A90:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9761.02, 100668.39, 3840.5427",
+      "Rotation": "0, 0, 3.1831925"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000DB:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000024:SBS - LivingOutpostZimonja.esp",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9389.176, 100528.414, 3879.7415",
+      "Rotation": "0, 0, 3.9245474"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000DC:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00091B:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-11256.564, 99683.39, 4110.2686",
+      "Rotation": "0, 0, 6.115623"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000DD:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BA4:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9660.924, 100618.26, 3879.7415",
+      "Rotation": "0, 0, 2.353739"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000DE:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9479.906, 100618.695, 3879.7415",
+      "Rotation": "0, 0, 3.9245458"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000DF:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B8A:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-11066.397, 99809.62, 4034.3457",
+      "Rotation": "0, 0, 6.2831717"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E0:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "074BB1:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-11224.599, 100062.98, 4036.5938",
+      "Rotation": "0, 0, 1.6657248"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E1:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000919:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9756.182, 100085.52, 3938.1543",
+      "Rotation": "0, 0, 0.8706069"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E2:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B8F:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9479.464, 100437.72, 3879.7415",
+      "Rotation": "0, 0, 3.9245737"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E3:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000814:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-11254.822, 99677.66, 4034.3252",
+      "Rotation": "0, 0, 4.567132"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E4:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0711B5:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9384.185, 100543.914, 3879.7808",
+      "Rotation": "0, 0, 3.8024669"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E5:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BB2:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9933.311, 100344.54, 3766.4473",
+      "Rotation": "0, 0, 2.353746"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E6:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000857:DLCworkshop02.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-11066.391, 100257.62, 4018.3457",
+      "Rotation": "0, 0, 3.1415926E-05"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E7:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00091B:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-11254.854, 100217.91, 4070.9949",
+      "Rotation": "0, 0, 0.4658858"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E8:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "020C40:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9388.603, 100507.35, 3882.0632",
+      "Rotation": "0, 0, 2.2629416"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E9:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0711B5:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-11044.342, 100038.77, 4036.0308",
+      "Rotation": "0, 0, 0.023198916"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000EA:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB8:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9824.133, 100451.13, 3879.742",
+      "Rotation": "0, 0, 0.9578243"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000EC:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "22C663:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9660.048, 100256.22, 3879.7417",
+      "Rotation": "0, 0, 3.9245422"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000ED:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00080E:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9276.372, 100526.74, 3881.295",
+      "Rotation": "0, 0, 0.9652648"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000EE:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BA5:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9841.511, 100436.8, 3879.7417",
+      "Rotation": "0, 0, 2.353746"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000EF:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "082447:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9403.609, 100365.99, 3912.4272",
+      "Rotation": "0, 0, 1.3842765"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F0:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0711B5:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9730.701, 100195.15, 3879.7808",
+      "Rotation": "0, 0, 3.8427386"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F1:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B8F:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9660.925, 100618.26, 3879.7415",
+      "Rotation": "0, 0, 3.9245317"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F2:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "22C663:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9479.465, 100437.72, 3879.7415",
+      "Rotation": "0, 0, 3.924565"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F3:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "157FEB:Fallout4.esm",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10573.453, 99243.28, 3835.3435",
+      "Rotation": "0, 0, 1.0430385"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F4:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9549.884, 100368.78, 3879.7415",
+      "Rotation": "0, 0, 4.2502327"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F5:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "075F3F:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9401.026, 100365.87, 3879.7417",
+      "Rotation": "0, 0, 1.8668897"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F6:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000810:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-11276.345, 100285.06, 4034.322",
+      "Rotation": "0, 0, 5.271762"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F7:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "075F3F:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-11257.095, 99919.055, 4034.3252",
+      "Rotation": "0, 0, 1.4929911"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F8:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9298.446, 100438.13, 3879.7415",
+      "Rotation": "0, 0, 3.9245598"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F9:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "12F2F5:Fallout4.esm",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9842.652, 102331.43, 4074.747",
+      "Rotation": "0, 0, 6.0635285"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000FA:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "22C663:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9660.925, 100618.26, 3879.7415",
+      "Rotation": "0, 0, 3.924544"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000FB:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "074BB1:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9499.802, 100291.6, 3881.9824",
+      "Rotation": "0, 0, 5.4033947"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000FC:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1B4ABD:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9612.029, 98663.46, 3827.7695",
+      "Rotation": "0, 0, 0.024586454"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000FD:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B8A:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9822.117, 102167.44, 4074.7083",
+      "Rotation": "0, 0, 2.9353087"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000FE:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "21060C:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10746.3955, 100321.62, 4034.3457",
+      "Rotation": "0, 0, 4.712384"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000FF:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000805:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9344.03, 100583.086, 3921.8293",
+      "Rotation": "0, 0, 2.7569518"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000100:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9723.043, 102318.96, 4074.7078",
+      "Rotation": "0, 0, 2.9353192"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000101:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0C01D0:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10499.062, 100460.52, 3832.3699",
+      "Rotation": "0, 0, 2.9403877"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000102:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1B4AB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-8944.581, 99556.34, 3767.327",
+      "Rotation": "0, 0, 0.7084623"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000103:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0DB83B:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10183.675, 99128.43, 3840.9963",
+      "Rotation": "0, 0, 6.243942"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000104:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB8:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10092.905, 102070.26, 4076.5344",
+      "Rotation": "0, 0, 6.0465746"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000105:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "001511:DLCCoast.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10768.561, 100522.51, 3984.6516",
+      "Rotation": "0, 0, 1.5708035"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000106:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000918:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9399.182, 100630.85, 3881.2593",
+      "Rotation": "0, 0, 1.0535907"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000107:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000021:SBS - LivingOutpostZimonja.esp",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-11194.3955, 100065.62, 4034.3457",
+      "Rotation": "0, 0, 1.5708122"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000108:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9841.059, 100255.79, 3879.7415",
+      "Rotation": "0, 0, 0.7829582"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000109:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9844.192, 100148.02, 3900.4644",
+      "Rotation": "0, 0, 3.9311604"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00010A:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9921.181, 102015.945, 4074.7075",
+      "Rotation": "0, 0, 6.0769296"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00010B:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "03F432:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10767.656, 99892.45, 3855.9946",
+      "Rotation": "0, 0, 1.523105"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00010C:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "082447:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10029.03, 102314.01, 4116.6553",
+      "Rotation": "0, 0, 0.8991762"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00010D:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000031:SBS - LivingOutpostZimonja.esp",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-11194.394, 100193.62, 4034.3457",
+      "Rotation": "0, 0, 3.141605"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00010E:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000024:SBS - LivingOutpostZimonja.esp",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9750.33, 100165.5, 3879.7415",
+      "Rotation": "0, 0, 0.7829564"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00010F:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "020C40:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9201.443, 99613.805, 3873.4902",
+      "Rotation": "0, 0, 0.6571199"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000110:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0008ED:DLCworkshop02.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9762.59, 99475.57, 3787.1777",
+      "Rotation": "0, 0, 0.49996004"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000111:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "082447:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-11254.168, 99921.66, 4067.0107",
+      "Rotation": "0, 0, 4.4375815"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000112:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0FF1F3:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9822.11, 102167.47, 4074.7078",
+      "Rotation": "0, 0, 4.5061154"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000113:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10111.547, 102211.11, 4074.747",
+      "Rotation": "0, 0, 6.085691"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000114:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "075F3F:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10776.823, 99988.9, 3855.9966",
+      "Rotation": "0, 0, 2.489131"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000115:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BB2:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9795.451, 102040.05, 3961.4138",
+      "Rotation": "0, 0, 1.3645054"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000116:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BB7:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9822.118, 102167.44, 4074.708",
+      "Rotation": "0, 0, 6.076891"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000117:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BA5:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-11066.397, 99809.62, 4034.3457",
+      "Rotation": "0, 0, 4.712393"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000118:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000025:SBS - LivingOutpostZimonja.esp",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9248.94, 99615.664, 3871.2063",
+      "Rotation": "0, 0, 5.508104"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000119:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "110000:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-11066.3955, 100065.62, 4034.3457",
+      "Rotation": "0, 0, 4.712415"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011A:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BB7:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9841.5, 100436.8, 3879.7415",
+      "Rotation": "0, 0, 0.78295994"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011B:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BB7:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9338.511, 99707.1, 3871.2063",
+      "Rotation": "0, 0, 2.3665025"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011C:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "12EA9B:Fallout4.esm",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10717.938, 99563.1, 3854.1777",
+      "Rotation": "0, 0, 3.1332657"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011D:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "22C663:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9338.512, 99707.1, 3871.2063",
+      "Rotation": "0, 0, 2.366511"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011E:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0008D8:DLCworkshop02.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9762.59, 99475.57, 4043.1777",
+      "Rotation": "0, 0, 3.6415439"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011F:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00080E:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-11258.255, 100218.195, 4034.322",
+      "Rotation": "0, 0, 5.6498995"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000120:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1BDDBB:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10623.297, 100061.65, 3855.999",
+      "Rotation": "0, 0, 4.705542"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000121:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BA6:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10323.256, 102062.57, 4074.708",
+      "Rotation": "0, 0, 6.076917"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000123:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "03F432:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-11238.218, 99809.32, 4034.3252",
+      "Rotation": "0, 0, 1.5161413"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000124:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "04CD99:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10213.756, 102307.06, 4076.7751",
+      "Rotation": "0, 0, 5.425618"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000125:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BA4:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-11164.341, 100451.4, 4035.9778",
+      "Rotation": "0, 0, 1.5707859"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000126:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B8F:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9841.5, 100436.8, 3879.7415",
+      "Rotation": "0, 0, 0.7829601"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000127:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "020C40:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9733.677, 100182.25, 3881.979",
+      "Rotation": "0, 0, 2.155562"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000128:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "22C663:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9822.11, 102167.47, 4074.7078",
+      "Rotation": "0, 0, 2.9353104"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000129:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1B5F15:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9073.867, 98959.336, 3827.7695",
+      "Rotation": "0, 0, 5.5223927"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012A:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0711B5:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10660.889, 100592.94, 4034.3457",
+      "Rotation": "0, 0, 1.6604137"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012B:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BA6:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9479.465, 100437.72, 3879.7415",
+      "Rotation": "0, 0, 5.4953594"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012C:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BA4:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9660.925, 100618.26, 3879.7415",
+      "Rotation": "0, 0, 3.924537"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012D:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000808:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9746.337, 100069.234, 3881.826",
+      "Rotation": "0, 0, 2.8561616"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012E:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "04CD80:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10783.085, 100046.2, 3855.9983",
+      "Rotation": "0, 0, 2.5779665"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012F:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0711B5:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10693.53, 99744.305, 3854.2354",
+      "Rotation": "0, 0, 3.1823583"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000130:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000918:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9925.155, 99395.31, 3831.9973",
+      "Rotation": "0, 0, 4.6735606"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000131:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000025:SBS - LivingOutpostZimonja.esp",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9848.338, 102292.71, 4074.7078",
+      "Rotation": "0, 0, 2.9353123"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000132:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9157.501, 99705.234, 3871.2063",
+      "Rotation": "0, 0, 5.508111"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000133:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "22C663:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9841.511, 100436.8, 3879.7417",
+      "Rotation": "0, 0, 3.9245422"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000134:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B92:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9338.512, 99707.1, 3871.2063",
+      "Rotation": "0, 0, 2.3665075"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000135:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000919:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10778.125, 99995.03, 3888.6824",
+      "Rotation": "0, 0, 0.31666556"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000136:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0711B5:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9806.053, 102204.01, 4074.7078",
+      "Rotation": "0, 0, 2.8326082"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000137:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9659.604, 100075.21, 3879.7415",
+      "Rotation": "0, 0, 0.782946"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000138:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000814:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9447.305, 99694.91, 3871.2065",
+      "Rotation": "0, 0, 3.8968174"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000139:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000918:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9755.083, 102275.02, 4076.379",
+      "Rotation": "0, 0, 1.1752402"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013A:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "020C40:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10134.372, 102260.26, 4076.995",
+      "Rotation": "0, 0, 1.2760539"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013B:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B8A:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10072.686, 102114.984, 4074.7083",
+      "Rotation": "0, 0, 6.076891"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013C:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0C01C3:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10568.615, 99729.45, 4008.4507",
+      "Rotation": "0, 0, 1.5707964"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013D:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000918:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10499.568, 99481.54, 3840.0664",
+      "Rotation": "0, 0, 0.05997283"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013E:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9842.023, 100149.99, 3881.3467",
+      "Rotation": "0, 0, 4.2169666"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013F:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B99:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10171.753, 101963.51, 4074.7078",
+      "Rotation": "0, 0, 6.0769205"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000140:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9323.98, 99573.375, 3872.672",
+      "Rotation": "0, 0, 3.7079432"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000141:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10066.606, 101921.734, 4150.227",
+      "Rotation": "0, 0, 3.5431213"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000142:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1B4ABD:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-12077.717, 100619.59, 4059.741",
+      "Rotation": "0, 0, 1.5709778"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000143:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10938.3955, 99681.62, 4034.3457",
+      "Rotation": "0, 0, 2.268928E-05"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000144:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "249EB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9699.083, 102016.984, 4206.329",
+      "Rotation": "0, 0, 6.075678"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000145:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB8:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-11165.653, 100060.1, 4034.3252",
+      "Rotation": "0, 0, 4.6166105"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000146:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000024:SBS - LivingOutpostZimonja.esp",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-11066.397, 99681.62, 4034.3457",
+      "Rotation": "0, 0, 1.029713E-05"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000147:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9278.237, 99633.65, 3871.2456",
+      "Rotation": "0, 0, 2.2228758"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000148:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000025:SBS - LivingOutpostZimonja.esp",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10046.469, 101989.73, 4074.7078",
+      "Rotation": "0, 0, 6.076919"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000149:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BA6:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9338.512, 99707.1, 3871.2063",
+      "Rotation": "0, 0, 0.7957115"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014A:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "22C663:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10072.6875, 102115.01, 4074.7078",
+      "Rotation": "0, 0, 4.5061154"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014B:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BA4:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9660.028, 100256.24, 3879.7415",
+      "Rotation": "0, 0, 5.4953403"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014C:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "075F3F:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9269.11, 99517.12, 3872.6885",
+      "Rotation": "0, 0, 1.267898"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014D:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BA4:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9338.512, 99707.1, 3871.2063",
+      "Rotation": "0, 0, 3.9373074"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014E:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "16BD71:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9701.398, 102195.96, 4211.533",
+      "Rotation": "0, 0, 1.364549"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014F:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000919:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10166.408, 102319.93, 4099.6943",
+      "Rotation": "0, 0, 1.0702114"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000150:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9340.379, 99526.09, 3871.2063",
+      "Rotation": "0, 0, 5.5080986"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000151:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000807:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10030.415, 102313.42, 4076.129",
+      "Rotation": "0, 0, 0.9231396"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000152:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000021:SBS - LivingOutpostZimonja.esp",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-11194.397, 99809.62, 4034.3457",
+      "Rotation": "0, 0, 1.570786"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000153:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BB3:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9447.34, 99818.195, 3828.5396",
+      "Rotation": "0, 0, 3.937302"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000154:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0DF45A:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10490.249, 99598.914, 3839.9944",
+      "Rotation": "0, 0, 1.5329661"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000155:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000024:SBS - LivingOutpostZimonja.esp",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10098.907, 102240.28, 4074.7078",
+      "Rotation": "0, 0, 2.935328"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000156:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "2476B7:Fallout4.esm",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10202.745, 99571.016, 3834.9458",
+      "Rotation": "0, 0, 3.2816815"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000157:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000809:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10158.689, 102323.37, 4076.579",
+      "Rotation": "0, 0, 6.003153"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000158:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000030:SBS - LivingOutpostZimonja.esp",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-11194.397, 99681.62, 4034.3457",
+      "Rotation": "0, 0, 1.5708156"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000159:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B93:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9660.028, 100256.24, 3879.7415",
+      "Rotation": "0, 0, 0.78296185"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00015A:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1B4ABD:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-11113.372, 101991.21, 4062.286",
+      "Rotation": "0, 0, 5.7257113"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00015B:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00080E:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9343.569, 99832.25, 3871.2065",
+      "Rotation": "0, 0, 0.7205819"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00015C:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000807:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9338.391, 100584.555, 3881.3027",
+      "Rotation": "0, 0, 0.7693237"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00015D:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E1A51:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-11066.397, 99809.62, 3810.3457",
+      "Rotation": "0, 0, 4.712393"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00015E:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1B4ABE:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-8883.996, 99316.805, 3827.7695",
+      "Rotation": "0, 0, 5.5223894"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00015F:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "21060C:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10810.394, 100257.62, 4034.3457",
+      "Rotation": "0, 0, 1.239215E-05"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000160:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "21060C:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-11002.396, 100065.62, 4034.3457",
+      "Rotation": "0, 0, 4.71241"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000161:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1B4ABD:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9371.677, 98721.57, 3763.7695",
+      "Rotation": "0, 0, 5.784175"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000162:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000017:SBS - LivingOutpostZimonja.esp",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10323.258, 102062.57, 4074.708",
+      "Rotation": "0, 0, 6.0769086"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000163:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000026:SBS - LivingOutpostZimonja.esp",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10448.546, 102036.36, 4074.7083",
+      "Rotation": "0, 0, 1.3645141"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000164:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00002B:SBS - LivingOutpostZimonja.esp",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10474.764, 102161.65, 4074.7083",
+      "Rotation": "0, 0, 2.935305"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000165:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10422.322, 101911.055, 4074.7083",
+      "Rotation": "0, 0, 1.3645211"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000166:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB8:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10418.264, 102037.65, 4074.7246",
+      "Rotation": "0, 0, 4.5214972"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000167:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10333.907, 102169.02, 4076.3157",
+      "Rotation": "0, 0, 5.9974174"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000168:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0711B5:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10274.008, 102054.95, 4078.7815",
+      "Rotation": "0, 0, 1.3729177"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000169:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "020C40:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10339.264, 102205.52, 4078.4673",
+      "Rotation": "0, 0, 1.2680722"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00016A:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "020C40:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10443.34, 102032.22, 4076.9165",
+      "Rotation": "0, 0, 2.6426694"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00016B:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "072BDC:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10505.238, 101959.8, 4076.9153",
+      "Rotation": "0, 0, 4.0982513"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00016C:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "01820E:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9967.824, 101938.2, 4074.747",
+      "Rotation": "0, 0, 2.6830091"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00016D:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000918:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10522.353, 102210.94, 4074.7083",
+      "Rotation": "0, 0, 5.439247"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00016E:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000919:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9956.41, 101935.95, 4130.747",
+      "Rotation": "0, 0, 2.6723173"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00016F:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000919:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10494.114, 101949.86, 4155.0747",
+      "Rotation": "0, 0, 5.540832"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000170:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00080B:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10070.923, 101925.93, 4074.747",
+      "Rotation": "0, 0, 3.2253144"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000171:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000809:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10539.832, 102038.54, 4076.4329",
+      "Rotation": "0, 0, 4.423422"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000172:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00080F:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10457.611, 102232.13, 4078.404",
+      "Rotation": "0, 0, 0.2687823"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000173:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10066.815, 101925.54, 4131.1094",
+      "Rotation": "0, 0, 3.1245723"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000174:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "04CD9D:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10607.924, 99541.46, 3854.1555",
+      "Rotation": "0, 0, 3.948919"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000175:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0000D8:SBS - LivingOutpostZimonja.esp",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9499.378, 99998.75, 3838.9253",
+      "Rotation": "0, 0, 2.5690305"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000176:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0000D9:SBS - LivingOutpostZimonja.esp",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-11187.329, 100450.75, 4035.9778",
+      "Rotation": "0, 0, 0.63999987"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000177:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0000D8:SBS - LivingOutpostZimonja.esp",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9735.48, 98858.3, 3840.0168",
+      "Rotation": "0, 0, 5.5637345"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000178:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0008DC:DLCworkshop02.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10928.993, 100695.26, 3807.0168",
+      "Rotation": "0, 0, 4.7071724"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000179:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0008D8:DLCworkshop02.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-10928.993, 100695.26, 4063.0168",
+      "Rotation": "0, 0, 6.277969"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00017A:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1B4AC4:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-11969.421, 101075.09, 4126.2866",
+      "Rotation": "0, 0, 5.2020955"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00017B:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1B4AC4:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-11849.006, 101301, 4126.2866",
+      "Rotation": "0, 0, 2.060513"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00017C:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1B4ABC:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-11701.407, 101507.484, 4126.2866",
+      "Rotation": "0, 0, 5.463907"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00017D:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1B4AB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-11526.623, 101694.53, 4062.2864",
+      "Rotation": "0, 0, 2.322321"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00017E:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1B4ABD:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-11330.611, 101855.77, 4126.286",
+      "Rotation": "0, 0, 2.5841086"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00017F:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1B4AB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9102.642, 101870.7, 3964.227",
+      "Rotation": "0, 0, 3.9360614"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000180:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1B4ABF:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-8655.857, 101233.05, 4092.227",
+      "Rotation": "0, 0, 5.5068574"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000181:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1B4ABA:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-8743.901, 101505.39, 4028.227",
+      "Rotation": "0, 0, 3.9360561"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000182:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1B4ABA:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-8748.826, 100962.34, 4028.227",
+      "Rotation": "0, 0, 5.506861"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000183:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1B4ABA:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-8923.271, 101688.05, 3964.227",
+      "Rotation": "0, 0, 3.936063"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000184:SBS - LivingOutpostZimonja.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1B4AC4:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018D:SBS - LivingOutpostZimonja.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "024A26:Fallout4.esm"
+        }
+      ],
+      "Position": "-9302.594, 102027.03, 3964.227",
+      "Rotation": "0, 0, 3.6742568"
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

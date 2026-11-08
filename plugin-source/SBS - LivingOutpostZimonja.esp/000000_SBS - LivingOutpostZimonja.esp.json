@@ -1,0 +1,37 @@
+{
+  "ModKey": "SBS - LivingOutpostZimonja.esp",
+  "GameRelease": "Fallout4",
+  "ModHeader": {
+    "Flags": [
+      "Small"
+    ],
+    "Stats": {
+      "NextFormID": 400
+    },
+    "Author": "",
+    "OverriddenForms": [
+      "024A21:Fallout4.esm",
+      "024A71:Fallout4.esm",
+      "06582A:Fallout4.esm",
+      "06582B:Fallout4.esm",
+      "06582C:Fallout4.esm",
+      "06582D:Fallout4.esm",
+      "06582E:Fallout4.esm",
+      "06582F:Fallout4.esm",
+      "065830:Fallout4.esm",
+      "065831:Fallout4.esm",
+      "06583F:Fallout4.esm",
+      "065841:Fallout4.esm",
+      "072806:Fallout4.esm",
+      "072807:Fallout4.esm",
+      "072808:Fallout4.esm",
+      "07280D:Fallout4.esm",
+      "072851:Fallout4.esm",
+      "072856:Fallout4.esm",
+      "07285E:Fallout4.esm",
+      "072860:Fallout4.esm",
+      "072861:Fallout4.esm",
+      "072864:Fallout4.esm"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "FormKey": "0000D9:SBS - LivingOutpostZimonja.esp",
+  "Malformed": [
+    "FURN 050000D9 (CratesWater3) — furn-missing-fnam-and-mnam, repairable (lossless): FNAM and MNAM are missing; vanilla always writes both"
+  ]
+}
