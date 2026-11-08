@@ -78,9 +78,6 @@
           "InitiallyDisabled"
         ],
         "Base": "0000E5:SBS - LivingSomervillePlace.esp",
-        "Ownership": {
-          "Owner": "000274:SBS - LivingSomervillePlace.esp"
-        },
         "LinkedReferences": [
           {
             "KeywordOrReference": "054BA6:Fallout4.esm",
