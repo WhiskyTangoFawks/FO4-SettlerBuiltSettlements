@@ -1,0 +1,2780 @@
+{
+  "FormKey": "00DB3F:Fallout4.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "CountyCrossing",
+  "Fallout4MajorRecordFlags": [
+    "Compressed"
+  ],
+  "Flags": [
+    "HasWater"
+  ],
+  "PreVisFilesTimestamp": 7972,
+  "InPreVisFileOf": "00DB5E:Fallout4.esm",
+  "PreCombinedFilesTimestamp": 7972,
+  "Grid": {
+    "Point": "9, 7"
+  },
+  "MaxHeightData": {
+    "Offset": 896.0,
+    "HeightMap": [
+      [6,1,1,1,0,0,0,1,1,0,0,0,0,6,7,6,1,1,1,1,1,0,1,0,0,0,0,0,0,0,1,1],
+      [1,1,1,1,0,0,0,0,0,0,0,1,1,0,0,6,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0],
+      [1,1,1,1,0,0,1,1,0,1,1,1,1,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0],
+      [1,1,1,0,0,0,1,1,0,1,1,1,1,1,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0],
+      [1,1,0,0,4,1,1,0,0,1,1,1,1,1,0,1,1,6,6,7,8,1,1,1,1,0,0,0,0,0,0,1],
+      [1,0,0,4,4,1,1,0,1,1,1,1,1,1,0,1,1,6,6,6,6,6,1,1,1,1,1,0,0,0,0,6],
+      [0,1,4,4,1,1,1,1,1,1,1,1,1,1,1,1,1,4,6,6,6,7,1,1,1,1,1,1,0,1,0,0],
+      [0,4,4,1,1,0,1,1,1,1,1,1,1,1,1,4,3,1,4,1,5,1,1,1,1,1,1,1,1,1,0,0],
+      [0,1,1,1,0,1,1,1,1,1,1,1,1,1,1,7,4,1,2,2,2,1,1,1,1,1,1,1,0,0,0,0],
+      [0,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,1,1,1,1,1,1,0,0,0,0,0],
+      [0,0,0,0,0,1,1,1,6,6,1,1,1,1,1,1,1,2,2,2,1,1,1,1,2,2,0,0,0,0,0,0],
+      [0,0,0,1,1,1,1,0,1,6,6,1,1,1,1,1,1,1,1,2,1,1,2,2,2,2,1,0,0,0,0,0],
+      [0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,1,0,0,0,0,0,0,0],
+      [0,0,0,1,1,1,1,1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,0,1,1,2,0,0,0],
+      [0,0,0,1,1,1,1,3,4,2,1,1,1,1,1,1,1,1,1,1,1,1,1,0,2,2,1,1,2,2,0,0],
+      [0,0,0,0,0,0,0,0,5,1,1,1,1,1,1,1,1,2,1,1,1,1,1,0,0,2,1,1,2,0,0,0],
+      [0,0,0,0,0,0,0,0,6,1,1,1,1,1,1,1,1,2,1,1,1,0,0,0,0,0,2,2,0,0,0,0],
+      [0,6,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0],
+      [0,6,6,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0],
+      [0,0,6,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,7],
+      [0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,1,1,0,1,1,1,0,0,0,0,6],
+      [1,1,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,2,2,2,0,1,1,1,1,0,0,3,2],
+      [1,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,1,2,2,2,0,0,1,1,1,0,0,0,0],
+      [1,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,2,2,2,1,0,1,1,0,0,0,0,0],
+      [1,1,1,1,0,0,0,0,1,1,0,0,0,1,1,0,0,0,0,1,2,2,2,1,0,0,0,0,0,0,0,0],
+      [1,1,1,1,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0],
+      [1,1,1,0,0,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      [8,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      [1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      [1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      [1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      [0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,1]
+    ]
+  },
+  "WaterHeight": 3.4028235E+38,
+  "Regions": [
+    "137F31:Fallout4.esm",
+    "1CFDBE:Fallout4.esm",
+    "137F30:Fallout4.esm",
+    "109E91:Fallout4.esm",
+    "049BE0:Fallout4.esm",
+    "23F1FE:Fallout4.esm"
+  ],
+  "Location": "09B1C3:Fallout4.esm",
+  "PhysicsReferences": [
+    "1C6C24:Fallout4.esm",
+    "0B951D:Fallout4.esm",
+    "0B951E:Fallout4.esm",
+    "091B23:Fallout4.esm",
+    "1C6C1B:Fallout4.esm"
+  ],
+  "CombinedMeshes": [
+    158464202,
+    176306026,
+    425316049,
+    524771173,
+    563641934,
+    662107564,
+    736777074,
+    850632099,
+    942779081,
+    1043282813,
+    1250047850,
+    1499057873,
+    1810518898,
+    1924373923,
+    2016520905,
+    2572799697,
+    2809591212,
+    2998115747,
+    3090262729,
+    3646541521,
+    4071857571
+  ],
+  "CombinedMeshReferences": [
+    {
+      "Reference": "1C59CA:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "1C59A1:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "159F6D:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "17FC59:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1C59E4:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1C6E6A:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1C6EC1:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1C59FD:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1C5996:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1C6DCE:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1C6E6F:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1C597D:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "1C6EC4:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1C5993:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1C6DCB:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1C59F8:Fallout4.esm",
+      "CombinedMesh": 1043282813
+    },
+    {
+      "Reference": "159F5F:Fallout4.esm",
+      "CombinedMesh": 3090262729
+    },
+    {
+      "Reference": "159F68:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1C598A:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "1C6C17:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1C5977:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1C6E4B:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1C5999:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "159F62:Fallout4.esm",
+      "CombinedMesh": 3090262729
+    },
+    {
+      "Reference": "1C6E7C:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1C59C5:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1C5980:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1C59EB:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1C6E79:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "159F67:Fallout4.esm",
+      "CombinedMesh": 3090262729
+    },
+    {
+      "Reference": "1C6C18:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1C5985:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1C6DEA:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1C5972:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1C6E0B:Fallout4.esm",
+      "CombinedMesh": 736777074
+    },
+    {
+      "Reference": "1C59F7:Fallout4.esm",
+      "CombinedMesh": 1043282813
+    },
+    {
+      "Reference": "1C59E6:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1C6C3E:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "159F6F:Fallout4.esm",
+      "CombinedMesh": 563641934
+    },
+    {
+      "Reference": "1C5994:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1C597A:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1C59FA:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1C5991:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "159F5D:Fallout4.esm",
+      "CombinedMesh": 3090262729
+    },
+    {
+      "Reference": "1C597F:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1C6E6D:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1C6EC6:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1C59E3:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1C5988:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "159F6A:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "1C59F0:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1C6ECC:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1C5975:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1C6E0C:Fallout4.esm",
+      "CombinedMesh": 1043282813
+    },
+    {
+      "Reference": "1C59E9:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1C5982:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "1C6DDA:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1C6E7E:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "159F60:Fallout4.esm",
+      "CombinedMesh": 3090262729
+    },
+    {
+      "Reference": "1C59C7:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1C6EBE:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1C5987:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "1C6C1A:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "12F8E1:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "159F65:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "1C6E7B:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1C6EC9:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "159F7C:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1C5970:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "12FA43:Fallout4.esm",
+      "CombinedMesh": 736777074
+    },
+    {
+      "Reference": "12F8E2:Fallout4.esm",
+      "CombinedMesh": 158464202
+    },
+    {
+      "Reference": "1C6C19:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1C5984:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1C6E0A:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1C6ECA:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1C6DEB:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1C59F6:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1C5976:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1C5998:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1C6EBD:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "159F63:Fallout4.esm",
+      "CombinedMesh": 3090262729
+    },
+    {
+      "Reference": "1C6E7D:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1C6DD9:Fallout4.esm",
+      "CombinedMesh": 1043282813
+    },
+    {
+      "Reference": "1C59EA:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1C597C:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "1C6E6E:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "159F5E:Fallout4.esm",
+      "CombinedMesh": 3090262729
+    },
+    {
+      "Reference": "1C5992:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1C59F9:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "159F69:Fallout4.esm",
+      "CombinedMesh": 524771173
+    },
+    {
+      "Reference": "170031:Fallout4.esm",
+      "CombinedMesh": 3646541521
+    },
+    {
+      "Reference": "1C6C16:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "159F87:Fallout4.esm",
+      "CombinedMesh": 2809591212
+    },
+    {
+      "Reference": "159F6C:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "1C59CB:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "1C59A0:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1C59E5:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1C6EC0:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1C5979:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1C6E6B:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "159F5B:Fallout4.esm",
+      "CombinedMesh": 2572799697
+    },
+    {
+      "Reference": "1C59FC:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1C5997:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1C5986:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "1C59ED:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "159F64:Fallout4.esm",
+      "CombinedMesh": 3090262729
+    },
+    {
+      "Reference": "1C6E7A:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1C599F:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1C5971:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1C59F1:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1C599A:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1C5983:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "1C59C6:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "1C6E7F:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "159F61:Fallout4.esm",
+      "CombinedMesh": 3090262729
+    },
+    {
+      "Reference": "159F5C:Fallout4.esm",
+      "CombinedMesh": 3090262729
+    },
+    {
+      "Reference": "1C59FB:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1C6E6C:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1C597E:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1C59E2:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1C5989:Fallout4.esm",
+      "CombinedMesh": 1250047850
+    },
+    {
+      "Reference": "159F6B:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1C59CC:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "1C59E7:Fallout4.esm",
+      "CombinedMesh": 2572799697
+    },
+    {
+      "Reference": "159F6E:Fallout4.esm",
+      "CombinedMesh": 4071857571
+    },
+    {
+      "Reference": "1C6E70:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1C59C9:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1C597B:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1B8333:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1C59EE:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1C59EC:Fallout4.esm",
+      "CombinedMesh": 2572799697
+    },
+    {
+      "Reference": "1C5995:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1C59E1:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1B833B:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "1C59C8:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1C59EF:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "12F8DC:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1C6EC2:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "16844D:Fallout4.esm",
+      "CombinedMesh": 1810518898
+    },
+    {
+      "Reference": "1921E8:Fallout4.esm",
+      "CombinedMesh": 524771173
+    },
+    {
+      "Reference": "1B8332:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1C6E69:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "12F8DD:Fallout4.esm",
+      "CombinedMesh": 850632099
+    }
+  ],
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "159F49:Fallout4.esm",
+      "Base": "09D107:Fallout4.esm",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Scale": 0.99,
+      "Position": "40954.914, 29457.281, 830.08453",
+      "Rotation": "0, 0, 0.81876713"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000D9:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "074BB1:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "39354.258, 29041.535, 925.4738",
+      "Rotation": "0, 0, 0.8133756"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000DA:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "39494.98, 29344.51, 925.49457",
+      "Rotation": "0, 0, 3.9452767"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000DC:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "39317.3, 29528.809, 925.4945",
+      "Rotation": "0, 0, 3.9452698"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000DD:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000017:SBS - LivingCountyCrossing.esp",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "39313.99, 29347.82, 925.4945",
+      "Rotation": "0, 0, 5.51608"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000DE:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000017:SBS - LivingCountyCrossing.esp",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "39491.67, 29163.521, 925.4945",
+      "Rotation": "0, 0, 2.3744838"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000DF:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000025:SBS - LivingCountyCrossing.esp",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "39221.84, 29258.98, 925.4945",
+      "Rotation": "0, 0, 0.80370146"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E0:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000022:SBS - LivingCountyCrossing.esp",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "39399.523, 29074.682, 925.4945",
+      "Rotation": "0, 0, 0.8036822"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E1:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00002B:SBS - LivingCountyCrossing.esp",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "39133.004, 29351.129, 925.4945",
+      "Rotation": "0, 0, 2.3745081"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E2:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00002B:SBS - LivingCountyCrossing.esp",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "39317.3, 29528.809, 925.4945",
+      "Rotation": "0, 0, 3.9452734"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E3:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00002B:SBS - LivingCountyCrossing.esp",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "39672.656, 29160.213, 925.4945",
+      "Rotation": "0, 0, 5.516089"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E4:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00002B:SBS - LivingCountyCrossing.esp",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "39488.36, 28982.531, 925.4945",
+      "Rotation": "0, 0, 0.80367523"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E5:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000025:SBS - LivingCountyCrossing.esp",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "39583.82, 29252.361, 925.49457",
+      "Rotation": "0, 0, 3.9452734"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E6:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BB7:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "39313.99, 29347.82, 925.4945",
+      "Rotation": "0, 0, 3.9452925"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E7:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BB2:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "39407.7, 29438.158, 812.20026",
+      "Rotation": "0, 0, 5.516101"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E8:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0711B5:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "39257.117, 29286.777, 925.53375",
+      "Rotation": "0, 0, 3.9537938"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E9:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "027EB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "39557.855, 29092.375, 925.5033",
+      "Rotation": "0, 0, 2.4644048"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000EB:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "027EB8:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "39239.664, 29416.252, 927.08386",
+      "Rotation": "0, 0, 5.6598654"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000EC:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "027EB8:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "39408.91, 29100.328, 909.5924",
+      "Rotation": "0, 0, 3.7931695"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000ED:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "020C40:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "39601.668, 29077.98, 910.6668",
+      "Rotation": "0, 0, 4.163724"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000EE:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "020C40:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "39213.984, 29239.809, 927.7394",
+      "Rotation": "0, 0, 2.0454788"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000FB:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00001C:SBS - LivingCountyCrossing.esp",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "37756.6, 31560.998, 942.7955",
+      "Rotation": "0, 0, 3.978412"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000FC:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00001C:SBS - LivingCountyCrossing.esp",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "37946.684, 31732.477, 942.79553",
+      "Rotation": "0, 0, 5.549196"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000FD:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BA6:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "37756.6, 31560.998, 942.7954",
+      "Rotation": "0, 0, 5.5491977"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000FE:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BB7:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "37946.684, 31732.477, 942.79553",
+      "Rotation": "0, 0, 5.549199"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000FF:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BB3:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "38050.855, 31617.002, 900.12885",
+      "Rotation": "0, 0, 0.8368154"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000106:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "020C40:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "39228.977, 29443.666, 929.2103",
+      "Rotation": "0, 0, 1.0637763"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000107:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "12F2F5:Fallout4.esm",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "39618.85, 29262.3, 925.5338",
+      "Rotation": "0, 0, 0.7844522"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000108:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000918:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "39718.625, 29113.592, 925.4975",
+      "Rotation": "0, 0, 1.3224028"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000109:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "39057.387, 29341.479, 925.4945",
+      "Rotation": "0, 0, 5.079725"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00010A:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "39054.832, 29343.61, 944.61206",
+      "Rotation": "0, 0, 5.191946"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00010B:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000816:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "39470.453, 28913.426, 925.4945",
+      "Rotation": "0, 0, 3.8000042"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00010C:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00080F:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "39442.793, 28977.248, 925.4738",
+      "Rotation": "0, 0, 3.6493053"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00010D:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00080E:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "39468.62, 28916.434, 980.159",
+      "Rotation": "0, 0, 0.46903804"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00010E:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000814:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "39313.832, 29584.615, 925.4945",
+      "Rotation": "0, 0, 0.83133525"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00010F:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000919:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "39451.57, 28920.498, 1016.8318",
+      "Rotation": "0, 0, 3.1452212"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000110:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00091B:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "39292.13, 29602.018, 1001.4379",
+      "Rotation": "0, 0, 0.2678487"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000111:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "082447:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "39057.793, 29341.736, 963.7296",
+      "Rotation": "0, 0, 4.9597354"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000112:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "027EB8:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "39422.586, 29231.244, 927.5007",
+      "Rotation": "0, 0, 2.5514863"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000118:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "17E787:Fallout4.esm",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "37757.027, 31549.121, 942.8014",
+      "Rotation": "0, 0, 3.979014"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000119:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "027EB8:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "37928.58, 31722.402, 942.80707",
+      "Rotation": "0, 0, 0.65503955"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011A:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "074BB0:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "37946.43, 31828.174, 945.03064",
+      "Rotation": "0, 0, 3.0855815"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011B:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000808:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "37766.01, 31434.078, 942.8005",
+      "Rotation": "0, 0, 3.933129"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011C:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "075F3F:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "37865.57, 31799.443, 944.97595",
+      "Rotation": "0, 0, 0.88475454"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011D:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "072BDC:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "37715.246, 31656.428, 942.799",
+      "Rotation": "0, 0, 5.5456963"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011E:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000919:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "37704.03, 31636.484, 1020.95856",
+      "Rotation": "0, 0, 5.964553"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011F:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000919:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "37869.695, 31797.783, 977.6616",
+      "Rotation": "0, 0, 1.8889716"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000120:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "082447:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "37723.543, 31662.684, 1020.95856",
+      "Rotation": "0, 0, 4.9894633"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000121:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000135:SBS - LivingCountyCrossing.esp",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "38819.93, 32155.96, 894.8628",
+      "Rotation": "0, 0, 3.1607215"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000122:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000134:SBS - LivingCountyCrossing.esp",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "38390.605, 31926.297, 894.86615",
+      "Rotation": "0, 0, 0.39226258"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000123:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B92:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "38611.03, 31550.23, 897.22473",
+      "Rotation": "0, 0, 0.7900739"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000124:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B92:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "38792.887, 31730.396, 897.22473",
+      "Rotation": "0, 0, 3.9316666"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000125:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "054576:DLCCoast.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "38793.65, 31893.03, 839.22473",
+      "Rotation": "0, 0, 0.79006517"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000126:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "054576:DLCCoast.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "38448.4, 31550.99, 839.22473",
+      "Rotation": "0, 0, 3.9316595"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000127:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "054576:DLCCoast.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "38610.27, 31387.598, 839.22473",
+      "Rotation": "0, 0, 3.9316597"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000128:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "054576:DLCCoast.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "38955.52, 31729.637, 839.2247",
+      "Rotation": "0, 0, 0.79006535"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000129:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B95:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "38611.023, 31550.227, 897.2248",
+      "Rotation": "0, 0, 2.3608701"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012A:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B94:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "38792.887, 31730.396, 897.2248",
+      "Rotation": "0, 0, 2.3608773"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012B:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B97:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "38611.027, 31550.23, 897.2248",
+      "Rotation": "0, 0, 0.7900669"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000137:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00001C:SBS - LivingCountyCrossing.esp",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "40442.75, 31373.742, 864.5376",
+      "Rotation": "0, 0, 5.4811387"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000139:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "027EB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "40597.895, 31223.832, 864.54944",
+      "Rotation": "0, 0, 2.0309367"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013A:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "02C59C:DLCCoast.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "40322.2, 31245.414, 920.691",
+      "Rotation": "0, 0, 6.079493"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013B:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "118F57:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "40456.383, 31428.242, 867.02167",
+      "Rotation": "0, 0, 4.863955"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013C:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000815:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "40325.1, 31254.46, 864.5169",
+      "Rotation": "0, 0, 3.869126"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013D:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00001C:SBS - LivingCountyCrossing.esp",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "40626.758, 31195.766, 864.5376",
+      "Rotation": "0, 0, 0.7687617"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013E:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BB3:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "40518.633, 31083.982, 821.8709",
+      "Rotation": "0, 0, 2.33956"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013F:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "40445.758, 31192.748, 864.5376",
+      "Rotation": "0, 0, 0.76875293"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000140:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "118F57:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "40681.926, 31196.908, 866.55347",
+      "Rotation": "0, 0, 1.1633388"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000141:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000021:SBS - LivingCountyCrossing.esp",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "40353.758, 31281.742, 864.5376",
+      "Rotation": "0, 0, 0.7687495"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000143:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000134:SBS - LivingCountyCrossing.esp",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "38605.29, 31881.975, 894.8661",
+      "Rotation": "0, 0, 3.8046172"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000144:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "40261.75, 31370.734, 864.5376",
+      "Rotation": "0, 0, 0.76873726"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000145:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "027EB8:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "40433.965, 31394.217, 864.8055",
+      "Rotation": "0, 0, 2.2311869"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000146:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00091B:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "40371.31, 31216.576, 920.6911",
+      "Rotation": "0, 0, 0.8971916"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000147:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "020C40:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "39584.695, 29053.44, 927.6657",
+      "Rotation": "0, 0, 0.9464624"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000148:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BB7:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "40626.758, 31195.764, 864.5376",
+      "Rotation": "0, 0, 0.7687704"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000149:SBS - LivingCountyCrossing.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "01AC44:DLCCoast.esm",
+      "EnableParent": {
+        "Reference": "000184:SBS - LivingCountyCrossing.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1DB:Fallout4.esm"
+        }
+      ],
+      "Position": "40281.348, 31289.21, 920.691",
+      "Rotation": "0, 0, 0.026069809"
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

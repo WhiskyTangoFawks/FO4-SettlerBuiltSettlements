@@ -1,0 +1,20 @@
+{
+  "FormKey": "0000BA:SBS - LivingStarlightDrive in.esp",
+  "MajorRecordFlagsRaw": 4096,
+  "EditorID": "vss_flst_shack_wood_prefabs",
+  "Fallout4MajorRecordFlags": [
+    "Ignored"
+  ],
+  "Items": [
+    "000017:SBS - LivingStarlightDrive in.esp",
+    "000018:SBS - LivingStarlightDrive in.esp",
+    "000019:SBS - LivingStarlightDrive in.esp",
+    "00001A:SBS - LivingStarlightDrive in.esp",
+    "00001B:SBS - LivingStarlightDrive in.esp",
+    "00001C:SBS - LivingStarlightDrive in.esp",
+    "00001D:SBS - LivingStarlightDrive in.esp",
+    "00001E:SBS - LivingStarlightDrive in.esp",
+    "00001F:SBS - LivingStarlightDrive in.esp",
+    "000020:SBS - LivingStarlightDrive in.esp"
+  ]
+}

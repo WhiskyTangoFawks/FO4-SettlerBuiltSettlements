@@ -1,0 +1,275 @@
+{
+  "FormKey": "000020:SBS - LivingFinchFarm.esp",
+  "EditorID": "vss_ShackPrefabMidTop01",
+  "ObjectBounds": {
+    "First": "-137, -172, -14",
+    "Second": "133, 165, 287"
+  },
+  "PreviewTransform": "140D96:Fallout4.esm",
+  "Model": {
+    "File": "Architecture\\Shacks\\vss\\ShackPrefabMidTop01.nif",
+    "Data": "0x0400000009000000000000000300000004000000BD9EC32164647300DAC2327C64F2C54264647300DAC2327CB0E4DF1464647300DAC2327C6988D97764647300DAC2327CD6602A0164647300DAC2327C0F0C2C6264647300DAC2327C11E5F98264647300DAC2327C77610C9764647300DAC2327C7A1B10A264647300DAC2327C96965A016267736DFAFCA62EB69E2B3C6267736DFAFCA62EB2AA61036267736DFAFCA62EFB61461C6267736DFAFCA62E"
+  },
+  "Properties": [
+    {
+      "ActorValue": "000337:Fallout4.esm",
+      "Value": 32.0
+    },
+    {
+      "ActorValue": "00033D:Fallout4.esm",
+      "Value": 1.0
+    },
+    {
+      "ActorValue": "249D41:Fallout4.esm",
+      "Value": 256.0
+    }
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Floor and roof"
+  },
+  "MaxAngle": 90.0,
+  "LeafAmplitude": 1.0,
+  "LeafFrequency": 1.0,
+  "NavmeshGeometry": {
+    "Parent": {
+      "MutagenObjectType": "CellNavmeshParent",
+      "Parent": "000025:Fallout4.esm"
+    },
+    "Vertices": [
+      "108.395294, -128.11217, -3.0517578E-05",
+      "-109.757576, -127.63809, 4.5776367E-05",
+      "108.05652, -109.46947, -3.0517578E-05",
+      "-110.826706, -107.43343, 7.6293945E-05",
+      "108.595184, 107.76012, 1.5258789E-05",
+      "-109.74595, 109.791466, 0.00010681152",
+      "107.74178, 127.68402, 4.5776367E-05",
+      "-109.92684, 127.77546, 0.00012207031",
+      "127.78898, 108.49487, 3.0517578E-05",
+      "127.86223, -108.710266, 0",
+      "-127.85417, 108.80257, 0.00010681152",
+      "-127.58935, -107.50462, 6.1035156E-05",
+      "125.71486, -126.32298, 230.39606",
+      "-129.22498, -126.62007, 236.63324",
+      "127.37076, 129.06378, 278.84015",
+      "-128.38469, 128.13132, 280.80106"
+    ],
+    "Triangles": [
+      {
+        "Vertices": "0, 2, 1",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": 1,
+        "EdgeLink_2_0": -1,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ],
+        "CoverFlags": 4
+      },
+      {
+        "Vertices": "1, 2, 3",
+        "EdgeLink_1_2": 2,
+        "EdgeLink_2_0": -1,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "2, 4, 3",
+        "EdgeLink_0_1": 6,
+        "EdgeLink_1_2": 3,
+        "EdgeLink_2_0": 1,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "3, 4, 5",
+        "EdgeLink_0_1": 2,
+        "EdgeLink_1_2": 4,
+        "EdgeLink_2_0": 8,
+        "Height": 172.63313,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "4, 6, 5",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": 5,
+        "EdgeLink_2_0": 3,
+        "Height": 172.63313,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "5, 6, 7",
+        "EdgeLink_0_1": 4,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": -1,
+        "Height": 172.63312,
+        "Flags": [
+          "Found"
+        ],
+        "CoverFlags": 2
+      },
+      {
+        "Vertices": "4, 2, 8",
+        "EdgeLink_0_1": 2,
+        "EdgeLink_1_2": 7,
+        "EdgeLink_2_0": -1,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "2, 9, 8",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": 6,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ],
+        "CoverFlags": 2
+      },
+      {
+        "Vertices": "5, 10, 3",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": 9,
+        "EdgeLink_2_0": 3,
+        "Height": 172.63313,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "3, 10, 11",
+        "EdgeLink_0_1": 8,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": -1,
+        "Height": 172.63313,
+        "Flags": [
+          "Found"
+        ],
+        "CoverFlags": 2
+      },
+      {
+        "Vertices": "12, 14, 13",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": 11,
+        "EdgeLink_2_0": -1,
+        "Height": 3.4028235E+38,
+        "CoverFlags": 5
+      },
+      {
+        "Vertices": "13, 14, 15",
+        "EdgeLink_0_1": 10,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": -1,
+        "Height": 3.4028235E+38,
+        "CoverFlags": 6
+      }
+    ],
+    "Cover": [
+      {
+        "Vertex2": 1,
+        "Data": 2147485968
+      },
+      {
+        "Vertex1": 11,
+        "Vertex2": 10,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 7,
+        "Vertex2": 6,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 8,
+        "Vertex2": 9,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 14,
+        "Vertex2": 12,
+        "Data": 2147485968
+      },
+      {
+        "Vertex1": 12,
+        "Vertex2": 13,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 13,
+        "Vertex2": 15,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 15,
+        "Vertex2": 14,
+        "Data": 2320
+      }
+    ],
+    "CoverTriangleMappings": [
+      {
+        "Cover": 2
+      },
+      {
+        "Cover": 40,
+        "Triangle": 4
+      },
+      {
+        "Cover": 42,
+        "Triangle": 5
+      },
+      {
+        "Cover": 45,
+        "Triangle": 7
+      },
+      {
+        "Cover": 37,
+        "Triangle": 1
+      },
+      {
+        "Cover": 21,
+        "Triangle": 2
+      },
+      {
+        "Cover": 46,
+        "Triangle": 6
+      },
+      {
+        "Cover": 29,
+        "Triangle": 3
+      }
+    ],
+    "GridSize": 1,
+    "GridMaxDistance": "257.08722, 257.17596",
+    "GridMin": "-129.22498, -128.11217, -3.0517578E-05",
+    "GridMax": "127.86223, 129.06378, 3.4028235E+38",
+    "GridArrays": {
+      "GridCell": [
+        12,
+        0,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    }
+  }
+}

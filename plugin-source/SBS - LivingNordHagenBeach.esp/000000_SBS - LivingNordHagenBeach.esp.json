@@ -1,0 +1,21 @@
+{
+  "ModKey": "SBS - LivingNordHagenBeach.esp",
+  "GameRelease": "Fallout4",
+  "ModHeader": {
+    "Flags": [
+      "Small"
+    ],
+    "Stats": {
+      "NextFormID": 540
+    },
+    "Author": "",
+    "OverriddenForms": [
+      "1552F1:Fallout4.esm",
+      "1552F5:Fallout4.esm",
+      "15BE28:Fallout4.esm",
+      "1E8A5E:Fallout4.esm",
+      "1F6E92:Fallout4.esm",
+      "1F6EAF:Fallout4.esm"
+    ]
+  }
+}

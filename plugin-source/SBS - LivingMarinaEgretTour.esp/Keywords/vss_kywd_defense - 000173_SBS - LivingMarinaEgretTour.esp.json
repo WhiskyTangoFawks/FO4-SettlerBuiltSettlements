@@ -1,0 +1,10 @@
+{
+  "FormKey": "000173:SBS - LivingMarinaEgretTour.esp",
+  "EditorID": "vss_kywd_defense",
+  "Color": "#00FFFFFF",
+  "Type": "RecipeFilter",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Shack Defense"
+  }
+}

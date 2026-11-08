@@ -1,0 +1,10 @@
+{
+  "FormKey": "0000EF:SBS - LivingCroupManor.esp",
+  "EditorID": "vss_kywd_furniture",
+  "Color": "#00FFFFFF",
+  "Type": "RecipeFilter",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Shack Furniture"
+  }
+}

@@ -1,0 +1,1063 @@
+{
+  "FormKey": "00E42D:Fallout4.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "Fallout4MajorRecordFlags": [
+    "Compressed"
+  ],
+  "Flags": [
+    "HasWater"
+  ],
+  "PreVisFilesTimestamp": 7972,
+  "InPreVisFileOf": "00E40C:Fallout4.esm",
+  "PreCombinedFilesTimestamp": 7972,
+  "Grid": {
+    "Point": "-12, -1"
+  },
+  "MaxHeightData": {
+    "Offset": 896.0,
+    "HeightMap": [
+      [0,0,1,1,1,1,3,1,4,7,8,1,1,1,2,2,2,2,2,2,1,1,1,1,1,0,0,0,0,0,0,0],
+      [0,1,1,1,3,2,1,1,5,5,1,1,1,2,2,2,2,2,2,2,2,1,1,1,1,1,0,0,0,0,5,4],
+      [1,1,1,1,2,2,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,0,0,3,10],
+      [1,1,1,1,1,1,1,1,1,2,2,2,2,2,3,3,3,3,3,3,2,2,4,1,1,1,1,1,1,1,1,3],
+      [1,2,2,2,2,2,2,2,2,2,2,3,3,3,3,8,6,3,3,3,2,4,8,5,2,1,1,1,1,1,1,1],
+      [2,2,2,2,2,2,3,3,3,3,3,3,3,5,5,6,6,3,3,3,3,4,6,5,8,2,2,1,1,1,1,1],
+      [2,2,2,2,2,3,3,3,3,3,3,3,3,6,8,4,5,4,4,4,4,4,3,3,5,2,2,2,2,2,2,2],
+      [3,3,3,3,3,3,11,12,3,3,3,3,3,3,3,3,4,4,4,4,4,4,4,4,3,2,2,2,2,2,2,2],
+      [3,3,3,3,3,3,10,10,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,8,3,3,2,2,2,2,2,2],
+      [4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,6,8,4,3,3,3,3,3,3,3],
+      [4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,7,4,4,3,3,3,3,3,3],
+      [4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,5,5,5,5,5,5,5,6,4,4,4,4,4,3,3,3],
+      [4,4,4,4,4,4,4,4,4,4,4,4,4,5,5,5,5,5,5,5,5,5,5,4,4,4,4,4,4,4,4,3],
+      [5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,4,4,4,4,4],
+      [5,5,5,5,6,6,6,6,6,6,6,6,5,5,5,6,6,6,6,6,6,5,5,5,5,5,5,5,5,5,5,5],
+      [6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,5,5],
+      [6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,5,5],
+      [6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6],
+      [6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6],
+      [6,6,6,6,6,6,6,6,6,6,6,5,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,5],
+      [6,6,6,6,6,6,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5],
+      [6,6,6,6,6,5,5,5,5,5,5,5,5,5,5,5,4,4,4,4,5,5,5,5,5,5,5,5,5,5,5,5],
+      [6,6,6,6,5,5,5,5,5,5,5,5,5,4,4,4,4,4,4,4,4,4,5,5,7,4,4,4,4,4,4,7],
+      [6,6,6,5,5,5,5,5,5,4,4,4,4,4,4,4,4,4,4,4,4,5,5,5,7,4,4,4,4,9,9,6],
+      [6,5,5,5,5,5,5,5,4,4,4,4,4,4,4,4,4,4,4,4,8,9,6,6,10,5,4,4,4,4,4,7],
+      [6,6,5,5,5,5,5,5,4,4,4,4,4,4,4,4,4,4,4,4,3,3,4,4,4,6,4,4,4,4,4,6],
+      [6,6,6,5,5,5,5,4,10,10,4,4,4,4,3,3,4,4,4,3,3,3,4,4,4,9,9,4,4,4,4,4],
+      [6,6,6,5,5,5,5,4,10,12,13,4,4,4,3,3,4,4,3,3,3,3,3,4,4,9,9,4,4,4,4,4],
+      [6,5,5,5,5,5,4,4,5,10,14,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3],
+      [6,5,10,11,10,8,7,4,4,7,4,3,3,3,3,6,6,5,3,3,3,3,3,3,3,3,3,3,4,4,3,3],
+      [5,5,9,10,9,7,5,4,4,4,3,3,3,3,3,9,7,8,8,3,3,3,3,3,3,3,3,3,3,3,3,3],
+      [5,5,5,4,4,4,4,4,4,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,3,6,2]
+    ]
+  },
+  "WaterHeight": 3.4028235E+38,
+  "Regions": [
+    "109E91:Fallout4.esm",
+    "100AF1:Fallout4.esm",
+    "049BE0:Fallout4.esm",
+    "23C94E:Fallout4.esm"
+  ],
+  "CombinedMeshes": [
+    28861806,
+    316928405,
+    324769019,
+    425316049,
+    462555487,
+    482666451,
+    524771173,
+    563641934,
+    662107564,
+    850632099,
+    851700405,
+    942779081,
+    973764369,
+    1001525887,
+    2572799697,
+    2672254821,
+    3090262729,
+    3149009535
+  ],
+  "CombinedMeshReferences": [
+    {
+      "Reference": "13B60E:Fallout4.esm",
+      "CombinedMesh": 973764369
+    },
+    {
+      "Reference": "1C67DA:Fallout4.esm",
+      "CombinedMesh": 1001525887
+    },
+    {
+      "Reference": "138254:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "1C67D8:Fallout4.esm",
+      "CombinedMesh": 482666451
+    },
+    {
+      "Reference": "13B62B:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "138263:Fallout4.esm",
+      "CombinedMesh": 973764369
+    },
+    {
+      "Reference": "138208:Fallout4.esm",
+      "CombinedMesh": 524771173
+    },
+    {
+      "Reference": "13822F:Fallout4.esm",
+      "CombinedMesh": 2672254821
+    },
+    {
+      "Reference": "138224:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "13B6B5:Fallout4.esm",
+      "CombinedMesh": 1001525887
+    },
+    {
+      "Reference": "13B615:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "138226:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "13B67E:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "13822A:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "13B672:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "138264:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "13B670:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "138228:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "138253:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "14824E:Fallout4.esm",
+      "CombinedMesh": 462555487
+    },
+    {
+      "Reference": "1C67D4:Fallout4.esm",
+      "CombinedMesh": 1001525887
+    },
+    {
+      "Reference": "1C67D6:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "13824B:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "13B673:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "13822B:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "13B6B3:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "138207:Fallout4.esm",
+      "CombinedMesh": 524771173
+    },
+    {
+      "Reference": "13826C:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "13B67A:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "13B671:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "13826E:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "1C67D5:Fallout4.esm",
+      "CombinedMesh": 1001525887
+    },
+    {
+      "Reference": "1C67D7:Fallout4.esm",
+      "CombinedMesh": 1001525887
+    },
+    {
+      "Reference": "13B603:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "138191:Fallout4.esm",
+      "CombinedMesh": 524771173
+    },
+    {
+      "Reference": "13B66F:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "13B62C:Fallout4.esm",
+      "CombinedMesh": 563641934
+    },
+    {
+      "Reference": "1C67D9:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "13820C:Fallout4.esm",
+      "CombinedMesh": 1001525887
+    },
+    {
+      "Reference": "13B5D4:Fallout4.esm",
+      "CombinedMesh": 2572799697
+    },
+    {
+      "Reference": "138221:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "138222:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "13B676:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "13822E:Fallout4.esm",
+      "CombinedMesh": 3090262729
+    },
+    {
+      "Reference": "138229:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "13822D:Fallout4.esm",
+      "CombinedMesh": 3090262729
+    },
+    {
+      "Reference": "138209:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "13B5F7:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "13B6B6:Fallout4.esm",
+      "CombinedMesh": 1001525887
+    },
+    {
+      "Reference": "148253:Fallout4.esm",
+      "CombinedMesh": 316928405
+    },
+    {
+      "Reference": "138225:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "138223:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "13822C:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "138227:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "138220:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "13820B:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "13B5D6:Fallout4.esm",
+      "CombinedMesh": 3149009535
+    },
+    {
+      "Reference": "13820A:Fallout4.esm",
+      "CombinedMesh": 662107564
+    }
+  ],
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1C67DB:Fallout4.esm",
+      "Base": "121550:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000284:SBS - LivingOberlandStation.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Scale": 1.02,
+      "Position": "-45315.125, -3441.6128, 1357.0444",
+      "Rotation": "6.141002, 6.1649427, 0.7647195"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1C67DC:Fallout4.esm",
+      "Base": "121550:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000284:SBS - LivingOberlandStation.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Scale": 1.07,
+      "Position": "-45308.348, -3694.165, 1387.7838",
+      "Rotation": "6.1338325, 0.036770597, 2.2489946"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1C67DF:Fallout4.esm",
+      "Base": "12154F:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000284:SBS - LivingOberlandStation.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Scale": 0.76,
+      "Position": "-45386.805, -3318.8328, 1368.3655",
+      "Rotation": "6.197137, 0.034814082, 5.4613795"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1C67E0:Fallout4.esm",
+      "Base": "12154D:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000284:SBS - LivingOberlandStation.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Scale": 0.8,
+      "Position": "-45391.37, -3511.0088, 1373.0709",
+      "Rotation": "0.113186345, 0.019015362, 1.4942166"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1C67E1:Fallout4.esm",
+      "Base": "12154E:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000284:SBS - LivingOberlandStation.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Scale": 0.75,
+      "Position": "-45252.406, -3557.714, 1383.7649",
+      "Rotation": "0.026616272, 6.272876, 1.5213093"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000DD:SBS - LivingOberlandStation.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1B4AC4:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000284:SBS - LivingOberlandStation.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1D1:Fallout4.esm"
+        }
+      ],
+      "Position": "-46296, -3390.29, 1358.4808",
+      "Rotation": "0, 0, 0.62714046"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E1:SBS - LivingOberlandStation.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1B4ABA:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000284:SBS - LivingOberlandStation.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1D1:Fallout4.esm"
+        }
+      ],
+      "Position": "-45816.305, -3453.487, 1364.2949",
+      "Rotation": "0, 0, 0.06621954"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E2:SBS - LivingOberlandStation.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BB3:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000284:SBS - LivingOberlandStation.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1D1:Fallout4.esm"
+        }
+      ],
+      "Position": "-46665.164, -3390.8625, 1551.2097",
+      "Rotation": "0, 0, 3.2051332"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E5:SBS - LivingOberlandStation.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BB3:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000284:SBS - LivingOberlandStation.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1D1:Fallout4.esm"
+        }
+      ],
+      "Position": "-46673.29, -3518.6033, 1551.2097",
+      "Rotation": "0, 0, 3.2051418"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F5:SBS - LivingOberlandStation.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1B4ABB:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000284:SBS - LivingOberlandStation.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1D1:Fallout4.esm"
+        }
+      ],
+      "Position": "-45560.867, -3470.428, 1364.2949",
+      "Rotation": "0, 0, 3.2078228"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000FA:SBS - LivingOberlandStation.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000025:SBS - LivingOberlandStation.esp",
+      "EnableParent": {
+        "Reference": "000284:SBS - LivingOberlandStation.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1D1:Fallout4.esm"
+        }
+      ],
+      "Position": "-46541.918, -3462.833, 1593.8765",
+      "Rotation": "0, 0, 0.063543946"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000FF:SBS - LivingOberlandStation.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1B4ABD:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000284:SBS - LivingOberlandStation.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1D1:Fallout4.esm"
+        }
+      ],
+      "Position": "-45311.973, -3520.1357, 1364.2949",
+      "Rotation": "0, 0, 3.4696045"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000100:SBS - LivingOberlandStation.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000284:SBS - LivingOberlandStation.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1D1:Fallout4.esm"
+        }
+      ],
+      "Position": "-46414.176, -3470.9614, 1593.8765",
+      "Rotation": "0, 0, 0.06355459"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000101:SBS - LivingOberlandStation.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "12EA9B:Fallout4.esm",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1D1:Fallout4.esm"
+        }
+      ],
+      "Position": "-46969.484, -3944.5723, 1607.966",
+      "Rotation": "0, 0, 1.2270154"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000105:SBS - LivingOberlandStation.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000024:SBS - LivingOberlandStation.esp",
+      "EnableParent": {
+        "Reference": "000284:SBS - LivingOberlandStation.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1D1:Fallout4.esm"
+        }
+      ],
+      "Position": "-46541.918, -3462.833, 1593.8765",
+      "Rotation": "0, 0, 3.205128"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000106:SBS - LivingOberlandStation.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000284:SBS - LivingOberlandStation.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1D1:Fallout4.esm"
+        }
+      ],
+      "Position": "-46414.176, -3470.9602, 1593.8765",
+      "Rotation": "0, 0, 3.2051263"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00010B:SBS - LivingOberlandStation.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1B4AB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000284:SBS - LivingOberlandStation.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1D1:Fallout4.esm"
+        }
+      ],
+      "Position": "-46071.742, -3436.5464, 1428.2949",
+      "Rotation": "0, 0, 3.2078195"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000113:SBS - LivingOberlandStation.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000918:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000284:SBS - LivingOberlandStation.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1D1:Fallout4.esm"
+        }
+      ],
+      "Position": "-46480.004, -3547.3728, 1593.9156",
+      "Rotation": "0, 0, 0.02104518"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012D:SBS - LivingOberlandStation.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "18B998:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000284:SBS - LivingOberlandStation.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1D1:Fallout4.esm"
+        }
+      ],
+      "Position": "-47065.965, -3968.3533, 1607.9623",
+      "Rotation": "0, 0, 4.697116"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012F:SBS - LivingOberlandStation.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "05D70B:DLCCoast.esm",
+      "EnableParent": {
+        "Reference": "000284:SBS - LivingOberlandStation.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1D1:Fallout4.esm"
+        }
+      ],
+      "Position": "-47210.65, -3855.5498, 1468.977",
+      "Rotation": "0, 0, 1.589796"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000138:SBS - LivingOberlandStation.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00080E:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000284:SBS - LivingOberlandStation.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1D1:Fallout4.esm"
+        }
+      ],
+      "Position": "-47148.42, -4055.101, 1607.9666",
+      "Rotation": "0, 0, 4.527164"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013C:SBS - LivingOberlandStation.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BB3:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000284:SBS - LivingOberlandStation.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1D1:Fallout4.esm"
+        }
+      ],
+      "Position": "-45260.195, -3814.1782, 1427.5479",
+      "Rotation": "0, 0, 3.1541607"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000149:SBS - LivingOberlandStation.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "05D70B:DLCCoast.esm",
+      "EnableParent": {
+        "Reference": "000284:SBS - LivingOberlandStation.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1D1:Fallout4.esm"
+        }
+      ],
+      "Position": "-47202.62, -4094.3516, 1469.9281",
+      "Rotation": "0, 0, 1.5363592"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00016E:SBS - LivingOberlandStation.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1B4AC4:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000284:SBS - LivingOberlandStation.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1D1:Fallout4.esm"
+        }
+      ],
+      "Position": "-47141.895, -3442.7566, 1404.3481",
+      "Rotation": "0, 0, 2.0198991"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00016F:SBS - LivingOberlandStation.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000858:DLCworkshop02.esm",
+      "EnableParent": {
+        "Reference": "000284:SBS - LivingOberlandStation.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1D1:Fallout4.esm"
+        }
+      ],
+      "Position": "-45135.05, -4007.7686, 1454.2146",
+      "Rotation": "0, 0, 0.012573352"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000191:SBS - LivingOberlandStation.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "05D70B:DLCCoast.esm",
+      "EnableParent": {
+        "Reference": "000284:SBS - LivingOberlandStation.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1D1:Fallout4.esm"
+        }
+      ],
+      "Position": "-46037.438, -4034.155, 1453.4214",
+      "Rotation": "0, 0, 4.969031"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000192:SBS - LivingOberlandStation.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000858:DLCworkshop02.esm",
+      "EnableParent": {
+        "Reference": "000284:SBS - LivingOberlandStation.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1D1:Fallout4.esm"
+        }
+      ],
+      "Position": "-45131.832, -3751.7886, 1454.2146",
+      "Rotation": "0, 0, 0.012578413"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000193:SBS - LivingOberlandStation.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000809:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000284:SBS - LivingOberlandStation.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1D1:Fallout4.esm"
+        }
+      ],
+      "Position": "-47149.086, -4055.5137, 1644.6393",
+      "Rotation": "0, 0, 4.505784"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001AC:SBS - LivingOberlandStation.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1B4ABD:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000284:SBS - LivingOberlandStation.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1D1:Fallout4.esm"
+        }
+      ],
+      "Position": "-47187.94, -3685.7087, 1404.3481",
+      "Rotation": "0, 0, 1.4963142"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001ED:SBS - LivingOberlandStation.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B99:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000284:SBS - LivingOberlandStation.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1D1:Fallout4.esm"
+        }
+      ],
+      "Position": "-46936.023, -4094.3848, 1607.9623",
+      "Rotation": "0, 0, 4.697112"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001EE:SBS - LivingOberlandStation.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000021:SBS - LivingOberlandStation.esp",
+      "EnableParent": {
+        "Reference": "000284:SBS - LivingOberlandStation.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1D1:Fallout4.esm"
+        }
+      ],
+      "Position": "-46937.98, -3966.3984, 1607.9623",
+      "Rotation": "0, 0, 4.697119"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001EF:SBS - LivingOberlandStation.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B99:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000284:SBS - LivingOberlandStation.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1D1:Fallout4.esm"
+        }
+      ],
+      "Position": "-46939.934, -3838.412, 1607.9623",
+      "Rotation": "0, 0, 4.6971297"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001F2:SBS - LivingOberlandStation.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000918:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000284:SBS - LivingOberlandStation.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1D1:Fallout4.esm"
+        }
+      ],
+      "Position": "-46886.555, -4054.447, 1607.9417",
+      "Rotation": "0, 0, 1.574376"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001FB:SBS - LivingOberlandStation.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000918:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000284:SBS - LivingOberlandStation.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1D1:Fallout4.esm"
+        }
+      ],
+      "Position": "-47162.344, -3889.9163, 1607.9664",
+      "Rotation": "0, 0, 1.8020383"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00022B:SBS - LivingOberlandStation.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "21060C:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000284:SBS - LivingOberlandStation.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1D1:Fallout4.esm"
+        }
+      ],
+      "Position": "-45131.027, -3687.7935, 1470.2146",
+      "Rotation": "0, 0, 3.1541696"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00022C:SBS - LivingOberlandStation.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B86:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000284:SBS - LivingOberlandStation.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1D1:Fallout4.esm"
+        }
+      ],
+      "Position": "-45195.02, -3686.9888, 1470.2146",
+      "Rotation": "0, 0, 1.5833821"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00027C:SBS - LivingOberlandStation.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0EA1B9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000284:SBS - LivingOberlandStation.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1D1:Fallout4.esm"
+        }
+      ],
+      "Position": "-46489.773, -3457.5312, 1593.9156",
+      "Rotation": "0, 0, 5.7307906"
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

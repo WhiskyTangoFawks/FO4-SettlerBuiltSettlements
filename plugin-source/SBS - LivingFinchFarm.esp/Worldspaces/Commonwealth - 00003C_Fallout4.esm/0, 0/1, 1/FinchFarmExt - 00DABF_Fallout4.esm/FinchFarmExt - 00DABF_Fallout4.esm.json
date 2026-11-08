@@ -1,0 +1,6410 @@
+{
+  "FormKey": "00DABF:Fallout4.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "FinchFarmExt",
+  "Fallout4MajorRecordFlags": [
+    "Compressed"
+  ],
+  "Flags": [
+    "HasWater"
+  ],
+  "PreVisFilesTimestamp": 7972,
+  "InPreVisFileOf": "00DAA1:Fallout4.esm",
+  "PreCombinedFilesTimestamp": 7972,
+  "Grid": {
+    "Point": "13, 11"
+  },
+  "MaxHeightData": {
+    "Offset": 512.0,
+    "HeightMap": [
+      [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3,2,3,3,3,2,2,3,3,3,3,3],
+      [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3],
+      [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3],
+      [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,3,3,3,5,7,3,3,3,3,3,3,3,3,3,3],
+      [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,3,3,3,3,8,3,3,3,3,3,3,3,3,3,3],
+      [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3],
+      [2,2,2,2,2,3,3,3,3,3,3,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3],
+      [2,2,2,2,3,3,2,2,2,2,3,3,3,3,2,2,2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,2],
+      [2,2,2,2,2,3,2,2,2,2,2,2,2,3,2,2,2,2,2,2,3,3,3,3,3,3,4,3,3,3,3,3],
+      [2,2,2,2,2,3,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,3,3,2,2,3,2,3,3,3,3],
+      [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3,2,3,3,3,3,3],
+      [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,3,2,3,3,3,3,3,3,3,3],
+      [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3,4,4,4,4],
+      [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,3,3,4,3,3,3,3,3,4,3,3],
+      [12,2,12,12,12,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,4,4,4,5,5,3,3,3,3,3,3,3],
+      [2,2,12,12,12,12,12,12,2,2,2,2,2,2,2,2,2,2,2,5,5,5,5,5,5,3,3,3,3,3,3,3],
+      [12,12,12,12,12,12,12,12,12,12,12,2,2,2,2,2,2,2,2,3,5,5,5,5,5,3,3,3,3,3,3,2],
+      [12,12,12,12,12,12,12,12,12,12,12,12,12,12,2,2,2,2,2,3,5,5,5,5,5,3,3,3,3,3,2,2],
+      [12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,2,2,5,5,5,5,5,5,3,3,3,3,2,2],
+      [12,12,13,13,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,5,5,5,5,4,2,2,2,2,2,2],
+      [12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,12,2,2,2,2,2,2],
+      [12,13,13,12,12,12,12,12,12,13,13,13,12,12,12,12,12,12,12,12,12,12,12,12,13,13,12,2,2,2,2,2],
+      [12,13,13,13,13,12,12,12,12,12,13,13,13,13,13,12,12,12,12,12,12,12,12,12,13,13,13,13,12,12,2,2],
+      [12,13,13,13,13,12,12,12,12,12,12,12,12,12,13,13,13,13,12,12,12,12,12,12,12,13,13,13,12,12,12,12],
+      [2,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,13,12,12,12,12,12,12,12,13,12,12,12,12,12],
+      [2,2,2,2,2,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,13,13,13,12,12,12,12,12,12,12],
+      [2,2,2,2,2,2,2,2,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,13,13,13,13,12,12,12,12],
+      [2,2,2,2,2,2,2,2,2,2,2,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,13,13,13,13,12],
+      [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,13,13],
+      [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,12,12,12,12,12,12,12,12,12,12,12,12,12,12],
+      [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,12,12,12,12,12,12,12,12,12,12,12],
+      [5,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,12,12,12,12,12,12,0,12]
+    ]
+  },
+  "WaterHeight": 3.4028235E+38,
+  "Regions": [
+    "23F1FE:Fallout4.esm",
+    "049BE0:Fallout4.esm",
+    "1CFDBE:Fallout4.esm",
+    "181C1A:Fallout4.esm"
+  ],
+  "Location": "02648A:Fallout4.esm",
+  "PhysicsReferences": [
+    "161F23:Fallout4.esm"
+  ],
+  "CombinedMeshes": [
+    28861806,
+    82877219,
+    158464202,
+    176306026,
+    324769019,
+    425316049,
+    462555487,
+    482666451,
+    625813620,
+    662107564,
+    773568110,
+    850632099,
+    883756055,
+    942779081,
+    965332903,
+    973764369,
+    1043282813,
+    1735849388,
+    1924373923,
+    2016520905,
+    2323789674,
+    2630150099,
+    2672254821,
+    2773297268,
+    2809591212,
+    3090262729,
+    3112816551,
+    3190766461,
+    4071857571
+  ],
+  "CombinedMeshReferences": [
+    {
+      "Reference": "1EE5FE:Fallout4.esm",
+      "CombinedMesh": 3112816551
+    },
+    {
+      "Reference": "0C5283:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "026473:Fallout4.esm",
+      "CombinedMesh": 3090262729
+    },
+    {
+      "Reference": "026484:Fallout4.esm",
+      "CombinedMesh": 2323789674
+    },
+    {
+      "Reference": "1EE5E7:Fallout4.esm",
+      "CombinedMesh": 482666451
+    },
+    {
+      "Reference": "0C5274:Fallout4.esm",
+      "CombinedMesh": 2809591212
+    },
+    {
+      "Reference": "0C52DF:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "026481:Fallout4.esm",
+      "CombinedMesh": 3090262729
+    },
+    {
+      "Reference": "1E803D:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "1EE5E2:Fallout4.esm",
+      "CombinedMesh": 965332903
+    },
+    {
+      "Reference": "09D161:Fallout4.esm",
+      "CombinedMesh": 3090262729
+    },
+    {
+      "Reference": "02646F:Fallout4.esm",
+      "CombinedMesh": 2323789674
+    },
+    {
+      "Reference": "0C52DA:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "193E89:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1C67BF:Fallout4.esm",
+      "CombinedMesh": 4071857571
+    },
+    {
+      "Reference": "1BF691:Fallout4.esm",
+      "CombinedMesh": 82877219
+    },
+    {
+      "Reference": "026476:Fallout4.esm",
+      "CombinedMesh": 2323789674
+    },
+    {
+      "Reference": "1EE5E8:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "1E8037:Fallout4.esm",
+      "CombinedMesh": 2809591212
+    },
+    {
+      "Reference": "1EE5F1:Fallout4.esm",
+      "CombinedMesh": 773568110
+    },
+    {
+      "Reference": "02647C:Fallout4.esm",
+      "CombinedMesh": 2323789674
+    },
+    {
+      "Reference": "1EE5DF:Fallout4.esm",
+      "CombinedMesh": 482666451
+    },
+    {
+      "Reference": "1EADE2:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "0C5289:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "1EE5F4:Fallout4.esm",
+      "CombinedMesh": 482666451
+    },
+    {
+      "Reference": "026479:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "09D12B:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1E8032:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "026471:Fallout4.esm",
+      "CombinedMesh": 3090262729
+    },
+    {
+      "Reference": "09D13A:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0C52B6:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "0C52DD:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1EE5E5:Fallout4.esm",
+      "CombinedMesh": 965332903
+    },
+    {
+      "Reference": "02646D:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "05F32F:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "193E39:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "026483:Fallout4.esm",
+      "CombinedMesh": 3090262729
+    },
+    {
+      "Reference": "1EE5E0:Fallout4.esm",
+      "CombinedMesh": 965332903
+    },
+    {
+      "Reference": "026474:Fallout4.esm",
+      "CombinedMesh": 3090262729
+    },
+    {
+      "Reference": "1EE5F9:Fallout4.esm",
+      "CombinedMesh": 3112816551
+    },
+    {
+      "Reference": "06429E:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "193E76:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0642A3:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "18F379:Fallout4.esm",
+      "CombinedMesh": 158464202
+    },
+    {
+      "Reference": "09D169:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1EE5EA:Fallout4.esm",
+      "CombinedMesh": 2039074727
+    },
+    {
+      "Reference": "193E58:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "02647E:Fallout4.esm",
+      "CombinedMesh": 4071857571
+    },
+    {
+      "Reference": "1EADE0:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "193E41:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "1EADA5:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "1EE5F3:Fallout4.esm",
+      "CombinedMesh": 2630150099
+    },
+    {
+      "Reference": "02647B:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "05F339:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "0C528B:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "05F317:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "1EE5F6:Fallout4.esm",
+      "CombinedMesh": 2773297268
+    },
+    {
+      "Reference": "0C52D7:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1EE5EF:Fallout4.esm",
+      "CombinedMesh": 482666451
+    },
+    {
+      "Reference": "1EE5F5:Fallout4.esm",
+      "CombinedMesh": 2630150099
+    },
+    {
+      "Reference": "193E69:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "026478:Fallout4.esm",
+      "CombinedMesh": 2323789674
+    },
+    {
+      "Reference": "1E8033:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "09D12A:Fallout4.esm",
+      "CombinedMesh": 1043282813
+    },
+    {
+      "Reference": "1EE5E9:Fallout4.esm",
+      "CombinedMesh": 625813620
+    },
+    {
+      "Reference": "1EADA6:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "02647D:Fallout4.esm",
+      "CombinedMesh": 2323789674
+    },
+    {
+      "Reference": "1EE5E3:Fallout4.esm",
+      "CombinedMesh": 482666451
+    },
+    {
+      "Reference": "026480:Fallout4.esm",
+      "CombinedMesh": 4071857571
+    },
+    {
+      "Reference": "1E803C:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "193E3A:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0C52DB:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "09D160:Fallout4.esm",
+      "CombinedMesh": 2672254821
+    },
+    {
+      "Reference": "02646E:Fallout4.esm",
+      "CombinedMesh": 2323789674
+    },
+    {
+      "Reference": "1C67BE:Fallout4.esm",
+      "CombinedMesh": 4071857571
+    },
+    {
+      "Reference": "1EE5FA:Fallout4.esm",
+      "CombinedMesh": 3112816551
+    },
+    {
+      "Reference": "026477:Fallout4.esm",
+      "CombinedMesh": 2323789674
+    },
+    {
+      "Reference": "1EE5FF:Fallout4.esm",
+      "CombinedMesh": 3112816551
+    },
+    {
+      "Reference": "1EE5D1:Fallout4.esm",
+      "CombinedMesh": 2039074727
+    },
+    {
+      "Reference": "026472:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "05F330:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "1EE5E6:Fallout4.esm",
+      "CombinedMesh": 965332903
+    },
+    {
+      "Reference": "0C52DE:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0C52B5:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "02646B:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "02647A:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1EE5D9:Fallout4.esm",
+      "CombinedMesh": 965332903
+    },
+    {
+      "Reference": "1EE5F7:Fallout4.esm",
+      "CombinedMesh": 3112816551
+    },
+    {
+      "Reference": "0C528A:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "193E37:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "1E8031:Fallout4.esm",
+      "CombinedMesh": 883756055
+    },
+    {
+      "Reference": "1EE5EE:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "18F378:Fallout4.esm",
+      "CombinedMesh": 462555487
+    },
+    {
+      "Reference": "1EE5EB:Fallout4.esm",
+      "CombinedMesh": 973764369
+    },
+    {
+      "Reference": "1EADE1:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "02647F:Fallout4.esm",
+      "CombinedMesh": 4071857571
+    },
+    {
+      "Reference": "1EE5F2:Fallout4.esm",
+      "CombinedMesh": 2630150099
+    },
+    {
+      "Reference": "09D15F:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "0C52D9:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "0C5272:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "09D162:Fallout4.esm",
+      "CombinedMesh": 2672254821
+    },
+    {
+      "Reference": "1EE5E1:Fallout4.esm",
+      "CombinedMesh": 482666451
+    },
+    {
+      "Reference": "193E38:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1E803E:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "026482:Fallout4.esm",
+      "CombinedMesh": 2323789674
+    },
+    {
+      "Reference": "026475:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1EE5D6:Fallout4.esm",
+      "CombinedMesh": 965332903
+    },
+    {
+      "Reference": "1BF692:Fallout4.esm",
+      "CombinedMesh": 82877219
+    },
+    {
+      "Reference": "05F319:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "06429F:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1EE5F8:Fallout4.esm",
+      "CombinedMesh": 3112816551
+    },
+    {
+      "Reference": "026470:Fallout4.esm",
+      "CombinedMesh": 3090262729
+    },
+    {
+      "Reference": "135A8A:Fallout4.esm",
+      "CombinedMesh": 4071857571
+    },
+    {
+      "Reference": "0C52D8:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "09D139:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "09D138:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "09D126:Fallout4.esm",
+      "CombinedMesh": 1043282813
+    },
+    {
+      "Reference": "09D134:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "09D133:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "0C52B7:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "09D130:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0C52DC:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "09D12F:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "09D12E:Fallout4.esm",
+      "CombinedMesh": 2809591212
+    },
+    {
+      "Reference": "09D12D:Fallout4.esm",
+      "CombinedMesh": 3090262729
+    },
+    {
+      "Reference": "09D12C:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "09D129:Fallout4.esm",
+      "CombinedMesh": 3190766461
+    },
+    {
+      "Reference": "09D128:Fallout4.esm",
+      "CombinedMesh": 2809591212
+    },
+    {
+      "Reference": "09D127:Fallout4.esm",
+      "CombinedMesh": 2809591212
+    },
+    {
+      "Reference": "1EE5E4:Fallout4.esm",
+      "CombinedMesh": 965332903
+    },
+    {
+      "Reference": "02646A:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "02646C:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "026489:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "1E803B:Fallout4.esm",
+      "CombinedMesh": 425316049
+    }
+  ],
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "05F318:Fallout4.esm",
+      "FormVersion": 130,
+      "Base": "08954A:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "1C5EDD:Fallout4.esm",
+          "Reference": "05F331:Fallout4.esm"
+        }
+      ],
+      "Position": "55051.73, 48794.477, 816.4775",
+      "Rotation": "0, 0, 1.1749992"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09D113:Fallout4.esm",
+      "FormVersion": 126,
+      "Base": "05E0D8:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "55883.195, 46818.984, 649.38934",
+      "Rotation": "0, 0, 4.7831864"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09D114:Fallout4.esm",
+      "FormVersion": 126,
+      "Base": "06D349:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "55864.14, 46494.914, 642.71387",
+      "Rotation": "0, 0, 1.600001"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09D115:Fallout4.esm",
+      "FormVersion": 126,
+      "Base": "05E0D9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "55864.133, 46298.97, 642.2295",
+      "Rotation": "0, 0, 1.8"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09D116:Fallout4.esm",
+      "FormVersion": 126,
+      "Base": "05F362:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "55825.426, 46108.62, 645.32947",
+      "Rotation": "0, 0, 5"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09D117:Fallout4.esm",
+      "FormVersion": 126,
+      "Base": "05E0DA:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "55584.97, 45752.48, 622.48175",
+      "Rotation": "0, 0, 3.000001"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09D118:Fallout4.esm",
+      "FormVersion": 126,
+      "Base": "05E0DA:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "55391.96, 45717.434, 622.48175",
+      "Rotation": "0, 0, 3.0999997"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09D119:Fallout4.esm",
+      "FormVersion": 126,
+      "Base": "06D34A:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "55005.367, 45700.77, 622.86975"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09D11A:Fallout4.esm",
+      "FormVersion": 126,
+      "Base": "05E0DC:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "55211.68, 45706.05, 623.224"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09D11B:Fallout4.esm",
+      "FormVersion": 126,
+      "Base": "05F35F:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "54805.066, 45706.875, 630.34595",
+      "Rotation": "0, 0, 3.5831888"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09D11C:Fallout4.esm",
+      "FormVersion": 126,
+      "Base": "05E0D8:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "54102.188, 45739.914, 688.4487",
+      "Rotation": "0, 0, 1.5000005"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09D11D:Fallout4.esm",
+      "FormVersion": 126,
+      "Base": "05F362:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "54427.137, 45746.06, 687.092",
+      "Rotation": "0, 0, 2.8000002"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09D11E:Fallout4.esm",
+      "FormVersion": 126,
+      "Base": "05E0DB:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "54230.215, 45744.46, 686.2458"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09D11F:Fallout4.esm",
+      "FormVersion": 126,
+      "Base": "06D34A:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "54111.547, 46062.355, 688.2382",
+      "Rotation": "0, 0, 4.800001"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09D120:Fallout4.esm",
+      "FormVersion": 126,
+      "Base": "05E0DA:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "54121.03, 46256.902, 689.81274",
+      "Rotation": "0, 0, 4.883187"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09D121:Fallout4.esm",
+      "FormVersion": 126,
+      "Base": "05E0DA:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "54151.918, 46450.51, 689.81274",
+      "Rotation": "0, 0, 4.883187"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09D122:Fallout4.esm",
+      "FormVersion": 126,
+      "Base": "05E0D8:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "54191.05, 46772.977, 694.3656",
+      "Rotation": "0, 0, 3.2"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09D123:Fallout4.esm",
+      "FormVersion": 126,
+      "Base": "06D349:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "55561.22, 46819.1, 646.3896"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09D124:Fallout4.esm",
+      "FormVersion": 126,
+      "Base": "05E0DA:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "55366.02, 46825.023, 645.51514",
+      "Rotation": "0, 0, 3.0831869"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09D125:Fallout4.esm",
+      "FormVersion": 126,
+      "Base": "05E0DC:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "55170.81, 46808.312, 644.5172"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09D137:Fallout4.esm",
+      "FormVersion": 126,
+      "Base": "03A64E:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Scale": 0.84,
+      "Position": "54197.105, 45586.938, 723.3745",
+      "Rotation": "0, 0, 2.4692132"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09D15D:Fallout4.esm",
+      "FormVersion": 130,
+      "Base": "019572:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Scale": 0.84,
+      "Position": "56572.35, 47192.633, 633.60516",
+      "Rotation": "0.0123813655, 6.2523365, 6.111138"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09D16B:Fallout4.esm",
+      "FormVersion": 126,
+      "Base": "1B2DB6:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "56148.785, 47954.656, 720.9123",
+      "Rotation": "6.2744026, 0.0015673056, 1.4283024"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09D16C:Fallout4.esm",
+      "FormVersion": 126,
+      "Base": "1B496D:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "56194.79, 48315.84, 713.74774",
+      "Rotation": "0.05550147, 6.2454305, 0.67943925"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C5276:Fallout4.esm",
+      "FormVersion": 126,
+      "Base": "0393CD:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Scale": 0.72,
+      "Position": "56456.91, 46402.297, 659.40967",
+      "Rotation": "6.126888, 6.158759, 1.3941253"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0C534D:Fallout4.esm",
+      "FormVersion": 126,
+      "Base": "032464:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Scale": 0.76,
+      "Position": "54103.19, 48713.008, 787.11597",
+      "Rotation": "0.15068999, 6.0545034, 5.1393437"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "193E5A:Fallout4.esm",
+      "FormVersion": 130,
+      "Base": "19B427:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "1C5EDD:Fallout4.esm",
+          "Reference": "193E60:Fallout4.esm"
+        }
+      ],
+      "Position": "54867.062, 48851.96, 793.2039",
+      "Rotation": "6.2460427, 6.0488224, 4.7355947"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "193E5B:Fallout4.esm",
+      "FormVersion": 126,
+      "Base": "1B2DBB:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "56273.273, 46851.246, 672.34735",
+      "Rotation": "0.04189314, 6.2600965, 0.91286826"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1B8573:Fallout4.esm",
+      "FormVersion": 126,
+      "Base": "0516A3:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Scale": 1.1,
+      "Position": "54105.96, 47505.367, 758.18176",
+      "Rotation": "0.028094565, 6.242121, 2.512625"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1E8034:Fallout4.esm",
+      "FormVersion": 126,
+      "Base": "0516A3:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "54336.855, 46288.273, 679.7861",
+      "Rotation": "0, 6.0382075, 0"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1E8035:Fallout4.esm",
+      "FormVersion": 126,
+      "Base": "019570:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "54727.938, 46396.48, 666.00256"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1E8036:Fallout4.esm",
+      "FormVersion": 126,
+      "Base": "019572:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "55165.305, 46930.324, 691.1896",
+      "Rotation": "6.1245785, 6.234639, 5.9623885"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1E8038:Fallout4.esm",
+      "FormVersion": 126,
+      "Base": "02B8DB:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "54966.254, 46109.223, 673.6207",
+      "Rotation": "6.239243, 6.273422, 4.7147784"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1E8039:Fallout4.esm",
+      "FormVersion": 126,
+      "Base": "053262:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "55281.523, 45852.637, 658.6749",
+      "Rotation": "6.158841, 0.061938245, 3.7823868"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1E803A:Fallout4.esm",
+      "FormVersion": 126,
+      "Base": "0516A3:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "55404.727, 46173.195, 676.6201",
+      "Rotation": "6.220774, 0.062297784, 4.712389"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1EADD8:Fallout4.esm",
+      "FormVersion": 126,
+      "Base": "0299B3:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Scale": 0.99,
+      "Position": "56599.14, 49090.016, 592.1138",
+      "Rotation": "0.06241123, 6.1590695, 6.0854483"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1EADDD:Fallout4.esm",
+      "FormVersion": 126,
+      "Base": "05325A:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "57114.605, 48408.41, 583.3478",
+      "Rotation": "0.10558195, 0.046364672, 4.712389"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1EADDF:Fallout4.esm",
+      "FormVersion": 126,
+      "Base": "02A620:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "54062.21, 46949.33, 747.7419",
+      "Rotation": "6.220774, 6.2208877, 4.492385"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000CD:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "09D107:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "55423.836, 46440.363, 672.41864",
+      "Rotation": "0, 0, 4.6666546"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000CE:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "075F3F:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56703.4, 46932.58, 788.3704",
+      "Rotation": "0, 0, 5.0512185"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000CF:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0008D8:DLCworkshop02.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "55094.09, 45282.92, 957.5517",
+      "Rotation": "0, 0, 3.5218337"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000D1:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB8:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54284.76, 47723.688, 816.0624",
+      "Rotation": "0, 0, 3.968027"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000D2:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000809:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "57301.355, 48743.902, 675.1506",
+      "Rotation": "0, 0, 0.39761218"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000D3:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0A46FB:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "55666.152, 46606.53, 658.9205",
+      "Rotation": "0, 0, 1.0211573"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000D6:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000805:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56723.125, 48549.63, 683.52637",
+      "Rotation": "0, 0, 5.4269633"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000D7:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56967.39, 48754.336, 639.6858",
+      "Rotation": "0, 0, 5.896822"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000D8:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0049F3:DLCworkshop03.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54452.598, 48954.29, 855.634",
+      "Rotation": "0, 0, 6.2686276"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000D9:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "57290.496, 48883.977, 634.621",
+      "Rotation": "0, 0, 4.837751"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000DA:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "110001:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "55430.996, 47528.156, 721.61835",
+      "Rotation": "0, 0, 5.948087"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000DB:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "020C40:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56358.105, 46268.36, 790.609",
+      "Rotation": "0, 0, 4.801436"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000DC:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "020C40:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56598.195, 46607.035, 790.2053",
+      "Rotation": "0, 0, 3.6110792"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000DD:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB8:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56827.055, 48613.25, 641.65265",
+      "Rotation": "0, 0, 0.3522701"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000DE:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000814:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56161.285, 46739.207, 788.37036",
+      "Rotation": "0, 0, 5.037181"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000DF:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0711B5:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "57340.11, 49127.27, 636.88806",
+      "Rotation": "0, 0, 5.052526"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E0:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BB1:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56177.977, 46997.36, 583.4644",
+      "Rotation": "0, 0, 3.4690986"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E1:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "110001:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "55672.754, 47612.344, 721.61835",
+      "Rotation": "0, 0, 5.9480767"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E2:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0C01D0:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "55607.41, 47417.71, 678.24866",
+      "Rotation": "0, 0, 4.57725"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E3:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00080E:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "57303.12, 48744.2, 638.4778",
+      "Rotation": "0, 0, 3.4174855"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E4:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1BDDBB:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "55545.797, 47510.89, 721.5618",
+      "Rotation": "0, 0, 5.919785"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E9:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000918:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "57191.926, 48440.035, 634.62085",
+      "Rotation": "0, 0, 4.9770823"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000EA:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "21060C:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "55693.805, 47551.906, 721.61835",
+      "Rotation": "0, 0, 5.948089"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000EB:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0008DF:DLCworkshop02.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "55793.797, 49139.973, 599.63385",
+      "Rotation": "0, 0, 4.7163143"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000EC:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000807:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56724.75, 48549.59, 642.99976",
+      "Rotation": "0, 0, 4.4703817"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000ED:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "074BB1:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56616.375, 47033.312, 788.34955",
+      "Rotation": "0, 0, 3.5119605"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000EE:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56146.133, 46718.793, 864.3138",
+      "Rotation": "0, 0, 4.9696784"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000EF:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "082447:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56566.953, 46277.203, 844.5836",
+      "Rotation": "0, 0, 2.5266154"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F0:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "017D26:DLCNukaWorld.esm",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54443.895, 48813.77, 775.6125",
+      "Rotation": "0, 0, 6.2524676"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F1:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000025:SBS - LivingFinchFarm.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "57216.566, 48634.133, 634.6208",
+      "Rotation": "0, 0, 4.94023"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F2:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0008D8:DLCworkshop02.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54085.297, 48612.57, 1044.0579",
+      "Rotation": "0, 0, 0.0007190757"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F3:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "21060C:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "55733.19, 47633.395, 721.61835",
+      "Rotation": "0, 0, 4.3772874"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F7:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0008DC:DLCworkshop02.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54085.297, 48612.57, 788.0579",
+      "Rotation": "0, 0, 0.000720821"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F9:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000816:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56917.01, 48504.598, 642.8968",
+      "Rotation": "0, 0, 3.059056"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000FA:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000218:SBS - LivingFinchFarm.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56976.36, 48295.113, 592.4994",
+      "Rotation": "0, 0, 4.8895507"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000FD:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0DB83B:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54898.754, 47955.94, 763.9432",
+      "Rotation": "0, 0, 4.3100805"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000FE:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB8:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56947.207, 49002.06, 637.60693",
+      "Rotation": "0, 0, 3.0838728"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000100:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B96:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54545.04, 46977.895, 815.0231",
+      "Rotation": "0, 0, 6.2765374"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000103:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "020C40:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56836.37, 48647.695, 643.86505",
+      "Rotation": "0, 0, 1.7682804"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000104:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1865B9:Fallout4.esm",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "55388.047, 47736.45, 811.24896",
+      "Rotation": "0, 0, 2.8949077"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000106:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "22C663:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54543.336, 47233.89, 815.0231",
+      "Rotation": "0, 0, 6.2765164"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000107:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000024:SBS - LivingFinchFarm.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54155.914, 47743.31, 816.02313",
+      "Rotation": "0, 0, 1.5640804"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000108:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "22C663:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54541.637, 47489.887, 816.02313",
+      "Rotation": "0, 0, 6.2764955"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000109:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "22C663:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54283.918, 47744.164, 816.02313",
+      "Rotation": "0, 0, 3.1348662"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00010A:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "22C663:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54285.64, 47488.164, 816.02313",
+      "Rotation": "0, 0, 3.1348784"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00010B:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B8C:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54541.63, 47489.89, 816.02313",
+      "Rotation": "0, 0, 4.705685"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00010C:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B8C:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54285.637, 47488.176, 816.02313",
+      "Rotation": "0, 0, 1.5640978"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00010D:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B8C:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54543.336, 47233.89, 815.0231",
+      "Rotation": "0, 0, 4.7057257"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00010E:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B8C:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54283.926, 47744.17, 816.02313",
+      "Rotation": "0, 0, 1.5641047"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00010F:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000024:SBS - LivingFinchFarm.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54159.36, 47231.316, 816.02313",
+      "Rotation": "0, 0, 1.5640838"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000110:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000022:SBS - LivingFinchFarm.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54157.637, 47487.32, 816.02313",
+      "Rotation": "0, 0, 1.5641012"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000111:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BB7:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54283.92, 47744.164, 816.02313",
+      "Rotation": "0, 0, 3.1348557"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000112:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BB3:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54282.875, 47899.68, 773.35645",
+      "Rotation": "0, 0, 4.7056437"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000113:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B8C:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54289.07, 46976.188, 816.0231",
+      "Rotation": "0, 0, 1.564096"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000114:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "22C663:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54289.07, 46976.176, 816.02313",
+      "Rotation": "0, 0, 6.276494"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000115:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B8C:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54545.04, 46977.895, 815.0231",
+      "Rotation": "0, 0, 4.705731"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000116:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E1A51:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54287.355, 47232.168, 816.02313",
+      "Rotation": "0, 0, 4.705687"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000117:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "22C663:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54545.04, 46977.895, 815.0231",
+      "Rotation": "0, 0, 6.276527"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000118:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54539.926, 47745.88, 816.02313",
+      "Rotation": "0, 0, 4.705708"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000119:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54155.055, 47871.305, 816.02313",
+      "Rotation": "0, 0, 1.5640873"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011A:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000022:SBS - LivingFinchFarm.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54161.074, 46975.32, 816.02313",
+      "Rotation": "0, 0, 1.5641117"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011B:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54161.93, 46847.324, 816.02313",
+      "Rotation": "0, 0, 1.5641012"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011C:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000024:SBS - LivingFinchFarm.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54289.9, 46848.2, 815.0231",
+      "Rotation": "0, 0, 6.27655"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011D:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54161.902, 46847.35, 815.0231",
+      "Rotation": "0, 0, 6.2765603"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011E:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54417.89, 46849.047, 815.0231",
+      "Rotation": "0, 0, 6.2765446"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011F:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BA6:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54541.63, 47489.89, 815.0231",
+      "Rotation": "0, 0, 4.7057166"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000120:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BA5:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54543.336, 47233.895, 815.0231",
+      "Rotation": "0, 0, 4.7057257"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000121:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0711B5:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54281.277, 46880.77, 816.02325",
+      "Rotation": "0, 0, 3.0654387"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000122:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BB7:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54545.04, 46977.895, 815.02313",
+      "Rotation": "0, 0, 4.7057343"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000123:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BB1:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54700.99, 46978.934, 610.1173",
+      "Rotation": "0, 0, 6.2765217"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000124:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54278.117, 47051.406, 816.072",
+      "Rotation": "0, 0, 3.1332726"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000125:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54191.46, 46983.363, 817.72614",
+      "Rotation": "0, 0, 4.683879"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000126:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54136.887, 47479.77, 816.02325",
+      "Rotation": "0, 0, 1.7553071"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000127:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0711B5:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54323.227, 47466.86, 818.16595",
+      "Rotation": "0, 0, 3.0567853"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000128:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0711B5:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54507.312, 46984.434, 816.02325",
+      "Rotation": "0, 0, 1.4076813"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000129:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000808:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54087.277, 47085.234, 819.0809",
+      "Rotation": "0, 0, 5.7926817"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012A:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000807:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54094.49, 46921.035, 819.8714",
+      "Rotation": "0, 0, 1.6263798"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012B:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000809:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54096.95, 46924.03, 860.398",
+      "Rotation": "0, 0, 4.5076566"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012C:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54087.402, 47591.78, 817.33716",
+      "Rotation": "0, 0, 6.016"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012D:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54084.594, 47594.754, 836.4546",
+      "Rotation": "0, 0, 6.216004"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012E:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000814:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54628.83, 47537.76, 816.02325",
+      "Rotation": "0, 0, 1.382683"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012F:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000918:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54637.754, 47476.344, 816.02325",
+      "Rotation": "0, 0, 1.8196977"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000130:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000919:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54128.18, 47812.69, 870.72687",
+      "Rotation": "0, 0, 1.528814"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000131:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000816:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54100.13, 47827.867, 816.0624",
+      "Rotation": "0, 0, 0.0063510784"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000132:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00091B:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54093.88, 47081.555, 875.409",
+      "Rotation": "0, 0, 1.7543037"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000133:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000919:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54102.402, 46911.695, 883.51294",
+      "Rotation": "0, 0, 2.2837563"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000134:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "020C40:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54141.227, 47474.184, 818.03345",
+      "Rotation": "0, 0, 2.8259952"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000135:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "12F2F5:Fallout4.esm",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54275.996, 46808.69, 817.86847",
+      "Rotation": "0, 0, 3.145462"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000136:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "020C40:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54175.79, 46982.594, 819.91077",
+      "Rotation": "0, 0, 6.2284064"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000137:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "097638:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54544.82, 46853.89, 951.8128",
+      "Rotation": "0, 0, 3.1349587"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000138:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "09762D:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54093.973, 47860.496, 936.3209",
+      "Rotation": "0, 0, 0.06018576"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000139:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000B01:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54451.785, 47616.76, 950.2766",
+      "Rotation": "0, 0, 6.2600093"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013A:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000810:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54648.09, 46885.273, 815.02325",
+      "Rotation": "0, 0, 2.7017365"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013B:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000218:SBS - LivingFinchFarm.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54547.6, 47763.004, 768.07935",
+      "Rotation": "0, 0, 5.824553"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013C:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "074BB1:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54633.65, 47222.62, 815.02325",
+      "Rotation": "0, 0, 4.692257"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013D:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1A6E37:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54641.223, 47106.477, 815.02325",
+      "Rotation": "0, 0, 1.3149415"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013E:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "082447:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54635.01, 47345.285, 848.69556",
+      "Rotation": "0, 0, 0.7573158"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013F:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "075F3F:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54637.613, 47349.504, 816.0099",
+      "Rotation": "0, 0, 1.5546259"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000140:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "03F432:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54096.69, 47714.855, 816.0624",
+      "Rotation": "0, 0, 1.536834"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000141:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000017:SBS - LivingFinchFarm.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54717.082, 45557.11, 772.4759",
+      "Rotation": "0, 0, 3.5766249"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000142:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000025:SBS - LivingFinchFarm.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54430.984, 45548.918, 772.4759",
+      "Rotation": "0, 0, 0.4350233"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000143:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000025:SBS - LivingFinchFarm.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54771.03, 45673.184, 772.4759",
+      "Rotation": "0, 0, 3.5766284"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000144:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00001F:SBS - LivingFinchFarm.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54484.93, 45664.996, 772.4759",
+      "Rotation": "0, 0, 0.4350303"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000145:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000017:SBS - LivingFinchFarm.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54252.77, 45772.88, 772.4759",
+      "Rotation": "0, 0, 3.5766196"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000146:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000024:SBS - LivingFinchFarm.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54306.715, 45888.957, 772.4759",
+      "Rotation": "0, 0, 3.57663"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000147:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BB7:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54484.93, 45664.996, 772.4759",
+      "Rotation": "0, 0, 3.5766318"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000148:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "09D107:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "55429.43, 46026.26, 674.27606",
+      "Rotation": "0, 0, 1.7787192"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000149:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "09D107:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "55424.195, 46212.21, 675.92303",
+      "Rotation": "0, 0, 0.25577974"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014A:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54422.79, 45835.016, 772.4759",
+      "Rotation": "0, 0, 3.5766406"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014B:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BA6:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54717.082, 45557.117, 772.4759",
+      "Rotation": "0, 0, 5.1474333"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014C:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BA6:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54252.77, 45772.88, 772.4759",
+      "Rotation": "0, 0, 2.0058336"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014D:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54190.64, 45942.906, 772.4759",
+      "Rotation": "0, 0, 3.5766406"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014E:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54654.953, 45727.133, 772.4759",
+      "Rotation": "0, 0, 3.576618"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014F:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54083.17, 45711.652, 772.4759",
+      "Rotation": "0, 0, 0.43503729"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000150:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54779.637, 45387.992, 772.4759",
+      "Rotation": "0, 0, 0.43502158"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000151:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "09D107:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "55355.184, 46648.562, 686.7123",
+      "Rotation": "0, 0, 6.0270653"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000152:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "09D107:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54820.785, 46100.824, 675.2365",
+      "Rotation": "0, 0, 5.3359604"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000153:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "22C663:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56900.312, 48970.277, 634.6208",
+      "Rotation": "0, 0, 1.7986264"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000155:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "22C663:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "57149.71, 48912.445, 634.6208",
+      "Rotation": "0, 0, 1.7986299"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000157:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B93:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56842.5, 48720.875, 634.6208",
+      "Rotation": "0, 0, 1.7986368"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000159:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B92:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "57091.88, 48663.055, 634.6208",
+      "Rotation": "0, 0, 4.9402194"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00015B:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000021:SBS - LivingFinchFarm.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "57274.395, 48883.516, 634.6208",
+      "Rotation": "0, 0, 4.9402366"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00015C:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000024:SBS - LivingFinchFarm.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "57332.227, 49132.895, 634.6208",
+      "Rotation": "0, 0, 4.940226"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00015D:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B93:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56900.332, 48970.26, 634.6208",
+      "Rotation": "0, 0, 1.7986281"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00015E:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B93:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "57149.703, 48912.43, 634.6208",
+      "Rotation": "0, 0, 4.940207"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00015F:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "22C663:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56842.504, 48720.89, 634.6208",
+      "Rotation": "0, 0, 1.7986315"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000160:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "22C663:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "57091.875, 48663.066, 634.6208",
+      "Rotation": "0, 0, 1.7986299"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000163:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000022:SBS - LivingFinchFarm.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "57062.973, 48538.36, 634.6208",
+      "Rotation": "0, 0, 0.22783528"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000164:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000021:SBS - LivingFinchFarm.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56813.582, 48596.18, 634.6208",
+      "Rotation": "0, 0, 0.2278283"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000165:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "09D107:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54867.496, 46463.227, 687.77686",
+      "Rotation": "0, 0, 2.9198852"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000166:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "22C663:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54193.3, 49018.316, 855.63385",
+      "Rotation": "0, 0, 0.003970624"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000168:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "22C663:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54705.297, 49016.293, 855.63385",
+      "Rotation": "0, 0, 0.0039826664"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000169:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "22C663:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54449.293, 49017.3, 855.63385",
+      "Rotation": "0, 0, 0.0039479346"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00016D:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BA4:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56842.5, 48720.87, 634.6208",
+      "Rotation": "0, 0, 1.7986473"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00016E:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BB7:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56900.336, 48970.266, 634.6208",
+      "Rotation": "0, 0, 1.7986528"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00016F:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BB2:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56773.543, 48999.664, 521.32654",
+      "Rotation": "0, 0, 3.3694525"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000170:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "020C40:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "57327.09, 49128.184, 638.95197",
+      "Rotation": "0, 0, 6.025732"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000171:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56915.08, 48498.086, 697.5613",
+      "Rotation": "0, 0, 3.1605887"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000173:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000918:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54081.625, 49107.535, 855.634",
+      "Rotation": "0, 0, 6.06182"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000175:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000218:SBS - LivingFinchFarm.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56939.414, 48119.77, 592.14764",
+      "Rotation": "0, 0, 3.3878288"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000176:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0008DC:DLCworkshop02.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "55094.09, 45282.92, 701.5517",
+      "Rotation": "0, 0, 3.5218318"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000177:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "020C40:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "57066.656, 48544.184, 637.8238",
+      "Rotation": "0, 0, 5.3670025"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000179:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "020C40:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "57240.844, 48632.492, 638.8331",
+      "Rotation": "0, 0, 3.5428195"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00017A:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54887.105, 45619.24, 772.4759",
+      "Rotation": "0, 0, 3.5766232"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00017B:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56804.56, 49123.87, 634.6208",
+      "Rotation": "0, 0, 1.7986457"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00017C:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00002B:SBS - LivingFinchFarm.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "57187.668, 48509.45, 634.6208",
+      "Rotation": "0, 0, 0.2278283"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00017F:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56688.89, 48625.09, 634.6208",
+      "Rotation": "0, 0, 0.22781765"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000180:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "22C663:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56243.293, 46704.805, 788.37024",
+      "Rotation": "0, 0, 3.469116"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000181:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "22C663:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56485.684, 46622.453, 788.37024",
+      "Rotation": "0, 0, 3.469116"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000182:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "22C663:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56568.03, 46864.844, 788.37024",
+      "Rotation": "0, 0, 3.4691057"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000183:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "22C663:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56325.645, 46947.19, 788.37024",
+      "Rotation": "0, 0, 3.4691179"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000184:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "22C663:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56403.332, 46380.062, 788.37024",
+      "Rotation": "0, 0, 3.4691195"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000185:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56160.94, 46462.41, 788.37024",
+      "Rotation": "0, 0, 1.8983091"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000186:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B92:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56485.684, 46622.453, 788.37024",
+      "Rotation": "0, 0, 0.32749707"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000187:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B8F:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56243.293, 46704.805, 788.37024",
+      "Rotation": "0, 0, 0.32750756"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000188:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B8F:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56325.645, 46947.19, 788.37024",
+      "Rotation": "0, 0, 3.4691005"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000189:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B93:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56568.03, 46864.844, 788.37024",
+      "Rotation": "0, 0, 3.46909"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00018A:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000024:SBS - LivingFinchFarm.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56362.16, 46258.863, 788.37024",
+      "Rotation": "0, 0, 0.32753196"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00018B:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000022:SBS - LivingFinchFarm.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56366.816, 47068.39, 788.37024",
+      "Rotation": "0, 0, 3.4691005"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00018C:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000022:SBS - LivingFinchFarm.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56689.22, 46823.676, 788.37024",
+      "Rotation": "0, 0, 5.0398846"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00018D:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000025:SBS - LivingFinchFarm.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56606.88, 46581.277, 788.37024",
+      "Rotation": "0, 0, 5.039874"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00018E:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000024:SBS - LivingFinchFarm.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56524.527, 46338.89, 788.37024",
+      "Rotation": "0, 0, 5.0399265"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00018F:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000021:SBS - LivingFinchFarm.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56609.207, 46986.035, 788.37024",
+      "Rotation": "0, 0, 3.4691107"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000190:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00002B:SBS - LivingFinchFarm.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56483.35, 46217.688, 788.37024",
+      "Rotation": "0, 0, 0.32754594"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000191:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56240.957, 46300.043, 788.37024",
+      "Rotation": "0, 0, 0.3275215"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000192:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56245.62, 47109.562, 788.37024",
+      "Rotation": "0, 0, 3.4691038"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000193:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56730.406, 46944.867, 788.37024",
+      "Rotation": "0, 0, 3.4691126"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000194:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B8C:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56403.332, 46380.062, 788.37024",
+      "Rotation": "0, 0, 0.32751977"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000195:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BB7:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56325.645, 46947.19, 788.37024",
+      "Rotation": "0, 0, 1.8983091"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000196:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BA4:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56243.29, 46704.797, 788.37024",
+      "Rotation": "0, 0, 1.8983318"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000197:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0711B5:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56367.45, 46295.22, 788.4095",
+      "Rotation": "0, 0, 3.4174526"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000198:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0711B5:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56623.06, 46592.168, 788.4095",
+      "Rotation": "0, 0, 3.4571676"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000199:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56230.508, 46683.586, 788.37036",
+      "Rotation": "0, 0, 5.028676"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00019A:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56664.355, 46823.703, 788.37036",
+      "Rotation": "0, 0, 1.8691516"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00019B:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56346.477, 47045.258, 788.37036",
+      "Rotation": "0, 0, 0.25173932"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00019C:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB8:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56433.875, 46818.285, 788.37036",
+      "Rotation": "0, 0, 2.9648345"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00019D:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0711B5:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56409.332, 46629.266, 790.44275",
+      "Rotation": "0, 0, 0.58561903"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00019E:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0711B5:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56558.08, 47017.598, 789.7288",
+      "Rotation": "0, 0, 3.5804505"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00019F:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56730.39, 46944.863, 788.37024",
+      "Rotation": "0, 0, 5.039872"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001A0:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "18C56F:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56737.066, 46801.42, 790.32086",
+      "Rotation": "0, 0, 0.35936156"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001A1:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "020C40:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56345.914, 47064.027, 790.541",
+      "Rotation": "0, 0, 2.2351105"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001A2:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000815:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56582.406, 46324.54, 788.4095",
+      "Rotation": "0, 0, 1.923393"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001A3:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000807:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56698.926, 46620.46, 790.1322",
+      "Rotation": "0, 0, 4.7795825"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001A4:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000805:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56590.832, 46343.957, 844.5837",
+      "Rotation": "0, 0, 3.3830643"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001A5:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00080E:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56637.113, 46463.008, 790.3647",
+      "Rotation": "0, 0, 6.097812"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001A6:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000814:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56507.64, 46140.418, 788.37024",
+      "Rotation": "0, 0, 2.4107552"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001A7:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00080F:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56420.08, 47116.28, 789.9041",
+      "Rotation": "0, 0, 5.494038"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001A8:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56740.13, 46846.395, 790.54083",
+      "Rotation": "0, 0, 1.3267504"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001A9:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56713.035, 46766.375, 790.06757",
+      "Rotation": "0, 0, 2.9862113"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001AA:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000816:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56165.824, 46635.62, 790.58",
+      "Rotation": "0, 0, 3.448966"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001AB:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000820:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56169.145, 46804.113, 789.7267",
+      "Rotation": "0, 0, 5.0283027"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001AC:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000918:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56485.367, 47093.785, 791.061",
+      "Rotation": "0, 0, 0.22538309"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001AD:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000918:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56429.348, 46169.82, 790.52356",
+      "Rotation": "0, 0, 3.3996015"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001AE:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000919:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56702.766, 46935.88, 821.0561",
+      "Rotation": "0, 0, 0.9385229"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001AF:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000919:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56193.133, 46638.934, 845.2445",
+      "Rotation": "0, 0, 4.5164723"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001B0:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000919:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56656.41, 46527.715, 846.96906",
+      "Rotation": "0, 0, 2.272054"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001B1:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BB2:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54192.78, 48888.16, 742.3396",
+      "Rotation": "0, 0, 1.5747774"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001B2:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BB2:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54704.773, 48886.137, 742.3396",
+      "Rotation": "0, 0, 1.5747702"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001B4:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "22C663:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54961.3, 49015.277, 855.63385",
+      "Rotation": "0, 0, 0.00397778"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001B5:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "05457B:DLCCoast.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54961.3, 49015.277, 1050.8838",
+      "Rotation": "0, 0, 4.716353"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001BA:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054583:DLCCoast.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54449.3, 49017.305, 1050.8838",
+      "Rotation": "0, 0, 4.7163353"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001BB:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054583:DLCCoast.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54705.3, 49016.293, 1050.8838",
+      "Rotation": "0, 0, 4.716344"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001BC:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "05457B:DLCCoast.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54193.3, 49018.316, 1050.8838",
+      "Rotation": "0, 0, 1.5747513"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001BD:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000021:SBS - LivingFinchFarm.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "55089.3, 49014.77, 855.63385",
+      "Rotation": "0, 0, 4.7163496"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C0:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BB7:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54705.293, 49016.293, 855.63385",
+      "Rotation": "0, 0, 0.0039723692"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C1:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000024:SBS - LivingFinchFarm.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54960.793, 48887.277, 855.63385",
+      "Rotation": "0, 0, 0.0039652134"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C2:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BB7:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54193.3, 49018.316, 855.63385",
+      "Rotation": "0, 0, 0.00397586"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C5:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "55088.793, 48886.77, 855.63385",
+      "Rotation": "0, 0, 0.003960327"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C7:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "55088.793, 48886.773, 855.63385",
+      "Rotation": "0, 0, 4.7163596"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C8:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54832.793, 48887.785, 855.63385",
+      "Rotation": "0, 0, 0.003977605"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001CA:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BA4:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54193.3, 49018.316, 855.63385",
+      "Rotation": "0, 0, 1.5747547"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001D1:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "074BB1:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54108.88, 48987.29, 855.634",
+      "Rotation": "0, 0, 1.5659878"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001D2:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "074BB1:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54958.32, 48864.98, 855.6731",
+      "Rotation": "0, 0, 0.008037241"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001D3:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BA5:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54449.293, 49017.31, 855.63385",
+      "Rotation": "0, 0, 0.003970624"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001D4:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0711B5:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54877.457, 49044.473, 855.634",
+      "Rotation": "0, 0, 1.6258126"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001D5:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1865B9:Fallout4.esm",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "55066.543, 49084.938, 855.634",
+      "Rotation": "0, 0, 1.580352"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001D6:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00080A:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "55126.527, 48943.883, 855.61316",
+      "Rotation": "0, 0, 1.8645039"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001D7:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54601.043, 49115.504, 855.634",
+      "Rotation": "0, 0, 1.9702778"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001D8:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB8:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54258.305, 49080.438, 855.634",
+      "Rotation": "0, 0, 6.181665"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001DC:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000918:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "55056.832, 49148.477, 855.634",
+      "Rotation": "0, 0, 1.2384124"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001DE:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000919:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "55126.387, 48964.895, 933.77264",
+      "Rotation": "0, 0, 6.152223"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001E1:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000875:DLCworkshop02.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54192.793, 48890.316, 1050.8838",
+      "Rotation": "0, 0, 0.003944444"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001E2:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000877:DLCworkshop02.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54960.793, 48887.277, 1050.8838",
+      "Rotation": "0, 0, 0.0039742896"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001E3:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000D65:DLCworkshop02.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54704.793, 48888.293, 1050.8838",
+      "Rotation": "0, 0, 0.0039638174"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001E4:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000D65:DLCworkshop02.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54448.793, 48889.31, 1050.8838",
+      "Rotation": "0, 0, 0.00394968"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001E5:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "020C40:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56264.96, 46677.797, 791.9757",
+      "Rotation": "0, 0, 2.8212986"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001E6:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000805:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54076.48, 47405.797, 817.41284",
+      "Rotation": "0, 0, 5.705279"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001E7:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0711B5:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54215.49, 45762.66, 772.48816",
+      "Rotation": "0, 0, 0.43515423"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001E8:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0711B5:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54298.43, 45854.742, 774.52783",
+      "Rotation": "0, 0, 0.2689151"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001E9:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54227.055, 45631.41, 774.24",
+      "Rotation": "0, 0, 5.112834"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001EA:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00080B:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54340.645, 45911.02, 776.4368",
+      "Rotation": "0, 0, 0.28717455"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001EB:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BB1:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54550.656, 45806.42, 567.57007",
+      "Rotation": "0, 0, 5.147423"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001EC:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "075F3F:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54687.293, 45343.25, 772.4783",
+      "Rotation": "0, 0, 3.1110075"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001ED:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "020C40:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54667.38, 45445.523, 774.64923",
+      "Rotation": "0, 0, 1.8567371"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001EE:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000918:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "55775.52, 47563.086, 721.5618",
+      "Rotation": "0, 0, 5.421796"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001F2:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "074BB1:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54430.42, 45488.5, 772.5152",
+      "Rotation": "0, 0, 0.4548937"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001F3:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000815:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54165, 45590.918, 776.4468",
+      "Rotation": "0, 0, 3.5945022"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001F4:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54684.14, 45462.504, 772.4844",
+      "Rotation": "0, 0, 3.6023107"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001F5:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1A6E37:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54520.18, 45417.04, 772.4774",
+      "Rotation": "0, 0, 6.089091"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001F6:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000919:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54232.9, 45570.58, 832.6209",
+      "Rotation": "0, 0, 0.25122777"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001F7:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00091B:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54687.844, 45342.28, 805.16394",
+      "Rotation": "0, 0, 6.1625133"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001F8:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "082447:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54319.008, 45906.367, 832.7988",
+      "Rotation": "0, 0, 0.049308866"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001F9:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "035248:DLCCoast.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54821.473, 45830.516, 656.9408",
+      "Rotation": "0, 0, 3.3302069"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001FA:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB8:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54549.086, 45628.01, 772.4881",
+      "Rotation": "0, 0, 5.271886"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001FB:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000808:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "56664.56, 46541.918, 790.6409",
+      "Rotation": "0, 0, 2.1279821"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001FC:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0711B5:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "57073.965, 48568.3, 634.621",
+      "Rotation": "0, 0, 3.3469203"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001FD:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0711B5:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingFinchFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "57181.324, 48640.33, 636.6324",
+      "Rotation": "0, 0, 1.6485978"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001FE:SBS - LivingFinchFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "12EA9B:Fallout4.esm",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B19D:Fallout4.esm"
+        }
+      ],
+      "Position": "54756.875, 45697.203, 772.5152",
+      "Rotation": "0, 0, 0.4232563"
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

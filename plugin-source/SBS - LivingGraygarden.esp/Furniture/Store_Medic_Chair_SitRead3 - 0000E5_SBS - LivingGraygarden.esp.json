@@ -1,0 +1,131 @@
+{
+  "FormKey": "0000E5:SBS - LivingGraygarden.esp",
+  "MajorRecordFlagsRaw": 268443648,
+  "EditorID": "Store_Medic_Chair_SitRead3",
+  "Fallout4MajorRecordFlags": [
+    "0x2000",
+    "0x10000000"
+  ],
+  "VirtualMachineAdapter": {
+    "Scripts": [
+      {
+        "Name": "workshopobjectscript",
+        "Properties": [
+          {
+            "MutagenObjectType": "ScriptIntProperty",
+            "Name": "vendorLevel",
+            "Data": 2
+          },
+          {
+            "MutagenObjectType": "ScriptIntProperty",
+            "Name": "VendorType",
+            "Data": 4
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "WorkshopParent",
+            "Object": "02058E:Fallout4.esm"
+          }
+        ]
+      }
+    ]
+  },
+  "ObjectBounds": {
+    "First": "-18, -22, 0",
+    "Second": "16, 17, 69"
+  },
+  "PreviewTransform": "0F9026:Fallout4.esm",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Clinic3 - Sit Read"
+  },
+  "Model": {
+    "File": "vendortest\\vendorcustomchair.nif",
+    "Data": "0x040000000C000000000000000400000004000000A996953064647300CF9BAE5E70FA935364647300CF9BAE5EEA0E819A64647300CF9BAE5E336287F964647300CF9BAE5E9EFC573164647300CF9BAE5E4790515264647300CF9BAE5EC742113364647300CF9BAE5E1E2E175064647300CF9BAE5E00C7C2B064647300CF9BAE5E597984B264647300CF9BAE5E2D8B521964647300CF9BAE5E6E1346B364647300CF9BAE5E064ECBE86267736DDA1F6BE7BC1FC2716267736DDA1F6BE7B8292BD36267736DDA1F6BE72A2FC5066267736DDA1F6BE7"
+  },
+  "Destructible": {
+    "Data": {
+      "Health": 50,
+      "DESTCount": 2
+    },
+    "Stages": [
+      {
+        "HealthPercent": 1
+      },
+      {
+        "Index": 1,
+        "Flags": [
+          "Destroy"
+        ]
+      }
+    ]
+  },
+  "Keywords": [
+    "020592:Fallout4.esm",
+    "06E9C7:Fallout4.esm",
+    "12F848:Fallout4.esm",
+    "1338F7:Fallout4.esm",
+    "18F691:Fallout4.esm",
+    "1CD02B:Fallout4.esm"
+  ],
+  "Properties": [
+    {
+      "ActorValue": "10C847:Fallout4.esm",
+      "Value": 1.0
+    },
+    {
+      "ActorValue": "12722C:Fallout4.esm",
+      "Value": 30.0
+    },
+    {
+      "ActorValue": "129A8C:Fallout4.esm",
+      "Value": 1.0
+    },
+    {
+      "ActorValue": "249E5F:Fallout4.esm",
+      "Value": 1.0
+    }
+  ],
+  "PNAM": "0x00000000",
+  "Flags": [
+    "MustExitToTalk",
+    "HasModel"
+  ],
+  "MarkerEntryPoints": [
+    {
+      "Type": [
+        "Sit"
+      ],
+      "Points": [
+        "Front",
+        "Behind",
+        "Right",
+        "Left"
+      ]
+    }
+  ],
+  "MarkerModel": "Markers\\ReadingNewsPaper\\ReadingNewsPaper_sitting.nif",
+  "MarkerParameters": [
+    {
+      "Enabled": true,
+      "EntryTypes": [
+        "Front",
+        "Behind",
+        "Right",
+        "Left",
+        "Other",
+        "0x20",
+        "0x40",
+        "0x80"
+      ],
+      "Unknown": "0xFFFFFF"
+    }
+  ],
+  "WBDTDataTypeState": [
+    "Break0"
+  ],
+  "MajorFlags": [
+    "0x2000",
+    "MustExitToTalk"
+  ]
+}

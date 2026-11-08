@@ -1,0 +1,204 @@
+{
+  "FormKey": "000170:SBS - LivingSomervillePlace.esp",
+  "MajorRecordFlagsRaw": 8192,
+  "EditorID": "Guard_Post3",
+  "Fallout4MajorRecordFlags": [
+    "0x2000"
+  ],
+  "VirtualMachineAdapter": {
+    "Scripts": [
+      {
+        "Name": "workshopobjectscript",
+        "Properties": [
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "AssignedActorLinkKeyword",
+            "Object": "1DE912:Fallout4.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "FurnitureBase",
+            "Object": "249F17:Fallout4.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptStringListProperty",
+            "Name": "FurnitureMarkerNodes",
+            "Data": [
+              "RobotNode"
+            ]
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "SpecialFurnitureBase",
+            "Object": "249F17:Fallout4.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptStringProperty",
+            "Name": "SpecialFurnitureBaseNode",
+            "Data": "RobotNode"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "SpecialFurniturePlacementKeyword",
+            "Object": "02CB73:Fallout4.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "WorkshopParent",
+            "Object": "02058E:Fallout4.esm"
+          }
+        ]
+      }
+    ]
+  },
+  "ObjectBounds": {
+    "First": "-154, -87, -27",
+    "Second": "152, 60, 88"
+  },
+  "PreviewTransform": "1A90C3:Fallout4.esm",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Guard Post 3"
+  },
+  "Model": {
+    "File": "SetDressing\\Workshop\\Safety\\GuardPost01.nif",
+    "Data": "0x040000000F000000000000000500000005000000003D5B8464647300DAC2327CD9515DE764647300DAC2327CBD9EC32164647300DAC2327C64F2C54264647300DAC2327CB0E4DF1464647300DAC2327C6988D97764647300DAC2327CD6602A0164647300DAC2327C0F0C2C6264647300DAC2327C02B470C664647300DAC2327CDBD876A564647300DAC2327CC531A34564647300DAC2327C11E5F98264647300DAC2327C77610C9764647300DAC2327C7A1B10A264647300DAC2327CC7B8880764647300DAC2327C91FE5FB16267736DFAFCA62E96965A016267736DFAFCA62EB2AA61036267736DFAFCA62EFB61461C6267736DFAFCA62E59595A436267736DFAFCA62E"
+  },
+  "Keywords": [
+    "020592:Fallout4.esm",
+    "05DD9C:Fallout4.esm",
+    "069548:Fallout4.esm",
+    "06E9C7:Fallout4.esm",
+    "12F848:Fallout4.esm",
+    "1CD02B:Fallout4.esm"
+  ],
+  "Properties": [
+    {
+      "ActorValue": "000333:Fallout4.esm",
+      "Value": 3.0
+    },
+    {
+      "ActorValue": "129A8C:Fallout4.esm",
+      "Value": 1.0
+    }
+  ],
+  "PNAM": "0x00000000",
+  "ActivateTextOverride": {
+    "TargetLanguage": "English",
+    "Value": "Utiliser"
+  },
+  "Flags": [
+    "EnterWithWeaponDrawn",
+    "HasModel"
+  ],
+  "MarkerModel": "Markers\\MarkerGuardPost.nif",
+  "MarkerParameters": [
+    {
+      "Enabled": true,
+      "RotationZ": 180.00006,
+      "EntryTypes": [
+        "Front",
+        "Behind",
+        "Right",
+        "Left",
+        "Other",
+        "0x20",
+        "0x40",
+        "0x80"
+      ],
+      "Unknown": "0xFFFFFF"
+    }
+  ],
+  "NavmeshGeometry": {
+    "Parent": {
+      "MutagenObjectType": "CellNavmeshParent",
+      "Parent": "000025:Fallout4.esm"
+    },
+    "Vertices": [
+      "-58.18213, -31.417942, 23.646921",
+      "-110.232605, 60.992332, -9.903748",
+      "64.398926, -30.116919, 22.889145",
+      "108.61383, 63.508904, -10.329666"
+    ],
+    "Triangles": [
+      {
+        "Vertices": "1, 2, 3",
+        "EdgeLink_0_1": 1,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": -1,
+        "Height": 3.4028235E+38
+      },
+      {
+        "Vertices": "1, 0, 2",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": -1,
+        "Height": 3.4028235E+38
+      }
+    ],
+    "Cover": [
+      {
+        "Vertex2": 1,
+        "Data": 2147485968
+      },
+      {
+        "Vertex1": 1,
+        "Vertex2": 3,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 3,
+        "Vertex2": 2,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 2,
+        "Vertex2": 4,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 4,
+        "Vertex2": 5,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 5,
+        "Data": 2320
+      }
+    ],
+    "CoverTriangleMappings": [
+      {
+        "Triangle": 4
+      },
+      {
+        "Cover": 5,
+        "Triangle": 5
+      },
+      {
+        "Cover": 1,
+        "Triangle": 3
+      },
+      {
+        "Cover": 4,
+        "Triangle": 2
+      }
+    ],
+    "GridSize": 1,
+    "GridMaxDistance": "218.84644, 94.92685",
+    "GridMin": "-110.232605, -31.417942, -10.329666",
+    "GridMax": "108.61383, 63.508904, 3.4028235E+38",
+    "GridArrays": {
+      "GridCell": [
+        2,
+        0,
+        0,
+        1
+      ]
+    }
+  },
+  "WBDTDataTypeState": [
+    "Break0"
+  ],
+  "MajorFlags": [
+    "0x2000"
+  ]
+}

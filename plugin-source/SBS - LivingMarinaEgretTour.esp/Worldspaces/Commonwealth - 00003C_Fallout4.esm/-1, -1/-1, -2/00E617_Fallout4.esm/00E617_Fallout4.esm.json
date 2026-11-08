@@ -1,0 +1,1073 @@
+{
+  "FormKey": "00E617:Fallout4.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "Fallout4MajorRecordFlags": [
+    "Compressed"
+  ],
+  "Flags": [
+    "HasWater"
+  ],
+  "PreVisFilesTimestamp": 7972,
+  "InPreVisFileOf": "00E5F5:Fallout4.esm",
+  "PreCombinedFilesTimestamp": 7972,
+  "Grid": {
+    "Point": "-7, -16"
+  },
+  "MaxHeightData": {
+    "Offset": 1536.0,
+    "HeightMap": [
+      [2,2,2,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      [2,2,2,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      [2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      [2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      [2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      [2,2,2,2,1,11,1,1,1,6,2,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1],
+      [2,2,6,2,11,11,1,1,1,8,7,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+      [2,8,8,7,7,1,1,1,1,8,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+      [2,2,2,2,8,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2],
+      [2,2,2,2,9,1,4,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2],
+      [2,2,2,2,2,2,5,5,1,1,1,1,1,1,2,2,1,1,1,1,2,2,1,6,6,2,8,8,2,2,2,2],
+      [2,2,2,2,2,2,6,1,1,1,1,1,1,1,2,2,1,1,1,1,1,1,1,2,7,5,2,2,2,2,2,2],
+      [2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,6,10,4,8,5,2,2,2,2],
+      [2,2,2,2,2,2,2,9,1,1,1,1,1,1,1,1,1,5,2,1,2,2,2,2,6,4,5,8,6,2,2,3],
+      [7,2,2,2,2,2,2,8,6,1,3,5,6,1,1,1,1,2,2,2,2,2,2,5,5,2,2,2,2,3,3,3],
+      [6,2,2,2,2,2,2,2,6,5,6,6,6,7,1,2,2,2,2,2,2,2,2,6,7,2,2,3,3,3,3,3],
+      [2,2,2,2,2,2,2,6,6,11,12,5,6,10,11,2,2,2,2,2,2,2,2,2,2,2,3,3,3,3,3,4],
+      [2,2,2,2,2,2,2,7,6,6,12,5,2,2,2,2,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3,4],
+      [2,2,2,2,2,2,2,2,2,9,5,2,2,2,2,2,2,2,6,2,2,2,2,2,3,3,3,3,3,3,4,4],
+      [2,2,2,2,2,2,2,2,2,6,6,2,2,2,2,2,2,5,7,2,2,2,3,3,3,3,3,3,3,3,4,4],
+      [2,2,2,2,2,2,2,2,2,2,4,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,4,4,4],
+      [2,2,2,2,2,2,2,2,2,5,4,8,10,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,4,4,4,4],
+      [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,7,6,3,3,3,3,4,3,3,3,4,4,4,4],
+      [3,2,2,2,2,2,2,2,2,2,2,2,2,3,2,3,3,3,6,6,6,3,3,3,4,9,11,11,4,4,4,4],
+      [3,3,2,2,2,2,2,2,2,10,2,2,2,3,3,3,3,3,8,4,3,3,3,3,3,3,7,8,4,4,4,4],
+      [3,3,3,2,2,2,2,2,2,8,2,2,3,3,3,3,3,3,3,3,3,3,7,3,3,4,4,4,4,9,4,5],
+      [3,3,3,3,2,2,2,7,2,6,3,3,3,3,3,3,3,3,8,9,3,9,8,8,11,4,8,9,13,14,4,5],
+      [3,3,3,3,7,7,11,7,4,3,3,3,3,3,3,3,3,6,7,5,11,9,4,7,11,11,7,9,10,8,5,5],
+      [3,3,3,3,7,5,8,7,6,3,3,3,3,3,6,4,9,8,3,3,3,3,4,4,7,4,4,8,9,4,5,5],
+      [3,3,3,3,9,6,3,4,4,3,3,3,3,3,7,4,3,3,3,3,3,4,4,4,4,4,4,4,4,5,5,5],
+      [3,7,6,6,9,3,3,6,7,3,3,3,3,3,3,3,3,3,3,4,4,4,4,4,4,4,4,4,4,5,5,5],
+      [3,10,8,6,3,3,3,6,8,9,3,3,3,3,3,3,3,3,4,4,4,4,4,4,4,4,4,4,4,5,5,5]
+    ]
+  },
+  "WaterHeight": 3.4028235E+38,
+  "Regions": [
+    "23C94C:Fallout4.esm",
+    "049BE0:Fallout4.esm"
+  ],
+  "CombinedMeshes": [
+    28861806,
+    46030353,
+    158464202,
+    176306026,
+    316928405,
+    425316049,
+    462555487,
+    524771173,
+    662107564,
+    736777074,
+    773568110,
+    850632099,
+    851700405,
+    883756055,
+    942779081,
+    973764369,
+    1001525887,
+    1735849388,
+    1924373923,
+    2572799697,
+    2672254821,
+    2809591212,
+    2998115747,
+    3031239703,
+    3090262729,
+    3190766461
+  ],
+  "CombinedMeshReferences": [
+    {
+      "Reference": "11C8C3:Fallout4.esm",
+      "CombinedMesh": 462555487
+    },
+    {
+      "Reference": "11C8C8:Fallout4.esm",
+      "CombinedMesh": 462555487
+    },
+    {
+      "Reference": "1D1866:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "11C8E6:Fallout4.esm",
+      "CombinedMesh": 2572799697
+    },
+    {
+      "Reference": "11C8ED:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "11C8D1:Fallout4.esm",
+      "CombinedMesh": 736777074
+    },
+    {
+      "Reference": "11C8DA:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "2168C1:Fallout4.esm",
+      "CombinedMesh": 736777074
+    },
+    {
+      "Reference": "11C8FF:Fallout4.esm",
+      "CombinedMesh": 3190766461
+    },
+    {
+      "Reference": "11DF00:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "11C8BF:Fallout4.esm",
+      "CombinedMesh": 462555487
+    },
+    {
+      "Reference": "11C8D4:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "11C8DF:Fallout4.esm",
+      "CombinedMesh": 2572799697
+    },
+    {
+      "Reference": "11C8F1:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "11C8FA:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "11C8C6:Fallout4.esm",
+      "CombinedMesh": 462555487
+    },
+    {
+      "Reference": "11C8CD:Fallout4.esm",
+      "CombinedMesh": 973764369
+    },
+    {
+      "Reference": "1D1868:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "1D1863:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "11C8E3:Fallout4.esm",
+      "CombinedMesh": 3031239703
+    },
+    {
+      "Reference": "11C8E8:Fallout4.esm",
+      "CombinedMesh": 2572799697
+    },
+    {
+      "Reference": "11C8BE:Fallout4.esm",
+      "CombinedMesh": 1001525887
+    },
+    {
+      "Reference": "11C8DE:Fallout4.esm",
+      "CombinedMesh": 2572799697
+    },
+    {
+      "Reference": "11C8D5:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "11C8FB:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "11C8F0:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "11DEF6:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "11C902:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "11C8CC:Fallout4.esm",
+      "CombinedMesh": 973764369
+    },
+    {
+      "Reference": "11C8C7:Fallout4.esm",
+      "CombinedMesh": 973764369
+    },
+    {
+      "Reference": "11C8E9:Fallout4.esm",
+      "CombinedMesh": 2809591212
+    },
+    {
+      "Reference": "11C8E2:Fallout4.esm",
+      "CombinedMesh": 3090262729
+    },
+    {
+      "Reference": "1D1869:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "11C8C9:Fallout4.esm",
+      "CombinedMesh": 316928405
+    },
+    {
+      "Reference": "11C8C2:Fallout4.esm",
+      "CombinedMesh": 1001525887
+    },
+    {
+      "Reference": "11C8EC:Fallout4.esm",
+      "CombinedMesh": 3090262729
+    },
+    {
+      "Reference": "11C8E7:Fallout4.esm",
+      "CombinedMesh": 2672254821
+    },
+    {
+      "Reference": "1D1867:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "11C8DB:Fallout4.esm",
+      "CombinedMesh": 158464202
+    },
+    {
+      "Reference": "11C8D0:Fallout4.esm",
+      "CombinedMesh": 736777074
+    },
+    {
+      "Reference": "11C8FE:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "11C8F5:Fallout4.esm",
+      "CombinedMesh": 883756055
+    },
+    {
+      "Reference": "1D1864:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "11C8EF:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "11C8E4:Fallout4.esm",
+      "CombinedMesh": 3090262729
+    },
+    {
+      "Reference": "11C8CA:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "11C8C1:Fallout4.esm",
+      "CombinedMesh": 46030353
+    },
+    {
+      "Reference": "11DEFB:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "11C8FD:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "11C8F6:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "11C8D8:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "11C8D3:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "11C8F8:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "11C8DD:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "11C8D6:Fallout4.esm",
+      "CombinedMesh": 524771173
+    },
+    {
+      "Reference": "14E91F:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "11C8EA:Fallout4.esm",
+      "CombinedMesh": 2809591212
+    },
+    {
+      "Reference": "11C8E1:Fallout4.esm",
+      "CombinedMesh": 3090262729
+    },
+    {
+      "Reference": "11C8CF:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "11C8C4:Fallout4.esm",
+      "CombinedMesh": 316928405
+    },
+    {
+      "Reference": "11C901:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "11C8F2:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "11C8F9:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "11C8D7:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "11C8DC:Fallout4.esm",
+      "CombinedMesh": 773568110
+    },
+    {
+      "Reference": "11C8E0:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "15EF21:Fallout4.esm",
+      "CombinedMesh": 3090262729
+    },
+    {
+      "Reference": "11C8C5:Fallout4.esm",
+      "CombinedMesh": 1001525887
+    },
+    {
+      "Reference": "11C8CE:Fallout4.esm",
+      "CombinedMesh": 973764369
+    },
+    {
+      "Reference": "11C900:Fallout4.esm",
+      "CombinedMesh": 883756055
+    },
+    {
+      "Reference": "11C8E5:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "11C8EE:Fallout4.esm",
+      "CombinedMesh": 524771173
+    },
+    {
+      "Reference": "11DEDF:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "11C8C0:Fallout4.esm",
+      "CombinedMesh": 316928405
+    },
+    {
+      "Reference": "11C8CB:Fallout4.esm",
+      "CombinedMesh": 1001525887
+    },
+    {
+      "Reference": "11C8F7:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "11C8FC:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "11C8D2:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "11C8D9:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "156972:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "168F65:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "2168C0:Fallout4.esm",
+      "CombinedMesh": 736777074
+    }
+  ],
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000215:SBS - LivingMarinaEgretTour.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000017:SBS - LivingMarinaEgretTour.esp",
+      "EnableParent": {
+        "Reference": "0002C2:SBS - LivingMarinaEgretTour.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "164321:Fallout4.esm"
+        }
+      ],
+      "Position": "-28659.496, -62516.402, 1482.1757",
+      "Rotation": "0, 0, 0.07860963"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000216:SBS - LivingMarinaEgretTour.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00002B:SBS - LivingMarinaEgretTour.esp",
+      "EnableParent": {
+        "Reference": "0002C2:SBS - LivingMarinaEgretTour.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "164321:Fallout4.esm"
+        }
+      ],
+      "Position": "-28562.053, -62909.266, 1482.1757",
+      "Rotation": "0, 0, 0.07859741"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000217:SBS - LivingMarinaEgretTour.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00002B:SBS - LivingMarinaEgretTour.esp",
+      "EnableParent": {
+        "Reference": "0002C2:SBS - LivingMarinaEgretTour.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "164321:Fallout4.esm"
+        }
+      ],
+      "Position": "-28521.84, -62398.848, 1482.1757",
+      "Rotation": "0, 0, 4.7910094"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00021B:SBS - LivingMarinaEgretTour.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000024:SBS - LivingMarinaEgretTour.esp",
+      "EnableParent": {
+        "Reference": "0002C2:SBS - LivingMarinaEgretTour.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "164321:Fallout4.esm"
+        }
+      ],
+      "Position": "-28531.89, -62526.453, 1482.1757",
+      "Rotation": "0, 0, 4.790995"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00021C:SBS - LivingMarinaEgretTour.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000024:SBS - LivingMarinaEgretTour.esp",
+      "EnableParent": {
+        "Reference": "0002C2:SBS - LivingMarinaEgretTour.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "164321:Fallout4.esm"
+        }
+      ],
+      "Position": "-28552.004, -62781.676, 1482.1757",
+      "Rotation": "0, 0, 4.790997"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000228:SBS - LivingMarinaEgretTour.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1B4AC4:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0002C2:SBS - LivingMarinaEgretTour.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "164321:Fallout4.esm"
+        }
+      ],
+      "Position": "-28426.262, -64751.37, 1574.3663",
+      "Rotation": "0, 0, 5.299024"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000229:SBS - LivingMarinaEgretTour.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1B4AC4:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0002C2:SBS - LivingMarinaEgretTour.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "164321:Fallout4.esm"
+        }
+      ],
+      "Position": "-28611.78, -64914.86, 1510.3663",
+      "Rotation": "0, 0, 5.822619"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00022B:SBS - LivingMarinaEgretTour.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1B4AC4:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0002C2:SBS - LivingMarinaEgretTour.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "164321:Fallout4.esm"
+        }
+      ],
+      "Position": "-28347.342, -64517.027, 1510.3663",
+      "Rotation": "0, 0, 4.775432"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00022E:SBS - LivingMarinaEgretTour.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1B4AC4:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0002C2:SBS - LivingMarinaEgretTour.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "164321:Fallout4.esm"
+        }
+      ],
+      "Position": "-28363.121, -61629.777, 1356.0553",
+      "Rotation": "0, 0, 4.7816787"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00022F:SBS - LivingMarinaEgretTour.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1B4AC4:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0002C2:SBS - LivingMarinaEgretTour.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "164321:Fallout4.esm"
+        }
+      ],
+      "Position": "-28380.85, -61885.168, 1356.0553",
+      "Rotation": "0, 0, 1.6400928"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000230:SBS - LivingMarinaEgretTour.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1B4AC4:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0002C2:SBS - LivingMarinaEgretTour.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "164321:Fallout4.esm"
+        }
+      ],
+      "Position": "-28398.574, -62140.547, 1356.0553",
+      "Rotation": "0, 0, 4.781677"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000237:SBS - LivingMarinaEgretTour.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1B4AC4:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0002C2:SBS - LivingMarinaEgretTour.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "164321:Fallout4.esm"
+        }
+      ],
+      "Position": "-28405.514, -63157.758, 1349.6432",
+      "Rotation": "0, 0, 4.560467"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000238:SBS - LivingMarinaEgretTour.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1B4AC4:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0002C2:SBS - LivingMarinaEgretTour.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "164321:Fallout4.esm"
+        }
+      ],
+      "Position": "-28366.771, -63410.812, 1413.6432",
+      "Rotation": "0, 0, 1.4188689"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000239:SBS - LivingMarinaEgretTour.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1B4AC4:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0002C2:SBS - LivingMarinaEgretTour.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "164321:Fallout4.esm"
+        }
+      ],
+      "Position": "-28396.166, -64274.617, 1510.3663",
+      "Rotation": "0, 0, 4.2518387"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00023A:SBS - LivingMarinaEgretTour.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1B4AC4:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0002C2:SBS - LivingMarinaEgretTour.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "164321:Fallout4.esm"
+        }
+      ],
+      "Position": "-28509.943, -64045.29, 1446.3663",
+      "Rotation": "0, 0, 1.110244"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00023B:SBS - LivingMarinaEgretTour.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1B4AC4:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0002C2:SBS - LivingMarinaEgretTour.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "164321:Fallout4.esm"
+        }
+      ],
+      "Position": "-28328.03, -63663.867, 1477.6432",
+      "Rotation": "0, 0, 4.5604615"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00023C:SBS - LivingMarinaEgretTour.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "020C40:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0002C2:SBS - LivingMarinaEgretTour.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "164321:Fallout4.esm"
+        }
+      ],
+      "Position": "-28655.273, -62382.727, 1484.2085",
+      "Rotation": "0, 0, 4.9328227"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00023E:SBS - LivingMarinaEgretTour.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000815:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "0002C2:SBS - LivingMarinaEgretTour.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "164321:Fallout4.esm"
+        }
+      ],
+      "Position": "-28498.963, -62781.258, 1482.215",
+      "Rotation": "0, 0, 1.6885729"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00023F:SBS - LivingMarinaEgretTour.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "075F3F:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0002C2:SBS - LivingMarinaEgretTour.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "164321:Fallout4.esm"
+        }
+      ],
+      "Position": "-28542.041, -62322.066, 1483.5428",
+      "Rotation": "0, 0, 0.24038944"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000241:SBS - LivingMarinaEgretTour.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB8:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0002C2:SBS - LivingMarinaEgretTour.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "164321:Fallout4.esm"
+        }
+      ],
+      "Position": "-28620.041, -62379.723, 1482.1832",
+      "Rotation": "0, 0, 4.85977"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000243:SBS - LivingMarinaEgretTour.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000918:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "0002C2:SBS - LivingMarinaEgretTour.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "164321:Fallout4.esm"
+        }
+      ],
+      "Position": "-28555.201, -62973.773, 1482.179",
+      "Rotation": "0, 0, 2.4064198"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000245:SBS - LivingMarinaEgretTour.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000919:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "0002C2:SBS - LivingMarinaEgretTour.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "164321:Fallout4.esm"
+        }
+      ],
+      "Position": "-28542.754, -62319.445, 1516.2285",
+      "Rotation": "0, 0, 6.033724"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000246:SBS - LivingMarinaEgretTour.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "02C59C:DLCCoast.esm",
+      "EnableParent": {
+        "Reference": "0002C2:SBS - LivingMarinaEgretTour.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "164321:Fallout4.esm"
+        }
+      ],
+      "Position": "-28508.416, -62829.445, 1538.389",
+      "Rotation": "0, 0, 0.30078307"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000249:SBS - LivingMarinaEgretTour.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000809:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "0002C2:SBS - LivingMarinaEgretTour.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "164321:Fallout4.esm"
+        }
+      ],
+      "Position": "-28500.893, -62753.164, 1538.389",
+      "Rotation": "0, 0, 1.8129625"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00024C:SBS - LivingMarinaEgretTour.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "0002C2:SBS - LivingMarinaEgretTour.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "164321:Fallout4.esm"
+        }
+      ],
+      "Position": "-28464.545, -62335.402, 1482.1757",
+      "Rotation": "0, 0, 0.5082137"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00024D:SBS - LivingMarinaEgretTour.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "0002C2:SBS - LivingMarinaEgretTour.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "164321:Fallout4.esm"
+        }
+      ],
+      "Position": "-28466.432, -62331.76, 1501.2931",
+      "Rotation": "0, 0, 0.18758275"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000269:SBS - LivingMarinaEgretTour.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0711B5:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0002C2:SBS - LivingMarinaEgretTour.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "164321:Fallout4.esm"
+        }
+      ],
+      "Position": "-28531.662, -62561.17, 1483.8969",
+      "Rotation": "0, 0, 0.11040255"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00026A:SBS - LivingMarinaEgretTour.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "020C40:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0002C2:SBS - LivingMarinaEgretTour.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "164321:Fallout4.esm"
+        }
+      ],
+      "Position": "-28535.902, -62539.105, 1485.9082",
+      "Rotation": "0, 0, 0.18343584"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00026B:SBS - LivingMarinaEgretTour.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000819:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "0002C2:SBS - LivingMarinaEgretTour.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "164321:Fallout4.esm"
+        }
+      ],
+      "Position": "-28459.482, -62582.234, 1485.2981",
+      "Rotation": "0, 0, 1.5799611"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000279:SBS - LivingMarinaEgretTour.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0008DC:DLCworkshop02.esm",
+      "EnableParent": {
+        "Reference": "0002C2:SBS - LivingMarinaEgretTour.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "164321:Fallout4.esm"
+        }
+      ],
+      "Position": "-28583.627, -64691.652, 1589",
+      "Rotation": "0, 0, 2.6453502"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00027A:SBS - LivingMarinaEgretTour.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0008D8:DLCworkshop02.esm",
+      "EnableParent": {
+        "Reference": "0002C2:SBS - LivingMarinaEgretTour.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "164321:Fallout4.esm"
+        }
+      ],
+      "Position": "-28583.625, -64691.652, 1845",
+      "Rotation": "0, 0, 2.6453626"
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "ModKey": "SBS - LivingSomervillePlace.esp",
+  "GameRelease": "Fallout4",
+  "ModHeader": {
+    "Flags": [
+      "Small"
+    ],
+    "Stats": {
+      "NextFormID": 640
+    },
+    "Author": "",
+    "OverriddenForms": [
+      "12956F:Fallout4.esm",
+      "1295BC:Fallout4.esm",
+      "1295E4:Fallout4.esm",
+      "1295E5:Fallout4.esm",
+      "129705:Fallout4.esm",
+      "129706:Fallout4.esm",
+      "129769:Fallout4.esm",
+      "1298F8:Fallout4.esm",
+      "1D3374:Fallout4.esm",
+      "1D3380:Fallout4.esm",
+      "1D3381:Fallout4.esm",
+      "1D3382:Fallout4.esm",
+      "1D3383:Fallout4.esm",
+      "1D3396:Fallout4.esm",
+      "1D3397:Fallout4.esm",
+      "1D339B:Fallout4.esm",
+      "1E8C9B:Fallout4.esm",
+      "215E45:Fallout4.esm",
+      "215E47:Fallout4.esm",
+      "215E48:Fallout4.esm",
+      "215E49:Fallout4.esm",
+      "215E4A:Fallout4.esm",
+      "215E4B:Fallout4.esm",
+      "215E4C:Fallout4.esm",
+      "215E4D:Fallout4.esm",
+      "215E4E:Fallout4.esm",
+      "215E4F:Fallout4.esm",
+      "215E50:Fallout4.esm",
+      "215E51:Fallout4.esm",
+      "215E52:Fallout4.esm",
+      "2472D7:Fallout4.esm"
+    ]
+  }
+}

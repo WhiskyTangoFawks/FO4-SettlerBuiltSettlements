@@ -1,0 +1,29 @@
+{
+  "FormKey": "00034F:SBS - LivingStarlightDrive in.esp",
+  "MajorRecordFlagsRaw": 4096,
+  "EditorID": "cobj_StarlightCratesWater3",
+  "Fallout4MajorRecordFlags": [
+    "Ignored"
+  ],
+  "PickUpSound": "02B012:Fallout4.esm",
+  "PutDownSound": "02B013:Fallout4.esm",
+  "Components": [
+    {
+      "Component": "01FABD:Fallout4.esm",
+      "Count": 3
+    },
+    {
+      "Component": "01FAC2:Fallout4.esm",
+      "Count": 6
+    },
+    {
+      "Component": "0366C0:Fallout4.esm",
+      "Count": 6
+    }
+  ],
+  "CreatedObject": "00034D:SBS - LivingStarlightDrive in.esp",
+  "WorkbenchKeyword": "246F85:Fallout4.esm",
+  "Categories": [
+    "118F62:Fallout4.esm"
+  ]
+}

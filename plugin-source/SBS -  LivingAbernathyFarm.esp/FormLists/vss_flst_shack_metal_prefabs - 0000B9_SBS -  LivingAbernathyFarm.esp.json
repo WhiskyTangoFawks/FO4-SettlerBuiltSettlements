@@ -1,0 +1,21 @@
+{
+  "FormKey": "0000B9:SBS -  LivingAbernathyFarm.esp",
+  "MajorRecordFlagsRaw": 4096,
+  "EditorID": "vss_flst_shack_metal_prefabs",
+  "Fallout4MajorRecordFlags": [
+    "Ignored"
+  ],
+  "Items": [
+    "000002:SBS -  LivingAbernathyFarm.esp",
+    "000003:SBS -  LivingAbernathyFarm.esp",
+    "000004:SBS -  LivingAbernathyFarm.esp",
+    "000005:SBS -  LivingAbernathyFarm.esp",
+    "000006:SBS -  LivingAbernathyFarm.esp",
+    "000007:SBS -  LivingAbernathyFarm.esp",
+    "000008:SBS -  LivingAbernathyFarm.esp",
+    "000009:SBS -  LivingAbernathyFarm.esp",
+    "00000B:SBS -  LivingAbernathyFarm.esp",
+    "00000C:SBS -  LivingAbernathyFarm.esp",
+    "00000D:SBS -  LivingAbernathyFarm.esp"
+  ]
+}

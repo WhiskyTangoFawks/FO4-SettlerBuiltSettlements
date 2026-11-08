@@ -1,0 +1,123 @@
+{
+  "FormKey": "000023:SBS - LivingTaffington.esp",
+  "EditorID": "vss_ShackWallOuter02",
+  "ObjectBounds": {
+    "First": "-131, -167, -14",
+    "Second": "131, 0, 212"
+  },
+  "PreviewTransform": "0F61E2:Fallout4.esm",
+  "Model": {
+    "File": "Architecture\\Shacks\\vss\\ShackWallOuter02.nif",
+    "Data": "0x0400000009000000000000000300000004000000B0E4DF1464647300DAC2327C6988D97764647300DAC2327CD6602A0164647300DAC2327C0F0C2C6264647300DAC2327CBD9EC32164647300DAC2327C64F2C54264647300DAC2327C7A1B10A264647300DAC2327C11E5F98264647300DAC2327C77610C9764647300DAC2327CFB61461C6267736DFAFCA62E96965A016267736DFAFCA62EB69E2B3C6267736DFAFCA62EB2AA61036267736DFAFCA62E"
+  },
+  "Properties": [
+    {
+      "ActorValue": "000337:Fallout4.esm",
+      "Value": 32.0
+    },
+    {
+      "ActorValue": "00033D:Fallout4.esm",
+      "Value": 1.0
+    }
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Wood Wall and roof "
+  },
+  "MaxAngle": 90.0,
+  "LeafAmplitude": 1.0,
+  "LeafFrequency": 1.0,
+  "NavmeshGeometry": {
+    "Parent": {
+      "MutagenObjectType": "CellNavmeshParent",
+      "Parent": "000025:Fallout4.esm"
+    },
+    "Vertices": [
+      "-111.45527, -2.022766, 0",
+      "110.63256, -0.5560303, 0",
+      "-111.008316, -17.23339, 0",
+      "111.7629, -16.669573, 0",
+      "-124.70749, -104.744026, 1.5258789E-05",
+      "127.11972, -106.82386, -1.5258789E-05",
+      "125.07175, -16.66981, 1.5258789E-05",
+      "-124.946724, -17.741539, 7.6293945E-06"
+    ],
+    "Triangles": [
+      {
+        "Vertices": "0, 2, 1",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": 1,
+        "EdgeLink_2_0": -1,
+        "Height": 197.00578,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "1, 2, 3",
+        "EdgeLink_1_2": 2,
+        "EdgeLink_2_0": -1,
+        "Height": 197.0058,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "2, 4, 3",
+        "EdgeLink_0_1": 5,
+        "EdgeLink_1_2": 3,
+        "EdgeLink_2_0": 1,
+        "Height": 199.49637,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "3, 4, 5",
+        "EdgeLink_0_1": 2,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": 4,
+        "Height": 191.70316,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "5, 6, 3",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": 3,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "4, 2, 7",
+        "EdgeLink_0_1": 2,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": -1,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ]
+      }
+    ],
+    "GridSize": 1,
+    "GridMaxDistance": "252.06644, 106.26783",
+    "GridMin": "-124.946724, -106.82386, 0",
+    "GridMax": "127.11972, -0.5560303, 199.49638",
+    "GridArrays": {
+      "GridCell": [
+        6,
+        0,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  }
+}

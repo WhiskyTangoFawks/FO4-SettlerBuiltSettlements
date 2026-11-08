@@ -1,0 +1,83 @@
+{
+  "FormKey": "00026D:SBS - LivingGraygarden.esp",
+  "EditorID": "workshop_co_a123LivingGraygarden",
+  "PickUpSound": "02B012:Fallout4.esm",
+  "PutDownSound": "02B012:Fallout4.esm",
+  "Components": [
+    {
+      "Component": "01FABD:Fallout4.esm",
+      "Count": 115
+    },
+    {
+      "Component": "01FAC2:Fallout4.esm",
+      "Count": 125
+    },
+    {
+      "Component": "03D294:Fallout4.esm",
+      "Count": 10
+    },
+    {
+      "Component": "01FAB9:Fallout4.esm",
+      "Count": 5
+    },
+    {
+      "Component": "1223C7:Fallout4.esm",
+      "Count": 40
+    }
+  ],
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": "Supplies for your settlers to build a larger settlement."
+  },
+  "Conditions": [
+    {
+      "MutagenObjectType": "ConditionFloat",
+      "Unknown1": "0x000000",
+      "Data": {
+        "MutagenObjectType": "FunctionConditionData",
+        "Function": "GetWorkshopObjectCount",
+        "ParameterOneRecord": "00026C:SBS - LivingGraygarden.esp",
+        "ParameterOneNumber": 83886700
+      }
+    },
+    {
+      "MutagenObjectType": "ConditionFloat",
+      "Flags": [
+        "OR"
+      ],
+      "Unknown1": "0x000000",
+      "ComparisonValue": 1.0,
+      "Data": {
+        "MutagenObjectType": "FunctionConditionData",
+        "Function": "GetInCell",
+        "ParameterOneRecord": "00DFAA:Fallout4.esm",
+        "ParameterOneNumber": 57258
+      }
+    },
+    {
+      "MutagenObjectType": "ConditionFloat",
+      "Flags": [
+        "OR"
+      ],
+      "Unknown1": "0x000000",
+      "ComparisonValue": 1.0,
+      "Data": {
+        "MutagenObjectType": "FunctionConditionData",
+        "Function": "GetInCell",
+        "ParameterOneRecord": "00DF89:Fallout4.esm",
+        "ParameterOneNumber": 57225
+      }
+    }
+  ],
+  "CreatedObject": "00026C:SBS - LivingGraygarden.esp",
+  "WorkbenchKeyword": "05A0C8:Fallout4.esm",
+  "Categories": [
+    "000F9A:SettlerBuiltSettlements.esp"
+  ],
+  "CreatedObjectCounts": [
+    {
+      "Count": 1,
+      "Priority": 200
+    }
+  ]
+}

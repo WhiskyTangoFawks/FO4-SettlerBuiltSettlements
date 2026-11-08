@@ -1,0 +1,349 @@
+{
+  "FormKey": "000017:SBS - LivingOutpostZimonja.esp",
+  "EditorID": "vss_ShackPrefab3Way01",
+  "ObjectBounds": {
+    "First": "-138, -136, -14",
+    "Second": "133, 313, 211"
+  },
+  "PreviewTransform": "110004:Fallout4.esm",
+  "Model": {
+    "File": "Architecture\\Shacks\\vss\\Prefabs\\ShackPrefab3Way01.nif",
+    "Data": "0x0400000009000000000000000300000004000000BD9EC32164647300DAC2327C64F2C54264647300DAC2327CB0E4DF1464647300DAC2327C6988D97764647300DAC2327CD6602A0164647300DAC2327C0F0C2C6264647300DAC2327C11E5F98264647300DAC2327C77610C9764647300DAC2327C7A1B10A264647300DAC2327C96965A016267736DFAFCA62EB69E2B3C6267736DFAFCA62EB2AA61036267736DFAFCA62EFB61461C6267736DFAFCA62E"
+  },
+  "Properties": [
+    {
+      "ActorValue": "000337:Fallout4.esm",
+      "Value": 32.0
+    },
+    {
+      "ActorValue": "00033D:Fallout4.esm",
+      "Value": 1.0
+    },
+    {
+      "ActorValue": "249E6A:Fallout4.esm",
+      "Value": 128.0
+    },
+    {
+      "ActorValue": "249E6B:Fallout4.esm",
+      "Value": -128.0
+    },
+    {
+      "ActorValue": "249E6C:Fallout4.esm",
+      "Value": -128.0
+    },
+    {
+      "ActorValue": "249E6D:Fallout4.esm",
+      "Value": 256.0
+    }
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Wood wall and roof"
+  },
+  "MaxAngle": 90.0,
+  "LeafAmplitude": 1.0,
+  "LeafFrequency": 1.0,
+  "NavmeshGeometry": {
+    "Parent": {
+      "MutagenObjectType": "CellNavmeshParent",
+      "Parent": "000025:Fallout4.esm"
+    },
+    "Vertices": [
+      "108.69319, -128.7752, -1.5258789E-05",
+      "-111.63206, -127.75537, 4.5776367E-05",
+      "108.794014, -111.79166, -1.5258789E-05",
+      "-111.387024, -107.47485, 6.1035156E-05",
+      "110.02833, 123.16875, 3.8146973E-05",
+      "-111.23914, 124.38527, 9.1552734E-05",
+      "109.41218, 147.70232, -1.5258789E-05",
+      "-110.58269, 143.90302, 0",
+      "127.31959, 235.41345, 0",
+      "-127.502945, 235.44963, 0",
+      "127.43349, 147.46509, 1.5258789E-05",
+      "-127.18041, 144.12389, 7.6293945E-06",
+      "-127.11457, 124.25606, 0.00010681152",
+      "-127.43841, -108.599174, 6.1035156E-05",
+      "126.9852, -111.44108, -3.0517578E-05",
+      "127.42966, 123.16999, 4.5776367E-05",
+      "127.44699, -127.556305, 209",
+      "-126.68671, -128.05914, 209.00002",
+      "129.58853, 129.56285, 208.99997",
+      "-127.784744, 132.85283, 210.99998",
+      "127.67382, 212.03535, 191.21973",
+      "-124.930984, 214.00111, 189.75623"
+    ],
+    "Triangles": [
+      {
+        "Vertices": "0, 2, 1",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": 1,
+        "EdgeLink_2_0": -1,
+        "Height": 170.0,
+        "CoverFlags": 4
+      },
+      {
+        "Vertices": "1, 2, 3",
+        "EdgeLink_1_2": 2,
+        "EdgeLink_2_0": -1,
+        "Height": 170.0
+      },
+      {
+        "Vertices": "2, 4, 3",
+        "EdgeLink_0_1": 12,
+        "EdgeLink_1_2": 3,
+        "EdgeLink_2_0": 1,
+        "Height": 192.04507
+      },
+      {
+        "Vertices": "3, 4, 5",
+        "EdgeLink_0_1": 2,
+        "EdgeLink_1_2": 4,
+        "EdgeLink_2_0": 10,
+        "Height": 170.0
+      },
+      {
+        "Vertices": "4, 6, 5",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": 5,
+        "EdgeLink_2_0": 3,
+        "Height": 170.0,
+        "CoverFlags": 1
+      },
+      {
+        "Vertices": "5, 6, 7",
+        "EdgeLink_0_1": 4,
+        "EdgeLink_1_2": 17,
+        "EdgeLink_2_0": -1,
+        "Height": 170.0
+      },
+      {
+        "Vertices": "19, 20, 21",
+        "EdgeLink_0_1": 16,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": -1,
+        "Height": 3.4028235E+38
+      },
+      {
+        "Vertices": "7, 8, 9",
+        "EdgeLink_0_1": 17,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": 9,
+        "Height": 170.0,
+        "CoverFlags": 2
+      },
+      {
+        "Vertices": "8, 6, 10",
+        "EdgeLink_0_1": 17,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": -1,
+        "Height": 170.0,
+        "CoverFlags": 5
+      },
+      {
+        "Vertices": "9, 11, 7",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": 7,
+        "Height": 170.0,
+        "CoverFlags": 1
+      },
+      {
+        "Vertices": "5, 12, 3",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": 11,
+        "EdgeLink_2_0": 3,
+        "Height": 170.0
+      },
+      {
+        "Vertices": "3, 12, 13",
+        "EdgeLink_0_1": 10,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": -1,
+        "Height": 170.0,
+        "CoverFlags": 2
+      },
+      {
+        "Vertices": "2, 14, 4",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": 13,
+        "EdgeLink_2_0": 2,
+        "Height": 170.0
+      },
+      {
+        "Vertices": "4, 14, 15",
+        "EdgeLink_0_1": 12,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": -1,
+        "Height": 170.0,
+        "CoverFlags": 2
+      },
+      {
+        "Vertices": "16, 18, 17",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": 15,
+        "EdgeLink_2_0": -1,
+        "Height": 3.4028235E+38
+      },
+      {
+        "Vertices": "17, 18, 19",
+        "EdgeLink_0_1": 14,
+        "EdgeLink_1_2": 16,
+        "EdgeLink_2_0": -1,
+        "Height": 3.4028235E+38
+      },
+      {
+        "Vertices": "18, 20, 19",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": 6,
+        "EdgeLink_2_0": 15,
+        "Height": 3.4028235E+38
+      },
+      {
+        "Vertices": "7, 6, 8",
+        "EdgeLink_0_1": 5,
+        "EdgeLink_1_2": 8,
+        "EdgeLink_2_0": 7,
+        "Height": 170.0
+      }
+    ],
+    "Cover": [
+      {
+        "Vertex1": 11,
+        "Vertex2": 9,
+        "Data": 2147485712
+      },
+      {
+        "Vertex1": 9,
+        "Vertex2": 8,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 6,
+        "Vertex2": 4,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 15,
+        "Vertex2": 14,
+        "Data": 2320
+      },
+      {
+        "Vertex2": 1,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 13,
+        "Vertex2": 12,
+        "Data": 272
+      },
+      {
+        "Vertex1": 8,
+        "Vertex2": 6,
+        "Data": 2147483664
+      },
+      {
+        "Vertex1": 6,
+        "Vertex2": 8,
+        "Data": 2147483664
+      },
+      {
+        "Vertex1": 8,
+        "Vertex2": 10,
+        "Data": 2147483664
+      }
+    ],
+    "CoverTriangleMappings": [
+      {
+        "Cover": 24,
+        "Triangle": 6
+      },
+      {
+        "Cover": 29,
+        "Triangle": 1
+      },
+      {
+        "Cover": 53,
+        "Triangle": 3
+      },
+      {
+        "Cover": 34,
+        "Triangle": 8
+      },
+      {
+        "Cover": 36
+      },
+      {
+        "Cover": 2,
+        "Triangle": 4
+      },
+      {
+        "Cover": 45,
+        "Triangle": 5
+      },
+      {
+        "Cover": 32,
+        "Triangle": 7
+      },
+      {
+        "Cover": 16,
+        "Triangle": 2
+      }
+    ],
+    "GridSize": 2,
+    "GridMaxDistance": "128.68665, 182.11243",
+    "GridMin": "-127.784744, -128.7752, -3.0517578E-05",
+    "GridMax": "129.58853, 235.44963, 3.4028235E+38",
+    "GridArrays": {
+      "GridCell": [
+        8,
+        0,
+        0,
+        1,
+        2,
+        3,
+        10,
+        11,
+        14,
+        15,
+        8,
+        0,
+        0,
+        1,
+        2,
+        3,
+        12,
+        13,
+        14,
+        15,
+        11,
+        0,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        15,
+        16,
+        17,
+        13,
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    }
+  }
+}

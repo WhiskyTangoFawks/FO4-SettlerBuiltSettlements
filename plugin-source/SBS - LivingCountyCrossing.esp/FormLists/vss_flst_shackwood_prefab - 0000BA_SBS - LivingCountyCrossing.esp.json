@@ -1,0 +1,20 @@
+{
+  "FormKey": "0000BA:SBS - LivingCountyCrossing.esp",
+  "MajorRecordFlagsRaw": 4096,
+  "EditorID": "vss_flst_shackwood_prefab",
+  "Fallout4MajorRecordFlags": [
+    "Ignored"
+  ],
+  "Items": [
+    "000017:SBS - LivingCountyCrossing.esp",
+    "000018:SBS - LivingCountyCrossing.esp",
+    "000019:SBS - LivingCountyCrossing.esp",
+    "00001A:SBS - LivingCountyCrossing.esp",
+    "00001B:SBS - LivingCountyCrossing.esp",
+    "00001C:SBS - LivingCountyCrossing.esp",
+    "00001D:SBS - LivingCountyCrossing.esp",
+    "00001E:SBS - LivingCountyCrossing.esp",
+    "00001F:SBS - LivingCountyCrossing.esp",
+    "000020:SBS - LivingCountyCrossing.esp"
+  ]
+}

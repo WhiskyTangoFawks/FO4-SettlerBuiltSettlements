@@ -1,0 +1,29 @@
+{
+  "ModKey": "SBS - LivingHangmanAlley.esp",
+  "GameRelease": "Fallout4",
+  "ModHeader": {
+    "Flags": [
+      "Small"
+    ],
+    "Stats": {
+      "NextFormID": 445
+    },
+    "Author": "",
+    "OverriddenForms": [
+      "1B8C57:Fallout4.esm",
+      "1B8C5A:Fallout4.esm",
+      "1B8C81:Fallout4.esm",
+      "1B8C87:Fallout4.esm",
+      "1B8C92:Fallout4.esm",
+      "1B8C9B:Fallout4.esm",
+      "1B8CA5:Fallout4.esm",
+      "1B8CAE:Fallout4.esm",
+      "1B8CAF:Fallout4.esm",
+      "1B8CB4:Fallout4.esm",
+      "1B8D10:Fallout4.esm",
+      "1B8D11:Fallout4.esm",
+      "1B8D12:Fallout4.esm",
+      "1B8D13:Fallout4.esm"
+    ]
+  }
+}

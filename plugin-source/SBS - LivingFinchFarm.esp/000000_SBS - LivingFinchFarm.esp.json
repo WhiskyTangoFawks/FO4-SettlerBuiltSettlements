@@ -1,0 +1,54 @@
+{
+  "ModKey": "SBS - LivingFinchFarm.esp",
+  "GameRelease": "Fallout4",
+  "ModHeader": {
+    "Flags": [
+      "Small"
+    ],
+    "Stats": {
+      "NextFormID": 540
+    },
+    "Author": "",
+    "OverriddenForms": [
+      "05F318:Fallout4.esm",
+      "09D113:Fallout4.esm",
+      "09D114:Fallout4.esm",
+      "09D115:Fallout4.esm",
+      "09D116:Fallout4.esm",
+      "09D117:Fallout4.esm",
+      "09D118:Fallout4.esm",
+      "09D119:Fallout4.esm",
+      "09D11A:Fallout4.esm",
+      "09D11B:Fallout4.esm",
+      "09D11C:Fallout4.esm",
+      "09D11D:Fallout4.esm",
+      "09D11E:Fallout4.esm",
+      "09D11F:Fallout4.esm",
+      "09D120:Fallout4.esm",
+      "09D121:Fallout4.esm",
+      "09D122:Fallout4.esm",
+      "09D123:Fallout4.esm",
+      "09D124:Fallout4.esm",
+      "09D125:Fallout4.esm",
+      "09D137:Fallout4.esm",
+      "09D15D:Fallout4.esm",
+      "09D16B:Fallout4.esm",
+      "09D16C:Fallout4.esm",
+      "0C5276:Fallout4.esm",
+      "0C534D:Fallout4.esm",
+      "193E5A:Fallout4.esm",
+      "193E5B:Fallout4.esm",
+      "1B8573:Fallout4.esm",
+      "1E8034:Fallout4.esm",
+      "1E8035:Fallout4.esm",
+      "1E8036:Fallout4.esm",
+      "1E8038:Fallout4.esm",
+      "1E8039:Fallout4.esm",
+      "1E803A:Fallout4.esm",
+      "1EADD8:Fallout4.esm",
+      "1EADD9:Fallout4.esm",
+      "1EADDD:Fallout4.esm",
+      "1EADDF:Fallout4.esm"
+    ]
+  }
+}

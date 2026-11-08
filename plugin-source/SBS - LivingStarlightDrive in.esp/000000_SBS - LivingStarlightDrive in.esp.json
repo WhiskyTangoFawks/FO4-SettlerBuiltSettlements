@@ -1,0 +1,34 @@
+{
+  "ModKey": "SBS - LivingStarlightDrive in.esp",
+  "GameRelease": "Fallout4",
+  "ModHeader": {
+    "Flags": [
+      "Small"
+    ],
+    "Stats": {
+      "NextFormID": 859
+    },
+    "Author": "",
+    "OverriddenForms": [
+      "03001E:Fallout4.esm",
+      "03001F:Fallout4.esm",
+      "03050D:Fallout4.esm",
+      "03050E:Fallout4.esm",
+      "0335A2:Fallout4.esm",
+      "08C748:Fallout4.esm",
+      "08C74B:Fallout4.esm",
+      "096CB7:Fallout4.esm",
+      "096CC2:Fallout4.esm",
+      "181876:Fallout4.esm",
+      "195229:Fallout4.esm",
+      "19522C:Fallout4.esm",
+      "19522E:Fallout4.esm",
+      "19523B:Fallout4.esm",
+      "195251:Fallout4.esm",
+      "195334:Fallout4.esm",
+      "1B87DB:Fallout4.esm",
+      "1B87DC:Fallout4.esm",
+      "23D6B1:Fallout4.esm"
+    ]
+  }
+}

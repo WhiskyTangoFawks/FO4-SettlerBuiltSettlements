@@ -1,0 +1,210 @@
+{
+  "FormKey": "000007:SBS - LivingCroupManor.esp",
+  "EditorID": "vss_ShackMetalPrefabCornerSm01",
+  "ObjectBounds": {
+    "First": "-134, -189, -15",
+    "Second": "189, 128, 210"
+  },
+  "PreviewTransform": "140D97:Fallout4.esm",
+  "Model": {
+    "File": "Architecture\\Shacks\\vss\\Prefabs\\ShackMetalPrefabCornerSm01.nif",
+    "Data": "0x040000000A000000000000000400000004000000003D5B8464647300DAC2327CD9515DE764647300DAC2327C784B48B664647300DAC2327CA1274ED564647300DAC2327CC8DCFF0264647300DAC2327C11B0F96164647300DAC2327C0F592C8164647300DAC2327C0F2C2A00646473001CDB88C5BFCE9B3564647300DAC2327CC7B8880764647300DAC2327C932B4C9D6267736DFAFCA62E22CD48D26267736DFAFCA62E050363256267736DFAFCA62E926D60A96267736DFAFCA62E"
+  },
+  "Properties": [
+    {
+      "ActorValue": "000337:Fallout4.esm",
+      "Value": 32.0
+    },
+    {
+      "ActorValue": "00033D:Fallout4.esm",
+      "Value": 1.0
+    }
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Metal corner"
+  },
+  "MaxAngle": 90.0,
+  "LeafAmplitude": 1.0,
+  "LeafFrequency": 1.0,
+  "NavmeshGeometry": {
+    "Parent": {
+      "MutagenObjectType": "CellNavmeshParent",
+      "Parent": "000025:Fallout4.esm"
+    },
+    "Vertices": [
+      "-127.604126, 115.11513, 1.5258789E-05",
+      "-127.69134, -114.24264, 1.5258789E-05",
+      "-111.029076, 115.39035, 1.5258789E-05",
+      "108.85057, -121.75328, 1.5258789E-05",
+      "113.975006, 127.347855, 1.5258789E-05",
+      "-111.42208, 127.91838, 1.5258789E-05",
+      "121.523346, -102.20047, 1.5258789E-05",
+      "123.506, -125.774445, 209",
+      "-123.21707, 124.292915, 209",
+      "-126.60492, -123.57596, 208.99997",
+      "127.999985, 127.67211, 207.19208"
+    ],
+    "Triangles": [
+      {
+        "Vertices": "0, 1, 2",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": 1,
+        "EdgeLink_2_0": -1,
+        "Height": 170.0,
+        "CoverFlags": 1
+      },
+      {
+        "Vertices": "1, 3, 2",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": 4,
+        "Height": 170.0,
+        "CoverFlags": 1
+      },
+      {
+        "Vertices": "6, 4, 2",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": 3,
+        "EdgeLink_2_0": 4,
+        "Height": 170.0,
+        "CoverFlags": 1
+      },
+      {
+        "Vertices": "4, 5, 2",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": 2,
+        "Height": 170.0,
+        "CoverFlags": 1
+      },
+      {
+        "Vertices": "2, 3, 6",
+        "EdgeLink_0_1": 1,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": 2,
+        "Height": 170.0,
+        "CoverFlags": 2
+      },
+      {
+        "Vertices": "8, 9, 10",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": 6,
+        "EdgeLink_2_0": -1,
+        "Height": 3.4028235E+38,
+        "CoverFlags": 5
+      },
+      {
+        "Vertices": "9, 7, 10",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": 5,
+        "Height": 3.4028235E+38,
+        "CoverFlags": 3
+      }
+    ],
+    "Cover": [
+      {
+        "Vertex1": 1,
+        "Data": 2147485968
+      },
+      {
+        "Vertex1": 5,
+        "Vertex2": 4,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 4,
+        "Vertex2": 6,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 6,
+        "Vertex2": 3,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 3,
+        "Vertex2": 1,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 9,
+        "Vertex2": 8,
+        "Data": 2147485968
+      },
+      {
+        "Vertex1": 8,
+        "Vertex2": 10,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 10,
+        "Vertex2": 7,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 7,
+        "Vertex2": 9,
+        "Data": 2320
+      }
+    ],
+    "CoverTriangleMappings": [
+      {},
+      {
+        "Cover": 22,
+        "Triangle": 6
+      },
+      {
+        "Cover": 25,
+        "Triangle": 7
+      },
+      {
+        "Cover": 4,
+        "Triangle": 4
+      },
+      {
+        "Cover": 20,
+        "Triangle": 5
+      },
+      {
+        "Cover": 17,
+        "Triangle": 3
+      },
+      {
+        "Cover": 24,
+        "Triangle": 8
+      },
+      {
+        "Cover": 12,
+        "Triangle": 1
+      },
+      {
+        "Cover": 8,
+        "Triangle": 2
+      }
+    ],
+    "Waypoints": [
+      {
+        "Location": "8.986141, -63.554684, 1.5258789E-05",
+        "TriangleIndex": 1
+      }
+    ],
+    "GridSize": 1,
+    "GridMaxDistance": "255.69131, 253.69283",
+    "GridMin": "-127.69134, -125.774445, 1.5258789E-05",
+    "GridMax": "127.999985, 127.91838, 3.4028235E+38",
+    "GridArrays": {
+      "GridCell": [
+        7,
+        0,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  }
+}

@@ -1,4 +1,4 @@
 {"version":1,"steps":[
 {"copy":["Scripts","meshes"]},
-{"compile":["SettlerBuiltSettlements.esp","SBS - FalloutTheBedsCastle.esp","SBS - PerfektSanctuary.esp"]}
+{"compile":["SettlerBuiltSettlements.esp","SBS - FalloutTheBedsCastle.esp","SBS - PerfektSanctuary.esp","SBS -  LivingAbernathyFarm.esp","SBS - LivingCoastalCottage.esp","SBS - LivingCountyCrossing.esp","SBS - LivingCroupManor.esp","SBS - LivingFinchFarm.esp","SBS - LivingGraygarden.esp","SBS - LivingHangmanAlley.esp","SBS - LivingJamaicaPlain.esp","SBS - LivingKingsportLighthouse.esp","SBS - LivingMarinaEgretTour.esp","SBS - LivingNordHagenBeach.esp","SBS - LivingOberlandStation.esp","SBS - LivingOutpostZimonja.esp","SBS - LivingSomervillePlace.esp","SBS - LivingStarlightDrive in.esp","SBS - LivingSunshineTindings.esp","SBS - LivingTaffington.esp","SBS - LivingTenpinesBluff.esp","SBS - LivingTheSlog.esp"]}
 ]}

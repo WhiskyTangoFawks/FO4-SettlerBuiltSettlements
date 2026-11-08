@@ -1,0 +1,123 @@
+{
+  "FormKey": "000163:SBS -  LivingAbernathyFarm.esp",
+  "EditorID": "workshop_co_a123LivingAbernathyFarm",
+  "PickUpSound": "02B012:Fallout4.esm",
+  "PutDownSound": "02B012:Fallout4.esm",
+  "Components": [
+    {
+      "Component": "01FAA5:Fallout4.esm",
+      "Count": 8
+    },
+    {
+      "Component": "01FABD:Fallout4.esm",
+      "Count": 40
+    },
+    {
+      "Component": "01FAC2:Fallout4.esm",
+      "Count": 86
+    },
+    {
+      "Component": "03D294:Fallout4.esm",
+      "Count": 15
+    },
+    {
+      "Component": "1223C7:Fallout4.esm",
+      "Count": 40
+    },
+    {
+      "Component": "0330F8:Fallout4.esm",
+      "Count": 10
+    },
+    {
+      "Component": "033102:Fallout4.esm",
+      "Count": 8
+    },
+    {
+      "Component": "05A0C7:Fallout4.esm",
+      "Count": 5
+    }
+  ],
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": "Supplies for your settlers to build a larger settlement."
+  },
+  "Conditions": [
+    {
+      "MutagenObjectType": "ConditionFloat",
+      "Unknown1": "0x000000",
+      "Data": {
+        "MutagenObjectType": "FunctionConditionData",
+        "Function": "GetWorkshopObjectCount",
+        "ParameterOneRecord": "000162:SBS -  LivingAbernathyFarm.esp",
+        "ParameterOneNumber": 83886434
+      }
+    },
+    {
+      "MutagenObjectType": "ConditionFloat",
+      "Flags": [
+        "OR"
+      ],
+      "Unknown1": "0x000000",
+      "ComparisonValue": 1.0,
+      "Data": {
+        "MutagenObjectType": "FunctionConditionData",
+        "Function": "GetInCell",
+        "ParameterOneRecord": "00DE05:Fallout4.esm",
+        "ParameterOneNumber": 56837
+      }
+    },
+    {
+      "MutagenObjectType": "ConditionFloat",
+      "Flags": [
+        "OR"
+      ],
+      "Unknown1": "0x000000",
+      "ComparisonValue": 1.0,
+      "Data": {
+        "MutagenObjectType": "FunctionConditionData",
+        "Function": "GetInCell",
+        "ParameterOneRecord": "00DE04:Fallout4.esm",
+        "ParameterOneNumber": 56836
+      }
+    },
+    {
+      "MutagenObjectType": "ConditionFloat",
+      "Flags": [
+        "OR"
+      ],
+      "Unknown1": "0x000000",
+      "ComparisonValue": 1.0,
+      "Data": {
+        "MutagenObjectType": "FunctionConditionData",
+        "Function": "GetInCell",
+        "ParameterOneRecord": "00DDE4:Fallout4.esm",
+        "ParameterOneNumber": 56804
+      }
+    },
+    {
+      "MutagenObjectType": "ConditionFloat",
+      "Flags": [
+        "OR"
+      ],
+      "Unknown1": "0x000000",
+      "ComparisonValue": 1.0,
+      "Data": {
+        "MutagenObjectType": "FunctionConditionData",
+        "Function": "GetInCell",
+        "ParameterOneRecord": "00DE25:Fallout4.esm",
+        "ParameterOneNumber": 56869
+      }
+    }
+  ],
+  "CreatedObject": "000162:SBS -  LivingAbernathyFarm.esp",
+  "WorkbenchKeyword": "05A0C8:Fallout4.esm",
+  "Categories": [
+    "000F9A:SettlerBuiltSettlements.esp"
+  ],
+  "CreatedObjectCounts": [
+    {
+      "Count": 1,
+      "Priority": 200
+    }
+  ]
+}

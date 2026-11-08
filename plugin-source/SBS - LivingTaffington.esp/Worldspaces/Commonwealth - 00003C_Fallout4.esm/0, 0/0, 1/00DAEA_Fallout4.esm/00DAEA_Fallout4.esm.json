@@ -1,0 +1,1563 @@
+{
+  "FormKey": "00DAEA:Fallout4.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "Fallout4MajorRecordFlags": [
+    "Compressed"
+  ],
+  "Flags": [
+    "HasWater"
+  ],
+  "PreVisFilesTimestamp": 7972,
+  "InPreVisFileOf": "00DED8:Fallout4.esm",
+  "PreCombinedFilesTimestamp": 7972,
+  "Grid": {
+    "Point": "1, 10"
+  },
+  "MaxHeightData": {
+    "Offset": 512.0,
+    "HeightMap": [
+      [3,3,5,5,2,3,3,1,1,1,1,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,6,1,1,2],
+      [3,4,4,4,3,4,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+      [0,6,1,6,5,6,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+      [0,0,0,0,0,2,1,1,1,4,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+      [0,0,0,0,0,0,0,1,6,7,5,4,6,1,1,1,1,1,1,1,1,8,1,1,1,1,1,1,1,1,5,1],
+      [0,0,0,0,0,0,0,1,4,3,6,3,4,1,1,1,1,1,1,1,5,4,1,1,1,1,1,1,5,4,5,2],
+      [0,0,0,0,0,0,0,0,0,1,3,4,1,1,1,1,1,1,4,7,9,1,1,1,1,1,1,1,1,1,1,3],
+      [0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,7,6,2,5,1,1,1,0,1,1,1,1,1,1,1,5],
+      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,5,1,0,0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2],
+      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+    ]
+  },
+  "WaterHeight": 3.4028235E+38,
+  "Regions": [
+    "137F31:Fallout4.esm",
+    "109E91:Fallout4.esm",
+    "137F30:Fallout4.esm",
+    "049BE0:Fallout4.esm",
+    "0E4755:Fallout4.esm"
+  ],
+  "CombinedMeshes": [
+    176306026,
+    324769019,
+    425316049,
+    462555487,
+    563641934,
+    662107564,
+    736777074,
+    850632099,
+    851700405,
+    942779081,
+    1001525887,
+    1043282813,
+    1735849388,
+    2016520905,
+    2472252667,
+    2572799697,
+    2711125582,
+    2998115747,
+    2999184053
+  ],
+  "CombinedMeshReferences": [
+    {
+      "Reference": "09E4AE:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "140186:Fallout4.esm",
+      "CombinedMesh": 2472252667
+    },
+    {
+      "Reference": "140184:Fallout4.esm",
+      "CombinedMesh": 2472252667
+    },
+    {
+      "Reference": "14018F:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "0FBA3C:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "140194:Fallout4.esm",
+      "CombinedMesh": 2999184053
+    },
+    {
+      "Reference": "1E1949:Fallout4.esm",
+      "CombinedMesh": 2711125582
+    },
+    {
+      "Reference": "09E1BA:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "09E1B1:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "09E49E:Fallout4.esm",
+      "CombinedMesh": 462555487
+    },
+    {
+      "Reference": "140191:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "09E4D9:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "140193:Fallout4.esm",
+      "CombinedMesh": 2999184053
+    },
+    {
+      "Reference": "09E4B0:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "09E4A0:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "09E50E:Fallout4.esm",
+      "CombinedMesh": 1001525887
+    },
+    {
+      "Reference": "140164:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "07FF55:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "09E520:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "14018A:Fallout4.esm",
+      "CombinedMesh": 2572799697
+    },
+    {
+      "Reference": "09E1B0:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "140190:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "09E49F:Fallout4.esm",
+      "CombinedMesh": 1043282813
+    },
+    {
+      "Reference": "140192:Fallout4.esm",
+      "CombinedMesh": 2572799697
+    },
+    {
+      "Reference": "140165:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "1E1954:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "14018B:Fallout4.esm",
+      "CombinedMesh": 736777074
+    },
+    {
+      "Reference": "09E521:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "09E50D:Fallout4.esm",
+      "CombinedMesh": 1001525887
+    },
+    {
+      "Reference": "09E46F:Fallout4.esm",
+      "CombinedMesh": 2999184053
+    },
+    {
+      "Reference": "14018C:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "09E4AF:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "140185:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "1E1953:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "09E4AD:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "1E1948:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "09E476:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "140168:Fallout4.esm",
+      "CombinedMesh": 563641934
+    },
+    {
+      "Reference": "140167:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "140163:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "09E46E:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "05A4C7:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "09E46C:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "09E1BC:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "09E47C:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "09E496:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "09E497:Fallout4.esm",
+      "CombinedMesh": 2999184053
+    }
+  ],
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "140162:Fallout4.esm",
+      "FormVersion": 109,
+      "Base": "035887:Fallout4.esm",
+      "Scale": 0.92,
+      "Position": "4974.8003, 43412.805, 529.58685",
+      "Rotation": "6.2795796, 0.011716396, 3.477291"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000146:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1B5F15:Fallout4.esm",
+      "Layer": "0000FE:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "4257.762, 43299.836, 605.6825",
+      "Rotation": "0, 0, 0.009032079"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000155:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1B4ABA:Fallout4.esm",
+      "Layer": "0000FE:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "4641.7466, 43296.367, 541.6825",
+      "Rotation": "0, 0, 0.0090287635"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000156:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1B4ABA:Fallout4.esm",
+      "Layer": "0000FE:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "4897.736, 43294.055, 477.68246",
+      "Rotation": "0, 0, 3.1506197"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000157:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1B4ABD:Fallout4.esm",
+      "Layer": "0000FE:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "5149.663, 43324.91, 413.6825",
+      "Rotation": "0, 0, 6.0304093"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00015C:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0008DC:DLCworkshop02.esm",
+      "Layer": "0000FE:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "4630.5986, 43388.152, 578.7766",
+      "Rotation": "0, 0, 3.2228744"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00015D:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0008D8:DLCworkshop02.esm",
+      "Layer": "0000FE:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "4630.5986, 43388.152, 834.7766",
+      "Rotation": "0, 0, 1.6520728"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000189:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000024:SBS - LivingTaffington.esp",
+      "Layer": "000188:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "5313.598, 43730.715, 597.8381",
+      "Rotation": "0, 0, 5.107853"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00018A:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000025:SBS - LivingTaffington.esp",
+      "Layer": "000188:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "5239.21, 43502.6, 596.7439",
+      "Rotation": "0, 0, 5.070414"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00018B:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000024:SBS - LivingTaffington.esp",
+      "Layer": "000188:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "5244.788, 43898.145, 597.8381",
+      "Rotation": "0, 0, 3.5370564"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00018C:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00001F:SBS - LivingTaffington.esp",
+      "Layer": "000188:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "5195.4775, 43780.023, 597.8381",
+      "Rotation": "0, 0, 5.1078544"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00018D:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00001F:SBS - LivingTaffington.esp",
+      "Layer": "000188:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "4959.237, 43878.645, 597.8381",
+      "Rotation": "0, 0, 5.1078615"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00018E:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BB7:Fallout4.esm",
+      "Layer": "000188:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "4969.272, 43876.934, 596.7439",
+      "Rotation": "0, 0, 1.9288436"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00018F:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BB3:Fallout4.esm",
+      "Layer": "000188:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "4823.6157, 43931.434, 554.0772",
+      "Rotation": "0, 0, 3.4996436"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000190:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B96:Fallout4.esm",
+      "Layer": "000188:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "5119.327, 43547.457, 596.7439",
+      "Rotation": "0, 0, 0.35803857"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000191:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00001F:SBS - LivingTaffington.esp",
+      "Layer": "000188:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "5119.3257, 43547.453, 596.7439",
+      "Rotation": "0, 0, 1.9288124"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000192:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B99:Fallout4.esm",
+      "Layer": "000188:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "5194.356, 43382.72, 596.7439",
+      "Rotation": "0, 0, 5.070422"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000193:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BB9:Fallout4.esm",
+      "Layer": "000188:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "4879.557, 43637.156, 596.7439",
+      "Rotation": "0, 0, 1.9288034"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000194:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000025:SBS - LivingTaffington.esp",
+      "Layer": "000188:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "5008.5464, 43996.76, 597.8381",
+      "Rotation": "0, 0, 3.5370479"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000195:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "Layer": "000188:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "4890.4243, 44046.07, 597.8381",
+      "Rotation": "0, 0, 3.5370529"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000196:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "Layer": "000188:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "5362.908, 43848.832, 597.8381",
+      "Rotation": "0, 0, 5.1078463"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000197:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "Layer": "000188:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "5362.9077, 43848.832, 597.8381",
+      "Rotation": "0, 0, 3.5370617"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000199:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "027EB9:Fallout4.esm",
+      "Layer": "000188:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "5145.2666, 43576.82, 597.7892",
+      "Rotation": "0, 0, 4.0142994"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00019A:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "027EB8:Fallout4.esm",
+      "Layer": "000188:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "5247.2554, 43896.945, 597.8773",
+      "Rotation": "0, 0, 3.3623488"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00019B:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "027EB9:Fallout4.esm",
+      "Layer": "000188:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "4960.4688, 43898.902, 597.7892",
+      "Rotation": "0, 0, 3.5119777"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00019C:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "020C40:Fallout4.esm",
+      "Layer": "000188:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "5091.8496, 43547.266, 599.89996",
+      "Rotation": "0, 0, 5.483147"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00019D:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "020C40:Fallout4.esm",
+      "Layer": "000188:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "5253.8804, 43912.727, 599.87006",
+      "Rotation": "0, 0, 4.820699"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00019E:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "020C40:Fallout4.esm",
+      "Layer": "000188:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "5329.9834, 43744.113, 602.1029",
+      "Rotation": "0, 0, 3.8680773"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00019F:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "027EB9:Fallout4.esm",
+      "Layer": "000188:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "5308.1323, 43705.445, 600.1077",
+      "Rotation": "0, 0, 0.48696607"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001A0:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "16BD71:Fallout4.esm",
+      "Layer": "000188:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "5080.6484, 43429.53, 725.27454",
+      "Rotation": "0, 0, 3.4996243"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001A1:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00080B:SettlerBuiltSettlements.esp",
+      "Layer": "000188:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "4984.43, 44063.496, 597.8773",
+      "Rotation": "0, 0, 6.19483"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001A2:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "075F3F:Fallout4.esm",
+      "Layer": "000188:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "5178.52, 43440.293, 596.695",
+      "Rotation": "0, 0, 4.091717"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001A3:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "072BDC:Fallout4.esm",
+      "Layer": "000188:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "5264.2446, 43432.12, 596.78314",
+      "Rotation": "0, 0, 3.05803"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001A4:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000805:SettlerBuiltSettlements.esp",
+      "Layer": "000188:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "5225.815, 43999.203, 598.4719",
+      "Rotation": "0, 0, 1.8036145"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001A5:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00080E:SettlerBuiltSettlements.esp",
+      "Layer": "000188:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "5358.5654, 43623.574, 601.4255",
+      "Rotation": "0, 0, 5.209703"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001A6:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000809:SettlerBuiltSettlements.esp",
+      "Layer": "000188:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "5006.4663, 43503.918, 596.69507",
+      "Rotation": "0, 0, 4.351074"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001A7:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000817:SettlerBuiltSettlements.esp",
+      "Layer": "000188:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "5317.7153, 43526.703, 596.78326",
+      "Rotation": "0, 0, 1.9190332"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001A8:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00080F:SettlerBuiltSettlements.esp",
+      "Layer": "000188:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "5358.293, 43923.715, 599.4477",
+      "Rotation": "0, 0, 3.1546617"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001A9:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "Layer": "000188:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "5319.4355, 43528.02, 665.8623",
+      "Rotation": "0, 0, 2.0205188"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001AA:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "Layer": "000188:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "4984.43, 44062.758, 654.2393",
+      "Rotation": "0, 0, 0.11548128"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001AB:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00080E:SettlerBuiltSettlements.esp",
+      "Layer": "000188:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "5096.749, 44044.76, 597.8773",
+      "Rotation": "0, 0, 3.4841833"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001AC:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000918:DLCworkshop01.esm",
+      "Layer": "000188:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "5156.8955, 43995.613, 599.121",
+      "Rotation": "0, 0, 4.1129713"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001AD:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000919:DLCworkshop01.esm",
+      "Layer": "000188:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "5180.783, 43450.098, 629.3806",
+      "Rotation": "0, 0, 1.5229883"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001AE:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "04CD99:Fallout4.esm",
+      "Layer": "000188:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "5045.1855, 43471.3, 596.69507",
+      "Rotation": "0, 0, 2.8576887"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001AF:SBS - LivingTaffington.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "143AD1:Fallout4.esm",
+      "Layer": "000188:SBS - LivingTaffington.esp",
+      "EnableParent": {
+        "Reference": "0001B0:SBS - LivingTaffington.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "135A90:Fallout4.esm"
+        }
+      ],
+      "Position": "5261.071, 43437.24, 674.9427",
+      "Rotation": "0, 0, 3.057424"
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

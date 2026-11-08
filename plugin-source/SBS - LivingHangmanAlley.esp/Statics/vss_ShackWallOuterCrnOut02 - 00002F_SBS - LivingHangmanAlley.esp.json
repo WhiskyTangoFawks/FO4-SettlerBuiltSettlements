@@ -1,0 +1,99 @@
+{
+  "FormKey": "00002F:SBS - LivingHangmanAlley.esp",
+  "EditorID": "vss_ShackWallOuterCrnOut02",
+  "ObjectBounds": {
+    "First": "0, -181, -14",
+    "Second": "167, 0, 217"
+  },
+  "PreviewTransform": "0F78F4:Fallout4.esm",
+  "Model": {
+    "File": "Architecture\\Shacks\\vss\\ShackWallOuterCrnOut02.nif",
+    "Data": "0x040000000C000000000000000400000004000000E5A34C676464730011FC56453CCF4A046464730011FC5645B0E4DF1464647300DAC2327C6988D97764647300DAC2327CD6602A0164647300DAC2327C0F0C2C6264647300DAC2327CBD9EC32164647300DAC2327C64F2C54264647300DAC2327C7A1B10A264647300DAC2327C11E5F98264647300DAC2327C77610C9764647300DAC2327C22269FE46464730011FC5645FB61461C6267736DFAFCA62E96965A016267736DFAFCA62EB69E2B3C6267736DFAFCA62E12772BAD6267736D83F6BCCB"
+  },
+  "Properties": [
+    {
+      "ActorValue": "000337:Fallout4.esm",
+      "Value": 32.0
+    },
+    {
+      "ActorValue": "00033D:Fallout4.esm",
+      "Value": 1.0
+    }
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Wood corner"
+  },
+  "MaxAngle": 90.0,
+  "LeafAmplitude": 1.0,
+  "LeafFrequency": 1.0,
+  "NavmeshGeometry": {
+    "Parent": {
+      "MutagenObjectType": "CellNavmeshParent",
+      "Parent": "000025:Fallout4.esm"
+    },
+    "Vertices": [
+      "1.834301, -105.33188, -1.5258789E-05",
+      "1.4429245, -15.83046, 0",
+      "103.77449, -117.58255, -1.5258789E-05",
+      "16.10786, -15.116882, 0",
+      "105.02576, -1.563324, -1.5258789E-05",
+      "16.6094, -1.1623917, 1.5258789E-05"
+    ],
+    "Triangles": [
+      {
+        "Vertices": "0, 2, 1",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": 1,
+        "EdgeLink_2_0": -1,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "1, 2, 3",
+        "EdgeLink_1_2": 2,
+        "EdgeLink_2_0": -1,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "2, 4, 3",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": 3,
+        "EdgeLink_2_0": 1,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "3, 4, 5",
+        "EdgeLink_0_1": 2,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": -1,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ]
+      }
+    ],
+    "GridSize": 1,
+    "GridMaxDistance": "103.58283, 116.42016",
+    "GridMin": "1.4429245, -117.58255, -1.5258789E-05",
+    "GridMax": "105.02576, -1.1623917, 170.00002",
+    "GridArrays": {
+      "GridCell": [
+        4,
+        0,
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  }
+}

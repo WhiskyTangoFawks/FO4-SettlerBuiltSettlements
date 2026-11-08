@@ -1,0 +1,40 @@
+{
+  "ModKey": "SBS - LivingMarinaEgretTour.esp",
+  "GameRelease": "Fallout4",
+  "ModHeader": {
+    "Flags": [
+      "Small"
+    ],
+    "Stats": {
+      "NextFormID": 709
+    },
+    "Author": "",
+    "OverriddenForms": [
+      "0219E0:Fallout4.esm",
+      "0219FC:Fallout4.esm",
+      "021A3F:Fallout4.esm",
+      "021A4A:Fallout4.esm",
+      "021A4C:Fallout4.esm",
+      "021A4D:Fallout4.esm",
+      "021A5C:Fallout4.esm",
+      "021A62:Fallout4.esm",
+      "021A68:Fallout4.esm",
+      "021A69:Fallout4.esm",
+      "021A6A:Fallout4.esm",
+      "021A6E:Fallout4.esm",
+      "021A7B:Fallout4.esm",
+      "021C4E:Fallout4.esm",
+      "08FD08:Fallout4.esm",
+      "08FD09:Fallout4.esm",
+      "08FD57:Fallout4.esm",
+      "08FD75:Fallout4.esm",
+      "1084D5:Fallout4.esm",
+      "1084D6:Fallout4.esm",
+      "1084D7:Fallout4.esm",
+      "10E229:Fallout4.esm",
+      "181886:Fallout4.esm",
+      "1D1849:Fallout4.esm",
+      "245A36:Fallout4.esm"
+    ]
+  }
+}

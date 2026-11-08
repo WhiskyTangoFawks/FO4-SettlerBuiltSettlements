@@ -1,0 +1,19 @@
+{
+  "FormKey": "0000BB:SBS -  LivingAbernathyFarm.esp",
+  "MajorRecordFlagsRaw": 4096,
+  "EditorID": "vss_flst_shack_metal_walls",
+  "Fallout4MajorRecordFlags": [
+    "Ignored"
+  ],
+  "Items": [
+    "00000E:SBS -  LivingAbernathyFarm.esp",
+    "00000F:SBS -  LivingAbernathyFarm.esp",
+    "000010:SBS -  LivingAbernathyFarm.esp",
+    "000011:SBS -  LivingAbernathyFarm.esp",
+    "000012:SBS -  LivingAbernathyFarm.esp",
+    "000013:SBS -  LivingAbernathyFarm.esp",
+    "000014:SBS -  LivingAbernathyFarm.esp",
+    "000015:SBS -  LivingAbernathyFarm.esp",
+    "000016:SBS -  LivingAbernathyFarm.esp"
+  ]
+}

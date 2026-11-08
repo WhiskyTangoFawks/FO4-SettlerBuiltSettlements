@@ -1,0 +1,2437 @@
+{
+  "FormKey": "00E011:Fallout4.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "Fallout4MajorRecordFlags": [
+    "Compressed"
+  ],
+  "Flags": [
+    "HasWater"
+  ],
+  "PreVisFilesTimestamp": 7972,
+  "InPreVisFileOf": "00E012:Fallout4.esm",
+  "PreCombinedFilesTimestamp": 7972,
+  "Grid": {
+    "Point": "16, 0"
+  },
+  "MaxHeightData": {
+    "Offset": 512.0,
+    "HeightMap": [
+      [2,2,2,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,3,3,2,2,3,3,3,3,3,2,2,2],
+      [2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,3,3,3,3,3,3,3,3,3,2],
+      [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3],
+      [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,9,9,3,3,3],
+      [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,9,9,3,3],
+      [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,4,3,3,3,3],
+      [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3],
+      [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3],
+      [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3],
+      [3,3,3,3,3,3,3,3,3,3,4,4,4,4,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3],
+      [3,3,3,3,3,3,3,3,3,3,4,4,4,4,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3],
+      [3,3,3,3,3,4,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3],
+      [3,3,3,3,3,4,4,4,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3],
+      [3,3,3,3,3,3,4,4,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3],
+      [3,3,3,3,3,3,4,4,5,5,3,3,3,3,3,3,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3],
+      [3,3,3,3,3,3,4,4,5,5,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3],
+      [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2],
+      [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2],
+      [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2],
+      [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2],
+      [3,3,3,3,3,3,3,3,3,2,3,3,3,3,3,4,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2],
+      [3,3,3,3,3,3,3,3,3,3,4,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2],
+      [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2],
+      [3,4,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,2,2,2,2,2,1,1,1,1,1,1,1,2,2],
+      [3,4,4,3,3,3,3,3,2,2,3,3,2,3,3,3,3,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1],
+      [3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1],
+      [3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+      [3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+      [3,3,3,3,3,3,3,3,3,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1],
+      [3,3,3,3,3,3,3,3,3,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+      [3,3,3,3,3,3,3,3,3,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0],
+      [3,3,3,3,3,3,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0]
+    ]
+  },
+  "WaterHeight": 3.4028235E+38,
+  "Regions": [
+    "049BE0:Fallout4.esm",
+    "109E91:Fallout4.esm",
+    "1CFDBE:Fallout4.esm",
+    "181C1A:Fallout4.esm",
+    "23F1FE:Fallout4.esm"
+  ],
+  "CombinedMeshes": [
+    158464202,
+    176306026,
+    316928405,
+    324769019,
+    425316049,
+    462555487,
+    524771173,
+    662107564,
+    736777074,
+    850632099,
+    883756055,
+    942779081,
+    1043282813,
+    1499057873,
+    1598512997,
+    1735849388,
+    1924373923,
+    2016520905,
+    2117024637,
+    2572799697,
+    2809591212,
+    2998115747,
+    3646541521,
+    3883333036,
+    4071857571,
+    4104981527,
+    4164004553
+  ],
+  "CombinedMeshReferences": [
+    {
+      "Reference": "1F6E29:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "0D1B0D:Fallout4.esm",
+      "CombinedMesh": 2117024637
+    },
+    {
+      "Reference": "1E8AC9:Fallout4.esm",
+      "CombinedMesh": 2572799697
+    },
+    {
+      "Reference": "1E8AA2:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1E8A8C:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "0D1B23:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "0D19AC:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1E8AD0:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1E8ABB:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1E8A7B:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1F4CF2:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0D1AD1:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1F4CF7:Fallout4.esm",
+      "CombinedMesh": 4164004553
+    },
+    {
+      "Reference": "1F4C19:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1F4CEE:Fallout4.esm",
+      "CombinedMesh": 4164004553
+    },
+    {
+      "Reference": "1E8AA7:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1E8ACC:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1F6E54:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1E8A74:Fallout4.esm",
+      "CombinedMesh": 736777074
+    },
+    {
+      "Reference": "1E8AB4:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0CB184:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1F6EBA:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1F4C13:Fallout4.esm",
+      "CombinedMesh": 2117024637
+    },
+    {
+      "Reference": "202F92:Fallout4.esm",
+      "CombinedMesh": 3646541521
+    },
+    {
+      "Reference": "1F6E26:Fallout4.esm",
+      "CombinedMesh": 1043282813
+    },
+    {
+      "Reference": "1E8A6D:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "0D1B2C:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "1F4C0A:Fallout4.esm",
+      "CombinedMesh": 2117024637
+    },
+    {
+      "Reference": "1F4C21:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1E8AA8:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "1F6E23:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "0D1B29:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1F4D0A:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1F4C0F:Fallout4.esm",
+      "CombinedMesh": 2117024637
+    },
+    {
+      "Reference": "1E8A71:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1F4CF8:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1F6E51:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "0CB181:Fallout4.esm",
+      "CombinedMesh": 316928405
+    },
+    {
+      "Reference": "1E8AB1:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "0D193A:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1F4C16:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1E8A9F:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1F4BFA:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1F4CBD:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0D1AF5:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1F6EC5:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "1F4C07:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "0CB17E:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1F4CC7:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "0D1B21:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1F4CE9:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1E8AA0:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1E8ACB:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "0D1977:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1E8AB9:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1E8AD2:Fallout4.esm",
+      "CombinedMesh": 2809591212
+    },
+    {
+      "Reference": "1F6E59:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1F4CF0:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1E8A79:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "0D1AF8:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1E8ABC:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "0D199C:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1F4CF5:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "1552FD:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1F4C02:Fallout4.esm",
+      "CombinedMesh": 1043282813
+    },
+    {
+      "Reference": "0D1B24:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "0D19AB:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1F4CEC:Fallout4.esm",
+      "CombinedMesh": 4164004553
+    },
+    {
+      "Reference": "0D1ACF:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1E8ACE:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "1E8AA5:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1F4C11:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "0D1978:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "0D1B37:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1E8A76:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1F6E56:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1F6E96:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "1E8AB6:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "0D1B45:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "0D1A2B:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1F4C08:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1E8A6F:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1F6E24:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "0D1B2B:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1F4C0D:Fallout4.esm",
+      "CombinedMesh": 2117024637
+    },
+    {
+      "Reference": "1E8A6A:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "1F6E21:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1F4C14:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "0D1AF7:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "1F6E53:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "1F4CFA:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "1E8A73:Fallout4.esm",
+      "CombinedMesh": 736777074
+    },
+    {
+      "Reference": "1E8AB3:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "0CB183:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1E8A69:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1F6E22:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1F4C20:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1552DF:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1E8AA9:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "1F4C0E:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "0D1A46:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1E8A87:Fallout4.esm",
+      "CombinedMesh": 158464202
+    },
+    {
+      "Reference": "1F4D0B:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "0D1B28:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0CB180:Fallout4.esm",
+      "CombinedMesh": 462555487
+    },
+    {
+      "Reference": "1E8AB0:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1E8A70:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1F4CF9:Fallout4.esm",
+      "CombinedMesh": 4104981527
+    },
+    {
+      "Reference": "0D1AF4:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1F4C17:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1E8AB5:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "1F6E55:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "1E8A75:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "1F4C12:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1F6EBB:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1E8A6C:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "1F6E27:Fallout4.esm",
+      "CombinedMesh": 1043282813
+    },
+    {
+      "Reference": "0D1BA8:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "0D1A28:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1F4C0B:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "0D1B46:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0D1B2D:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1F4CF6:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "1F4C18:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1E8AA6:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1E8ACD:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "1F4CEF:Fallout4.esm",
+      "CombinedMesh": 4164004553
+    },
+    {
+      "Reference": "1E8AA3:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0D1B0C:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "1F6E28:Fallout4.esm",
+      "CombinedMesh": 1043282813
+    },
+    {
+      "Reference": "1F4CEA:Fallout4.esm",
+      "CombinedMesh": 524771173
+    },
+    {
+      "Reference": "0D1B22:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "0CB17D:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "0D1A27:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1F6EC6:Fallout4.esm",
+      "CombinedMesh": 1043282813
+    },
+    {
+      "Reference": "1E8A7A:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "1F6E5A:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1E8AD1:Fallout4.esm",
+      "CombinedMesh": 3883333036
+    },
+    {
+      "Reference": "1E8ABA:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "1F6EB4:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1F6E1F:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1F4C0C:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "0D1B2A:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1F4D09:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1F6E20:Fallout4.esm",
+      "CombinedMesh": 1043282813
+    },
+    {
+      "Reference": "1E8A6B:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0D1AF6:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "1F4CBE:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1F4C15:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1E8AB2:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0CB182:Fallout4.esm",
+      "CombinedMesh": 883756055
+    },
+    {
+      "Reference": "1F6E52:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "1E8A72:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "1F6EB9:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1F4C10:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1E8AB7:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1E8A77:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1F6E57:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1F4C09:Fallout4.esm",
+      "CombinedMesh": 1043282813
+    },
+    {
+      "Reference": "0D1A2A:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1F6E25:Fallout4.esm",
+      "CombinedMesh": 1043282813
+    },
+    {
+      "Reference": "1E8A6E:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "202F91:Fallout4.esm",
+      "CombinedMesh": 3646541521
+    },
+    {
+      "Reference": "1F6EB3:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1F4C1A:Fallout4.esm",
+      "CombinedMesh": 1043282813
+    },
+    {
+      "Reference": "1F4CF4:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "1E8ABD:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "0D1AE0:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1552FC:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1E8ACF:Fallout4.esm",
+      "CombinedMesh": 4071857571
+    },
+    {
+      "Reference": "0D192F:Fallout4.esm",
+      "CombinedMesh": 462555487
+    },
+    {
+      "Reference": "1E8AA4:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "0D1B0B:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "0D1ACE:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1F4CED:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1F4CC6:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "0CB17F:Fallout4.esm",
+      "CombinedMesh": 1043282813
+    },
+    {
+      "Reference": "0D1B20:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1F4C06:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1E8ACA:Fallout4.esm",
+      "CombinedMesh": 3646541521
+    },
+    {
+      "Reference": "20302B:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "0D1B1B:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1F6E2A:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "0D1B0E:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "0D1B19:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "202FD5:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "0D1B18:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1F4C1F:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1E8A78:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "0D1B00:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "0D1AD0:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "0D1B16:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "0D1B15:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "1F6E58:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "0D1B17:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "0D199B:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1E8AB8:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "202FDE:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "202FE0:Fallout4.esm",
+      "CombinedMesh": 1598512997
+    },
+    {
+      "Reference": "1F6E98:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    }
+  ],
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1552F5:Fallout4.esm",
+      "FormVersion": 127,
+      "Base": "0AF0D0:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Scale": 0.85,
+      "Position": "65538.72, 3399.3933, 760.4741",
+      "Rotation": "0.003843215, 6.152914, 4.3030515"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1F6E92:Fallout4.esm",
+      "FormVersion": 127,
+      "Base": "0211F4:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "65710.99, 3250.433, 776.16144",
+      "Rotation": "1.5707964, 0, 0.7200007"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000DA:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "110001:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "65606.25, 2908.2559, 770.6211",
+      "Rotation": "0, 0, 1.1687701"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000DB:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B94:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "65848.47, 3016.9092, 876.30786",
+      "Rotation": "0, 0, 1.1529437"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000DC:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BA6:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "66082.44, 3120.7988, 876.30774",
+      "Rotation": "0, 0, 4.2945275"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000DD:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BB2:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "65795.65, 3135.8594, 763.0135",
+      "Rotation": "0, 0, 4.294545"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E2:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1B4ABD:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "65929.94, 2543.4644, 671.01135",
+      "Rotation": "0, 0, 2.5481825"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E4:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1B4AB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "65813.34, 3837.1592, 773.6207",
+      "Rotation": "0, 0, 0.8636083"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E5:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1B4ABA:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "66132.52, 3427.4355, 756.4806",
+      "Rotation": "0, 0, 4.2941523"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E6:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1B4ABB:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "65979.67, 3642.5513, 773.6207",
+      "Rotation": "0, 0, 4.0051885"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E7:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1B4AB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "65633, 4001.1396, 756.7734",
+      "Rotation": "0, 0, 3.7018383"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000EA:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1B5F15:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "65549.17, 2062.017, 744.73126",
+      "Rotation": "0, 0, 5.4504623"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000105:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1B4ABA:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "65750.88, 2361.2087, 731.2487",
+      "Rotation": "0, 0, 2.074427"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00010B:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B92:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "65952.36, 2782.9353, 876.30774",
+      "Rotation": "0, 0, 1.1529418"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00010E:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B93:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "66082.44, 3120.7979, 876.3078",
+      "Rotation": "0, 0, 4.294521"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00010F:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B92:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "65848.47, 3016.9104, 876.30786",
+      "Rotation": "0, 0, 1.1529329"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000110:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B92:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "66186.33, 2886.8257, 876.30786",
+      "Rotation": "0, 0, 4.2945104"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000111:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "027EB8:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "65990.586, 2943.1196, 876.30774",
+      "Rotation": "0, 0, 5.826134"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000112:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "075F4A:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "65962.695, 2697.142, 877.5239",
+      "Rotation": "0, 0, 2.8494716"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000113:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00080B:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "66240.38, 2807.804, 883.86914",
+      "Rotation": "0, 0, 2.6671562"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000115:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000807:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "65793.81, 2661.2998, 878.18695",
+      "Rotation": "0, 0, 4.083978"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000116:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000808:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "66124.89, 2767.3389, 876.30774",
+      "Rotation": "0, 0, 2.7283823"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000117:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "04CD99:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "66131.12, 3226.9133, 886.4582",
+      "Rotation": "0, 0, 2.1505127"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011D:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000215:SBS - LivingNordHagenBeach.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "65923.28, 3452.7961, 777.0506",
+      "Rotation": "0, 0, 5.5375495"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000121:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "054593:DLCCoast.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "65945.81, 2639.9766, 620.80774",
+      "Rotation": "0, 0, 5.8653326"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000131:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000215:SBS - LivingNordHagenBeach.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "65567.1, 3889.2751, 751.9998",
+      "Rotation": "0, 0, 0.38894838"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000196:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0008DB:DLCworkshop02.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "65596.38, 3910.706, 745.25653",
+      "Rotation": "0, 0, 0.7170301"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000197:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0008DA:DLCworkshop02.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "65596.38, 3910.707, 1001.25653",
+      "Rotation": "0, 0, 0.7170214"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000198:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0008DF:DLCworkshop02.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "65789.35, 3742.4763, 745.25653",
+      "Rotation": "0, 0, 3.8586159"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001B4:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "157FEB:Fallout4.esm",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "65542.695, 2905.769, 770.5646",
+      "Rotation": "0, 0, 4.330609"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001B5:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BB7:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "65848.47, 3016.9004, 876.30774",
+      "Rotation": "0, 0, 2.72374"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001B6:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000021:SBS - LivingNordHagenBeach.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "65835.375, 2730.993, 876.30774",
+      "Rotation": "0, 0, 1.1529332"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001B7:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "65887.31, 2614.006, 876.30774",
+      "Rotation": "0, 0, 1.1529348"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001B8:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "65783.43, 2847.9783, 876.30774",
+      "Rotation": "0, 0, 1.1529436"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001B9:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B95:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "66186.33, 2886.8262, 876.30786",
+      "Rotation": "0, 0, 5.8653173"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001BA:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B95:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "66186.32, 2886.826, 876.30774",
+      "Rotation": "0, 0, 4.29454"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001BB:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B94:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "65952.36, 2782.9365, 876.30786",
+      "Rotation": "0, 0, 5.8653083"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001BC:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "020C40:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "65850.74, 2739.349, 878.16266",
+      "Rotation": "0, 0, 2.6509194"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001BD:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "027EB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "65835.92, 2709.6616, 876.30774",
+      "Rotation": "0, 0, 5.856583"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001BE:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000021:SBS - LivingNordHagenBeach.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "66030.5, 3237.771, 876.30774",
+      "Rotation": "0, 0, 2.7237487"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001BF:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "65913.51, 3185.8293, 876.30774",
+      "Rotation": "0, 0, 2.7237573"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C0:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "027EB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "66052.43, 3257.844, 884.956",
+      "Rotation": "0, 0, 4.304261"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C1:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "22C663:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "66186.33, 2886.8257, 876.30786",
+      "Rotation": "0, 0, 5.865305"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C2:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "22C663:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "66082.44, 3120.7869, 876.30774",
+      "Rotation": "0, 0, 5.865319"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C3:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "22C663:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "65848.47, 3016.9104, 876.30786",
+      "Rotation": "0, 0, 5.865324"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C4:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "22C663:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "65952.36, 2782.934, 876.30786",
+      "Rotation": "0, 0, 5.865301"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C5:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "020C40:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "66024.24, 3206.3499, 887.1356",
+      "Rotation": "0, 0, 1.3416189"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C6:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "082447:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "66119.94, 2770.155, 932.63586",
+      "Rotation": "0, 0, 2.9899044"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C7:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000918:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "66056.49, 3307.8066, 886.6021",
+      "Rotation": "0, 0, 1.5037163"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C8:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "01AC44:DLCCoast.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "66211.79, 2803.8762, 940.23114",
+      "Rotation": "0, 0, 2.6942108"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C9:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "035249:DLCCoast.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "66295.49, 2871.23, 876.30804",
+      "Rotation": "0, 0, 1.074697"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001CA:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "035248:DLCCoast.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "66036.01, 2737.0315, 876.30804",
+      "Rotation": "0, 0, 2.122095"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001CB:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "02C59C:DLCCoast.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "66260.2, 2824.0652, 940.23114",
+      "Rotation": "0, 0, 1.2321222"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001CC:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000809:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "65972.98, 3286.3994, 886.4536",
+      "Rotation": "0, 0, 6.252108"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001D7:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000918:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "65732.61, 2772.706, 878.4577",
+      "Rotation": "0, 0, 4.4675612"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001D8:SBS - LivingNordHagenBeach.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000919:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000219:SBS - LivingNordHagenBeach.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1BE:Fallout4.esm"
+        }
+      ],
+      "Position": "65952.04, 2696.362, 926.1273",
+      "Rotation": "0, 0, 3.2456002"
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

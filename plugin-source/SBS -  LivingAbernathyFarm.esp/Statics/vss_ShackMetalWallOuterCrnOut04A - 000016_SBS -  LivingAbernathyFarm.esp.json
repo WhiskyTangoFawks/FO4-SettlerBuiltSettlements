@@ -1,0 +1,184 @@
+{
+  "FormKey": "000016:SBS -  LivingAbernathyFarm.esp",
+  "EditorID": "vss_ShackMetalWallOuterCrnOut04A",
+  "ObjectBounds": {
+    "First": "-130, -130, -13",
+    "Second": "0, 0, 210"
+  },
+  "PreviewTransform": "0FF203:Fallout4.esm",
+  "Model": {
+    "File": "Architecture\\Shacks\\vss\\Metal\\ShackMetalWallOuterCrnOut04A.nif",
+    "Data": "0x040000000D000000000000000500000005000000B0E4DF1464647300DAC2327C6988D97764647300DAC2327C003D5B8464647300DAC2327CD9515DE764647300DAC2327C784B48B664647300DAC2327CA1274ED564647300DAC2327CC8DCFF0264647300DAC2327C11B0F96164647300DAC2327C0F592C8164647300DAC2327C0F2C2A00646473001CDB88C5BFCE9B3564647300DAC2327CC7B8880764647300DAC2327C77610C9764647300DAC2327C932B4C9D6267736DFAFCA62E22CD48D26267736DFAFCA62E050363256267736DFAFCA62E926D60A96267736DFAFCA62EB2AA61036267736DFAFCA62E"
+  },
+  "Properties": [
+    {
+      "ActorValue": "000337:Fallout4.esm",
+      "Value": 32.0
+    },
+    {
+      "ActorValue": "00033E:Fallout4.esm",
+      "Value": 96.0
+    }
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Metal wall corner"
+  },
+  "MaxAngle": 90.0,
+  "LeafAmplitude": 1.0,
+  "LeafFrequency": 1.0,
+  "NavmeshGeometry": {
+    "Parent": {
+      "MutagenObjectType": "CellNavmeshParent",
+      "Parent": "000025:Fallout4.esm"
+    },
+    "Vertices": [
+      "-90.49197, -0.35713604, 0",
+      "-13.282443, 0.20575464, 1.5258789E-05",
+      "-88.58708, -55.37152, 7.6293945E-06",
+      "-13.841952, -14.768395, 0",
+      "-56.501137, -88.156265, -7.6293945E-06",
+      "0.5972345, -14.828934, 7.6293945E-06",
+      "0.2729918, -91.0686, 0",
+      "-3.5119498, -90.87445, -5.086263E-07"
+    ],
+    "Triangles": [
+      {
+        "Vertices": "1, 0, 2",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": 1,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ],
+        "CoverFlags": 3
+      },
+      {
+        "Vertices": "1, 2, 3",
+        "EdgeLink_1_2": 2,
+        "EdgeLink_2_0": -1,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "2, 4, 3",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": 3,
+        "EdgeLink_2_0": 1,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ],
+        "CoverFlags": 1
+      },
+      {
+        "Vertices": "3, 4, 5",
+        "EdgeLink_0_1": 2,
+        "EdgeLink_1_2": 4,
+        "EdgeLink_2_0": -1,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "4, 6, 5",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": 3,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ],
+        "CoverFlags": 3
+      }
+    ],
+    "Cover": [
+      {
+        "Vertex1": 4,
+        "Vertex2": 19114,
+        "Data": 2149330938
+      },
+      {
+        "Vertex1": 21845,
+        "Vertex2": 43690,
+        "Data": 683427
+      },
+      {
+        "Vertex1": 43690,
+        "Vertex2": 54612,
+        "Data": 407035
+      },
+      {
+        "Vertex1": 54612,
+        "Data": 134849
+      },
+      {
+        "Vertex2": 1,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 5,
+        "Vertex2": 6,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 7,
+        "Vertex2": 14043,
+        "Data": 27130
+      },
+      {
+        "Vertex1": 14043,
+        "Vertex2": 32767,
+        "Data": 28091
+      },
+      {
+        "Vertex1": 32767,
+        "Vertex2": 51491,
+        "Data": 60851
+      },
+      {
+        "Vertex1": 51491,
+        "Vertex2": 4,
+        "Data": 97785
+      }
+    ],
+    "CoverTriangleMappings": [
+      {
+        "Triangle": 4
+      },
+      {
+        "Cover": 17,
+        "Triangle": 5
+      },
+      {
+        "Cover": 1
+      },
+      {
+        "Cover": 16,
+        "Triangle": 6
+      },
+      {
+        "Cover": 8
+      }
+    ],
+    "GridSize": 1,
+    "GridMaxDistance": "91.0892, 91.27436",
+    "GridMin": "-90.49197, -91.0686, -7.6293945E-06",
+    "GridMax": "0.5972345, 0.20575464, 170.00002",
+    "GridArrays": {
+      "GridCell": [
+        5,
+        0,
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  }
+}

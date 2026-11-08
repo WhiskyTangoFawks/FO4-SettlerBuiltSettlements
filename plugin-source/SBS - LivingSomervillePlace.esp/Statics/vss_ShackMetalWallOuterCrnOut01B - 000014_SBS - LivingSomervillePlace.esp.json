@@ -1,0 +1,103 @@
+{
+  "FormKey": "000014:SBS - LivingSomervillePlace.esp",
+  "EditorID": "vss_ShackMetalWallOuterCrnOut01B",
+  "ObjectBounds": {
+    "First": "0, -133, -13",
+    "Second": "138, 1, 214"
+  },
+  "PreviewTransform": "0F78F4:Fallout4.esm",
+  "Model": {
+    "File": "Architecture\\Shacks\\vss\\Metal\\ShackMetalWallOuterCrnOut01B.nif",
+    "Data": "0x040000000A000000000000000400000004000000003D5B8464647300DAC2327CD9515DE764647300DAC2327C784B48B664647300DAC2327CA1274ED564647300DAC2327CC8DCFF0264647300DAC2327C11B0F96164647300DAC2327C0F592C8164647300DAC2327C0F2C2A00646473001CDB88C5BFCE9B3564647300DAC2327CC7B8880764647300DAC2327C932B4C9D6267736DFAFCA62E22CD48D26267736DFAFCA62E050363256267736DFAFCA62E926D60A96267736DFAFCA62E"
+  },
+  "Properties": [
+    {
+      "ActorValue": "000337:Fallout4.esm",
+      "Value": 32.0
+    },
+    {
+      "ActorValue": "00033D:Fallout4.esm",
+      "Value": 1.0
+    },
+    {
+      "ActorValue": "00033E:Fallout4.esm",
+      "Value": 96.0
+    }
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Metal wall corner"
+  },
+  "MaxAngle": 90.0,
+  "LeafAmplitude": 1.0,
+  "LeafFrequency": 1.0,
+  "NavmeshGeometry": {
+    "Parent": {
+      "MutagenObjectType": "CellNavmeshParent",
+      "Parent": "000025:Fallout4.esm"
+    },
+    "Vertices": [
+      "2.7762475, -13.25198, -2",
+      "3.160853, -122.21826, 0",
+      "14.195518, -13.364626, 1.5258789E-05",
+      "118.1204, -121.462944, 1.5258789E-05",
+      "112.21349, -2.0402794, -3.0517578E-05",
+      "14.809834, -1.943222, 0"
+    ],
+    "Triangles": [
+      {
+        "Vertices": "0, 1, 2",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": 1,
+        "EdgeLink_2_0": -1,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "1, 3, 2",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": 2,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "2, 3, 4",
+        "EdgeLink_0_1": 1,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": 3,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "4, 5, 2",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": 2,
+        "Height": 199.27266,
+        "Flags": [
+          "Found"
+        ]
+      }
+    ],
+    "GridSize": 1,
+    "GridMaxDistance": "115.344154, 120.27504",
+    "GridMin": "2.7762475, -122.21826, -2",
+    "GridMax": "118.1204, -1.943222, 199.27267",
+    "GridArrays": {
+      "GridCell": [
+        4,
+        0,
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  }
+}

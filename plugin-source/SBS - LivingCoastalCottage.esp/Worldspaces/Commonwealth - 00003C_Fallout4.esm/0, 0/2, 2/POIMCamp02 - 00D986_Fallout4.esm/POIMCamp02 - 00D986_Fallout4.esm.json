@@ -1,0 +1,2394 @@
+{
+  "FormKey": "00D986:Fallout4.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "POIMCamp02",
+  "Fallout4MajorRecordFlags": [
+    "Compressed"
+  ],
+  "Flags": [
+    "HasWater"
+  ],
+  "PreVisFilesTimestamp": 8365,
+  "InPreVisFileOf": "00D987:Fallout4.esm",
+  "PreCombinedFilesTimestamp": 7972,
+  "Grid": {
+    "Point": "16, 21"
+  },
+  "MaxHeightData": {
+    "Offset": 1792.0,
+    "HeightMap": [
+      [4,4,4,4,5,5,5,5,6,5,6,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,7,6,5],
+      [4,4,4,5,5,5,6,6,5,5,5,5,5,5,5,5,5,5,11,10,5,5,5,5,5,5,5,5,5,7,9,5],
+      [4,4,4,5,5,5,5,5,5,5,6,6,5,5,5,5,5,5,7,9,5,5,5,5,5,5,5,5,5,5,7,5],
+      [4,4,4,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,8,10,6,4,4,4,5,5,5,5,5,5,5],
+      [4,4,4,4,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,7,11,4,4,4,4,4,4,5,5,5,5,5],
+      [4,4,4,4,4,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,4,4,4,4,4,4,4,5,5,5],
+      [4,4,4,4,4,4,4,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,4,4,4,4,4,4,4,4,4],
+      [4,4,4,5,5,5,5,5,5,4,5,5,5,5,5,5,5,5,5,5,5,5,4,4,4,4,4,4,4,4,4,4],
+      [4,4,4,4,5,5,5,5,4,4,4,4,5,5,5,6,6,5,5,5,5,5,5,5,4,4,4,4,4,4,4,4],
+      [4,4,4,4,4,5,4,4,4,4,14,7,4,5,6,6,6,6,5,5,5,5,5,5,5,4,4,4,4,4,4,4],
+      [4,4,4,4,9,4,4,4,4,8,10,4,5,6,6,6,6,6,5,5,5,5,5,5,5,5,4,4,4,4,4,4],
+      [4,4,4,4,8,4,4,4,4,12,4,4,5,6,7,7,7,6,6,5,5,5,5,5,5,5,4,4,9,9,4,4],
+      [4,3,4,4,13,14,4,4,4,12,10,4,5,6,7,7,7,6,6,6,5,5,5,5,5,5,4,8,11,4,4,4],
+      [3,3,3,4,7,15,4,4,4,4,9,4,5,6,7,7,7,7,6,6,6,5,5,5,5,5,4,4,4,4,9,4],
+      [3,3,3,4,4,4,7,8,9,7,8,4,5,6,6,6,7,7,6,6,6,6,6,6,5,4,7,9,11,8,7,3],
+      [3,3,3,4,4,4,8,11,8,4,4,4,5,6,6,6,5,6,6,6,6,6,6,6,6,7,13,4,11,7,5,3],
+      [3,3,3,4,4,4,5,8,8,4,4,4,5,6,6,6,6,5,5,5,5,6,6,6,6,7,14,10,10,4,5,7],
+      [2,3,3,4,4,4,4,4,4,4,4,4,5,5,6,6,6,6,5,5,5,5,5,5,5,4,4,4,4,3,3,6],
+      [2,3,3,4,4,4,4,4,4,4,4,3,5,5,5,6,6,6,5,5,4,5,5,4,4,4,4,3,3,3,3,2],
+      [3,3,3,4,4,4,4,4,4,4,4,3,4,5,5,5,5,5,5,4,4,4,4,4,4,3,3,3,3,3,3,2],
+      [3,3,3,3,3,3,3,3,4,4,3,3,4,5,5,5,5,4,4,4,4,4,5,4,4,3,3,3,3,2,2,2],
+      [2,3,3,3,3,2,2,2,3,3,3,3,4,5,5,5,4,3,4,4,4,4,4,4,3,3,3,3,2,2,2,2],
+      [2,2,3,3,3,2,2,2,2,2,3,3,3,4,4,3,3,3,3,3,4,4,3,3,4,4,3,2,2,2,2,2],
+      [2,2,2,2,2,2,2,2,2,2,2,2,2,4,4,3,3,3,3,3,3,3,3,3,4,4,2,2,2,1,1,1],
+      [2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3,3,2,1,3,3,1,1,2],
+      [7,5,5,6,2,2,2,1,1,2,2,2,2,2,3,3,3,3,2,3,3,3,3,3,3,3,3,3,3,1,1,1],
+      [4,3,6,6,7,9,2,1,1,1,2,1,2,2,2,2,2,2,2,2,2,2,1,1,1,3,1,1,1,1,1,1],
+      [2,2,7,5,6,8,6,1,1,1,1,1,1,2,2,2,2,2,1,1,1,1,1,1,1,1,1,0,1,2,3,2],
+      [1,2,2,2,2,1,1,1,1,1,1,1,1,1,1,3,3,1,1,1,1,1,1,1,0,0,0,0,1,2,3,2],
+      [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5,4,3,3,1,1,1,1,0,0,0,0,1,1,1,3,3],
+      [0,0,1,1,1,1,1,1,1,1,1,1,1,1,4,5,5,4,4,3,1,1,0,0,0,0,1,1,2,3,3,3],
+      [0,0,0,1,1,1,1,1,1,1,1,1,1,1,4,4,5,4,4,4,3,1,0,0,0,0,1,3,3,3,3,5]
+    ]
+  },
+  "WaterHeight": 3.4028235E+38,
+  "Regions": [
+    "1CFDBE:Fallout4.esm",
+    "109E91:Fallout4.esm",
+    "14117F:Fallout4.esm",
+    "049BE0:Fallout4.esm",
+    "0B25CA:Fallout4.esm"
+  ],
+  "Location": "176926:Fallout4.esm",
+  "PhysicsReferences": [
+    "23893E:Fallout4.esm"
+  ],
+  "CombinedMeshes": [
+    82877219,
+    158464202,
+    176306026,
+    316928405,
+    324769019,
+    462555487,
+    524771173,
+    563641934,
+    662107564,
+    720055629,
+    773568110,
+    851700405,
+    942779081,
+    973764369,
+    1001525887,
+    1598512997,
+    1735849388,
+    2016520905,
+    2305947850,
+    2472252667,
+    2711125582,
+    2809591212,
+    2999184053,
+    3090262729,
+    4164004553
+  ],
+  "CombinedMeshReferences": [
+    {
+      "Reference": "238944:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "16826E:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "168205:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1C4C34:Fallout4.esm",
+      "CombinedMesh": 2711125582
+    },
+    {
+      "Reference": "238936:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "2389F6:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "091670:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1C4C2D:Fallout4.esm",
+      "CombinedMesh": 2305947850
+    },
+    {
+      "Reference": "168931:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "238918:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "238933:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "16825C:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "0D2142:Fallout4.esm",
+      "CombinedMesh": 1001525887
+    },
+    {
+      "Reference": "16CDA3:Fallout4.esm",
+      "CombinedMesh": 524771173
+    },
+    {
+      "Reference": "09166C:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "23892A:Fallout4.esm",
+      "CombinedMesh": 524771173
+    },
+    {
+      "Reference": "168245:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1C4C31:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "2389F9:Fallout4.esm",
+      "CombinedMesh": 3090262729
+    },
+    {
+      "Reference": "238939:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "168256:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "238917:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "176924:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "238A01:Fallout4.esm",
+      "CombinedMesh": 524771173
+    },
+    {
+      "Reference": "1C4C3B:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "23890E:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "168261:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "16824A:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "168221:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1C4C3E:Fallout4.esm",
+      "CombinedMesh": 316928405
+    },
+    {
+      "Reference": "168264:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "168253:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "168238:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "238912:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "168941:Fallout4.esm",
+      "CombinedMesh": 1598512997
+    },
+    {
+      "Reference": "1C4C36:Fallout4.esm",
+      "CombinedMesh": 2472252667
+    },
+    {
+      "Reference": "168242:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1C4C2F:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "23891A:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "168275:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "168230:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "16825B:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "16CDA1:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "168270:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0D2140:Fallout4.esm",
+      "CombinedMesh": 1001525887
+    },
+    {
+      "Reference": "238931:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "16892F:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "168202:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1C4C33:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "09166E:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "238943:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "16893C:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "168211:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "168254:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "23893B:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "1C4C39:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "168263:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "23890C:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "16824D:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1C4C3C:Fallout4.esm",
+      "CombinedMesh": 2999184053
+    },
+    {
+      "Reference": "168266:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "238927:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "168248:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "168939:Fallout4.esm",
+      "CombinedMesh": 973764369
+    },
+    {
+      "Reference": "16823A:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "168251:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "16824B:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "168220:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0D213E:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "1C4C3F:Fallout4.esm",
+      "CombinedMesh": 316928405
+    },
+    {
+      "Reference": "168252:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "168239:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "16893A:Fallout4.esm",
+      "CombinedMesh": 524771173
+    },
+    {
+      "Reference": "168951:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "238938:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "2388FD:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0D2149:Fallout4.esm",
+      "CombinedMesh": 316928405
+    },
+    {
+      "Reference": "176925:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "16824E:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "168260:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "238932:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "16825D:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "16CDA2:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "23892B:Fallout4.esm",
+      "CombinedMesh": 524771173
+    },
+    {
+      "Reference": "168244:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "09166D:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1C4C30:Fallout4.esm",
+      "CombinedMesh": 2809591212
+    },
+    {
+      "Reference": "238945:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1C4C35:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "16826F:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "168204:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "168258:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "238937:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "168930:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "238919:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1C4C2C:Fallout4.esm",
+      "CombinedMesh": 158464202
+    },
+    {
+      "Reference": "0D213C:Fallout4.esm",
+      "CombinedMesh": 462555487
+    },
+    {
+      "Reference": "1C4C3D:Fallout4.esm",
+      "CombinedMesh": 158464202
+    },
+    {
+      "Reference": "168222:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "168249:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "168938:Fallout4.esm",
+      "CombinedMesh": 973764369
+    },
+    {
+      "Reference": "16823B:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "238914:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "23893A:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "2389FA:Fallout4.esm",
+      "CombinedMesh": 3090262729
+    },
+    {
+      "Reference": "23890D:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1C4C38:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "238923:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0D2141:Fallout4.esm",
+      "CombinedMesh": 1001525887
+    },
+    {
+      "Reference": "1C4C40:Fallout4.esm",
+      "CombinedMesh": 2472252667
+    },
+    {
+      "Reference": "1C4C2B:Fallout4.esm",
+      "CombinedMesh": 2809591212
+    },
+    {
+      "Reference": "16825F:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "238A0E:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "238930:Fallout4.esm",
+      "CombinedMesh": 524771173
+    },
+    {
+      "Reference": "168276:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "168269:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0D214A:Fallout4.esm",
+      "CombinedMesh": 316928405
+    },
+    {
+      "Reference": "1C4C32:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "168240:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "168268:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "16823F:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "168203:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "168246:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "16823E:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "238929:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "16823D:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0D213D:Fallout4.esm",
+      "CombinedMesh": 82877219
+    },
+    {
+      "Reference": "16823C:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "09166F:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "168207:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "168237:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1C4C37:Fallout4.esm",
+      "CombinedMesh": 563641934
+    },
+    {
+      "Reference": "168236:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "168274:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "168206:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "176906:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "23891B:Fallout4.esm",
+      "CombinedMesh": 4164004553
+    },
+    {
+      "Reference": "168234:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "168228:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "168233:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "238A0D:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "16822F:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "16822E:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "16822D:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "168223:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "168224:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0D2144:Fallout4.esm",
+      "CombinedMesh": 158464202
+    },
+    {
+      "Reference": "168213:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "168932:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "168210:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1C4C2E:Fallout4.esm",
+      "CombinedMesh": 2809591212
+    },
+    {
+      "Reference": "0D211F:Fallout4.esm",
+      "CombinedMesh": 82877219
+    },
+    {
+      "Reference": "1C4C45:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "0D2145:Fallout4.esm",
+      "CombinedMesh": 82877219
+    },
+    {
+      "Reference": "0D2146:Fallout4.esm",
+      "CombinedMesh": 773568110
+    },
+    {
+      "Reference": "0D2147:Fallout4.esm",
+      "CombinedMesh": 82877219
+    },
+    {
+      "Reference": "0D2148:Fallout4.esm",
+      "CombinedMesh": 720055629
+    },
+    {
+      "Reference": "2389F5:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0D214B:Fallout4.esm",
+      "CombinedMesh": 316928405
+    },
+    {
+      "Reference": "16827F:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "168227:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "16825A:Fallout4.esm",
+      "CombinedMesh": 942779081
+    }
+  ],
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "168250:Fallout4.esm",
+      "FormVersion": 129,
+      "Base": "02B8DB:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "69075.9, 89880.055, 1771.1733",
+      "Rotation": "6.1935, 5.755115, 0.2298651"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "168267:Fallout4.esm",
+      "FormVersion": 130,
+      "Base": "0E7C44:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "1C5EDD:Fallout4.esm",
+          "Reference": "168265:Fallout4.esm"
+        }
+      ],
+      "Scale": 0.76,
+      "Position": "69095.086, 90110.95, 1913.9276",
+      "Rotation": "5.852663, 6.1669254, 1.3172995"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "168937:Fallout4.esm",
+      "FormVersion": 130,
+      "Base": "1467C5:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "1C5EDD:Fallout4.esm",
+          "Reference": "168265:Fallout4.esm"
+        }
+      ],
+      "Scale": 0.77,
+      "Position": "69104.39, 89886.65, 1909.1232",
+      "Rotation": "5.8526564, 6.1669254, 4.712389"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "17691F:Fallout4.esm",
+      "FormVersion": 129,
+      "Base": "0B240F:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "69353.45, 87826.875, 1749.5493",
+      "Rotation": "5.778958, 0.38141727, 0.36034942"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "176938:Fallout4.esm",
+      "FormVersion": 129,
+      "Base": "062318:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "05C2A3:Fallout4.esm",
+          "Reference": "168214:Fallout4.esm"
+        }
+      ],
+      "Position": "68877.8, 89786.266, 1829.549",
+      "Rotation": "5.9511766, 5.8748937, 2.3292153"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "176939:Fallout4.esm",
+      "FormVersion": 129,
+      "Base": "062301:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "05C2A3:Fallout4.esm",
+          "Reference": "168214:Fallout4.esm"
+        }
+      ],
+      "Position": "68965.36, 89843.92, 1826.0013",
+      "Rotation": "5.2319264, 0.5498625, 2.7126133"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "17693A:Fallout4.esm",
+      "FormVersion": 129,
+      "Base": "06230D:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "05C2A3:Fallout4.esm",
+          "Reference": "168214:Fallout4.esm"
+        }
+      ],
+      "Position": "68871.484, 89577.55, 1802.8986",
+      "Rotation": "3.0175974, 6.2451563, 2.327681"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "2389FC:Fallout4.esm",
+      "FormVersion": 129,
+      "Base": "0E1CFD:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "69474.984, 89559.984, 1793.5825",
+      "Rotation": "0, 0, 1.0892042"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "2389FD:Fallout4.esm",
+      "FormVersion": 129,
+      "Base": "048360:Fallout4.esm",
+      "RagdollData": [
+        {
+          "Unused": "0x000000",
+          "Rotation": "0.00073408167, 5.200816E-06, 4.4386775E-07"
+        }
+      ],
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "69439.664, 89546.87, 1792.5504"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "2389FE:Fallout4.esm",
+      "FormVersion": 129,
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "defaultdisablehavokonload",
+            "Properties": [
+              {
+                "MutagenObjectType": "ScriptBoolProperty",
+                "Name": "HavokOnActivate",
+                "Data": true
+              },
+              {
+                "MutagenObjectType": "ScriptBoolProperty",
+                "Name": "HavokOnHit",
+                "Data": true
+              },
+              {
+                "MutagenObjectType": "ScriptBoolProperty",
+                "Name": "HavokOnZKey",
+                "Data": true
+              }
+            ]
+          }
+        ]
+      },
+      "Base": "1A4D41:Fallout4.esm",
+      "RagdollData": [
+        {
+          "Unused": "0x000000",
+          "Position": "0, 0, -0.00048828125",
+          "Rotation": "-0.97430974, -0.107356206, 0.002066074"
+        },
+        {
+          "Unused": "0x000000",
+          "Position": "-6.9609375, 1.78125, -13.408203",
+          "Rotation": "2.6488376, 0.023450654, 1.5451074"
+        },
+        {
+          "Unused": "0x0C25B0",
+          "Position": "-0.5371094, 1.6015625, 32.91211",
+          "Rotation": "0.00060787477, 0.11308676, 0.008145334"
+        },
+        {
+          "Unused": "0x2E4444",
+          "Position": "-1.1923828, -0.265625, 33.07422",
+          "Rotation": "0.13629957, -0.7851002, -0.024878534"
+        },
+        {
+          "Unused": "0x000000",
+          "Position": "7.1953125, 1.3808594, -13.441406",
+          "Rotation": "2.6291597, -0.2216596, 1.4502515"
+        },
+        {
+          "Unused": "0x000000",
+          "Position": "-0.5234375, -1.6015625, 32.902344",
+          "Rotation": "-3.9511757E-05, 0.11056322, -0.004823413"
+        },
+        {
+          "Unused": "0x000000",
+          "Position": "-0.7949219, 0.2109375, 32.96875",
+          "Rotation": "-0.1547057, -0.7826266, 0.06114675"
+        },
+        {
+          "Unused": "0x000000",
+          "Position": "0.0390625, -0.041015625, -0.2109375",
+          "Rotation": "0.20425275, -0.48827583, 0.25187483"
+        },
+        {
+          "Unused": "0x000000",
+          "Position": "0.0078125, -5.2734375, 13.207031",
+          "Rotation": "0.3747136, -0.0028336383, 0.45840928"
+        },
+        {
+          "Unused": "0x000000",
+          "Position": "0.03125, 4.0546875, 16.027344",
+          "Rotation": "0.26458973, -0.43753242, -0.0755667"
+        },
+        {
+          "Unused": "0x3C43B8",
+          "Position": "0.140625, -0.87890625, 7.5703125",
+          "Rotation": "-0.629102, 0.00917233, 0.00064502703"
+        },
+        {
+          "Unused": "0x000000",
+          "Position": "12.5859375, 6.8671875, 8.261719",
+          "Rotation": "3.123532, -0.6613286, 1.6522136"
+        },
+        {
+          "Unused": "0x000000",
+          "Position": "-0.24609375, 0.109375, 20.329102",
+          "Rotation": "-0.39574316, -1.5095224, 0.30949047"
+        },
+        {
+          "Unused": "0x000000",
+          "Position": "-0.021484375, -0.1875, 17.125",
+          "Rotation": "-0.114578694, -0.07164936, -0.08619398"
+        },
+        {
+          "Unused": "0x6C9A5E",
+          "Position": "-12.1796875, 7.15625, 7.8828125",
+          "Rotation": "-2.8208883, 0.2274728, 2.099373"
+        },
+        {
+          "Unused": "0x000000",
+          "Position": "-0.5078125, -0.3671875, 20.351562",
+          "Rotation": "0.09974571, 0.00675512, -0.013364553"
+        },
+        {
+          "Unused": "0x502CB4",
+          "Position": "-0.046875, 0.1640625, 17.085938",
+          "Rotation": "0.5557665, 0.074017406, 0.04075582"
+        }
+      ],
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "69475.59, 89562.805, 1813.8916",
+      "Rotation": "0, 0, 5.7131834"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000DB:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B8A:Fallout4.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "68914.695, 89417.51, 1838.8816",
+      "Rotation": "0, 0, 1.2004234"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E3:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B89:Fallout4.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "69449.48, 89708.445, 1795.0275",
+      "Rotation": "0, 0, 2.7117476"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E7:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B8A:Fallout4.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "69589.18, 89744.875, 1852.6432",
+      "Rotation": "0, 0, 1.153366"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000EC:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00080E:SettlerBuiltSettlements.esp",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "69473.92, 87490.836, 1872.537",
+      "Rotation": "0, 0, 1.3922944"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000EF:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1BDDBB:Fallout4.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "69517.664, 89749.66, 1792.5398",
+      "Rotation": "0, 0, 1.06149"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F1:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0C01D0:Fallout4.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "69535.95, 88577.375, 1777.4365",
+      "Rotation": "0, 0, 0.75199604"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F3:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0DB83B:Fallout4.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "69378.85, 88481.16, 1793.875",
+      "Rotation": "0, 0, 5.321696"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F4:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "027EB9:Fallout4.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "69599.836, 87488.42, 1870.9829",
+      "Rotation": "0, 0, 4.279069"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F9:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1865B9:Fallout4.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "69445.516, 89926.72, 1795.0352",
+      "Rotation": "0, 0, 5.8568277"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000FC:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000809:SettlerBuiltSettlements.esp",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "69472.83, 87491.74, 1909.2097",
+      "Rotation": "0, 0, 4.4431405"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000102:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0C01C3:Fallout4.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "69523.82, 88459.94, 1990.2214",
+      "Rotation": "0, 0, 5.3375697"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000116:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "020C40:Fallout4.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "69560.18, 87476.81, 1873.1276",
+      "Rotation": "0, 0, 2.8149176"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011E:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000025:SBS - LivingCoastalCottage.esp",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "69585.266, 87468.22, 1870.9436",
+      "Rotation": "0, 0, 1.080816"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011F:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "075F3F:Fallout4.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "69568.945, 87348.945, 1870.9829",
+      "Rotation": "0, 0, 1.2577034"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012A:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "69525.02, 87581.16, 1870.9436",
+      "Rotation": "0, 0, 1.0808212"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012C:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E1A51:Fallout4.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "69170.61, 89583.44, 1568.8925",
+      "Rotation": "0, 0, 4.2754164"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012D:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "22C663:Fallout4.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "68938.68, 89475.11, 1792.8925",
+      "Rotation": "0, 0, 1.1338304"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012E:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "22C663:Fallout4.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "69402.6, 89691.78, 1792.8925",
+      "Rotation": "0, 0, 2.7046268"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012F:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B89:Fallout4.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "68830.375, 89707.055, 1792.8925",
+      "Rotation": "0, 0, 5.846213"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000130:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B89:Fallout4.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "69294.25, 89923.72, 1792.8925",
+      "Rotation": "0, 0, 1.1338444"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000131:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B89:Fallout4.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "69062.3, 89815.4, 1792.8925",
+      "Rotation": "0, 0, 5.846223"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000132:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BB3:Fallout4.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "69050.65, 89386.62, 1750.2257",
+      "Rotation": "0, 0, 1.1338409"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000133:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BB3:Fallout4.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "69282.625, 89494.945, 1750.2257",
+      "Rotation": "0, 0, 1.1338288"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000134:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BB3:Fallout4.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "69166.63, 89440.79, 1750.2257",
+      "Rotation": "0, 0, 1.1338252"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000142:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1B4ABD:Fallout4.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "68964.84, 88207.125, 1828.346",
+      "Rotation": "0, 0, 3.9140718"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000146:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1B4ABD:Fallout4.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "69064.84, 87978.125, 1815.7114",
+      "Rotation": "0, 0, 1.1225154"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000147:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1B4ABD:Fallout4.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "69329.72, 87615.49, 1805.5947",
+      "Rotation": "0, 0, 0.99976474"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000173:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0000D9:SBS - LivingCoastalCottage.esp",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "68661.8, 90032.91, 1454.6312",
+      "Rotation": "0, 0, 5.2619004"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000174:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "075F3F:Fallout4.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "68810.55, 90003.59, 1473.1722",
+      "Rotation": "0, 0, 4.5627656"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000175:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00091B:DLCworkshop01.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "68811.664, 90004.26, 1505.8579",
+      "Rotation": "0, 0, 2.7161338"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000177:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B92:Fallout4.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "69261.43, 89847.82, 1850.6558",
+      "Rotation": "0, 0, 4.288616"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000178:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B92:Fallout4.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "69025.086, 89759.195, 1850.6826",
+      "Rotation": "0, 0, 1.2111537"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000179:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B92:Fallout4.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "69115.18, 89519.57, 1850.6826",
+      "Rotation": "0, 0, 1.2111555"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00017A:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "054576:DLCCoast.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "68876.97, 89826.37, 1792.6826",
+      "Rotation": "0, 0, 4.3527274"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00017B:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "054576:DLCCoast.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "69511.56, 89586.76, 1797.8677",
+      "Rotation": "0, 0, 1.1266521"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00017C:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "054576:DLCCoast.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "69331.88, 89997.41, 1792.6826",
+      "Rotation": "0, 0, 1.2111346"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00017D:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "054576:DLCCoast.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "69048.01, 89371.45, 1792.6825",
+      "Rotation": "0, 0, 4.3527484"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00017E:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B91:Fallout4.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "69362.09, 89613.445, 1852.1215",
+      "Rotation": "0, 0, 4.2868447"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00017F:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "12F2F5:Fallout4.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "69614.95, 90026.81, 1789.0413",
+      "Rotation": "0, 0, 5.809407"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000181:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B8A:Fallout4.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "69558.09, 88101.35, 1863.4098",
+      "Rotation": "0, 0, 2.189144"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000183:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B8A:Fallout4.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "69595.8, 88352.27, 1864.3192",
+      "Rotation": "0, 0, 2.2266579"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000184:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B8A:Fallout4.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "69435.82, 88175.75, 1863.3314",
+      "Rotation": "0, 0, 2.2231026"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000186:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "157FEB:Fallout4.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "68929.14, 89472.78, 1793.4303",
+      "Rotation": "0, 0, 0.5237382"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00019A:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000919:DLCworkshop01.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "69570.94, 87342.83, 1903.6687",
+      "Rotation": "0, 0, 2.2352781"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001A6:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "12EA9B:Fallout4.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "68803.1, 89600.13, 1793.4303",
+      "Rotation": "0, 0, 4.2547045"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001A7:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B8A:Fallout4.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "68838.68, 89594.87, 1842.4075",
+      "Rotation": "0, 0, 4.3687544"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001A8:SBS - LivingCoastalCottage.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BB1:Fallout4.esm",
+      "Layer": "0000DA:SBS - LivingCoastalCottage.esp",
+      "EnableParent": {
+        "Reference": "0001B2:SBS - LivingCoastalCottage.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "168945:Fallout4.esm"
+        }
+      ],
+      "Position": "69456.13, 90043.125, 1845.9846",
+      "Rotation": "0, 0, 4.2613454"
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

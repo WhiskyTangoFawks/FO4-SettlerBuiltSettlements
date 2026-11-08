@@ -1,0 +1,14 @@
+{
+  "FormKey": "0000C3:SBS - LivingCountyCrossing.esp",
+  "MajorRecordFlagsRaw": 4096,
+  "EditorID": "vss_flst_shackwood",
+  "Fallout4MajorRecordFlags": [
+    "Ignored"
+  ],
+  "Items": [
+    "0000C2:SBS - LivingCountyCrossing.esp",
+    "0000CA:SBS - LivingCountyCrossing.esp",
+    "0000CB:SBS - LivingCountyCrossing.esp",
+    "0000CF:SBS - LivingCountyCrossing.esp"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "FormKey": "0000BE:SBS - LivingTenpinesBluff.esp",
+  "MajorRecordFlagsRaw": 4096,
+  "EditorID": "vss_co_shackwood_prefab",
+  "Fallout4MajorRecordFlags": [
+    "Ignored"
+  ],
+  "PickUpSound": "0196B6:Fallout4.esm",
+  "PutDownSound": "0196B6:Fallout4.esm",
+  "Components": [
+    {
+      "Component": "01FAA5:Fallout4.esm",
+      "Count": 1
+    },
+    {
+      "Component": "01FABD:Fallout4.esm",
+      "Count": 1
+    },
+    {
+      "Component": "01FAC2:Fallout4.esm",
+      "Count": 2
+    },
+    {
+      "Component": "03D294:Fallout4.esm",
+      "Count": 2
+    }
+  ],
+  "CreatedObject": "0000BA:SBS - LivingTenpinesBluff.esp",
+  "WorkbenchKeyword": "05A0C8:Fallout4.esm",
+  "Categories": [
+    "0000CA:SBS - LivingTenpinesBluff.esp"
+  ],
+  "CreatedObjectCounts": [
+    {
+      "Count": 1
+    }
+  ]
+}

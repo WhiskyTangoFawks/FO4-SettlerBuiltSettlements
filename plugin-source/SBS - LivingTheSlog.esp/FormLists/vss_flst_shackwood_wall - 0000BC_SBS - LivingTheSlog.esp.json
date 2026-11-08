@@ -1,0 +1,28 @@
+{
+  "FormKey": "0000BC:SBS - LivingTheSlog.esp",
+  "EditorID": "vss_flst_shackwood_wall",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "vss_flst_shackwood_wall"
+  },
+  "Items": [
+    "000021:SBS - LivingTheSlog.esp",
+    "000022:SBS - LivingTheSlog.esp",
+    "000023:SBS - LivingTheSlog.esp",
+    "000024:SBS - LivingTheSlog.esp",
+    "000025:SBS - LivingTheSlog.esp",
+    "000026:SBS - LivingTheSlog.esp",
+    "000027:SBS - LivingTheSlog.esp",
+    "000028:SBS - LivingTheSlog.esp",
+    "000029:SBS - LivingTheSlog.esp",
+    "00002A:SBS - LivingTheSlog.esp",
+    "00002B:SBS - LivingTheSlog.esp",
+    "00002C:SBS - LivingTheSlog.esp",
+    "00002D:SBS - LivingTheSlog.esp",
+    "00002E:SBS - LivingTheSlog.esp",
+    "00002F:SBS - LivingTheSlog.esp",
+    "000030:SBS - LivingTheSlog.esp",
+    "000031:SBS - LivingTheSlog.esp",
+    "000032:SBS - LivingTheSlog.esp"
+  ]
+}

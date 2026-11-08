@@ -1,0 +1,3342 @@
+{
+  "FormKey": "00E22D:Fallout4.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "JamaicaPlainExt08",
+  "Fallout4MajorRecordFlags": [
+    "Compressed"
+  ],
+  "Flags": [
+    "HasWater"
+  ],
+  "PreVisFilesTimestamp": 7972,
+  "InPreVisFileOf": "00E24B:Fallout4.esm",
+  "PreCombinedFilesTimestamp": 7972,
+  "Grid": {
+    "Point": "2, -17"
+  },
+  "MaxHeightData": {
+    "Offset": 512.0,
+    "HeightMap": [
+      [1,1,1,2,2,2,2,2,2,2,2,6,6,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,3,3],
+      [1,1,1,2,2,5,2,2,2,2,2,2,2,2,2,2,2,2,2,2,8,2,2,2,1,1,1,1,1,1,3,1],
+      [1,1,1,1,1,1,2,2,2,2,4,4,4,4,2,2,2,2,2,4,8,2,2,1,1,1,1,1,1,1,3,1],
+      [1,1,1,1,1,1,1,1,2,2,4,4,4,4,2,2,2,2,2,3,3,2,1,1,1,1,1,1,1,4,3,1],
+      [1,1,1,1,1,1,1,1,1,2,4,4,4,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,5,5,3,1],
+      [0,1,1,1,1,1,1,1,1,2,4,4,4,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,4,3,3,3],
+      [0,1,1,1,3,3,1,1,1,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,2,2,1,1,5,5,5,5],
+      [0,0,1,2,3,3,3,1,1,1,2,2,2,2,2,10,7,2,2,2,1,1,1,1,2,2,1,1,5,5,5,5],
+      [0,0,1,3,3,3,2,5,1,1,1,1,2,2,2,5,5,2,2,2,1,1,1,1,1,1,1,1,5,5,5,5],
+      [0,0,0,3,3,3,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,5,5,5,5],
+      [1,0,2,2,2,2,0,1,1,1,1,1,2,2,2,2,2,2,1,2,2,2,1,1,1,1,1,1,5,5,5,5],
+      [4,5,2,2,2,1,0,1,1,1,1,3,3,3,3,3,3,2,1,2,2,1,1,1,1,1,1,1,2,2,2,2],
+      [5,0,2,2,2,0,0,1,1,1,1,4,4,4,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2],
+      [1,2,0,0,0,0,0,1,1,1,1,5,5,5,5,4,4,1,1,1,1,2,2,4,4,4,4,4,3,2,1,1],
+      [0,0,0,0,0,0,0,1,1,1,1,5,4,4,5,4,3,2,1,1,1,2,6,6,6,6,6,6,3,2,1,1],
+      [0,0,0,0,0,0,7,1,1,1,4,4,4,4,5,4,3,1,1,1,1,2,7,7,7,7,7,7,3,2,1,1],
+      [0,0,0,0,0,0,7,3,1,1,4,4,4,4,4,4,3,2,2,2,2,2,8,8,8,8,8,8,3,2,2,2],
+      [0,0,0,0,0,0,3,5,5,1,1,5,4,4,5,4,3,2,2,2,2,2,7,8,7,7,8,7,3,2,2,2],
+      [0,0,0,0,0,0,5,5,6,1,1,5,4,4,5,4,3,2,2,2,2,2,7,8,7,7,8,7,2,2,2,2],
+      [0,0,0,0,0,0,5,0,1,1,1,5,5,5,5,4,3,2,2,2,2,2,4,4,5,5,4,4,2,2,2,2],
+      [0,0,0,0,0,0,0,0,1,1,1,4,4,4,4,4,3,2,2,2,2,2,4,4,5,5,4,3,3,3,2,2],
+      [0,0,0,0,0,0,0,0,0,1,1,3,3,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2,3,3,2,2],
+      [0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2],
+      [0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2],
+      [0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,6,2,2,2,2,2,2,2],
+      [0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,6,2,2,2,2,2,2,2],
+      [0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,5,2,2,2,2,2,2,2,2,2,5,5,2,5,2,2],
+      [1,1,1,0,0,0,0,0,0,1,1,1,1,1,6,5,5,3,2,2,2,2,2,2,2,7,7,16,16,16,7,7],
+      [1,1,1,1,1,1,1,1,0,1,1,1,1,1,5,5,5,3,2,3,2,2,2,2,2,7,13,16,16,16,8,7],
+      [1,1,1,1,1,1,1,1,1,1,1,1,1,1,5,2,2,3,2,3,3,3,3,3,8,9,14,16,16,16,10,9],
+      [1,2,2,1,1,1,2,2,1,1,1,1,1,1,2,2,2,2,2,3,3,3,3,3,8,8,9,10,11,10,9,9],
+      [3,2,2,1,1,1,2,2,1,8,1,1,2,2,2,2,2,3,3,3,3,3,5,5,8,8,9,10,10,10,9,8]
+    ]
+  },
+  "WaterHeight": 3.4028235E+38,
+  "Regions": [
+    "23C94C:Fallout4.esm",
+    "049BE0:Fallout4.esm",
+    "1F504F:Fallout4.esm"
+  ],
+  "Location": "050C08:Fallout4.esm",
+  "Water": "102D5B:Fallout4.esm",
+  "PhysicsReferences": [
+    "095419:Fallout4.esm",
+    "2300EC:Fallout4.esm",
+    "093B93:Fallout4.esm",
+    "176469:Fallout4.esm",
+    "0F1AF9:Fallout4.esm",
+    "1F414E:Fallout4.esm",
+    "152B97:Fallout4.esm",
+    "0950B7:Fallout4.esm",
+    "09541A:Fallout4.esm",
+    "230DBF:Fallout4.esm",
+    "152B98:Fallout4.esm",
+    "093B8B:Fallout4.esm"
+  ],
+  "CombinedMeshes": [
+    28861806,
+    158464202,
+    176306026,
+    316928405,
+    324769019,
+    425316049,
+    462555487,
+    524771173,
+    662107564,
+    736777074,
+    850632099,
+    883756055,
+    942779081,
+    965332903,
+    973764369,
+    1043282813,
+    1499057873,
+    1735849388,
+    1810518898,
+    1924373923,
+    2016520905,
+    2039074727,
+    2117024637,
+    2472252667,
+    2572799697,
+    2711125582,
+    2809591212,
+    2884260722,
+    2998115747,
+    3090262729,
+    4164004553
+  ],
+  "CombinedMeshReferences": [
+    {
+      "Reference": "1D81D5:Fallout4.esm",
+      "CombinedMesh": 2572799697
+    },
+    {
+      "Reference": "1F57B5:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "097D38:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "05E46E:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "093B92:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "093154:Fallout4.esm",
+      "CombinedMesh": 1043282813
+    },
+    {
+      "Reference": "097D0F:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0F1B16:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "19637D:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0F1AF8:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0F1CD1:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "05E472:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0F1B13:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "093B8E:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1D81D0:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "097D3D:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "0F1D48:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "230D2E:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1D81A8:Fallout4.esm",
+      "CombinedMesh": 1810518898
+    },
+    {
+      "Reference": "0A9AC3:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "0F1AF2:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1D8222:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "094FB1:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "09315B:Fallout4.esm",
+      "CombinedMesh": 462555487
+    },
+    {
+      "Reference": "1D81ED:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "097D37:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "0F1D42:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "115552:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "05A87A:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0F1D47:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "095374:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "14E441:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "097D40:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "115565:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "09315E:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1D8192:Fallout4.esm",
+      "CombinedMesh": 2884260722
+    },
+    {
+      "Reference": "176468:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "093161:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "097D3A:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1D8201:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "19637A:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "093B90:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "095360:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0F1B11:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "05E470:Fallout4.esm",
+      "CombinedMesh": 524771173
+    },
+    {
+      "Reference": "0A9ACB:Fallout4.esm",
+      "CombinedMesh": 883756055
+    },
+    {
+      "Reference": "093B95:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "0F1B08:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "115571:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "230D2C:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "0F1D4A:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1D8197:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "05A877:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1D81D2:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "093164:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "14E43E:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "097D3F:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1D81EF:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "093159:Fallout4.esm",
+      "CombinedMesh": 1043282813
+    },
+    {
+      "Reference": "14E446:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1D81AA:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "097D2C:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "0F1D40:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0939A2:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "097D35:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "115555:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "0F1D45:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "0F1B07:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "115550:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "097D30:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "09316B:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "05A878:Fallout4.esm",
+      "CombinedMesh": 736777074
+    },
+    {
+      "Reference": "115567:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1D81EA:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1D947F:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0F1AF5:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0A9AC4:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "0F1E22:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "093B40:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "230DE0:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "0A9A5B:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "230DBC:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "11A225:Fallout4.esm",
+      "CombinedMesh": 736777074
+    },
+    {
+      "Reference": "0966DF:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "0F1E3B:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "094F5B:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "19639D:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "0F1BDD:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "115645:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "230DF9:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "23ACD6:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "230DB9:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "239C28:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0F1E55:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "09393D:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "230DFC:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1D8147:Fallout4.esm",
+      "CombinedMesh": 736777074
+    },
+    {
+      "Reference": "1963C4:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "093B2E:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0F1C2D:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "11A8FF:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "05E4A0:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "196381:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "05E49D:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "0F1E34:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "230DB3:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "230DF6:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1D814D:Fallout4.esm",
+      "CombinedMesh": 736777074
+    },
+    {
+      "Reference": "0F1BD2:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0F1E1A:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "05A1E1:Fallout4.esm",
+      "CombinedMesh": 316928405
+    },
+    {
+      "Reference": "1D9504:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "230DC1:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "0F1E46:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0F1E2D:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "05E4AA:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "093945:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "0F1C27:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1D8154:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "230DAF:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1D9501:Fallout4.esm",
+      "CombinedMesh": 3090262729
+    },
+    {
+      "Reference": "11A236:Fallout4.esm",
+      "CombinedMesh": 2572799697
+    },
+    {
+      "Reference": "1963CB:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1963E5:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "239C27:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "094F51:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "230DB6:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "1D8148:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "05A1E4:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0A9A48:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "230DE2:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0A9A59:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "196386:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1963C3:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "093B42:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "09393A:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "230DFB:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1D94FB:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "095380:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "0F1B9A:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "09393F:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1D94FE:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "230DFE:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "230DBB:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "0F1E3C:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1963DF:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "0F1C2F:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "196383:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0A9A5C:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "05E4A2:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1963C6:Fallout4.esm",
+      "CombinedMesh": 3090262729
+    },
+    {
+      "Reference": "230DC9:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1D814F:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "230DF4:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "0F1BD0:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "0F1E36:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "05E49F:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "230DB1:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "093B3F:Fallout4.esm",
+      "CombinedMesh": 524771173
+    },
+    {
+      "Reference": "05A1FA:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1963E2:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "05E4A8:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "196465:Fallout4.esm",
+      "CombinedMesh": 2039074727
+    },
+    {
+      "Reference": "1D9486:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1D9506:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0F1E2F:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0F1E44:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "093942:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1D9483:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1D8153:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "11A234:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1D9503:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "05A230:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "1963C9:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1D814A:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "0A9A4A:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "05A1E6:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0F1E1D:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "239C25:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0F1E33:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "21745E:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "230DB4:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1963CA:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "230DAE:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "230DC5:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1D9500:Fallout4.esm",
+      "CombinedMesh": 3090262729
+    },
+    {
+      "Reference": "1D8150:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1D9480:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "19638F:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "05A1FC:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0F1E6C:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "230DB7:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "0F1DBA:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "094F3B:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "0966D4:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "05E499:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "05A1E5:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "196396:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "0A9A49:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1D8149:Fallout4.esm",
+      "CombinedMesh": 736777074
+    },
+    {
+      "Reference": "1F7B4E:Fallout4.esm",
+      "CombinedMesh": 2809591212
+    },
+    {
+      "Reference": "230DB2:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "05E49C:Fallout4.esm",
+      "CombinedMesh": 524771173
+    },
+    {
+      "Reference": "0F1E35:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0F1BD3:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "093936:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "230DF7:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1D814C:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1D9505:Fallout4.esm",
+      "CombinedMesh": 524771173
+    },
+    {
+      "Reference": "1D9485:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1D8155:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "093944:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "09500C:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "23ACD7:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "230DB8:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "230DFD:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "114CDA:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1D94FD:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "09393C:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "093B2F:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "093B44:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1963C5:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "05E4A1:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "11A8FE:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "0F1C2C:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "093B41:Fallout4.esm",
+      "CombinedMesh": 883756055
+    },
+    {
+      "Reference": "0F1E23:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0A9A5A:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "05E4A4:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0F1C29:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0F1B99:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0966DE:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "094F5A:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "230DBD:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "11A224:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "115644:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "230DF8:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1D9482:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1D8152:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "11B3C6:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "05E4AC:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "093943:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "05A1FE:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1963C8:Fallout4.esm",
+      "CombinedMesh": 3090262729
+    },
+    {
+      "Reference": "1D9502:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "11A235:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "0A9A4B:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "05A1E7:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1D94F0:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "230DB5:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "0F1DD3:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "05E49B:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "094F52:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "0F1E32:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "0F1E19:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "05A1E2:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0F1BD1:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1D814E:Fallout4.esm",
+      "CombinedMesh": 736777074
+    },
+    {
+      "Reference": "230DB0:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "093B3E:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0F1E37:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "05E49E:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1D94EC:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1D9487:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "05A1FB:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "196388:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "05E4A9:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "093946:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1F4128:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "0F1E45:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "230DC2:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "09393E:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "05A1E8:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "230DBA:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "11A223:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "196382:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "05E4A3:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "0A9A5D:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0F1C2E:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "230DC8:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1963AC:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1963C7:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "0A9A58:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "196387:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0F1C2B:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "093B43:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0F1E21:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0F1C32:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "115646:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0F1BDE:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "09393B:Fallout4.esm",
+      "CombinedMesh": 158464202
+    },
+    {
+      "Reference": "094F58:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "11A226:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1D9511:Fallout4.esm",
+      "CombinedMesh": 2572799697
+    },
+    {
+      "Reference": "05A87B:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "115553:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1D81F0:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "0F1D46:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "11554A:Fallout4.esm",
+      "CombinedMesh": 965332903
+    },
+    {
+      "Reference": "14E440:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "09315F:Fallout4.esm",
+      "CombinedMesh": 524771173
+    },
+    {
+      "Reference": "115564:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "11554F:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1D8223:Fallout4.esm",
+      "CombinedMesh": 2809591212
+    },
+    {
+      "Reference": "1D81A9:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "14E445:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "115556:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "097D36:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "093B96:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "19637C:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "05E473:Fallout4.esm",
+      "CombinedMesh": 883756055
+    },
+    {
+      "Reference": "097D3C:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "093167:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1D81D1:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "09537A:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "097D39:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1D81D4:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "093162:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "0F1D4C:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1D8191:Fallout4.esm",
+      "CombinedMesh": 2884260722
+    },
+    {
+      "Reference": "05E46F:Fallout4.esm",
+      "CombinedMesh": 524771173
+    },
+    {
+      "Reference": "196379:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "097D0E:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "0F1D44:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "115551:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "09315D:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "115566:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0A9AC5:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0F1AF4:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1D8224:Fallout4.esm",
+      "CombinedMesh": 2809591212
+    },
+    {
+      "Reference": "14E442:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1D816B:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1D816A:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1D8169:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1D94FA:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1D8167:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1D8166:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "115563:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1D94F7:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1D8164:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "097D2D:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "1D8163:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0F1AF1:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "097D2F:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "097D2E:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "1D94EF:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "093B9C:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "1D8200:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1D8165:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "11554B:Fallout4.esm",
+      "CombinedMesh": 2039074727
+    },
+    {
+      "Reference": "0F1E30:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0F1D41:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0F1C33:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0F1C31:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "095372:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "0F1C30:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0F1C2A:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0F1C28:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "093B9D:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "097D34:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "0939A3:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "115554:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "0F1AF6:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "05E471:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0F1B98:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0F1B19:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0F1AF7:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0F1AEF:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "05A200:Fallout4.esm",
+      "CombinedMesh": 736777074
+    },
+    {
+      "Reference": "093BBA:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "0A9A57:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "05A7A4:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "05E475:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "093165:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "093B94:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1D94EE:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "11A900:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "19637E:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "05A7A3:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "0F1D4B:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "230D2D:Fallout4.esm",
+      "CombinedMesh": 736777074
+    },
+    {
+      "Reference": "095378:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "1D8196:Fallout4.esm",
+      "CombinedMesh": 2572799697
+    },
+    {
+      "Reference": "05A7A2:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "05A859:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "05A1AF:Fallout4.esm",
+      "CombinedMesh": 883756055
+    },
+    {
+      "Reference": "05A232:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "097D3E:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "11A228:Fallout4.esm",
+      "CombinedMesh": 2472252667
+    },
+    {
+      "Reference": "11A229:Fallout4.esm",
+      "CombinedMesh": 2711125582
+    },
+    {
+      "Reference": "11A233:Fallout4.esm",
+      "CombinedMesh": 973764369
+    },
+    {
+      "Reference": "1D81D3:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "19C77C:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "093B8D:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1F57B3:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "0A9A4C:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "1D8193:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1D8168:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "11A901:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "19637F:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "196391:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "196398:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1963CE:Fallout4.esm",
+      "CombinedMesh": 4164004553
+    },
+    {
+      "Reference": "1963E1:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1963E3:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1963E4:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1D9484:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "1D948A:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1D948B:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1D948C:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "1D948D:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1D94EB:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1D94ED:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "05E474:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "0F1B15:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1D94F1:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1D94F2:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1D94F4:Fallout4.esm",
+      "CombinedMesh": 524771173
+    },
+    {
+      "Reference": "1D94F5:Fallout4.esm",
+      "CombinedMesh": 524771173
+    },
+    {
+      "Reference": "1D94F6:Fallout4.esm",
+      "CombinedMesh": 736777074
+    },
+    {
+      "Reference": "093B91:Fallout4.esm",
+      "CombinedMesh": 2117024637
+    },
+    {
+      "Reference": "1D94F8:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "1D94F9:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "19637B:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "1D94FC:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "1F57B4:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "239C26:Fallout4.esm",
+      "CombinedMesh": 850632099
+    }
+  ],
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "094F46:Fallout4.esm",
+      "FormVersion": 129,
+      "Base": "0211DD:Fallout4.esm",
+      "EncounterZone": "050C09:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "8801.386, -65926.3, 793.18756",
+      "Rotation": "6.2795672, 0.00019024088, 3.4906584E-06"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "094FA2:Fallout4.esm",
+      "FormVersion": 129,
+      "Base": "02FDA7:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "9275.696, -65899.07, 817.88257",
+      "Rotation": "0, 0, 3.1415927"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "095010:Fallout4.esm",
+      "FormVersion": 129,
+      "Base": "0913FB:Fallout4.esm",
+      "EncounterZone": "050C09:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "9445.29, -65735.59, 817.17847",
+      "Rotation": "0, 0, 1.5652497"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "095147:Fallout4.esm",
+      "FormVersion": 129,
+      "Base": "075F3F:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "9382.917, -65972.94, 817.17847"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09515E:Fallout4.esm",
+      "FormVersion": 129,
+      "Base": "075F3F:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "9172.227, -65972.445, 817.17847"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "095180:Fallout4.esm",
+      "FormVersion": 129,
+      "Base": "07830A:Fallout4.esm",
+      "EncounterZone": "050C09:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "9396.682, -65959.63, 853.78827",
+      "Rotation": "5.3029437, 0.82874864, 3.6017575"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0951C4:Fallout4.esm",
+      "FormVersion": 129,
+      "Base": "1A899B:Fallout4.esm",
+      "EncounterZone": "050C09:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "9443.065, -65709.32, 895.8742",
+      "Rotation": "1.5708156, 5.5340796, 4.7117815"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "095363:Fallout4.esm",
+      "FormVersion": 129,
+      "Base": "03615C:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "9184.368, -65999.83, 561.17847",
+      "Rotation": "0, 0, 4.7170925"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "23ACBA:Fallout4.esm",
+      "FormVersion": 130,
+      "Base": "118F57:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8938.623, -65922.41, 791.57434",
+      "Rotation": "0, 0, 1.5707964"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001BA:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0000F0:SBS - LivingJamaicaPlain.esp",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "9178.94, -65954.71, 819.559",
+      "Rotation": "0, 0, 4.7569036"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001BB:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0000F0:SBS - LivingJamaicaPlain.esp",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "9401.212, -65955.945, 821.78296",
+      "Rotation": "0, 0, 4.745943"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001BE:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0000D7:SBS - LivingJamaicaPlain.esp",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "9325.248, -65999.484, 838.10693",
+      "Rotation": "0, 0, 4.724704"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001BF:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0000D6:SBS - LivingJamaicaPlain.esp",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "9269.416, -66000, 865.7962",
+      "Rotation": "0, 0, 1.57672"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C0:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000918:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "9444.552, -65962.04, 561.88965",
+      "Rotation": "0, 0, 0.42897227"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C1:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000918:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "9292.543, -65950.02, 824.81464",
+      "Rotation": "0, 0, 1.6651838"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C3:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0EC530:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8688.279, -65602.69, 792.2346",
+      "Rotation": "0, 0, 3.1387584"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C4:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0EC530:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8432.279, -65603.414, 792.2346",
+      "Rotation": "0, 0, 3.1387532"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C7:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0EC530:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8944.277, -65601.97, 792.2346",
+      "Rotation": "0, 0, 6.2803617"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C9:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B85:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "9009.525, -66049.805, 792.2346",
+      "Rotation": "0, 0, 4.7095757"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001CB:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0000F0:SBS - LivingJamaicaPlain.esp",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "9325.202, -65953.39, 561.8896",
+      "Rotation": "0, 0, 1.5730374"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001D0:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0EC530:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8432.275, -65603.42, 1016.2346",
+      "Rotation": "0, 0, 4.709558"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001D1:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0EC530:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8688.2705, -65602.7, 1016.2346",
+      "Rotation": "0, 0, 4.7095947"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001D2:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0EC530:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8944.274, -65601.97, 1016.2346",
+      "Rotation": "0, 0, 4.709572"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001D3:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000024:SBS - LivingJamaicaPlain.esp",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8945.346, -65985.984, 792.2346",
+      "Rotation": "0, 0, 6.280365"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001D4:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B87:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8881.526, -66050.164, 792.2346",
+      "Rotation": "0, 0, 1.5679793"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001D5:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BA4:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8432.275, -65603.42, 792.2346",
+      "Rotation": "0, 0, 1.5679759"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001D7:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B95:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8688.27, -65602.7, 792.2346",
+      "Rotation": "0, 0, 6.2803774"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001D8:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0EC530:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8944.995, -65857.97, 1016.2346",
+      "Rotation": "0, 0, 3.1387808"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001DB:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BB7:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8944.994, -65857.97, 792.2346",
+      "Rotation": "0, 0, 1.5679829"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001E1:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B86:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8368.095, -65539.59, 1016.2346",
+      "Rotation": "0, 0, 1.5679551"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001E2:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B86:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8496.456, -65667.24, 1016.2346",
+      "Rotation": "0, 0, 6.280344"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001E3:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "21060C:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8945.174, -65921.97, 1016.2346",
+      "Rotation": "0, 0, 6.280363"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001E4:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "21060C:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8880.993, -65858.15, 1016.2346",
+      "Rotation": "0, 0, 1.5679812"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001E5:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0000DC:SBS - LivingJamaicaPlain.esp",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8671.735, -65667.41, 1016.2347",
+      "Rotation": "0, 0, 4.7268963"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001E9:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "018CD4:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8338.305, -65540.92, 1016.2347",
+      "Rotation": "0, 0, 5.683214"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001EA:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "18B21D:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8861.99, -65916.945, 1016.2347",
+      "Rotation": "0, 0, 0.1018836"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001ED:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0000F0:SBS - LivingJamaicaPlain.esp",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "9441.059, -65634.6, 561.8896",
+      "Rotation": "0, 0, 3.1950853"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001EE:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0FF1F2:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8432.2705, -65603.42, 792.2346",
+      "Rotation": "0, 0, 6.2803774"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001F0:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "12EA9B:Fallout4.esm",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8999.192, -65592.14, 537.2015",
+      "Rotation": "0, 0, 1.6160457"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001F1:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "12F2F5:Fallout4.esm",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8402.545, -65652.72, 537.1484",
+      "Rotation": "0, 0, 3.1443765"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001F2:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "118F4B:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8357.556, -65628.57, 792.2346",
+      "Rotation": "0, 0, 3.1533055"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001F3:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "249ECE:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "9480.51, -65635.95, 971.06195",
+      "Rotation": "0, 0, 1.570798"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001F7:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8653.882, -65539.16, 793.85156",
+      "Rotation": "0, 0, 0.81615245"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001FB:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000919:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "9027.102, -65775.67, 849.5086",
+      "Rotation": "0, 0, 2.4375618"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001FE:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "082447:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8596.064, -65685.63, 849.54047",
+      "Rotation": "0, 0, 4.102056"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001FF:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "035248:DLCCoast.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8871.55, -65936.5, 793.1807",
+      "Rotation": "0, 0, 0.24464786"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000200:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "035248:DLCCoast.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "9034.832, -65908.44, 793.18353",
+      "Rotation": "0, 0, 5.0634794"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000201:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "16BD71:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8685.937, -65728.25, 917.403",
+      "Rotation": "0, 0, 3.1387844"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000202:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "074BB1:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8723.858, -65680.63, 793.17847",
+      "Rotation": "0, 0, 0.009340827"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000203:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000808:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "9027.301, -65782.805, 793.18054",
+      "Rotation": "0, 0, 1.5296955"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000204:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00080B:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8565.626, -65685.83, 793.17847",
+      "Rotation": "0, 0, 3.1410708"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000205:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000809:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8543.84, -65686.8, 849.54047",
+      "Rotation": "0, 0, 3.0216553"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00020C:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "9181.565, -65948.48, 818.12256",
+      "Rotation": "0, 0, 5.785917"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00020D:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000818:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "9034.288, -65892.4, 793.1825",
+      "Rotation": "0, 0, 4.4618225"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00020E:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000818:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "9031.69, -65840.5, 793.1812",
+      "Rotation": "0, 0, 4.1848598"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00020F:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000819:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "9119.4795, -65847.945, 817.2269",
+      "Rotation": "0, 0, 1.5331478"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000211:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB8:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "9326.563, -65661.44, 817.5221",
+      "Rotation": "0, 0, 2.3955202"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000213:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "01AC44:DLCCoast.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "9446.439, -65894.23, 561.8896",
+      "Rotation": "0, 0, 3.2979288"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000216:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1865B9:Fallout4.esm",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8635.174, -65672.46, 539.031",
+      "Rotation": "0, 0, 3.7440908"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000218:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "097638:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "9072.471, -65625.13, 687.9719",
+      "Rotation": "0, 0, 1.5707964"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000219:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "09763A:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8412.79, -65721.25, 683.8345",
+      "Rotation": "0, 0, 3.192207"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00021A:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "249EC0:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8305.135, -65588.73, 679.4624",
+      "Rotation": "0, 0, 4.7123976"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00021B:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "249EC8:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "9097.717, -65882.93, 716.3653",
+      "Rotation": "0, 0, 4.713742"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00021D:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "249ED0:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "9371.332, -65995.516, 712.7154",
+      "Rotation": "0, 0, 3.1415875"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00021E:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "249ED1:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "9097.968, -65892.49, 970.18176",
+      "Rotation": "0, 0, 4.712389"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000221:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B92:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8688.272, -65602.7, 1016.2346",
+      "Rotation": "0, 0, 6.280405"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000224:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B93:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8944.271, -65601.99, 1016.2346",
+      "Rotation": "0, 0, 6.2804136"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000225:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "034730:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8567.389, -65725.76, 1018.11487",
+      "Rotation": "0, 0, 6.1883655"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000226:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BB7:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8944.27, -65601.99, 1016.2346",
+      "Rotation": "0, 0, 6.2804036"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000227:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0039DC:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "9050.039, -65871.08, 1014.6657",
+      "Rotation": "0, 0, 1.5584673"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00022C:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "034730:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8815.38, -65724.69, 1013.2832",
+      "Rotation": "0, 0, 3.1325152"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00022E:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0FF1F2:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8931.036, -65597.984, 1015.81104",
+      "Rotation": "0, 0, 4.7327447"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00022F:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0FF1F3:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8688.272, -65602.7, 1016.2346",
+      "Rotation": "0, 0, 6.280409"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000231:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "249E9D:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "9187.331, -66007.05, 561.2505",
+      "Rotation": "0, 0, 0.012632693"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000232:SBS - LivingJamaicaPlain.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1BDDBB:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000239:SBS - LivingJamaicaPlain.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1654CF:Fallout4.esm"
+        }
+      ],
+      "Position": "8919.033, -65601.05, 537.1909",
+      "Rotation": "0, 0, 1.6569614"
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

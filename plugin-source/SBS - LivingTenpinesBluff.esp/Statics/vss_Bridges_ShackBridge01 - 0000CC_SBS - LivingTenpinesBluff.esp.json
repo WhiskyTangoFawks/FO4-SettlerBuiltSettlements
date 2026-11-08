@@ -1,0 +1,146 @@
+{
+  "FormKey": "0000CC:SBS - LivingTenpinesBluff.esp",
+  "EditorID": "vss_Bridges_ShackBridge01",
+  "ObjectBounds": {
+    "First": "-81, -144, -236",
+    "Second": "75, 125, 2"
+  },
+  "PreviewTransform": "0F78F9:Fallout4.esm",
+  "Model": {
+    "File": "Architecture\\Shacks\\vss\\Others\\ShackBridge01.nif",
+    "Data": "0x0400000003000000000000000100000001000000BD9EC32164647300DAC2327C64F2C54264647300DAC2327C7A1B10A264647300DAC2327CFB61461C6267736DFAFCA62E"
+  },
+  "Properties": [
+    {
+      "ActorValue": "00033D:Fallout4.esm",
+      "Value": 1.0
+    },
+    {
+      "ActorValue": "2233CD:Fallout4.esm",
+      "Value": 1.0
+    }
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Bridge01"
+  },
+  "MaxAngle": 90.0,
+  "LeafAmplitude": 1.0,
+  "LeafFrequency": 1.0,
+  "NavmeshGeometry": {
+    "Parent": {
+      "MutagenObjectType": "CellNavmeshParent",
+      "Parent": "000025:Fallout4.esm"
+    },
+    "Vertices": [
+      "57.580475, -21.25531, -2.0118594",
+      "67.26264, -134.40988, -2.0657115",
+      "-64.196556, -139.74338, -2.055404",
+      "-63.719578, -19.838734, -1.9613054",
+      "53.642014, 124.34894, -2.0523143",
+      "-64.454994, 124.34465, -1.9975766"
+    ],
+    "Triangles": [
+      {
+        "Vertices": "3, 2, 0",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": 1,
+        "EdgeLink_2_0": 2,
+        "Height": 3.4028235E+38,
+        "Flags": [
+          "Found"
+        ],
+        "CoverFlags": 1
+      },
+      {
+        "Vertices": "1, 0, 2",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_2_0": -1,
+        "Height": 3.4028235E+38,
+        "Flags": [
+          "Found"
+        ],
+        "CoverFlags": 5
+      },
+      {
+        "Vertices": "3, 0, 4",
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": 3,
+        "Height": 3.4028235E+38,
+        "Flags": [
+          "Found"
+        ],
+        "CoverFlags": 2
+      },
+      {
+        "Vertices": "5, 3, 4",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": 2,
+        "EdgeLink_2_0": -1,
+        "Height": 3.4028235E+38,
+        "Flags": [
+          "Found"
+        ],
+        "CoverFlags": 5
+      }
+    ],
+    "Cover": [
+      {
+        "Vertex1": 2,
+        "Vertex2": 5,
+        "Data": 2147485968
+      },
+      {
+        "Vertex1": 5,
+        "Vertex2": 4,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 4,
+        "Vertex2": 1,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 1,
+        "Vertex2": 2,
+        "Data": 2320
+      }
+    ],
+    "CoverTriangleMappings": [
+      {},
+      {
+        "Cover": 9,
+        "Triangle": 2
+      },
+      {
+        "Cover": 14,
+        "Triangle": 1
+      },
+      {
+        "Cover": 6,
+        "Triangle": 3
+      },
+      {
+        "Cover": 12
+      },
+      {
+        "Cover": 4,
+        "Triangle": 2
+      }
+    ],
+    "GridSize": 1,
+    "GridMaxDistance": "131.71764, 264.09232",
+    "GridMin": "-64.454994, -139.74338, -2.0657115",
+    "GridMax": "67.26264, 124.34894, 3.4028235E+38",
+    "GridArrays": {
+      "GridCell": [
+        4,
+        0,
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  }
+}

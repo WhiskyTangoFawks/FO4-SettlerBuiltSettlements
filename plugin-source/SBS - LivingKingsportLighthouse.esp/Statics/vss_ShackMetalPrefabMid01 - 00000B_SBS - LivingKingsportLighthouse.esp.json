@@ -1,0 +1,290 @@
+{
+  "FormKey": "00000B:SBS - LivingKingsportLighthouse.esp",
+  "EditorID": "vss_ShackMetalPrefabMid01",
+  "PreviewTransform": "140D96:Fallout4.esm",
+  "Model": {
+    "File": "Architecture\\Shacks\\vss\\Prefabs\\ShackMetalPrefabMid01.nif",
+    "Data": "0x040000000D000000000000000500000005000000BD9EC32164647300DAC2327C64F2C54264647300DAC2327C003D5B8464647300DAC2327CD9515DE764647300DAC2327C784B48B664647300DAC2327CA1274ED564647300DAC2327CC8DCFF0264647300DAC2327C11B0F96164647300DAC2327C0F592C8164647300DAC2327C0F2C2A00646473001CDB88C5BFCE9B3564647300DAC2327CC7B8880764647300DAC2327C7A1B10A264647300DAC2327C932B4C9D6267736DFAFCA62E22CD48D26267736DFAFCA62E050363256267736DFAFCA62E926D60A96267736DFAFCA62EFB61461C6267736DFAFCA62E"
+  },
+  "Properties": [
+    {
+      "ActorValue": "000337:Fallout4.esm",
+      "Value": 32.0
+    },
+    {
+      "ActorValue": "00033D:Fallout4.esm",
+      "Value": 1.0
+    },
+    {
+      "ActorValue": "00033E:Fallout4.esm",
+      "Value": 32.0
+    },
+    {
+      "ActorValue": "249D41:Fallout4.esm",
+      "Value": 256.0
+    }
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Metal mid roof and floor 01"
+  },
+  "MaxAngle": 90.0,
+  "LeafAmplitude": 1.0,
+  "LeafFrequency": 1.0,
+  "NavmeshGeometry": {
+    "Parent": {
+      "MutagenObjectType": "CellNavmeshParent",
+      "Parent": "000025:Fallout4.esm"
+    },
+    "Vertices": [
+      "96.370255, -127.01972, 0",
+      "-96.59128, -126.25604, -1.5258789E-05",
+      "96.84923, -93.444275, -1.5258789E-05",
+      "-97.33627, -94.21869, -1.5258789E-05",
+      "-97.3975, 96.50475, 1.5258789E-05",
+      "97.099915, 95.55858, -1.5258789E-05",
+      "95.96436, 125.77277, 1.5258789E-05",
+      "-94.96323, 125.09127, 1.5258789E-05",
+      "-125.60841, 95.82114, -4.5776367E-05",
+      "-125.85182, -96.37163, 3.0517578E-05",
+      "126.7206, 96.079346, 0",
+      "126.333115, -95.86416, 3.0517578E-05"
+    ],
+    "Triangles": [
+      {
+        "Vertices": "0, 2, 1",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": 1,
+        "EdgeLink_2_0": -1,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ],
+        "CoverFlags": 5
+      },
+      {
+        "Vertices": "1, 2, 3",
+        "EdgeLink_1_2": 2,
+        "EdgeLink_2_0": -1,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ],
+        "CoverFlags": 4
+      },
+      {
+        "Vertices": "2, 4, 3",
+        "EdgeLink_0_1": 3,
+        "EdgeLink_1_2": 6,
+        "EdgeLink_2_0": 1,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "4, 2, 5",
+        "EdgeLink_0_1": 2,
+        "EdgeLink_1_2": 8,
+        "EdgeLink_2_0": 4,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "5, 6, 4",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": 5,
+        "EdgeLink_2_0": 3,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ],
+        "CoverFlags": 1
+      },
+      {
+        "Vertices": "4, 6, 7",
+        "EdgeLink_0_1": 4,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": -1,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ],
+        "CoverFlags": 6
+      },
+      {
+        "Vertices": "4, 8, 3",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": 7,
+        "EdgeLink_2_0": 2,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ],
+        "CoverFlags": 1
+      },
+      {
+        "Vertices": "3, 8, 9",
+        "EdgeLink_0_1": 6,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": -1,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ],
+        "CoverFlags": 6
+      },
+      {
+        "Vertices": "5, 2, 10",
+        "EdgeLink_0_1": 3,
+        "EdgeLink_1_2": 9,
+        "EdgeLink_2_0": -1,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ],
+        "CoverFlags": 4
+      },
+      {
+        "Vertices": "2, 11, 10",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": 8,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ],
+        "CoverFlags": 3
+      }
+    ],
+    "Cover": [
+      {
+        "Vertex1": 2,
+        "Data": 2147485968
+      },
+      {
+        "Vertex2": 1,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 1,
+        "Vertex2": 3,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 3,
+        "Vertex2": 9,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 9,
+        "Vertex2": 8,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 8,
+        "Vertex2": 4,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 4,
+        "Vertex2": 7,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 7,
+        "Vertex2": 6,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 6,
+        "Vertex2": 5,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 5,
+        "Vertex2": 10,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 10,
+        "Vertex2": 11,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 11,
+        "Vertex2": 2,
+        "Data": 2320
+      }
+    ],
+    "CoverTriangleMappings": [
+      {},
+      {
+        "Cover": 29,
+        "Triangle": 4
+      },
+      {
+        "Cover": 22,
+        "Triangle": 6
+      },
+      {
+        "Cover": 34,
+        "Triangle": 9
+      },
+      {
+        "Cover": 24,
+        "Triangle": 5
+      },
+      {
+        "Cover": 36,
+        "Triangle": 11
+      },
+      {
+        "Cover": 30,
+        "Triangle": 3
+      },
+      {
+        "Cover": 2,
+        "Triangle": 1
+      },
+      {
+        "Cover": 37,
+        "Triangle": 10
+      },
+      {
+        "Cover": 21,
+        "Triangle": 7
+      },
+      {
+        "Cover": 6,
+        "Triangle": 2
+      },
+      {
+        "Cover": 16,
+        "Triangle": 8
+      }
+    ],
+    "GridSize": 1,
+    "GridMaxDistance": "252.57242, 252.7925",
+    "GridMin": "-125.85182, -127.01972, -4.5776367E-05",
+    "GridMax": "126.7206, 125.77277, 170.00003",
+    "GridArrays": {
+      "GridCell": [
+        10,
+        0,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  }
+}

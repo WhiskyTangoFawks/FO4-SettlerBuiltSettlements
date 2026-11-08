@@ -1,0 +1,29 @@
+{
+  "ModKey": "SBS - LivingTaffington.esp",
+  "GameRelease": "Fallout4",
+  "ModHeader": {
+    "Flags": [
+      "Small"
+    ],
+    "Stats": {
+      "NextFormID": 435
+    },
+    "Author": "",
+    "OverriddenForms": [
+      "056CE5:Fallout4.esm",
+      "05A572:Fallout4.esm",
+      "05A574:Fallout4.esm",
+      "05A577:Fallout4.esm",
+      "07FF4F:Fallout4.esm",
+      "07FF50:Fallout4.esm",
+      "087A9B:Fallout4.esm",
+      "0A9053:Fallout4.esm",
+      "140162:Fallout4.esm",
+      "15F7A7:Fallout4.esm",
+      "181815:Fallout4.esm",
+      "19E6B2:Fallout4.esm",
+      "1A6990:Fallout4.esm",
+      "1E199F:Fallout4.esm"
+    ]
+  }
+}

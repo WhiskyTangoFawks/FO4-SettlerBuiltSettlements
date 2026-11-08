@@ -1,0 +1,99 @@
+{
+  "FormKey": "0000E3:SBS - LivingGraygarden.esp",
+  "EditorID": "Store_Medic_Rug_Chemistry3",
+  "FormVersion": 118,
+  "VirtualMachineAdapter": {
+    "Scripts": [
+      {
+        "Name": "workshopobjectscript",
+        "Properties": [
+          {
+            "MutagenObjectType": "ScriptIntProperty",
+            "Name": "VendorType",
+            "Data": 4
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "WorkshopParent",
+            "Object": "02058E:Fallout4.esm"
+          }
+        ]
+      }
+    ]
+  },
+  "ObjectBounds": {
+    "First": "-39, -25, 0",
+    "Second": "39, 25, 1"
+  },
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Store Medic Rug Chemistry3"
+  },
+  "Model": {
+    "File": "Props\\WelcomeMat\\WelcomeMat2.nif",
+    "Data": "0x03000000000000000000000000000000"
+  },
+  "Keywords": [
+    "020592:Fallout4.esm",
+    "06E9C7:Fallout4.esm",
+    "1487BE:Fallout4.esm",
+    "18F691:Fallout4.esm",
+    "1CD02B:Fallout4.esm"
+  ],
+  "Properties": [
+    {
+      "ActorValue": "10C847:Fallout4.esm",
+      "Value": 1.0
+    },
+    {
+      "ActorValue": "12722C:Fallout4.esm",
+      "Value": 10.0
+    },
+    {
+      "ActorValue": "129A8C:Fallout4.esm",
+      "Value": 1.0
+    },
+    {
+      "ActorValue": "249E5F:Fallout4.esm",
+      "Value": 1.0
+    }
+  ],
+  "PNAM": "0x00000000",
+  "Flags": [
+    "MustExitToTalk",
+    "HasModel"
+  ],
+  "MarkerEntryPoints": [
+    {
+      "Type": [
+        "Sit"
+      ],
+      "Points": [
+        "Front",
+        "Right",
+        "Left"
+      ]
+    }
+  ],
+  "MarkerModel": "Markers\\WorkstationChemistryA01Marker.nif",
+  "MarkerParameters": [
+    {
+      "Enabled": true,
+      "RotationZ": 180.00006,
+      "EntryTypes": [
+        "Front",
+        "Behind",
+        "Right",
+        "Left",
+        "Other",
+        "0x20",
+        "0x40",
+        "0x80"
+      ],
+      "Unknown": "0xFFFFFF"
+    }
+  ],
+  "WBDTDataTypeState": [
+    "Break0"
+  ]
+}

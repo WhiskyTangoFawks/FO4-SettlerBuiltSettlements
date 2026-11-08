@@ -1,0 +1,3725 @@
+{
+  "FormKey": "00DE04:Fallout4.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "AbernathyFarmExt",
+  "Fallout4MajorRecordFlags": [
+    "Compressed"
+  ],
+  "Flags": [
+    "HasWater"
+  ],
+  "PreVisFilesTimestamp": 7972,
+  "InPreVisFileOf": "00DE24:Fallout4.esm",
+  "PreCombinedFilesTimestamp": 7972,
+  "Grid": {
+    "Point": "-19, 16"
+  },
+  "MaxHeightData": {
+    "Offset": 7168.0,
+    "HeightMap": [
+      [3,3,3,3,7,9,3,3,3,3,4,3,3,32,32,32,32,32,32,32,32,32,10,7,7,4,4,3,3,4,4,4],
+      [3,3,3,3,8,8,3,3,3,4,4,3,32,32,32,32,32,32,32,32,32,32,32,32,10,7,7,3,3,4,4,4],
+      [3,3,3,3,3,3,3,3,3,4,3,3,3,32,32,32,32,32,32,32,32,32,32,32,32,11,8,7,3,4,4,4],
+      [3,3,3,3,3,3,3,3,4,3,3,3,3,3,3,32,32,32,32,32,32,32,32,32,32,32,32,7,4,4,4,4],
+      [3,3,3,3,3,3,3,3,4,3,3,3,3,3,7,7,8,32,32,32,32,32,32,32,32,32,32,32,32,4,4,4],
+      [3,3,3,3,3,3,3,4,4,3,3,3,3,3,7,7,8,9,32,32,32,32,32,32,32,32,32,32,32,32,4,4],
+      [3,3,3,3,3,3,3,4,3,3,3,3,3,3,7,7,7,7,7,11,32,32,32,32,32,32,32,32,32,32,32,4],
+      [3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,4,7,7,7,7,9,10,32,32,32,32,32,32,32,32,4,4],
+      [2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,4,4,7,7,7,9,9,9,32,32,32,32,32,32,32,4,4],
+      [2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,4,4,4,4,7,9,9,9,9,4,32,32,32,32,4,4,4],
+      [2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,4,4,3,3,7,9,9,4,3,4,32,32,4,4,4],
+      [2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,4,4,4,4,4,4,4],
+      [2,2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,4,4,3,4,4,4,4,4],
+      [2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3,3,3,4,3,3,3,3,3,4,4,3,4,4,4,4,4],
+      [2,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,4,4,3,3,4,4,4,4,4],
+      [2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,4,3,4,4,3,3,4,4,4,4,4],
+      [1,2,2,2,2,2,2,2,2,3,3,4,3,3,3,3,3,3,3,3,3,4,4,3,3,3,3,4,4,4,4,4],
+      [1,1,2,2,2,2,2,2,2,3,3,3,3,3,3,4,4,3,3,3,3,3,4,3,3,3,3,4,4,4,4,4],
+      [1,1,2,2,2,2,2,2,2,2,3,3,3,3,3,4,3,3,3,3,3,3,4,3,3,3,3,4,4,4,4,4],
+      [1,1,1,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,4,4,4,4,4],
+      [1,1,1,1,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,4,4,4,4,4],
+      [1,1,1,1,1,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3,3,3,3,4,4,4,4,4],
+      [1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3,2,3,3,3,3,3,3,4,4,4,4],
+      [1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,3,3,3,2,2,2,3,3,3,3,3,3,4,4,4,4],
+      [1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3,4,4,4,4],
+      [1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,4,4,4],
+      [1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,4,4,4],
+      [0,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,4,4,4],
+      [0,0,0,0,0,0,1,1,1,1,2,2,1,3,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3,4,4,4],
+      [0,0,0,0,0,0,0,1,1,1,2,2,3,3,1,2,2,2,2,2,2,2,2,3,3,3,3,3,3,4,4,4],
+      [0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,3,3,3,3,3,4,4,4],
+      [0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,3,3,3,3,4,4,4]
+    ]
+  },
+  "WaterHeight": 3.4028235E+38,
+  "Regions": [
+    "23C94E:Fallout4.esm",
+    "049BE0:Fallout4.esm",
+    "03A2CC:Fallout4.esm"
+  ],
+  "Location": "06B4D0:Fallout4.esm",
+  "PhysicsReferences": [
+    "08F0F8:Fallout4.esm",
+    "08F0FD:Fallout4.esm",
+    "08F106:Fallout4.esm",
+    "08F0FE:Fallout4.esm",
+    "06442B:Fallout4.esm",
+    "08F0FB:Fallout4.esm",
+    "06FA18:Fallout4.esm"
+  ],
+  "CombinedMeshes": [
+    176306026,
+    210030716,
+    324769019,
+    425316049,
+    462555487,
+    524771173,
+    563641934,
+    568854872,
+    662107564,
+    736777074,
+    850632099,
+    851700405,
+    942779081,
+    1398510843,
+    1499057873,
+    1598512997,
+    1642596696,
+    1735849388,
+    1810518898,
+    1924373923,
+    2016520905,
+    2472252667,
+    2672254821,
+    2711125582,
+    2884260722,
+    2998115747,
+    3090262729,
+    3790080344,
+    3958002546,
+    4071857571
+  ],
+  "CombinedMeshReferences": [
+    {
+      "Reference": "18F062:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "088A38:Fallout4.esm",
+      "CombinedMesh": 736777074
+    },
+    {
+      "Reference": "0642EB:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "06B9EE:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "06B9AB:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "0642AE:Fallout4.esm",
+      "CombinedMesh": 3958002546
+    },
+    {
+      "Reference": "06B9EB:Fallout4.esm",
+      "CombinedMesh": 3790080344
+    },
+    {
+      "Reference": "066F67:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "06B980:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "0642AB:Fallout4.esm",
+      "CombinedMesh": 4071857571
+    },
+    {
+      "Reference": "0640D3:Fallout4.esm",
+      "CombinedMesh": 4071857571
+    },
+    {
+      "Reference": "18F067:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "06B9F2:Fallout4.esm",
+      "CombinedMesh": 3790080344
+    },
+    {
+      "Reference": "06431C:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "06B9B7:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "0642D9:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06F5D1:Fallout4.esm",
+      "CombinedMesh": 3958002546
+    },
+    {
+      "Reference": "0644A6:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "064321:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "088A37:Fallout4.esm",
+      "CombinedMesh": 736777074
+    },
+    {
+      "Reference": "0642CA:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "06F5C8:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "088A2B:Fallout4.esm",
+      "CombinedMesh": 3090262729
+    },
+    {
+      "Reference": "066EDF:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "064119:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "18F068:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "06F5CD:Fallout4.esm",
+      "CombinedMesh": 2884260722
+    },
+    {
+      "Reference": "06B9B8:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "088A32:Fallout4.esm",
+      "CombinedMesh": 568854872
+    },
+    {
+      "Reference": "05A0AF:Fallout4.esm",
+      "CombinedMesh": 2672254821
+    },
+    {
+      "Reference": "0642CF:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "088A1C:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "066F57:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "0575FD:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "0642AC:Fallout4.esm",
+      "CombinedMesh": 4071857571
+    },
+    {
+      "Reference": "06B9A9:Fallout4.esm",
+      "CombinedMesh": 2472252667
+    },
+    {
+      "Reference": "06B9EC:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "0642E9:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "10980C:Fallout4.esm",
+      "CombinedMesh": 4071857571
+    },
+    {
+      "Reference": "0642EC:Fallout4.esm",
+      "CombinedMesh": 1810518898
+    },
+    {
+      "Reference": "06B9E9:Fallout4.esm",
+      "CombinedMesh": 1398510843
+    },
+    {
+      "Reference": "0640C8:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06B9B5:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "066EFC:Fallout4.esm",
+      "CombinedMesh": 563641934
+    },
+    {
+      "Reference": "18F065:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "06B9F0:Fallout4.esm",
+      "CombinedMesh": 1642596696
+    },
+    {
+      "Reference": "088A1B:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "0642C8:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "0644A4:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "088A35:Fallout4.esm",
+      "CombinedMesh": 568854872
+    },
+    {
+      "Reference": "064323:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "066F58:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "088A2C:Fallout4.esm",
+      "CombinedMesh": 3090262729
+    },
+    {
+      "Reference": "05A0B1:Fallout4.esm",
+      "CombinedMesh": 2672254821
+    },
+    {
+      "Reference": "06F5CA:Fallout4.esm",
+      "CombinedMesh": 2884260722
+    },
+    {
+      "Reference": "0642D4:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "06F5CF:Fallout4.esm",
+      "CombinedMesh": 4071857571
+    },
+    {
+      "Reference": "088A1E:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "06412C:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "06B9E6:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "088A30:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "06B93C:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06B957:Fallout4.esm",
+      "CombinedMesh": 2884260722
+    },
+    {
+      "Reference": "213DF2:Fallout4.esm",
+      "CombinedMesh": 568854872
+    },
+    {
+      "Reference": "06B912:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06B925:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "06B94E:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06B90B:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "213DEB:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "05540E:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "029606:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "1CA0BC:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "06B94B:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06B920:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "193D94:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "213DEE:Fallout4.esm",
+      "CombinedMesh": 568854872
+    },
+    {
+      "Reference": "06B952:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "064415:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "06443B:Fallout4.esm",
+      "CombinedMesh": 4071857571
+    },
+    {
+      "Reference": "06B97C:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "213DF7:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "06B941:Fallout4.esm",
+      "CombinedMesh": 2472252667
+    },
+    {
+      "Reference": "0643EA:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "064428:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "06B96F:Fallout4.esm",
+      "CombinedMesh": 2472252667
+    },
+    {
+      "Reference": "06B904:Fallout4.esm",
+      "CombinedMesh": 2472252667
+    },
+    {
+      "Reference": "193DA9:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0643F3:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "06B976:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "213DFD:Fallout4.esm",
+      "CombinedMesh": 568854872
+    },
+    {
+      "Reference": "06B91D:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "1CA0C1:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "06B936:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06B95D:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "213DF8:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "06B973:Fallout4.esm",
+      "CombinedMesh": 2472252667
+    },
+    {
+      "Reference": "1CA0C4:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "06B92F:Fallout4.esm",
+      "CombinedMesh": 2472252667
+    },
+    {
+      "Reference": "06B944:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06B901:Fallout4.esm",
+      "CombinedMesh": 2472252667
+    },
+    {
+      "Reference": "213DE1:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "06B96A:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06B97B:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06B910:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "213DF0:Fallout4.esm",
+      "CombinedMesh": 568854872
+    },
+    {
+      "Reference": "213DDE:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "06B93E:Fallout4.esm",
+      "CombinedMesh": 2472252667
+    },
+    {
+      "Reference": "193D93:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "213DE9:Fallout4.esm",
+      "CombinedMesh": 568854872
+    },
+    {
+      "Reference": "06B909:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "1CA0BE:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "064425:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "239BA8:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06B94C:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06B927:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "213DEC:Fallout4.esm",
+      "CombinedMesh": 568854872
+    },
+    {
+      "Reference": "06B90C:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "055409:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "06440E:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "0643E2:Fallout4.esm",
+      "CombinedMesh": 1810518898
+    },
+    {
+      "Reference": "06B949:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "1CA0C9:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "06B915:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "213DF5:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "06B97E:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06B93B:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06B950:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "064417:Fallout4.esm",
+      "CombinedMesh": 563641934
+    },
+    {
+      "Reference": "06B906:Fallout4.esm",
+      "CombinedMesh": 2884260722
+    },
+    {
+      "Reference": "06B96D:Fallout4.esm",
+      "CombinedMesh": 2472252667
+    },
+    {
+      "Reference": "06B943:Fallout4.esm",
+      "CombinedMesh": 2711125582
+    },
+    {
+      "Reference": "213DFF:Fallout4.esm",
+      "CombinedMesh": 568854872
+    },
+    {
+      "Reference": "06B974:Fallout4.esm",
+      "CombinedMesh": 2472252667
+    },
+    {
+      "Reference": "1CA0C3:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "06B95A:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06B971:Fallout4.esm",
+      "CombinedMesh": 2472252667
+    },
+    {
+      "Reference": "06B91A:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "213DFA:Fallout4.esm",
+      "CombinedMesh": 568854872
+    },
+    {
+      "Reference": "1CA0C6:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "1BC1AB:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "06B95F:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06B934:Fallout4.esm",
+      "CombinedMesh": 2884260722
+    },
+    {
+      "Reference": "06442F:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "06B968:Fallout4.esm",
+      "CombinedMesh": 2884260722
+    },
+    {
+      "Reference": "213DE3:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "06B903:Fallout4.esm",
+      "CombinedMesh": 2472252667
+    },
+    {
+      "Reference": "064386:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "06B92D:Fallout4.esm",
+      "CombinedMesh": 2472252667
+    },
+    {
+      "Reference": "06B937:Fallout4.esm",
+      "CombinedMesh": 2884260722
+    },
+    {
+      "Reference": "06B95C:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "1CA0C5:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "0295F5:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "213DF9:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "06B972:Fallout4.esm",
+      "CombinedMesh": 2472252667
+    },
+    {
+      "Reference": "06B92E:Fallout4.esm",
+      "CombinedMesh": 2472252667
+    },
+    {
+      "Reference": "064385:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "213DE0:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0295EC:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "055405:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "02CC4C:Fallout4.esm",
+      "CombinedMesh": 210030716
+    },
+    {
+      "Reference": "064380:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "06B92B:Fallout4.esm",
+      "CombinedMesh": 2472252667
+    },
+    {
+      "Reference": "06B96E:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06B905:Fallout4.esm",
+      "CombinedMesh": 2472252667
+    },
+    {
+      "Reference": "029608:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "1CA0C0:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "06B977:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "0295F0:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "213DFC:Fallout4.esm",
+      "CombinedMesh": 568854872
+    },
+    {
+      "Reference": "06B94A:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06B921:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "245A69:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "193D95:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "213DEF:Fallout4.esm",
+      "CombinedMesh": 1642596696
+    },
+    {
+      "Reference": "06B90F:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "064414:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06B953:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06B938:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06B97D:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06B916:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "213DF6:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "06B93D:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06B913:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "213DF3:Fallout4.esm",
+      "CombinedMesh": 568854872
+    },
+    {
+      "Reference": "06B978:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06B924:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "06B94F:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "064426:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "029607:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "1CA0BD:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "213DEA:Fallout4.esm",
+      "CombinedMesh": 568854872
+    },
+    {
+      "Reference": "06B90A:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06B961:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "1CA0C7:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "06B970:Fallout4.esm",
+      "CombinedMesh": 2472252667
+    },
+    {
+      "Reference": "213DFB:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "06B935:Fallout4.esm",
+      "CombinedMesh": 2884260722
+    },
+    {
+      "Reference": "06B969:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06B902:Fallout4.esm",
+      "CombinedMesh": 2472252667
+    },
+    {
+      "Reference": "213DE2:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "06442E:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "06B947:Fallout4.esm",
+      "CombinedMesh": 2884260722
+    },
+    {
+      "Reference": "06B92C:Fallout4.esm",
+      "CombinedMesh": 2472252667
+    },
+    {
+      "Reference": "06B907:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "193D9D:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "059FD7:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "06B942:Fallout4.esm",
+      "CombinedMesh": 2711125582
+    },
+    {
+      "Reference": "1CA0C2:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "213DFE:Fallout4.esm",
+      "CombinedMesh": 568854872
+    },
+    {
+      "Reference": "06B91E:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06B930:Fallout4.esm",
+      "CombinedMesh": 2711125582
+    },
+    {
+      "Reference": "213DED:Fallout4.esm",
+      "CombinedMesh": 563641934
+    },
+    {
+      "Reference": "055408:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "06B923:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "06B948:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06440F:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "213DF4:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "06B914:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06B97F:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "1CA0C8:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "064416:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "0295D6:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "06B951:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "0643BA:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "213DF1:Fallout4.esm",
+      "CombinedMesh": 568854872
+    },
+    {
+      "Reference": "06B911:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06B954:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06B93F:Fallout4.esm",
+      "CombinedMesh": 2472252667
+    },
+    {
+      "Reference": "213DDF:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "1CA0BF:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "064424:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "06B963:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06B908:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06B94D:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06B926:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "18F069:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "088A2A:Fallout4.esm",
+      "CombinedMesh": 3090262729
+    },
+    {
+      "Reference": "06B9FC:Fallout4.esm",
+      "CombinedMesh": 3958002546
+    },
+    {
+      "Reference": "06B9B9:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "088A33:Fallout4.esm",
+      "CombinedMesh": 568854872
+    },
+    {
+      "Reference": "06B9E5:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "0644A2:Fallout4.esm",
+      "CombinedMesh": 1398510843
+    },
+    {
+      "Reference": "0640C4:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "088A1D:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "0642CE:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "066EE9:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "064320:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "088A36:Fallout4.esm",
+      "CombinedMesh": 736777074
+    },
+    {
+      "Reference": "06F5D0:Fallout4.esm",
+      "CombinedMesh": 4071857571
+    },
+    {
+      "Reference": "0640C1:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06F5C9:Fallout4.esm",
+      "CombinedMesh": 2884260722
+    },
+    {
+      "Reference": "06411D:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "088A2F:Fallout4.esm",
+      "CombinedMesh": 3090262729
+    },
+    {
+      "Reference": "0640CB:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06B9EA:Fallout4.esm",
+      "CombinedMesh": 1642596696
+    },
+    {
+      "Reference": "06B981:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "18F066:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "064117:Fallout4.esm",
+      "CombinedMesh": 4071857571
+    },
+    {
+      "Reference": "18E436:Fallout4.esm",
+      "CombinedMesh": 462555487
+    },
+    {
+      "Reference": "06431D:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "06B9B6:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "18F063:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "06B9B3:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "066F54:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "0640CE:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0642EA:Fallout4.esm",
+      "CombinedMesh": 736777074
+    },
+    {
+      "Reference": "06B9EF:Fallout4.esm",
+      "CombinedMesh": 1398510843
+    },
+    {
+      "Reference": "06B9BB:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06F5CE:Fallout4.esm",
+      "CombinedMesh": 4071857571
+    },
+    {
+      "Reference": "088A28:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "06412D:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "088A1F:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "06B9E7:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "088A31:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "066F00:Fallout4.esm",
+      "CombinedMesh": 563641934
+    },
+    {
+      "Reference": "0642C9:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "088A34:Fallout4.esm",
+      "CombinedMesh": 568854872
+    },
+    {
+      "Reference": "0640C3:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "05A09E:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "066F59:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "06F5CB:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "088A2D:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "05A0B0:Fallout4.esm",
+      "CombinedMesh": 524771173
+    },
+    {
+      "Reference": "10980D:Fallout4.esm",
+      "CombinedMesh": 3958002546
+    },
+    {
+      "Reference": "06B9E8:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "0642DA:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06431F:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "066F16:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "06B9F1:Fallout4.esm",
+      "CombinedMesh": 1642596696
+    },
+    {
+      "Reference": "18F064:Fallout4.esm",
+      "CombinedMesh": 3090262729
+    },
+    {
+      "Reference": "0640FB:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "064436:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "064435:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "064430:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "05540A:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "0642BB:Fallout4.esm",
+      "CombinedMesh": 4071857571
+    },
+    {
+      "Reference": "0642BA:Fallout4.esm",
+      "CombinedMesh": 4071857571
+    },
+    {
+      "Reference": "06431E:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "06B9F4:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06B97A:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06B96C:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06B962:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06B958:Fallout4.esm",
+      "CombinedMesh": 2884260722
+    },
+    {
+      "Reference": "06B946:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "18F061:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "0642AD:Fallout4.esm",
+      "CombinedMesh": 3958002546
+    },
+    {
+      "Reference": "06B945:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06B940:Fallout4.esm",
+      "CombinedMesh": 2472252667
+    },
+    {
+      "Reference": "06B933:Fallout4.esm",
+      "CombinedMesh": 2998115747
+    },
+    {
+      "Reference": "06B922:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "0769CF:Fallout4.esm",
+      "CombinedMesh": 2472252667
+    },
+    {
+      "Reference": "16842B:Fallout4.esm",
+      "CombinedMesh": 1598512997
+    },
+    {
+      "Reference": "06B92A:Fallout4.esm",
+      "CombinedMesh": 2472252667
+    },
+    {
+      "Reference": "0295EF:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "0295F1:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "055406:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "055407:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "06B9ED:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "05540C:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "05540F:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "2387B1:Fallout4.esm",
+      "CombinedMesh": 850632099
+    }
+  ],
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "064481:Fallout4.esm",
+      "Base": "0E726A:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "-77335.47, 68222.414, 7528.786",
+      "Rotation": "0, 0, 0.6999992"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "064490:Fallout4.esm",
+      "Base": "03A9ED:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "-77118.586, 68357.97, 7529",
+      "Rotation": "0, 0, 4.43739"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "064491:Fallout4.esm",
+      "Base": "03A9ED:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "-77142.65, 68404.2, 7529",
+      "Rotation": "0, 0, 3.9123893"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "066F29:Fallout4.esm",
+      "Base": "088FAC:Fallout4.esm",
+      "Ownership": {
+        "Owner": "06B4D4:Fallout4.esm",
+        "NoCrime": true
+      },
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "-76774.05, 66986.055, 7453.9023",
+      "Rotation": "0, 0, 0.51841164"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "066F2A:Fallout4.esm",
+      "Base": "088FAD:Fallout4.esm",
+      "Ownership": {
+        "Owner": "06B4D4:Fallout4.esm",
+        "NoCrime": true
+      },
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "-76616.09, 66886.3, 7451.3726",
+      "Rotation": "0, 0, 0.5694084"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "066F2B:Fallout4.esm",
+      "Base": "088FAC:Fallout4.esm",
+      "Ownership": {
+        "Owner": "06B4D4:Fallout4.esm",
+        "NoCrime": true
+      },
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "-76419.734, 66780.95, 7451.0464",
+      "Rotation": "0, 0, 0.58620375"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "066F34:Fallout4.esm",
+      "Base": "088FAC:Fallout4.esm",
+      "Ownership": {
+        "Owner": "06B4D4:Fallout4.esm",
+        "NoCrime": true
+      },
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "-76250.01, 66681.25, 7450.76",
+      "Rotation": "0, 0, 0.5388128"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "066F35:Fallout4.esm",
+      "Base": "088FAC:Fallout4.esm",
+      "Ownership": {
+        "Owner": "06B4D4:Fallout4.esm",
+        "NoCrime": true
+      },
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "-76853.73, 66809.28, 7456.4585",
+      "Rotation": "0, 0, 0.58000433"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "066F36:Fallout4.esm",
+      "Base": "088FAD:Fallout4.esm",
+      "Ownership": {
+        "Owner": "06B4D4:Fallout4.esm",
+        "NoCrime": true
+      },
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "-76731.63, 66732.05, 7455.141",
+      "Rotation": "0, 0, 0.56700337"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "066F37:Fallout4.esm",
+      "Base": "088FAD:Fallout4.esm",
+      "Ownership": {
+        "Owner": "06B4D4:Fallout4.esm",
+        "NoCrime": true
+      },
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "-76581.59, 66640.17, 7453.6094",
+      "Rotation": "0, 0, 0.55360794"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "066F39:Fallout4.esm",
+      "Base": "088FAC:Fallout4.esm",
+      "Ownership": {
+        "Owner": "06B4D4:Fallout4.esm",
+        "NoCrime": true
+      },
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "-76408.77, 66535.28, 7451.69",
+      "Rotation": "0, 0, 0.53940797"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "066F40:Fallout4.esm",
+      "Base": "088FAD:Fallout4.esm",
+      "Ownership": {
+        "Owner": "06B4D4:Fallout4.esm",
+        "NoCrime": true
+      },
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "-76156.914, 66848.03, 7438.9585",
+      "Rotation": "0, 0, 0.53200954"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "066F42:Fallout4.esm",
+      "Base": "088FAC:Fallout4.esm",
+      "Ownership": {
+        "Owner": "06B4D4:Fallout4.esm",
+        "NoCrime": true
+      },
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "-76379.63, 66942.59, 7448.044",
+      "Rotation": "0, 0, 0.55141234"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "066F4E:Fallout4.esm",
+      "Base": "088FAC:Fallout4.esm",
+      "Ownership": {
+        "Owner": "06B4D4:Fallout4.esm",
+        "NoCrime": true
+      },
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "-76540.7, 67055.34, 7448.3154",
+      "Rotation": "0, 0, 0.5510092"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "066F53:Fallout4.esm",
+      "Base": "088FAC:Fallout4.esm",
+      "Ownership": {
+        "Owner": "06B4D4:Fallout4.esm",
+        "NoCrime": true
+      },
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "-76670.25, 67141.055, 7450.15",
+      "Rotation": "0, 0, 0.57200724"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "066F5E:Fallout4.esm",
+      "Base": "088FAC:Fallout4.esm",
+      "Ownership": {
+        "Owner": "06B4D4:Fallout4.esm",
+        "NoCrime": true
+      },
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "-76504.49, 66377.984, 7443.543",
+      "Rotation": "0, 0, 0.6222151"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "066F5F:Fallout4.esm",
+      "Base": "088FAD:Fallout4.esm",
+      "Ownership": {
+        "Owner": "06B4D4:Fallout4.esm",
+        "NoCrime": true
+      },
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "-76692.91, 66489.55, 7442.884",
+      "Rotation": "0, 0, 0.5682076"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "066F60:Fallout4.esm",
+      "Base": "088FAC:Fallout4.esm",
+      "Ownership": {
+        "Owner": "06B4D4:Fallout4.esm",
+        "NoCrime": true
+      },
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "-76956.69, 66647.82, 7460.2764",
+      "Rotation": "0, 0, 0.44020346"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "066F62:Fallout4.esm",
+      "Base": "088FAD:Fallout4.esm",
+      "Ownership": {
+        "Owner": "06B4D4:Fallout4.esm",
+        "NoCrime": true
+      },
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "-76857.04, 66581.625, 7451.472",
+      "Rotation": "0, 0, 0.5680017"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "193D96:Fallout4.esm",
+      "Base": "189160:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "-77117.664, 67986.88, 7529.5444"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000C8:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E7744:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-77658.516, 67230.9, 7520.7188",
+      "Rotation": "0, 0, 3.9355395"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000CC:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E7744:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-77736.4, 67283.03, 7533.1772",
+      "Rotation": "0, 0, 2.1307764"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000D0:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E7744:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-77766.22, 67056.195, 7523.842",
+      "Rotation": "0, 0, 2.2299147"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000D1:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "09D107:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-76274.68, 66679.54, 7458.0405",
+      "Rotation": "0, 0, 4.6716986"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000D9:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "09D107:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-76888.77, 66618.69, 7452.488",
+      "Rotation": "0, 0, 2.6369061"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000DA:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "09D107:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-77081.35, 66735.9, 7463.9985",
+      "Rotation": "0, 0, 3.4937983"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000DF:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "09D107:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-76696.336, 66500.75, 7447.5537",
+      "Rotation": "0, 0, 6.1678243"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E4:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "09D107:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-76906.54, 67033.74, 7460.56",
+      "Rotation": "0, 0, 2.746005"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000EA:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "03F432:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-76996.64, 67954.875, 7529.683",
+      "Rotation": "0, 0, 5.2512317"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000EF:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "082447:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-77089.02, 68638.4, 7648.786",
+      "Rotation": "0, 0, 5.6588883"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F6:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0DB83B:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-76677.3, 68716.26, 7522.588",
+      "Rotation": "0, 0, 0.5750317"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000FC:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "09D107:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-76493.2, 66812.875, 7456.49",
+      "Rotation": "0, 0, 4.894214"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000109:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "09D107:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-76532.27, 66408.016, 7449.878",
+      "Rotation": "0, 0, 3.5381541"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00010C:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "09D107:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-76701.266, 66924.04, 7460.129",
+      "Rotation": "0, 0, 2.5571902"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000110:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E7744:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-77655.29, 66983.38, 7503.706",
+      "Rotation": "0, 0, 0.22587161"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000111:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E7744:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-77563.08, 67147.55, 7504.304",
+      "Rotation": "0, 0, 1.3606465"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000114:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0DB83B:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-77239.984, 67488.72, 7507.295",
+      "Rotation": "0, 0, 2.6540277"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000115:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00001C:SBS -  LivingAbernathyFarm.esp",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-75577.94, 65536.66, 7358.897",
+      "Rotation": "0, 0, 3.6470244"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000117:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00001C:SBS -  LivingAbernathyFarm.esp",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-75330.01, 65984.625, 7358.897",
+      "Rotation": "0, 0, 0.5054334"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000118:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000025:SBS -  LivingAbernathyFarm.esp",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-75442.01, 66046.6, 7358.897",
+      "Rotation": "0, 0, 2.0762298"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000119:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BB7:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-75453.98, 65760.65, 7358.897",
+      "Rotation": "0, 0, 2.0762367"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011A:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-75380.04, 66158.59, 7358.897",
+      "Rotation": "0, 0, 2.076235"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011C:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000024:SBS -  LivingAbernathyFarm.esp",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-75341.97, 65698.664, 7358.897",
+      "Rotation": "0, 0, 5.217826"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011D:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00001F:SBS -  LivingAbernathyFarm.esp",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-75453.98, 65760.65, 7358.897",
+      "Rotation": "0, 0, 0.5054371"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011E:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BB2:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-75567.86, 65823.67, 7245.6025",
+      "Rotation": "0, 0, 3.6470385"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011F:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-75279.99, 65810.66, 7358.897",
+      "Rotation": "0, 0, 5.217816"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000121:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "020C40:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-75620.234, 65545.02, 7361.144",
+      "Rotation": "0, 0, 2.966344"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000122:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-75503.984, 65934.6, 7358.897",
+      "Rotation": "0, 0, 2.0762403"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000123:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "020C40:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-75281.09, 65950.21, 7362.7007",
+      "Rotation": "0, 0, 0.3542617"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000124:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "020C40:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-75451.98, 66041.03, 7362.2754",
+      "Rotation": "0, 0, 4.1009617"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000125:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000918:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-75331.38, 65602.84, 7358.9365",
+      "Rotation": "0, 0, 1.8587826"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000126:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000919:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-75303.24, 66084.92, 7358.8994",
+      "Rotation": "0, 0, 5.872216"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000127:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00080B:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-75273.66, 65719.58, 7358.9365",
+      "Rotation": "0, 0, 1.747181"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012A:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0711B5:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-75420.21, 66024.875, 7358.9365",
+      "Rotation": "0, 0, 5.354183"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012B:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0711B5:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-75308.74, 65959.51, 7360.7886",
+      "Rotation": "0, 0, 5.1169286"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012C:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0A78FE:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-75371.18, 65734.94, 7358.9365",
+      "Rotation": "0, 0, 5.3140163"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012D:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "02C59C:DLCCoast.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-75274.86, 65693.766, 7415.299",
+      "Rotation": "0, 0, 1.2916048"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012E:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "01AC44:DLCCoast.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-75274.42, 65739.51, 7415.299",
+      "Rotation": "0, 0, 6.037213"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013F:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0049F3:DLCworkshop03.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-75126.37, 66883.32, 7431.414",
+      "Rotation": "0, 0, 5.239875"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000140:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B89:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-74950.71, 66561.305, 7431.414",
+      "Rotation": "0, 0, 0.528278"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000141:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B92:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-75171.836, 66690.33, 7431.414",
+      "Rotation": "0, 0, 0.52824503"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000142:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "082447:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-74560.516, 66826.29, 7509.5737",
+      "Rotation": "0, 0, 1.0276656"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000143:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000024:SBS -  LivingAbernathyFarm.esp",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-74840.17, 66496.78, 7431.414",
+      "Rotation": "0, 0, 5.2406406"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000144:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000024:SBS -  LivingAbernathyFarm.esp",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-75015.24, 66450.74, 7431.414",
+      "Rotation": "0, 0, 0.52825373"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000145:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00002B:SBS -  LivingAbernathyFarm.esp",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-74904.69, 66386.23, 7431.414",
+      "Rotation": "0, 0, 0.5282415"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000146:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00002B:SBS -  LivingAbernathyFarm.esp",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-74646.61, 66828.43, 7431.414",
+      "Rotation": "0, 0, 5.240674"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000148:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BB3:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-75314.25, 66699.36, 7388.7476",
+      "Rotation": "0, 0, 3.6698759"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000149:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000021:SBS -  LivingAbernathyFarm.esp",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-74711.13, 66717.88, 7431.414",
+      "Rotation": "0, 0, 5.240681"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014A:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000024:SBS -  LivingAbernathyFarm.esp",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-75236.35, 66579.77, 7431.414",
+      "Rotation": "0, 0, 0.5282485"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014B:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B93:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-74821.695, 66782.41, 7431.414",
+      "Rotation": "0, 0, 3.6698601"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014C:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BB3:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-75120.69, 67031.01, 7388.7476",
+      "Rotation": "0, 0, 3.6698604"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014D:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BB3:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-75249.73, 66809.91, 7388.7476",
+      "Rotation": "0, 0, 3.6698706"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014E:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0049F3:DLCworkshop03.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-75015.76, 66818.88, 7431.414",
+      "Rotation": "0, 0, 2.0982819"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014F:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000918:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-75136.46, 66450.56, 7431.4536",
+      "Rotation": "0, 0, 1.7105256"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000150:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000919:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-74575.76, 66853.445, 7509.5737",
+      "Rotation": "0, 0, 0.7254967"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000151:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000919:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-74826.86, 66617.81, 7509.415",
+      "Rotation": "0, 0, 1.9879161"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000152:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "22C663:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-74821.68, 66782.4, 7431.414",
+      "Rotation": "0, 0, 5.240676"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000153:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "22C663:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-75042.77, 66911.43, 7431.414",
+      "Rotation": "0, 0, 5.2406673"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000154:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000021:SBS -  LivingAbernathyFarm.esp",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-74757.164, 66892.945, 7431.414",
+      "Rotation": "0, 0, 3.66989"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000155:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000024:SBS -  LivingAbernathyFarm.esp",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-74978.26, 67021.98, 7431.414",
+      "Rotation": "0, 0, 3.6698775"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000156:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B85:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-75130.31, 66888.414, 7431.414",
+      "Rotation": "0, 0, 2.099064"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000157:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B92:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-75042.77, 66911.42, 7431.414",
+      "Rotation": "0, 0, 3.6698673"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000158:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0EA1BC:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-74734.56, 66947.336, 7431.393",
+      "Rotation": "0, 0, 3.686275"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000159:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "074BB1:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-74952.49, 67071.75, 7431.4536",
+      "Rotation": "0, 0, 3.640518"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00015A:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-75088.805, 67086.5, 7431.414",
+      "Rotation": "0, 0, 3.669876"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00015B:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "074BB1:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-75264.984, 66531.66, 7431.4536",
+      "Rotation": "0, 0, 0.50467765"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00015C:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-75340.055, 66650.11, 7444.4546",
+      "Rotation": "0, 0, 0.59374005"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00015D:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000918:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-74834.32, 67015.37, 7431.4536",
+      "Rotation": "0, 0, 0.047476448"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00015E:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00080A:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-74563.78, 66836.92, 7431.414",
+      "Rotation": "0, 0, 0.82994246"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00015F:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B89:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-75171.81, 66690.33, 7431.414",
+      "Rotation": "0, 0, 0.52828676"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000160:SBS -  LivingAbernathyFarm.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B92:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "000161:SBS -  LivingAbernathyFarm.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "06F5C5:Fallout4.esm"
+        }
+      ],
+      "Position": "-74950.73, 66561.3, 7431.414",
+      "Rotation": "0, 0, 0.528259"
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

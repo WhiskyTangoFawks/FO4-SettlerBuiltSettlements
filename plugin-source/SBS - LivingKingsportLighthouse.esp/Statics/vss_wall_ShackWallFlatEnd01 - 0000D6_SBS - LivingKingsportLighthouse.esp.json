@@ -1,0 +1,26 @@
+{
+  "FormKey": "0000D6:SBS - LivingKingsportLighthouse.esp",
+  "EditorID": "vss_wall_ShackWallFlatEnd01",
+  "ObjectBounds": {
+    "First": "-5, -129, -13",
+    "Second": "4, -2, 203"
+  },
+  "PreviewTransform": "0F61E4:Fallout4.esm",
+  "Model": {
+    "File": "Architecture\\Shacks\\vss\\Others\\ShackWallFlatEnd01.nif",
+    "Data": "0x0400000006000000000000000200000002000000BD9EC32164647300DAC2327C64F2C54264647300DAC2327CB0E4DF1464647300DAC2327C6988D97764647300DAC2327C77610C9764647300DAC2327C7A1B10A264647300DAC2327CB2AA61036267736DFAFCA62EFB61461C6267736DFAFCA62E"
+  },
+  "Properties": [
+    {
+      "ActorValue": "000337:Fallout4.esm",
+      "Value": 32.0
+    }
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Wall End 01"
+  },
+  "MaxAngle": 90.0,
+  "LeafAmplitude": 1.0,
+  "LeafFrequency": 1.0
+}

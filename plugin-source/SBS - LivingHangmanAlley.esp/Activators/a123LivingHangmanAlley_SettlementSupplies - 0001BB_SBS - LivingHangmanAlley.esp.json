@@ -1,0 +1,38 @@
+{
+  "FormKey": "0001BB:SBS - LivingHangmanAlley.esp",
+  "MajorRecordFlagsRaw": 2048,
+  "EditorID": "a123LivingHangmanAlley_SettlementSupplies",
+  "Fallout4MajorRecordFlags": [
+    "InitiallyDisabled"
+  ],
+  "VirtualMachineAdapter": {
+    "Scripts": [
+      {
+        "Name": "SettlementAutoBuildSupplies",
+        "Properties": [
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "EnableParentRef",
+            "Object": "0001BA:SBS - LivingHangmanAlley.esp"
+          }
+        ]
+      }
+    ]
+  },
+  "ObjectBounds": {
+    "First": "-96, -122, 0",
+    "Second": "103, 112, 128"
+  },
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Settlement Building Supplies"
+  },
+  "Model": {
+    "File": "DLC03\\SetDressing\\FishNets\\FishNetFallenCrates01.nif"
+  },
+  "MarkerColor": "#00CC4C33",
+  "Flags": [],
+  "MajorFlags": [
+    "UsedAsPlatform"
+  ]
+}

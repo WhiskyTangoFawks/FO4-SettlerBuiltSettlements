@@ -1,0 +1,13 @@
+{
+  "FormKey": "0000C3:SBS - LivingTheSlog.esp",
+  "EditorID": "vss_flst_shackwood",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "vss_flst_shackwood"
+  },
+  "Items": [
+    "0000C2:SBS - LivingTheSlog.esp",
+    "0000CA:SBS - LivingTheSlog.esp",
+    "0000CB:SBS - LivingTheSlog.esp"
+  ]
+}
