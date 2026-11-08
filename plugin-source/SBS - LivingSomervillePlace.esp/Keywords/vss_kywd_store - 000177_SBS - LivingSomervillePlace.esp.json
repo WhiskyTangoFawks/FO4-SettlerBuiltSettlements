@@ -1,0 +1,10 @@
+{
+  "FormKey": "000177:SBS - LivingSomervillePlace.esp",
+  "EditorID": "vss_kywd_store",
+  "Color": "#00FFFFFF",
+  "Type": "RecipeFilter",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Shack Store"
+  }
+}

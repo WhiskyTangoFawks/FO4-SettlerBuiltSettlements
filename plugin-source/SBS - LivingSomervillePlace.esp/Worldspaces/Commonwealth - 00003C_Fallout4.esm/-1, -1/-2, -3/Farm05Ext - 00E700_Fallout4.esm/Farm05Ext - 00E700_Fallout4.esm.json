@@ -1,0 +1,3394 @@
+{
+  "FormKey": "00E700:Fallout4.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "EditorID": "Farm05Ext",
+  "Fallout4MajorRecordFlags": [
+    "Compressed"
+  ],
+  "Flags": [
+    "HasWater"
+  ],
+  "PreVisFilesTimestamp": 7972,
+  "InPreVisFileOf": "00E721:Fallout4.esm",
+  "PreCombinedFilesTimestamp": 7972,
+  "Grid": {
+    "Point": "-9, -23"
+  },
+  "MaxHeightData": {
+    "Offset": 1408.0,
+    "HeightMap": [
+      [7,7,7,7,7,7,7,7,11,10,12,6,6,6,5,5,5,5,5,5,5,6,10,6,6,8,10,7,12,7,7,7],
+      [6,6,6,7,7,6,6,6,6,9,6,6,5,5,5,5,4,4,4,5,5,5,5,6,6,9,9,7,7,7,10,10],
+      [6,6,6,6,6,6,6,6,5,5,5,5,5,5,4,4,4,4,4,4,5,5,5,5,11,9,9,6,7,7,15,11],
+      [6,6,6,6,6,6,5,5,5,5,4,4,4,4,4,4,4,7,8,8,7,4,5,5,13,9,9,6,7,7,17,11],
+      [12,12,6,6,5,5,5,5,5,5,5,5,5,7,7,7,7,7,8,8,7,6,6,5,5,5,6,6,6,7,7,7],
+      [12,12,11,5,5,5,5,4,5,5,4,4,4,8,8,8,8,7,8,8,7,6,6,5,5,5,5,6,6,6,6,7],
+      [10,10,11,11,5,5,4,4,5,5,4,4,4,8,8,8,6,6,6,6,6,6,6,5,5,5,5,5,6,9,6,6],
+      [10,10,9,5,5,4,4,4,5,5,4,4,4,7,7,7,7,7,7,7,7,6,6,5,5,5,5,5,5,13,6,6],
+      [4,4,4,4,4,4,4,4,5,5,4,4,4,6,6,6,6,7,8,8,7,6,6,4,5,5,5,5,5,6,6,6],
+      [4,4,4,4,4,4,4,4,5,5,4,4,4,4,4,4,4,7,8,8,7,5,4,4,4,4,5,5,5,6,6,6],
+      [3,4,4,4,4,4,4,4,5,5,4,4,4,4,4,4,4,7,8,8,7,4,4,5,4,4,4,5,5,6,6,6],
+      [3,3,3,4,4,4,4,4,5,5,4,4,4,4,4,4,4,6,6,6,6,5,5,5,5,4,4,5,5,6,6,6],
+      [3,3,3,3,4,4,4,4,5,5,4,4,4,4,4,4,4,5,4,4,4,4,4,4,4,4,4,5,5,5,5,5],
+      [3,3,3,3,4,4,4,4,5,5,11,4,4,4,4,4,4,5,4,4,4,4,4,4,4,4,4,5,5,5,5,5],
+      [6,2,3,3,3,3,4,4,5,5,11,5,5,5,5,5,5,5,4,4,4,4,4,4,4,4,6,7,5,5,5,5],
+      [8,2,2,3,3,3,4,4,4,7,11,11,4,4,4,4,4,4,4,4,4,4,4,4,10,10,7,8,7,5,5,5],
+      [2,2,2,3,3,3,3,4,4,14,14,15,4,4,4,4,4,4,4,4,4,4,4,4,11,4,4,7,10,5,5,5],
+      [1,1,2,2,3,3,3,4,4,16,16,13,4,4,4,4,4,4,5,5,4,4,4,4,4,4,4,7,8,5,5,5],
+      [1,1,2,2,3,3,3,3,13,13,11,10,8,8,4,4,4,4,5,5,4,4,4,4,4,4,4,4,5,5,5,5],
+      [5,2,2,2,2,3,3,3,14,13,11,9,9,4,4,4,4,4,5,5,5,4,4,4,4,4,4,4,4,4,4,4],
+      [4,4,10,2,2,3,3,3,9,10,10,9,10,3,3,3,3,3,3,4,4,4,4,4,4,4,4,4,4,4,4,4],
+      [5,8,1,2,2,2,3,9,9,10,10,3,10,10,3,3,3,3,3,3,4,3,4,4,4,4,8,4,4,4,4,4],
+      [4,9,1,2,2,2,2,9,3,10,3,3,10,10,3,3,3,3,3,3,3,3,3,4,4,4,9,6,4,4,4,4],
+      [1,1,1,1,2,2,2,2,2,11,3,3,3,3,2,2,2,3,3,3,3,3,3,3,4,4,6,10,4,4,4,4],
+      [3,3,1,2,2,2,2,2,2,2,2,3,3,2,10,2,2,2,3,3,3,3,3,3,3,3,3,11,3,3,3,4],
+      [3,4,5,7,7,2,2,2,2,2,2,4,3,7,8,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3,3,3],
+      [1,3,6,6,8,1,2,2,2,5,4,4,2,2,2,2,2,2,2,2,2,2,9,3,3,3,3,3,3,3,3,3],
+      [0,5,1,1,7,7,1,2,2,2,6,5,2,2,2,2,2,2,2,6,5,6,9,6,3,3,3,3,3,3,3,3],
+      [0,0,0,1,1,1,1,1,1,6,7,7,2,7,1,6,1,2,2,7,2,2,3,6,3,3,3,3,3,3,3,3],
+      [0,0,0,0,1,1,1,1,1,6,7,1,1,6,6,5,1,2,2,9,10,2,2,3,3,3,3,3,3,3,3,3],
+      [0,0,0,0,0,0,1,1,1,1,1,1,1,3,4,3,1,1,2,2,10,2,2,3,3,8,3,3,3,3,3,3],
+      [0,0,0,0,0,0,0,0,1,1,1,1,3,4,1,5,1,1,2,2,2,2,2,3,7,6,6,5,8,3,3,3]
+    ]
+  },
+  "WaterHeight": 1300.0,
+  "Regions": [
+    "10FC86:Fallout4.esm",
+    "10FC85:Fallout4.esm",
+    "049BE0:Fallout4.esm",
+    "23C94C:Fallout4.esm"
+  ],
+  "Location": "09B1C4:Fallout4.esm",
+  "CombinedMeshes": [
+    28861806,
+    176306026,
+    324769019,
+    338344366,
+    425316049,
+    524771173,
+    563641934,
+    662107564,
+    736777074,
+    850632099,
+    851700405,
+    942779081,
+    1043282813,
+    1499057873,
+    1735849388,
+    1924373923,
+    2230360867,
+    2472252667,
+    3090262729
+  ],
+  "CombinedMeshReferences": [
+    {
+      "Reference": "1D3364:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "129897:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "1D3366:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "24877E:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "1D33BD:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "1295CD:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1298A2:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "12A49D:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "1295C4:Fallout4.esm",
+      "CombinedMesh": 524771173
+    },
+    {
+      "Reference": "12980B:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1295C3:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "129807:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1271CB:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "129899:Fallout4.esm",
+      "CombinedMesh": 2472252667
+    },
+    {
+      "Reference": "1D33C1:Fallout4.esm",
+      "CombinedMesh": 736777074
+    },
+    {
+      "Reference": "1270C5:Fallout4.esm",
+      "CombinedMesh": 338344366
+    },
+    {
+      "Reference": "1271C9:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1D3368:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1D3324:Fallout4.esm",
+      "CombinedMesh": 563641934
+    },
+    {
+      "Reference": "12953F:Fallout4.esm",
+      "CombinedMesh": 1735849388
+    },
+    {
+      "Reference": "1271B3:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "1271D3:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1295C2:Fallout4.esm",
+      "CombinedMesh": 524771173
+    },
+    {
+      "Reference": "1D3335:Fallout4.esm",
+      "CombinedMesh": 563641934
+    },
+    {
+      "Reference": "1D33BB:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1D33C0:Fallout4.esm",
+      "CombinedMesh": 736777074
+    },
+    {
+      "Reference": "1271CA:Fallout4.esm",
+      "CombinedMesh": 662107564
+    },
+    {
+      "Reference": "1D332E:Fallout4.esm",
+      "CombinedMesh": 1043282813
+    },
+    {
+      "Reference": "1D3345:Fallout4.esm",
+      "CombinedMesh": 736777074
+    },
+    {
+      "Reference": "12989A:Fallout4.esm",
+      "CombinedMesh": 2472252667
+    },
+    {
+      "Reference": "1D3369:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1D3362:Fallout4.esm",
+      "CombinedMesh": 736777074
+    },
+    {
+      "Reference": "24877D:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    },
+    {
+      "Reference": "129896:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1D3365:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "1295D5:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1295D4:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1D33A7:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "129894:Fallout4.esm",
+      "CombinedMesh": 3090262729
+    },
+    {
+      "Reference": "24877F:Fallout4.esm",
+      "CombinedMesh": 736777074
+    },
+    {
+      "Reference": "1295C5:Fallout4.esm",
+      "CombinedMesh": 524771173
+    },
+    {
+      "Reference": "1298F4:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1298A1:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "1D3342:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "1D3343:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "1D3367:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1298A3:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "1271D6:Fallout4.esm",
+      "CombinedMesh": 1043282813
+    },
+    {
+      "Reference": "1D3344:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "12A49C:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "129808:Fallout4.esm",
+      "CombinedMesh": 176306026
+    },
+    {
+      "Reference": "1D338E:Fallout4.esm",
+      "CombinedMesh": 736777074
+    },
+    {
+      "Reference": "1295CC:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1D33BC:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "1D338F:Fallout4.esm",
+      "CombinedMesh": 1924373923
+    },
+    {
+      "Reference": "1D3390:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1D3363:Fallout4.esm",
+      "CombinedMesh": 850632099
+    },
+    {
+      "Reference": "1D3399:Fallout4.esm",
+      "CombinedMesh": 2230360867
+    },
+    {
+      "Reference": "1D33BE:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "1295CE:Fallout4.esm",
+      "CombinedMesh": 942779081
+    },
+    {
+      "Reference": "1D33BF:Fallout4.esm",
+      "CombinedMesh": 425316049
+    },
+    {
+      "Reference": "248782:Fallout4.esm",
+      "CombinedMesh": 1499057873
+    }
+  ],
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1295BC:Fallout4.esm",
+      "FormVersion": 130,
+      "Base": "0D9CA9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Scale": 0.75,
+      "Position": "-32845.977, -90650.95, 1669.8113",
+      "Rotation": "0.1277424, 6.122336, 5.7902975"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1295E4:Fallout4.esm",
+      "FormVersion": 130,
+      "Base": "0516A3:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Scale": 1.09,
+      "Position": "-33348.82, -93535.305, 1449.1942",
+      "Rotation": "6.1114554, 6.00273, 3.4437685"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1295E5:Fallout4.esm",
+      "FormVersion": 130,
+      "Base": "0516A3:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Scale": 1.1,
+      "Position": "-33009.324, -93449.875, 1393.7134",
+      "Rotation": "6.214018, 6.1477513, 1.2264044"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1298F8:Fallout4.esm",
+      "FormVersion": 130,
+      "Base": "0299B3:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Scale": 0.78,
+      "Position": "-33585.88, -91633.18, 1645.04",
+      "Rotation": "6.1459413, 6.124676, 1.5655307"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1D3374:Fallout4.esm",
+      "Base": "0FFE0B:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "1C5EDD:Fallout4.esm",
+          "Reference": "1D336B:Fallout4.esm"
+        }
+      ],
+      "Position": "-35778.727, -91889.78, 1912.6067",
+      "Rotation": "0, 0, 1.1999993"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1D3380:Fallout4.esm",
+      "FormVersion": 130,
+      "Base": "0330F8:Fallout4.esm",
+      "Ownership": {
+        "Owner": "156A1F:Fallout4.esm"
+      },
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "-35830.285, -91927.87, 1914.7422",
+      "Rotation": "4.713768, 4.9486785, 5.190653"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1D3381:Fallout4.esm",
+      "Base": "0330F8:Fallout4.esm",
+      "Ownership": {
+        "Owner": "156A1F:Fallout4.esm"
+      },
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "-35844.32, -91900.57, 1914.8887",
+      "Rotation": "1.5707422, 0.7661018, 0.10629055"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1D3382:Fallout4.esm",
+      "Base": "0330F8:Fallout4.esm",
+      "Ownership": {
+        "Owner": "156A1F:Fallout4.esm"
+      },
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "-35813.355, -91894.44, 1915.0309",
+      "Rotation": "1.5708225, 0.75761425, 4.6791177"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1D3383:Fallout4.esm",
+      "Base": "0330F8:Fallout4.esm",
+      "Ownership": {
+        "Owner": "156A1F:Fallout4.esm"
+      },
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "-35829.094, -91908.89, 1914.7279",
+      "Rotation": "1.5708382, 0.48766243, 1.6731651"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1D3396:Fallout4.esm",
+      "FormVersion": 130,
+      "Base": "1B2DB5:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "-34443.64, -91722.35, 1831.0813",
+      "Rotation": "0.029721212, 6.167123, 5.5807304"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1D3397:Fallout4.esm",
+      "FormVersion": 130,
+      "Base": "1B2DBC:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "-35936.223, -91045.43, 1859.639",
+      "Rotation": "6.026894, 6.1265335, 2.5646775"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1D339B:Fallout4.esm",
+      "FormVersion": 130,
+      "Base": "01F74E:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "-35510.188, -91837.25, 1856",
+      "Rotation": "0, 0, 1.1000007"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "1E8C9B:Fallout4.esm",
+      "FormVersion": 130,
+      "Base": "0A46FB:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "-34472.68, -91567.375, 1824.7178",
+      "Rotation": "0.04351106, 6.238428, 2.3698237"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "215E45:Fallout4.esm",
+      "FormVersion": 130,
+      "Base": "03A32A:Fallout4.esm",
+      "Radius": -192.60208,
+      "Lighting": {
+        "Fade1PlusMinus": 0.502868,
+        "ShadowDepthBias": 1.0
+      },
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "1C5EDD:Fallout4.esm",
+          "Reference": "1D336B:Fallout4.esm"
+        }
+      ],
+      "Position": "-35800.88, -91915.09, 1931.5409",
+      "Rotation": "0, 0, 1.7699995"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "215E47:Fallout4.esm",
+      "FormVersion": 130,
+      "Base": "02FA4E:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "1C5EDD:Fallout4.esm",
+          "Reference": "1D336B:Fallout4.esm"
+        }
+      ],
+      "Scale": 1.06,
+      "Position": "-35809.54, -91916.766, 1912.6373",
+      "Rotation": "0, 0, 1.7699995"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "215E48:Fallout4.esm",
+      "FormVersion": 130,
+      "Base": "02FA50:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "1C5EDD:Fallout4.esm",
+          "Reference": "1D336B:Fallout4.esm"
+        }
+      ],
+      "Scale": 1.06,
+      "Position": "-35793.645, -91921.2, 1912.6373",
+      "Rotation": "0, 0, 0.19920315"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "215E49:Fallout4.esm",
+      "FormVersion": 130,
+      "Base": "02FA27:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "1C5EDD:Fallout4.esm",
+          "Reference": "1D336B:Fallout4.esm"
+        }
+      ],
+      "Position": "-35812.715, -91913.39, 1912.6373",
+      "Rotation": "0, 0, 1.7699995"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "215E4A:Fallout4.esm",
+      "FormVersion": 130,
+      "Base": "02FA27:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "1C5EDD:Fallout4.esm",
+          "Reference": "1D336B:Fallout4.esm"
+        }
+      ],
+      "Position": "-35793.785, -91925.83, 1912.6373",
+      "Rotation": "0, 0, 5.69698"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "215E4B:Fallout4.esm",
+      "FormVersion": 130,
+      "Base": "02FA27:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "1C5EDD:Fallout4.esm",
+          "Reference": "1D336B:Fallout4.esm"
+        }
+      ],
+      "Position": "-35802.152, -91920.164, 1912.6373",
+      "Rotation": "0, 0, 4.911592"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "215E4C:Fallout4.esm",
+      "FormVersion": 130,
+      "Base": "02FA29:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "1C5EDD:Fallout4.esm",
+          "Reference": "1D336B:Fallout4.esm"
+        }
+      ],
+      "Position": "-35805.387, -91915.87, 1912.6373",
+      "Rotation": "0, 0, 1.7699995"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "215E4D:Fallout4.esm",
+      "FormVersion": 130,
+      "Base": "02FACD:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "1C5EDD:Fallout4.esm",
+          "Reference": "1D336B:Fallout4.esm"
+        }
+      ],
+      "Position": "-35797.21, -91918.91, 1912.6373",
+      "Rotation": "0, 0, 5.69698"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "215E4E:Fallout4.esm",
+      "FormVersion": 130,
+      "Base": "035A0D:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "1C5EDD:Fallout4.esm",
+          "Reference": "1D336B:Fallout4.esm"
+        }
+      ],
+      "Position": "-35809.44, -91916.66, 1912.6373",
+      "Rotation": "0, 0, 1.7699995"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "215E4F:Fallout4.esm",
+      "FormVersion": 130,
+      "Base": "035A0D:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "1C5EDD:Fallout4.esm",
+          "Reference": "1D336B:Fallout4.esm"
+        }
+      ],
+      "Position": "-35793.797, -91921.23, 1912.6373",
+      "Rotation": "0, 0, 5.69698"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "215E50:Fallout4.esm",
+      "FormVersion": 130,
+      "Base": "035A10:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "1C5EDD:Fallout4.esm",
+          "Reference": "1D336B:Fallout4.esm"
+        }
+      ],
+      "Position": "-35805.73, -91915.71, 1912.6373",
+      "Rotation": "0, 0, 1.4599906"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "215E51:Fallout4.esm",
+      "FormVersion": 130,
+      "Base": "035A10:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "1C5EDD:Fallout4.esm",
+          "Reference": "1D336B:Fallout4.esm"
+        }
+      ],
+      "Position": "-35797.094, -91919.266, 1912.6373",
+      "Rotation": "0, 0, 5.38699"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "215E52:Fallout4.esm",
+      "FormVersion": 130,
+      "Base": "035A10:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "1C5EDD:Fallout4.esm",
+          "Reference": "1D336B:Fallout4.esm"
+        }
+      ],
+      "Position": "-35802.152, -91920.164, 1912.6373",
+      "Rotation": "0, 0, 1.4599906"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "2472D7:Fallout4.esm",
+      "Base": "0DB83B:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-34464.953, -92540.58, 1817.6758",
+      "Rotation": "0, 0, 2.376196"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001B8:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "074BB1:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33299.242, -90130.78, 1824.2997",
+      "Rotation": "0, 0, 1.5583589"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001BF:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000024:SBS - LivingSomervillePlace.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-32889.32, -93244.98, 1548.9832",
+      "Rotation": "0, 0, 5.164679"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C0:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000025:SBS - LivingSomervillePlace.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33001.2, -93475.24, 1548.9832",
+      "Rotation": "0, 0, 5.164679"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C1:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00002B:SBS - LivingSomervillePlace.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33057.133, -93590.375, 1548.9832",
+      "Rotation": "0, 0, 0.45227763"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C2:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00002B:SBS - LivingSomervillePlace.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-32833.38, -93129.84, 1548.9832",
+      "Rotation": "0, 0, 5.164686"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C3:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000017:SBS - LivingSomervillePlace.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33116.33, -93419.31, 1548.9832",
+      "Rotation": "0, 0, 3.5938828"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C4:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000017:SBS - LivingSomervillePlace.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33004.445, -93189.04, 1548.9832",
+      "Rotation": "0, 0, 0.45228636"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C5:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0000CC:SBS - LivingSomervillePlace.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33371.73, -93295.22, 1562.9832",
+      "Rotation": "0, 0, 5.1646967"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C6:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000022:SBS - LivingSomervillePlace.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33119.574, -93133.1, 1548.9832",
+      "Rotation": "0, 0, 2.0230722"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C7:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00002B:SBS - LivingSomervillePlace.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33287.4, -93478.51, 1548.9832",
+      "Rotation": "0, 0, 2.023086"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C8:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BB7:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33116.33, -93419.31, 1548.9832",
+      "Rotation": "0, 0, 2.0230968"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001C9:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00002B:SBS - LivingSomervillePlace.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33063.637, -93017.97, 1548.9832",
+      "Rotation": "0, 0, 3.593858"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001CA:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33287.4, -93478.51, 1548.9832",
+      "Rotation": "0, 0, 2.0230758"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001CB:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33175.51, -93248.234, 1548.9832",
+      "Rotation": "0, 0, 2.0230706"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001CC:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33184.926, -93538.414, 1548.9915",
+      "Rotation": "0, 0, 0.4412105"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001CD:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33087.05, -93154.87, 1548.9961",
+      "Rotation": "0, 0, 5.3486996"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001CE:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-32911.85, -93243.96, 1549.0225",
+      "Rotation": "0, 0, 1.9506794"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001CF:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-32955.812, -93062.195, 1551.066",
+      "Rotation": "0, 0, 2.0142584"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001D0:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0000F0:SBS - LivingSomervillePlace.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-32924.414, -93031.98, 1553.1653",
+      "Rotation": "0, 0, 1.9893193"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001D1:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0000F0:SBS - LivingSomervillePlace.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33129.973, -93130.34, 1551.1643",
+      "Rotation": "0, 0, 0.5464415"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001D2:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0000F0:SBS - LivingSomervillePlace.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33182.71, -93553.945, 1551.0299",
+      "Rotation": "0, 0, 5.281174"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001D3:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000024:SBS - LivingSomervillePlace.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-32997.02, -90365.76, 1820.1427",
+      "Rotation": "0, 0, 4.678144"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001D5:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000017:SBS - LivingSomervillePlace.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33124.945, -90370.125, 1820.1428",
+      "Rotation": "0, 0, 3.1073494"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001D6:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000017:SBS - LivingSomervillePlace.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33133.707, -90114.27, 1820.1428",
+      "Rotation": "0, 0, 6.2489367"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001D8:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00002B:SBS - LivingSomervillePlace.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-32992.633, -90493.67, 1820.1428",
+      "Rotation": "0, 0, 6.2489524"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001D9:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00002B:SBS - LivingSomervillePlace.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33248.484, -90502.445, 1820.1428",
+      "Rotation": "0, 0, 1.5365652"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001DB:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000025:SBS - LivingSomervillePlace.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33261.625, -90118.66, 1820.1428",
+      "Rotation": "0, 0, 1.536539"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001DC:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BB7:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33124.945, -90370.125, 1820.1428",
+      "Rotation": "0, 0, 1.5365599"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001DD:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33248.484, -90502.44, 1820.1428",
+      "Rotation": "0, 0, 1.5365599"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001DE:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33257.25, -90246.586, 1820.1428",
+      "Rotation": "0, 0, 1.5365286"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001DF:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0000CC:SBS - LivingSomervillePlace.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33408.73, -90379.84, 1834.1428",
+      "Rotation": "0, 0, 1.5365686"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001E0:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0BB2:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33510.875, -90383.336, 1706.8486",
+      "Rotation": "0, 0, 3.1073685"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001E2:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB8:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33276.676, -90142.55, 1822.1909",
+      "Rotation": "0, 0, 0.06814969"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001E3:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB8:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33032.49, -90120.15, 1821.7489",
+      "Rotation": "0, 0, 1.3079236"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001E4:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33128.473, -90484.57, 1820.1514",
+      "Rotation": "0, 0, 3.3297076"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001E5:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-32989.66, -90360.67, 1821.559",
+      "Rotation": "0, 0, 4.9309793"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001E6:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0000F0:SBS - LivingSomervillePlace.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33122.695, -90521.445, 1822.3488",
+      "Rotation": "0, 0, 4.9655333"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001E8:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0000F0:SBS - LivingSomervillePlace.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-32995.766, -90112.86, 1823.882",
+      "Rotation": "0, 0, 0.049165927"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001E9:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0DB83B:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-34493.562, -92546.75, 1823.161",
+      "Rotation": "0, 0, 5.382873"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001F8:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054574:DLCCoast.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-36250.96, -91882.32, 2112.962",
+      "Rotation": "0, 0, 3.1445913"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001F9:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054573:DLCCoast.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-36250.383, -91690.31, 2112.962",
+      "Rotation": "0, 0, 1.573807"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001FA:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054574:DLCCoast.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-35738.973, -91883.86, 2112.962",
+      "Rotation": "0, 0, 3.1446035"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001FB:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054574:DLCCoast.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-36187.543, -92074.52, 2112.962",
+      "Rotation": "0, 0, 4.7153945"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001FC:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054573:DLCCoast.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-35995.93, -92203.086, 2112.962",
+      "Rotation": "0, 0, 1.5738088"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001FD:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054573:DLCCoast.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-35994.387, -91691.08, 2112.962",
+      "Rotation": "0, 0, 4.71541"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001FE:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054573:DLCCoast.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-35995.156, -91947.086, 2112.962",
+      "Rotation": "0, 0, 1.5737983"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0001FF:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054573:DLCCoast.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-35738.39, -91691.85, 2112.962",
+      "Rotation": "0, 0, 4.7153997"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000200:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "074BB1:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-35836.523, -91609.9, 1856.7043",
+      "Rotation": "0, 0, 3.137322"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000201:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0711B5:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-36029.594, -91782.92, 1858.5779",
+      "Rotation": "0, 0, 3.5495512"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000202:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "027EB9:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-35812.62, -91755.64, 1856.7045",
+      "Rotation": "0, 0, 1.436317"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000203:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-36373.87, -91719.27, 1875.6815",
+      "Rotation": "0, 0, 3.1360826"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000204:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-36373.09, -91798.336, 1885.7605",
+      "Rotation": "0, 0, 0.0052183596"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000205:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-36238.38, -92335.24, 1871.2874",
+      "Rotation": "0, 0, 3.1312952"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000206:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-36239.15, -92011.164, 1858.5529",
+      "Rotation": "0, 0, 0.004785518"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000207:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-35859.75, -92330.29, 1877.0554",
+      "Rotation": "0, 0, 3.1457884"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000208:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-35858.57, -92021.336, 1873.47",
+      "Rotation": "0, 0, 0.011114256"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000209:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B97:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-36090.06, -91507.76, 1882.062",
+      "Rotation": "0, 0, 3.1415124"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00020A:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B99:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-35870.113, -91387.34, 1885.8602",
+      "Rotation": "0, 0, 1.5816541"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00020B:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B99:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-36239.04, -91527.84, 1898.4613",
+      "Rotation": "0, 0, 3.1543162"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00020C:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B99:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-35858.117, -91411.6, 1892.2789",
+      "Rotation": "0, 0, 6.2794733"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00020D:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B99:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-35913.05, -92365.984, 1903.3453",
+      "Rotation": "0, 0, 1.018253"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00020E:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B99:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-36075.28, -92448.34, 1898.021",
+      "Rotation": "0, 0, 2.2388072"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00020F:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B98:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-36112.14, -92430.15, 1894.4567",
+      "Rotation": "0, 0, 4.6922426"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000210:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00091B:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-36219.49, -91919.09, 1920",
+      "Rotation": "0, 0, 0.023258083"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000211:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "04CD99:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-35898.918, -92317.195, 1856.8436",
+      "Rotation": "0, 0, 4.9413815"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000212:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "04CDB8:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-35892.383, -92262.67, 1856.8436",
+      "Rotation": "0, 0, 4.8861628"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000213:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "143AD1:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-36043.58, -91452.36, 1890.6858",
+      "Rotation": "0, 0, 0.201156"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000214:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "249EA3:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-35598.74, -91652.914, 1856.7043",
+      "Rotation": "0, 0, 1.5674032"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000215:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000818:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-35665.63, -91871.19, 1856.7043",
+      "Rotation": "0, 0, 3.058623"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000216:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000818:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-35663.973, -91828.47, 1856.7043",
+      "Rotation": "0, 0, 3.5950468"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000217:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000819:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-36350.246, -91857.68, 1856.6298",
+      "Rotation": "0, 0, 1.8490559"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000218:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000822:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-35627.387, -91805.1, 1983.8369",
+      "Rotation": "0, 0, 4.903513"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000219:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E7744:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-35397.582, -92462.95, 1844.9587",
+      "Rotation": "0, 0, 4.443786"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00021A:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E7744:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-35240.3, -92418.12, 1834.8247",
+      "Rotation": "0, 0, 3.2503283"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00021B:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E7744:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-35240.36, -92306.66, 1833.7598",
+      "Rotation": "0, 0, 3.9044447"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00021C:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E7744:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-35398.19, -92319.46, 1828.9951",
+      "Rotation": "0, 0, 3.763724"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00021D:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E7744:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-35552.656, -92311.664, 1836.4265",
+      "Rotation": "0, 0, 4.314138"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00021E:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "09D107:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-35588.883, -92170.52, 1831.9961",
+      "Rotation": "0, 0, 0.0880255"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00021F:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "09D107:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-35424.88, -92169.39, 1831.9946",
+      "Rotation": "0, 0, 0.78798825"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000220:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0000DA:SBS - LivingSomervillePlace.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-36356.637, -92104, 1834.179",
+      "Rotation": "0, 0, 3.177892"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000221:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0000DA:SBS - LivingSomervillePlace.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-36348.605, -92306.92, 1839.7976",
+      "Rotation": "0, 0, 0.11606439"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000222:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0000DA:SBS - LivingSomervillePlace.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-34940.785, -92718.7, 1831.9961",
+      "Rotation": "0, 0, 6.2428"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00022E:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "04CD9A:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-35591.727, -91489.87, 1831.9946",
+      "Rotation": "0, 0, 5.716482"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000240:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000918:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-32951.84, -90546.21, 1820.1428",
+      "Rotation": "0, 0, 2.634592"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000241:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "083905:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-34958.406, -92526.58, 1831.9961",
+      "Rotation": "0, 0, 4.2654414"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000244:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "12EA9B:Fallout4.esm",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-35931.914, -91289.59, 1831.9946",
+      "Rotation": "0, 0, 3.1547542"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000247:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054576:DLCCoast.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-35603.5, -91315.16, 1804.257",
+      "Rotation": "0, 0, 6.2351837"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000248:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000809:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33027.848, -90554.445, 1820.1459",
+      "Rotation": "0, 0, 1.6785547"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000249:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33286.508, -90575.52, 1820.1428",
+      "Rotation": "0, 0, 3.7991228"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00024A:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33286.727, -90577.46, 1839.2604",
+      "Rotation": "0, 0, 4.2070007"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00024B:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33289.38, -90578.76, 1858.3779",
+      "Rotation": "0, 0, 3.5955825"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00024C:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "075F3F:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33098.434, -93633.016, 1549.7034",
+      "Rotation": "0, 0, 3.3471122"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00024E:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "07CE89:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-34679.426, -91698.5, 1832.9961",
+      "Rotation": "0, 0, 5.866455"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00024F:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000918:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33081.547, -92935.08, 1548.9832",
+      "Rotation": "0, 0, 5.688325"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000250:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000918:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33320.656, -93537.28, 1549.408",
+      "Rotation": "0, 0, 3.7888758"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000251:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00091B:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33093.59, -93630.05, 1582.3892",
+      "Rotation": "0, 0, 4.6621723"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000252:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "0E0B92:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-35712.848, -91435.54, 1862.2568",
+      "Rotation": "0, 0, 3.0935874"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000253:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1487C1:Fallout4.esm",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-32991.61, -90327.3, 1823.389",
+      "Rotation": "0, 0, 1.5932273"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000254:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1865B9:Fallout4.esm",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-35792.027, -91870.4, 1858.0881",
+      "Rotation": "0, 0, 3.1581976"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000255:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "054576:DLCCoast.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-35833.234, -91326.19, 1804.2568",
+      "Rotation": "0, 0, 6.235161"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000256:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "17B3A4:Fallout4.esm",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33019.273, -93449.4, 1550.3539",
+      "Rotation": "0, 0, 2.0468488"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000257:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "074BB1:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-32862.08, -93261.5, 1551.241",
+      "Rotation": "0, 0, 5.2195573"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000258:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000807:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33015.44, -92979.96, 1552.3513",
+      "Rotation": "0, 0, 5.030102"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000259:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000805:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-32930.37, -93051.17, 1553.0349",
+      "Rotation": "0, 0, 5.398827"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00025A:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00080E:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33019.664, -93651.336, 1548.9832",
+      "Rotation": "0, 0, 1.57025"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00025B:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000809:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33177.05, -93210.93, 1551.0743",
+      "Rotation": "0, 0, 3.421889"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00025C:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00080F:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33014.19, -92983.22, 1592.878",
+      "Rotation": "0, 0, 4.1539955"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00025D:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33177.207, -93553.766, 1550.8159",
+      "Rotation": "0, 0, 1.4707837"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00025E:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000918:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-35433.945, -91912.14, 1856",
+      "Rotation": "0, 0, 4.5621896"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000260:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000827:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-35528.45, -91929.32, 1856",
+      "Rotation": "0, 0, 0.078993425"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000261:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000826:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-35596.684, -91790.79, 1980.3033",
+      "Rotation": "0, 0, 1.5146106"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000262:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "083907:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-34620.26, -91813.87, 1831.9933",
+      "Rotation": "0, 0, 3.3825965"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000263:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "083907:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-34814.695, -91641.93, 1831.9946",
+      "Rotation": "0, 0, 3.9966052"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000265:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000822:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33208.16, -90514.586, 1821.5302",
+      "Rotation": "0, 0, 5.097466"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000269:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000818:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-32842.188, -93078.78, 1552.9435",
+      "Rotation": "0, 0, 3.3177574"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00026A:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000818:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33088.945, -93038.97, 1550.272",
+      "Rotation": "0, 0, 2.0726376"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00026B:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000818:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-33089.508, -93584.664, 1548.9875",
+      "Rotation": "0, 0, 0.86136013"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00026C:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "157FEB:Fallout4.esm",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-34883.438, -92259.76, 1828.7052",
+      "Rotation": "0, 0, 1.534312"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00026D:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000808:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-34972.1, -92430.984, 1831.9961",
+      "Rotation": "0, 0, 3.2081857"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00026E:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000805:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-34969.375, -92429.586, 1888.3241",
+      "Rotation": "0, 0, 5.2733064"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00026F:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "000821:SettlerBuiltSettlements.esp",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-35013.797, -92126.05, 1828.9243",
+      "Rotation": "0, 0, 0.034587014"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000270:SBS - LivingSomervillePlace.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "00091B:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "00027D:SBS - LivingSomervillePlace.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "1E81EA:Fallout4.esm"
+        }
+      ],
+      "Position": "-35015.348, -92140.664, 1926.7649",
+      "Rotation": "0, 0, 2.3772745"
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}

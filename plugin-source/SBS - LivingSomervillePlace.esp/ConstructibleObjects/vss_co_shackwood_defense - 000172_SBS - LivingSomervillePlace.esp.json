@@ -1,0 +1,26 @@
+{
+  "FormKey": "000172:SBS - LivingSomervillePlace.esp",
+  "MajorRecordFlagsRaw": 4096,
+  "EditorID": "vss_co_shackwood_defense",
+  "Fallout4MajorRecordFlags": [
+    "Ignored"
+  ],
+  "PickUpSound": "02B012:Fallout4.esm",
+  "PutDownSound": "02B012:Fallout4.esm",
+  "Components": [
+    {
+      "Component": "01FAC2:Fallout4.esm",
+      "Count": 1
+    }
+  ],
+  "CreatedObject": "000171:SBS - LivingSomervillePlace.esp",
+  "WorkbenchKeyword": "05A0C8:Fallout4.esm",
+  "Categories": [
+    "000173:SBS - LivingSomervillePlace.esp"
+  ],
+  "CreatedObjectCounts": [
+    {
+      "Count": 1
+    }
+  ]
+}

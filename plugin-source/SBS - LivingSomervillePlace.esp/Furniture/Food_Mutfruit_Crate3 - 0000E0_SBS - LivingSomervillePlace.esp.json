@@ -1,0 +1,6 @@
+{
+  "FormKey": "0000E0:SBS - LivingSomervillePlace.esp",
+  "Malformed": [
+    "FURN 050000E0 (Food_Mutfruit_Crate3) — furn-missing-fnam-and-mnam, repairable (lossless): FNAM and MNAM are missing; vanilla always writes both"
+  ]
+}
