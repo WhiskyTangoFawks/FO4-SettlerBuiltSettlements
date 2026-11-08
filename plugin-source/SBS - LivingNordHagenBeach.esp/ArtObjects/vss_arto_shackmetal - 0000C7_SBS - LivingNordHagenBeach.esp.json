@@ -1,0 +1,12 @@
+{
+  "FormKey": "0000C7:SBS - LivingNordHagenBeach.esp",
+  "EditorID": "vss_arto_shackmetal",
+  "PreviewTransform": "13FF18:Fallout4.esm",
+  "Keywords": [
+    "0000C6:SBS - LivingNordHagenBeach.esp"
+  ],
+  "Model": {
+    "File": "Architecture\\Shacks\\vss\\Prefabs\\ShackMetalPrefabCompleteSm01.nif"
+  },
+  "Type": "MagicCasting"
+}
