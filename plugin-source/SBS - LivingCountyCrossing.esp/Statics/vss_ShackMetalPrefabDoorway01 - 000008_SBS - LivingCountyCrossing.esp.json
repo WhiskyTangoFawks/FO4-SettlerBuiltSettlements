@@ -1,0 +1,295 @@
+{
+  "FormKey": "000008:SBS - LivingCountyCrossing.esp",
+  "EditorID": "vss_ShackMetalPrefabDoorway01",
+  "PreviewTransform": "140D96:Fallout4.esm",
+  "Model": {
+    "File": "Architecture\\Shacks\\vss\\Prefabs\\ShackMetalPrefabDoorway01.nif",
+    "Data": "0x040000000A000000000000000400000004000000003D5B8464647300DAC2327CD9515DE764647300DAC2327C784B48B664647300DAC2327CA1274ED564647300DAC2327CC8DCFF0264647300DAC2327C11B0F96164647300DAC2327C0F592C8164647300DAC2327C0F2C2A00646473001CDB88C5BFCE9B3564647300DAC2327CC7B8880764647300DAC2327C932B4C9D6267736DFAFCA62E22CD48D26267736DFAFCA62E050363256267736DFAFCA62E926D60A96267736DFAFCA62E"
+  },
+  "Properties": [
+    {
+      "ActorValue": "000337:Fallout4.esm",
+      "Value": 9.0
+    },
+    {
+      "ActorValue": "00033D:Fallout4.esm",
+      "Value": 1.0
+    },
+    {
+      "ActorValue": "249D41:Fallout4.esm",
+      "Value": 256.0
+    }
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Metal doorway"
+  },
+  "MaxAngle": 90.0,
+  "LeafAmplitude": 1.0,
+  "LeafFrequency": 1.0,
+  "NavmeshGeometry": {
+    "Parent": {
+      "MutagenObjectType": "CellNavmeshParent",
+      "Parent": "000025:Fallout4.esm"
+    },
+    "Vertices": [
+      "-127.91256, -116.42304, 0",
+      "-128.05576, 114.738464, 1.5258789E-05",
+      "-3.1841278, -45.4168, 0",
+      "-2.278386, 46.118908, 1.5258789E-05",
+      "14.077553, -45.896107, 0",
+      "14.418646, 45.364082, 1.5258789E-05",
+      "128.01712, -116.75972, 0",
+      "127.69415, 116.74667, 0",
+      "10.756073, 117.20908, 0",
+      "-10.52589, 115.439964, 1.5258789E-05",
+      "-3.1514435, -115.15089, 0",
+      "13.050315, -117.03046, 0",
+      "-127.013504, 124.75163, 209.00002",
+      "126.71188, -124.369606, 209.00002",
+      "127.16571, 125.27705, 209",
+      "-126.79957, -125.13627, 209.00002"
+    ],
+    "Triangles": [
+      {
+        "Vertices": "0, 2, 1",
+        "EdgeLink_0_1": 8,
+        "EdgeLink_1_2": 1,
+        "EdgeLink_2_0": -1,
+        "Height": 198.00002,
+        "CoverFlags": 4
+      },
+      {
+        "Vertices": "1, 2, 3",
+        "EdgeLink_1_2": 2,
+        "EdgeLink_2_0": 7,
+        "Height": 198.00002
+      },
+      {
+        "Vertices": "2, 4, 3",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": 3,
+        "EdgeLink_2_0": 1,
+        "Height": 170.0
+      },
+      {
+        "Vertices": "3, 4, 5",
+        "EdgeLink_0_1": 2,
+        "EdgeLink_1_2": 4,
+        "EdgeLink_2_0": -1,
+        "Height": 170.0
+      },
+      {
+        "Vertices": "4, 6, 5",
+        "EdgeLink_0_1": 9,
+        "EdgeLink_1_2": 5,
+        "EdgeLink_2_0": 3,
+        "Height": 198.00002
+      },
+      {
+        "Vertices": "5, 6, 7",
+        "EdgeLink_0_1": 4,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": 6,
+        "Height": 198.00002,
+        "CoverFlags": 2
+      },
+      {
+        "Vertices": "5, 7, 8",
+        "EdgeLink_0_1": 5,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": -1,
+        "Height": 198.00002,
+        "CoverFlags": 6
+      },
+      {
+        "Vertices": "3, 9, 1",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": 1,
+        "Height": 198.00002,
+        "CoverFlags": 3
+      },
+      {
+        "Vertices": "2, 0, 10",
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": -1,
+        "Height": 198.00003,
+        "CoverFlags": 6
+      },
+      {
+        "Vertices": "4, 11, 6",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": 4,
+        "Height": 198.00003,
+        "CoverFlags": 3
+      },
+      {
+        "Vertices": "15, 13, 12",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": 11,
+        "EdgeLink_2_0": -1,
+        "Height": 170.0,
+        "CoverFlags": 5
+      },
+      {
+        "Vertices": "12, 13, 14",
+        "EdgeLink_0_1": 10,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": -1,
+        "Height": 170.0,
+        "CoverFlags": 6
+      }
+    ],
+    "Cover": [
+      {
+        "Vertex2": 1,
+        "Data": 2147485968
+      },
+      {
+        "Vertex1": 1,
+        "Vertex2": 9,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 9,
+        "Vertex2": 3,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 5,
+        "Vertex2": 8,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 8,
+        "Vertex2": 7,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 7,
+        "Vertex2": 6,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 6,
+        "Vertex2": 11,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 11,
+        "Vertex2": 4,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 2,
+        "Vertex2": 10,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 10,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 13,
+        "Vertex2": 15,
+        "Data": 2147485968
+      },
+      {
+        "Vertex1": 15,
+        "Vertex2": 12,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 12,
+        "Vertex2": 14,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 14,
+        "Vertex2": 13,
+        "Data": 2320
+      }
+    ],
+    "CoverTriangleMappings": [
+      {
+        "Cover": 40,
+        "Triangle": 10
+      },
+      {
+        "Cover": 29,
+        "Triangle": 1
+      },
+      {
+        "Cover": 45,
+        "Triangle": 13
+      },
+      {
+        "Cover": 34,
+        "Triangle": 8
+      },
+      {
+        "Cover": 25,
+        "Triangle": 4
+      },
+      {
+        "Cover": 28,
+        "Triangle": 2
+      },
+      {
+        "Cover": 26,
+        "Triangle": 3
+      },
+      {
+        "Cover": 36,
+        "Triangle": 7
+      },
+      {
+        "Cover": 42,
+        "Triangle": 11
+      },
+      {
+        "Cover": 33,
+        "Triangle": 9
+      },
+      {
+        "Cover": 37,
+        "Triangle": 6
+      },
+      {
+        "Cover": 46,
+        "Triangle": 12
+      },
+      {
+        "Cover": 21,
+        "Triangle": 5
+      },
+      {
+        "Cover": 2
+      }
+    ],
+    "GridSize": 1,
+    "GridMaxDistance": "256.07288, 250.41331",
+    "GridMin": "-128.05576, -125.13627, 0",
+    "GridMax": "128.01712, 125.27705, 379",
+    "GridArrays": {
+      "GridCell": [
+        12,
+        0,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    }
+  }
+}

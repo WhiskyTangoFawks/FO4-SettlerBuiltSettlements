@@ -1,0 +1,6 @@
+{
+  "FormKey": "000135:SBS - LivingCountyCrossing.esp",
+  "Malformed": [
+    "FURN 04000135 (County - Crates02 - Water3) — furn-missing-fnam-and-mnam, repairable (lossless): FNAM and MNAM are missing; vanilla always writes both"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "ModKey": "SBS - LivingCountyCrossing.esp",
+  "GameRelease": "Fallout4",
+  "ModHeader": {
+    "Flags": [
+      "Small"
+    ],
+    "Stats": {
+      "NextFormID": 391
+    },
+    "Author": "",
+    "OverriddenForms": [
+      "159F49:Fallout4.esm"
+    ]
+  }
+}
