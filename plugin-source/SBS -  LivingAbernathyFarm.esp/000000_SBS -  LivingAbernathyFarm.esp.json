@@ -1,0 +1,35 @@
+{
+  "ModKey": "SBS -  LivingAbernathyFarm.esp",
+  "GameRelease": "Fallout4",
+  "ModHeader": {
+    "Flags": [
+      "Small"
+    ],
+    "Stats": {
+      "NextFormID": 356
+    },
+    "Author": "",
+    "OverriddenForms": [
+      "064481:Fallout4.esm",
+      "064490:Fallout4.esm",
+      "064491:Fallout4.esm",
+      "066F29:Fallout4.esm",
+      "066F2A:Fallout4.esm",
+      "066F2B:Fallout4.esm",
+      "066F34:Fallout4.esm",
+      "066F35:Fallout4.esm",
+      "066F36:Fallout4.esm",
+      "066F37:Fallout4.esm",
+      "066F39:Fallout4.esm",
+      "066F40:Fallout4.esm",
+      "066F42:Fallout4.esm",
+      "066F4E:Fallout4.esm",
+      "066F53:Fallout4.esm",
+      "066F5E:Fallout4.esm",
+      "066F5F:Fallout4.esm",
+      "066F60:Fallout4.esm",
+      "066F62:Fallout4.esm",
+      "193D96:Fallout4.esm"
+    ]
+  }
+}

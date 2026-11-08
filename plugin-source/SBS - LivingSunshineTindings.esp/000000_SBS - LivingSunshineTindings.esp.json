@@ -1,0 +1,63 @@
+{
+  "ModKey": "SBS - LivingSunshineTindings.esp",
+  "GameRelease": "Fallout4",
+  "ModHeader": {
+    "Flags": [
+      "Small"
+    ],
+    "Stats": {
+      "NextFormID": 140
+    },
+    "Author": "",
+    "OverriddenForms": [
+      "0D4B65:Fallout4.esm",
+      "0D4B66:Fallout4.esm",
+      "0D4B67:Fallout4.esm",
+      "0D51D5:Fallout4.esm",
+      "0D51D6:Fallout4.esm",
+      "0D51D9:Fallout4.esm",
+      "0D51DA:Fallout4.esm",
+      "0D51DB:Fallout4.esm",
+      "0E849D:Fallout4.esm",
+      "1918EB:Fallout4.esm",
+      "191909:Fallout4.esm",
+      "19190E:Fallout4.esm",
+      "1919C2:Fallout4.esm",
+      "1919C3:Fallout4.esm",
+      "1919D4:Fallout4.esm",
+      "1BE756:Fallout4.esm",
+      "1BE757:Fallout4.esm",
+      "1BE758:Fallout4.esm",
+      "1BE75E:Fallout4.esm",
+      "1BE75F:Fallout4.esm",
+      "1C134E:Fallout4.esm",
+      "1C1351:Fallout4.esm",
+      "1C1352:Fallout4.esm",
+      "1C1353:Fallout4.esm",
+      "1C1354:Fallout4.esm",
+      "1C1355:Fallout4.esm",
+      "1C1356:Fallout4.esm",
+      "1C1357:Fallout4.esm",
+      "1C1362:Fallout4.esm",
+      "1C1363:Fallout4.esm",
+      "1C1364:Fallout4.esm",
+      "1C136F:Fallout4.esm",
+      "1C1370:Fallout4.esm",
+      "1C1373:Fallout4.esm",
+      "1C1374:Fallout4.esm",
+      "1C1375:Fallout4.esm",
+      "1C1376:Fallout4.esm",
+      "1C1377:Fallout4.esm",
+      "1C1378:Fallout4.esm",
+      "1C1379:Fallout4.esm",
+      "1C1385:Fallout4.esm",
+      "1C1386:Fallout4.esm",
+      "1C1388:Fallout4.esm",
+      "1C138F:Fallout4.esm",
+      "1C1390:Fallout4.esm",
+      "1C1391:Fallout4.esm",
+      "1C1392:Fallout4.esm",
+      "22CB94:Fallout4.esm"
+    ]
+  }
+}

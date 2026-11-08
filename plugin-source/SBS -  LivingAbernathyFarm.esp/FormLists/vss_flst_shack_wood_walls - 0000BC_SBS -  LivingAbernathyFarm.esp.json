@@ -1,0 +1,28 @@
+{
+  "FormKey": "0000BC:SBS -  LivingAbernathyFarm.esp",
+  "MajorRecordFlagsRaw": 4096,
+  "EditorID": "vss_flst_shack_wood_walls",
+  "Fallout4MajorRecordFlags": [
+    "Ignored"
+  ],
+  "Items": [
+    "000021:SBS -  LivingAbernathyFarm.esp",
+    "000022:SBS -  LivingAbernathyFarm.esp",
+    "000023:SBS -  LivingAbernathyFarm.esp",
+    "000024:SBS -  LivingAbernathyFarm.esp",
+    "000025:SBS -  LivingAbernathyFarm.esp",
+    "000026:SBS -  LivingAbernathyFarm.esp",
+    "000027:SBS -  LivingAbernathyFarm.esp",
+    "000028:SBS -  LivingAbernathyFarm.esp",
+    "000029:SBS -  LivingAbernathyFarm.esp",
+    "00002A:SBS -  LivingAbernathyFarm.esp",
+    "00002B:SBS -  LivingAbernathyFarm.esp",
+    "00002C:SBS -  LivingAbernathyFarm.esp",
+    "00002D:SBS -  LivingAbernathyFarm.esp",
+    "00002E:SBS -  LivingAbernathyFarm.esp",
+    "00002F:SBS -  LivingAbernathyFarm.esp",
+    "000030:SBS -  LivingAbernathyFarm.esp",
+    "000031:SBS -  LivingAbernathyFarm.esp",
+    "000032:SBS -  LivingAbernathyFarm.esp"
+  ]
+}

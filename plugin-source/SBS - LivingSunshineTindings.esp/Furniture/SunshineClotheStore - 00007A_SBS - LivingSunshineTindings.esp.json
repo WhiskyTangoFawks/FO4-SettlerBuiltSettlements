@@ -1,0 +1,155 @@
+{
+  "FormKey": "00007A:SBS - LivingSunshineTindings.esp",
+  "MajorRecordFlagsRaw": 8192,
+  "EditorID": "SunshineClotheStore",
+  "Fallout4MajorRecordFlags": [
+    "0x2000"
+  ],
+  "VirtualMachineAdapter": {
+    "Scripts": [
+      {
+        "Name": "workshopobjectscript",
+        "Properties": [
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "FurnitureBase",
+            "Object": "249F17:Fallout4.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptStringListProperty",
+            "Name": "FurnitureMarkerNodes",
+            "Data": [
+              "RobotNode"
+            ]
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "SpecialFurnitureBase",
+            "Object": "249F17:Fallout4.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptStringProperty",
+            "Name": "SpecialFurnitureBaseNode",
+            "Data": "RobotNode"
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "SpecialFurniturePlacementKeyword",
+            "Object": "02CB73:Fallout4.esm"
+          },
+          {
+            "MutagenObjectType": "ScriptIntProperty",
+            "Name": "vendorLevel",
+            "Data": 2
+          },
+          {
+            "MutagenObjectType": "ScriptIntProperty",
+            "Name": "VendorType",
+            "Data": 5
+          },
+          {
+            "MutagenObjectType": "ScriptObjectProperty",
+            "Name": "WorkshopParent",
+            "Object": "02058E:Fallout4.esm"
+          }
+        ]
+      }
+    ]
+  },
+  "ObjectBounds": {
+    "First": "-36, -27, 0",
+    "Second": "36, 27, 68"
+  },
+  "PreviewTransform": "1B4AC8:Fallout4.esm",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Clothes3"
+  },
+  "Model": {
+    "File": "Furniture\\HighTech\\LoungeChair01ACleanChair01.nif",
+    "Data": "0x04000000030000000000000001000000020000001049184C64647300F0A2F7A3C9251E2F64647300F0A2F7A3D7CCCBCF64647300F0A2F7A31BDBCBE86267736D92BA78BD056C301F6267736DD550C98A",
+    "MaterialSwap": "1A7212:Fallout4.esm"
+  },
+  "Destructible": {
+    "Data": {
+      "Health": 50,
+      "DESTCount": 2
+    },
+    "Stages": [
+      {
+        "HealthPercent": 1
+      },
+      {
+        "Index": 1,
+        "Flags": [
+          "Destroy"
+        ]
+      }
+    ]
+  },
+  "Keywords": [
+    "020592:Fallout4.esm",
+    "030BB2:Fallout4.esm",
+    "06E9C7:Fallout4.esm",
+    "12F848:Fallout4.esm",
+    "18F691:Fallout4.esm",
+    "1CD02B:Fallout4.esm"
+  ],
+  "Properties": [
+    {
+      "ActorValue": "10C847:Fallout4.esm",
+      "Value": 3.0
+    },
+    {
+      "ActorValue": "12722C:Fallout4.esm",
+      "Value": 10.0
+    },
+    {
+      "ActorValue": "129A8C:Fallout4.esm",
+      "Value": 1.0
+    },
+    {
+      "ActorValue": "249E5E:Fallout4.esm",
+      "Value": 1.0
+    }
+  ],
+  "PNAM": "0x00000000",
+  "Flags": [
+    "HasModel"
+  ],
+  "MarkerEntryPoints": [
+    {
+      "Type": [
+        "Sit"
+      ],
+      "Points": [
+        "Front",
+        "Behind",
+        "Right",
+        "Left"
+      ]
+    }
+  ],
+  "MarkerParameters": [
+    {
+      "Enabled": true,
+      "EntryTypes": [
+        "Front",
+        "Behind",
+        "Right",
+        "Left",
+        "Other",
+        "0x20",
+        "0x40",
+        "0x80"
+      ],
+      "Unknown": "0xFFFFFF"
+    }
+  ],
+  "WBDTDataTypeState": [
+    "Break0"
+  ],
+  "MajorFlags": [
+    "0x2000"
+  ]
+}

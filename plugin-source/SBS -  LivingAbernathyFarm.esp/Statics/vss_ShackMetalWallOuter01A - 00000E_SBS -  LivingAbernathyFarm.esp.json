@@ -1,0 +1,187 @@
+{
+  "FormKey": "00000E:SBS -  LivingAbernathyFarm.esp",
+  "EditorID": "vss_ShackMetalWallOuter01A",
+  "ObjectBounds": {
+    "First": "-128, -136, -13",
+    "Second": "128, 0, 220"
+  },
+  "PreviewTransform": "0F61E2:Fallout4.esm",
+  "Model": {
+    "File": "Architecture\\Shacks\\vss\\Metal\\ShackMetalWallOuter01A.nif",
+    "Data": "0x040000000D000000000000000500000005000000E5589F2D646473007A7C3A5ABF79ECA764647300BE643C4C003D5B8464647300DAC2327CD9515DE764647300DAC2327C784B48B664647300DAC2327CA1274ED564647300DAC2327CC8DCFF0264647300DAC2327C11B0F96164647300DAC2327C0F592C8164647300DAC2327C0F2C2A00646473001CDB88C5BFCE9B3564647300DAC2327CC7B8880764647300DAC2327C22DD4CAE646473007A7C3A5A932B4C9D6267736DFAFCA62E22CD48D26267736DFAFCA62E050363256267736DFAFCA62E926D60A96267736DFAFCA62E09E1D9A16267736DFAFCA62E"
+  },
+  "Properties": [
+    {
+      "ActorValue": "000337:Fallout4.esm",
+      "Value": 32.0
+    },
+    {
+      "ActorValue": "00033D:Fallout4.esm",
+      "Value": 1.0
+    },
+    {
+      "ActorValue": "00033E:Fallout4.esm",
+      "Value": 96.0
+    }
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Metal wall and roof"
+  },
+  "MaxAngle": 90.0,
+  "LeafAmplitude": 1.0,
+  "LeafFrequency": 1.0,
+  "NavmeshGeometry": {
+    "Parent": {
+      "MutagenObjectType": "CellNavmeshParent",
+      "Parent": "000025:Fallout4.esm"
+    },
+    "Vertices": [
+      "-114.9776, -1.8527946, -1.5258789E-05",
+      "-8.038768, -1.4077622, 0.032676697",
+      "-114.321915, -13.197203, 0",
+      "-8.070345, -12.49397, 0",
+      "-127.48874, -122.26375, 7.6293945E-06",
+      "-0.096450806, -122.38318, 0",
+      "-127.41127, -12.740045, 0",
+      "10.205556, -13.334124, 0",
+      "128.68095, -122.48518, -1.5258789E-05",
+      "129.1931, -11.790226, 0",
+      "114.24815, -12.096568, 0",
+      "114.136635, -1.3818537, -3.0517578E-05",
+      "10.32425, -1.1858821, -1.5258789E-05"
+    ],
+    "Triangles": [
+      {
+        "Vertices": "0, 2, 1",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": 1,
+        "EdgeLink_2_0": -1,
+        "Height": 204.2445,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "1, 2, 3",
+        "EdgeLink_1_2": 2,
+        "EdgeLink_2_0": -1,
+        "Height": 204.2445,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "2, 4, 3",
+        "EdgeLink_0_1": 4,
+        "EdgeLink_1_2": 3,
+        "EdgeLink_2_0": 1,
+        "Height": 172.71735,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "3, 4, 5",
+        "EdgeLink_0_1": 2,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": 5,
+        "Height": 172.68817,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "4, 2, 6",
+        "EdgeLink_0_1": 2,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": -1,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "5, 7, 3",
+        "EdgeLink_0_1": 6,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": 3,
+        "Height": 172.29346,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "5, 8, 7",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": 7,
+        "EdgeLink_2_0": 5,
+        "Height": 172.28813,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "10, 7, 8",
+        "EdgeLink_0_1": 9,
+        "EdgeLink_1_2": 6,
+        "EdgeLink_2_0": 8,
+        "Height": 171.6587,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "8, 9, 10",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": 7,
+        "Height": 171.75327,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "10, 11, 7",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": 10,
+        "EdgeLink_2_0": 7,
+        "Height": 204.27718,
+        "Flags": [
+          "Found"
+        ]
+      },
+      {
+        "Vertices": "7, 11, 12",
+        "EdgeLink_0_1": 9,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": -1,
+        "Height": 204.27718,
+        "Flags": [
+          "Found"
+        ]
+      }
+    ],
+    "GridSize": 1,
+    "GridMaxDistance": "256.68182, 121.2993",
+    "GridMin": "-127.48874, -122.48518, -1.5258789E-05",
+    "GridMax": "129.1931, -1.1858821, 204.27719",
+    "GridArrays": {
+      "GridCell": [
+        11,
+        0,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    }
+  }
+}

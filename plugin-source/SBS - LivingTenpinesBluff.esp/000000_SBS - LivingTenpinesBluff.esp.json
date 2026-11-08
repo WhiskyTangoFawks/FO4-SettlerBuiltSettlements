@@ -1,0 +1,23 @@
+{
+  "ModKey": "SBS - LivingTenpinesBluff.esp",
+  "GameRelease": "Fallout4",
+  "ModHeader": {
+    "Flags": [
+      "Small"
+    ],
+    "Stats": {
+      "NextFormID": 401
+    },
+    "Author": "",
+    "OverriddenForms": [
+      "09CAE5:Fallout4.esm",
+      "09DF64:Fallout4.esm",
+      "09DF67:Fallout4.esm",
+      "09F801:Fallout4.esm",
+      "09F804:Fallout4.esm",
+      "18ED19:Fallout4.esm",
+      "18ED28:Fallout4.esm",
+      "2472D8:Fallout4.esm"
+    ]
+  }
+}

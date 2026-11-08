@@ -1,0 +1,3415 @@
+{
+  "FormKey": "00DD31:Fallout4.esm",
+  "IsCompressed": true,
+  "MajorRecordFlagsRaw": 262144,
+  "Fallout4MajorRecordFlags": [
+    "Compressed"
+  ],
+  "Flags": [
+    "HasWater"
+  ],
+  "PreVisFilesTimestamp": 7972,
+  "InPreVisFileOf": "00DD52:Fallout4.esm",
+  "PreCombinedFilesTimestamp": 7972,
+  "Grid": {
+    "Point": "-6, 22"
+  },
+  "MaxHeightData": {
+    "Offset": 4736.0,
+    "HeightMap": [
+      [14,11,11,11,11,11,11,11,11,11,11,11,12,12,18,12,12,12,12,13,18,12,12,12,12,12,16,11,11,12,11,10],
+      [14,14,11,11,11,10,10,10,11,11,11,11,12,12,20,12,12,12,12,12,12,12,12,12,11,11,11,11,11,11,11,10],
+      [11,13,11,11,10,10,10,10,10,11,11,11,12,12,12,12,12,12,12,12,12,12,12,13,11,11,11,11,11,11,11,10],
+      [11,13,11,10,10,10,10,10,10,10,10,11,11,11,11,12,12,12,12,12,12,12,12,12,11,11,11,11,11,11,10,10],
+      [10,10,10,10,10,10,10,10,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,10,10,10,10],
+      [10,10,10,10,10,10,10,10,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,10,10,10,10,10,10,9],
+      [11,11,10,10,10,10,10,10,11,11,11,10,11,11,11,11,11,11,11,11,11,11,11,11,10,10,10,10,10,10,9,9],
+      [11,11,10,10,10,10,10,10,10,10,10,10,11,11,11,11,11,11,11,11,11,11,11,10,10,10,10,10,10,9,9,9],
+      [11,11,11,11,10,10,10,10,10,10,10,11,11,11,11,11,11,11,11,11,11,10,10,10,10,10,10,10,9,9,9,9],
+      [11,11,11,11,10,10,10,10,10,10,10,11,12,12,12,12,11,11,11,10,10,10,10,10,10,10,10,9,9,9,9,9],
+      [11,10,11,11,10,10,10,10,10,10,10,10,12,11,12,12,10,10,10,10,10,10,10,10,10,10,10,9,9,9,9,9],
+      [11,11,11,11,10,10,10,10,10,10,10,11,10,11,11,11,10,10,10,10,10,10,11,11,10,10,9,9,9,9,9,9],
+      [11,11,11,11,10,10,10,10,10,10,10,11,10,10,12,10,10,10,10,10,10,10,11,11,10,9,9,9,9,8,8,8],
+      [11,10,11,10,10,10,10,10,10,10,10,12,10,10,12,10,10,10,10,10,10,10,11,11,10,9,9,9,8,8,8,8],
+      [11,11,10,10,10,10,10,10,10,10,12,12,11,12,12,10,10,10,10,10,10,10,10,10,9,9,9,9,8,8,8,8],
+      [11,11,10,12,10,10,10,10,10,10,12,12,11,12,12,10,10,10,10,12,12,10,10,10,10,9,9,8,8,8,7,7],
+      [11,11,11,10,10,10,10,10,10,10,10,10,10,12,10,10,10,10,10,10,10,10,9,10,10,9,9,8,8,7,7,7],
+      [11,11,11,10,10,10,10,10,10,10,10,10,10,10,10,12,14,10,10,11,11,10,10,9,9,9,8,8,7,7,6,6],
+      [11,11,11,11,10,10,10,10,10,10,10,10,10,10,10,10,13,10,10,14,13,9,10,9,9,9,9,8,7,6,6,6],
+      [11,11,11,11,11,10,10,10,10,10,10,10,10,11,15,16,10,10,10,14,9,9,9,9,9,9,9,9,7,6,6,6],
+      [11,10,10,10,10,10,10,10,10,10,10,10,10,11,15,10,10,10,9,9,9,9,9,9,9,9,9,9,7,5,5,5],
+      [11,10,10,10,10,10,10,10,10,10,10,10,11,11,10,10,10,10,9,9,9,9,9,9,9,9,9,8,6,5,4,4],
+      [10,10,10,10,10,10,10,10,10,10,10,11,10,10,10,10,10,9,9,9,9,9,9,9,9,9,8,8,5,4,4,4],
+      [10,10,10,10,10,10,10,10,10,10,10,10,10,10,12,10,10,9,9,9,9,9,9,9,9,8,8,5,5,4,3,3],
+      [10,10,11,11,11,10,10,10,10,17,10,10,10,10,12,10,10,9,9,8,8,8,8,8,8,8,7,5,5,3,3,2],
+      [10,10,11,11,11,10,10,10,10,20,18,19,10,10,10,10,9,9,8,8,8,8,8,8,7,7,6,3,3,3,2,2],
+      [9,9,10,10,11,10,10,10,10,10,15,10,10,9,9,9,9,9,8,8,8,8,8,7,7,6,3,2,2,2,2,2],
+      [9,9,10,10,11,11,10,10,10,10,9,9,9,9,9,8,8,8,8,8,8,8,7,7,7,3,2,2,2,2,2,1],
+      [9,9,9,11,11,10,10,10,9,9,9,9,9,9,9,8,8,8,8,8,8,7,7,7,7,3,3,3,3,2,1,1],
+      [9,9,9,11,11,10,10,9,9,9,9,9,9,8,8,8,8,8,8,7,7,7,7,7,3,3,3,3,3,2,1,1],
+      [8,8,9,10,10,10,10,9,9,9,9,9,8,8,8,8,8,7,7,7,7,7,7,7,3,2,2,2,2,2,1,1],
+      [8,8,8,9,10,10,9,9,9,9,8,8,8,8,8,8,7,7,7,7,7,7,7,7,3,2,2,2,2,2,0,0]
+    ]
+  },
+  "WaterHeight": 3.4028235E+38,
+  "Regions": [
+    "0E4755:Fallout4.esm",
+    "0B25CA:Fallout4.esm",
+    "109E91:Fallout4.esm",
+    "049BE0:Fallout4.esm"
+  ],
+  "Location": "09B1B4:Fallout4.esm",
+  "CombinedMeshes": [
+    28861806,
+    82877219,
+    158464202,
+    175254844,
+    316928405,
+    324769019,
+    462555487,
+    482666451,
+    563641934,
+    568854872,
+    625813620,
+    731522148,
+    792659272,
+    851700405,
+    928957367,
+    973764369,
+    1001525887,
+    1102603630,
+    1556408275,
+    1642596696,
+    1805263972,
+    2016520905,
+    2230360867,
+    2305947850,
+    2322738492,
+    2373154687,
+    2472252667,
+    2556544767,
+    2598825727,
+    2630150099,
+    2716338520,
+    2814906036,
+    2879005796,
+    2940142920,
+    2999184053,
+    3076441015,
+    3096400337
+  ],
+  "CombinedMeshReferences": [
+    {
+      "Reference": "09DED8:Fallout4.esm",
+      "CombinedMesh": 482666451
+    },
+    {
+      "Reference": "18ED15:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "09DF53:Fallout4.esm",
+      "CombinedMesh": 316928405
+    },
+    {
+      "Reference": "09DF58:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "09DF38:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "09DF33:Fallout4.esm",
+      "CombinedMesh": 568854872
+    },
+    {
+      "Reference": "18E432:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "09F805:Fallout4.esm",
+      "CombinedMesh": 2879005796
+    },
+    {
+      "Reference": "18EDA7:Fallout4.esm",
+      "CombinedMesh": 482666451
+    },
+    {
+      "Reference": "09DF41:Fallout4.esm",
+      "CombinedMesh": 2879005796
+    },
+    {
+      "Reference": "09DF2A:Fallout4.esm",
+      "CombinedMesh": 482666451
+    },
+    {
+      "Reference": "09F800:Fallout4.esm",
+      "CombinedMesh": 158464202
+    },
+    {
+      "Reference": "09DF61:Fallout4.esm",
+      "CombinedMesh": 2879005796
+    },
+    {
+      "Reference": "09DF2F:Fallout4.esm",
+      "CombinedMesh": 1556408275
+    },
+    {
+      "Reference": "09DF24:Fallout4.esm",
+      "CombinedMesh": 568854872
+    },
+    {
+      "Reference": "09DF44:Fallout4.esm",
+      "CombinedMesh": 2373154687
+    },
+    {
+      "Reference": "09DF4F:Fallout4.esm",
+      "CombinedMesh": 1001525887
+    },
+    {
+      "Reference": "09F812:Fallout4.esm",
+      "CombinedMesh": 2472252667
+    },
+    {
+      "Reference": "09DED6:Fallout4.esm",
+      "CombinedMesh": 1556408275
+    },
+    {
+      "Reference": "09DF3D:Fallout4.esm",
+      "CombinedMesh": 2305947850
+    },
+    {
+      "Reference": "09DF36:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "09DF56:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "09DF5D:Fallout4.esm",
+      "CombinedMesh": 928957367
+    },
+    {
+      "Reference": "18EDA8:Fallout4.esm",
+      "CombinedMesh": 1556408275
+    },
+    {
+      "Reference": "09DF60:Fallout4.esm",
+      "CombinedMesh": 2322738492
+    },
+    {
+      "Reference": "09DF2E:Fallout4.esm",
+      "CombinedMesh": 1805263972
+    },
+    {
+      "Reference": "09DF45:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "18E42F:Fallout4.esm",
+      "CombinedMesh": 928957367
+    },
+    {
+      "Reference": "09DF19:Fallout4.esm",
+      "CombinedMesh": 1001525887
+    },
+    {
+      "Reference": "09DED7:Fallout4.esm",
+      "CombinedMesh": 1556408275
+    },
+    {
+      "Reference": "09DF37:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "09DF3C:Fallout4.esm",
+      "CombinedMesh": 2716338520
+    },
+    {
+      "Reference": "09DF5C:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "09DF57:Fallout4.esm",
+      "CombinedMesh": 175254844
+    },
+    {
+      "Reference": "09DED9:Fallout4.esm",
+      "CombinedMesh": 482666451
+    },
+    {
+      "Reference": "18ED14:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "09DF52:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "09DF32:Fallout4.esm",
+      "CombinedMesh": 973764369
+    },
+    {
+      "Reference": "09DF39:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "09DF40:Fallout4.esm",
+      "CombinedMesh": 2940142920
+    },
+    {
+      "Reference": "09DF2B:Fallout4.esm",
+      "CombinedMesh": 482666451
+    },
+    {
+      "Reference": "18ED32:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "09DF3A:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "09DF5A:Fallout4.esm",
+      "CombinedMesh": 482666451
+    },
+    {
+      "Reference": "09DF51:Fallout4.esm",
+      "CombinedMesh": 158464202
+    },
+    {
+      "Reference": "18E430:Fallout4.esm",
+      "CombinedMesh": 792659272
+    },
+    {
+      "Reference": "09F890:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "09DEDA:Fallout4.esm",
+      "CombinedMesh": 82877219
+    },
+    {
+      "Reference": "09DF23:Fallout4.esm",
+      "CombinedMesh": 28861806
+    },
+    {
+      "Reference": "09DF28:Fallout4.esm",
+      "CombinedMesh": 482666451
+    },
+    {
+      "Reference": "09DF48:Fallout4.esm",
+      "CombinedMesh": 2322738492
+    },
+    {
+      "Reference": "09DF43:Fallout4.esm",
+      "CombinedMesh": 2230360867
+    },
+    {
+      "Reference": "09F807:Fallout4.esm",
+      "CombinedMesh": 2879005796
+    },
+    {
+      "Reference": "09DF66:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "09DF4D:Fallout4.esm",
+      "CombinedMesh": 316928405
+    },
+    {
+      "Reference": "09DF46:Fallout4.esm",
+      "CombinedMesh": 2879005796
+    },
+    {
+      "Reference": "09DF26:Fallout4.esm",
+      "CombinedMesh": 1001525887
+    },
+    {
+      "Reference": "18ED2E:Fallout4.esm",
+      "CombinedMesh": 1102603630
+    },
+    {
+      "Reference": "09DF63:Fallout4.esm",
+      "CombinedMesh": 2999184053
+    },
+    {
+      "Reference": "09DF5F:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "09DF54:Fallout4.esm",
+      "CombinedMesh": 625813620
+    },
+    {
+      "Reference": "09DF34:Fallout4.esm",
+      "CombinedMesh": 568854872
+    },
+    {
+      "Reference": "09DF3F:Fallout4.esm",
+      "CombinedMesh": 2556544767
+    },
+    {
+      "Reference": "09F7FB:Fallout4.esm",
+      "CombinedMesh": 462555487
+    },
+    {
+      "Reference": "09DED4:Fallout4.esm",
+      "CombinedMesh": 563641934
+    },
+    {
+      "Reference": "09DF1A:Fallout4.esm",
+      "CombinedMesh": 1001525887
+    },
+    {
+      "Reference": "09DF47:Fallout4.esm",
+      "CombinedMesh": 3076441015
+    },
+    {
+      "Reference": "09DF4C:Fallout4.esm",
+      "CombinedMesh": 2556544767
+    },
+    {
+      "Reference": "09DF2C:Fallout4.esm",
+      "CombinedMesh": 482666451
+    },
+    {
+      "Reference": "09DF27:Fallout4.esm",
+      "CombinedMesh": 482666451
+    },
+    {
+      "Reference": "09DF62:Fallout4.esm",
+      "CombinedMesh": 2879005796
+    },
+    {
+      "Reference": "09DF5E:Fallout4.esm",
+      "CombinedMesh": 175254844
+    },
+    {
+      "Reference": "09DF3E:Fallout4.esm",
+      "CombinedMesh": 3096400337
+    },
+    {
+      "Reference": "09DF35:Fallout4.esm",
+      "CombinedMesh": 1642596696
+    },
+    {
+      "Reference": "09DED5:Fallout4.esm",
+      "CombinedMesh": 1556408275
+    },
+    {
+      "Reference": "09DF1B:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "18ED13:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "09F7FA:Fallout4.esm",
+      "CombinedMesh": 462555487
+    },
+    {
+      "Reference": "18E431:Fallout4.esm",
+      "CombinedMesh": 324769019
+    },
+    {
+      "Reference": "09DF3B:Fallout4.esm",
+      "CombinedMesh": 2999184053
+    },
+    {
+      "Reference": "09DF30:Fallout4.esm",
+      "CombinedMesh": 1556408275
+    },
+    {
+      "Reference": "09DF50:Fallout4.esm",
+      "CombinedMesh": 568854872
+    },
+    {
+      "Reference": "09DF5B:Fallout4.esm",
+      "CombinedMesh": 482666451
+    },
+    {
+      "Reference": "09DF1E:Fallout4.esm",
+      "CombinedMesh": 316928405
+    },
+    {
+      "Reference": "18ED16:Fallout4.esm",
+      "CombinedMesh": 175254844
+    },
+    {
+      "Reference": "09DEC4:Fallout4.esm",
+      "CombinedMesh": 2598825727
+    },
+    {
+      "Reference": "09DE9A:Fallout4.esm",
+      "CombinedMesh": 851700405
+    },
+    {
+      "Reference": "18ED37:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "09F7FF:Fallout4.esm",
+      "CombinedMesh": 482666451
+    },
+    {
+      "Reference": "0436AC:Fallout4.esm",
+      "CombinedMesh": 2814906036
+    },
+    {
+      "Reference": "0436AB:Fallout4.esm",
+      "CombinedMesh": 2814906036
+    },
+    {
+      "Reference": "18ED2A:Fallout4.esm",
+      "CombinedMesh": 1001525887
+    },
+    {
+      "Reference": "09DF22:Fallout4.esm",
+      "CombinedMesh": 316928405
+    },
+    {
+      "Reference": "09F851:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "09DF49:Fallout4.esm",
+      "CombinedMesh": 568854872
+    },
+    {
+      "Reference": "155296:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "155297:Fallout4.esm",
+      "CombinedMesh": 731522148
+    },
+    {
+      "Reference": "155298:Fallout4.esm",
+      "CombinedMesh": 1805263972
+    },
+    {
+      "Reference": "15529B:Fallout4.esm",
+      "CombinedMesh": 1805263972
+    },
+    {
+      "Reference": "18ED2D:Fallout4.esm",
+      "CombinedMesh": 973764369
+    },
+    {
+      "Reference": "18ED2F:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "18ED30:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "18ED31:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "18ED36:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "09F806:Fallout4.esm",
+      "CombinedMesh": 2879005796
+    },
+    {
+      "Reference": "18ED38:Fallout4.esm",
+      "CombinedMesh": 2016520905
+    },
+    {
+      "Reference": "18ED4E:Fallout4.esm",
+      "CombinedMesh": 2630150099
+    }
+  ],
+  "Temporary": [
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09DF64:Fallout4.esm",
+      "FormVersion": 109,
+      "Base": "02B8DB:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Scale": 0.64,
+      "Position": "-23337.479, 91429.45, 5972.6816",
+      "Rotation": "6.0801544, 6.255253, 5.2709556"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09DF67:Fallout4.esm",
+      "FormVersion": 111,
+      "Base": "02B8DB:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Scale": 0.91,
+      "Position": "-22117.08, 91106.4, 5938.785",
+      "Rotation": "6.240011, 6.1978893, 5.0762186"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09F801:Fallout4.esm",
+      "FormVersion": 122,
+      "Base": "02CD28:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "-22669.89, 91817.28, 6012.8115",
+      "Rotation": "0, 0, 4.712389"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "09F804:Fallout4.esm",
+      "FormVersion": 129,
+      "Base": "0625D0:Fallout4.esm",
+      "RagdollData": [
+        {
+          "Unused": "0xDC1A00",
+          "Rotation": "0.2177816, 1.3870993, 1.6417056"
+        },
+        {
+          "Unused": "0x000000",
+          "Position": "15.3515625, 0.01953125, 0",
+          "Rotation": "-0.012809441, -0.05904475, 0.17481983"
+        }
+      ],
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "Position": "-22933.543, 91372.51, 5971.4287",
+      "Rotation": "6.164421, 6.2190723, 4.712963"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "18ED19:Fallout4.esm",
+      "Base": "020C40:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Flags": [
+          "SetEnableStateToOppositeOfParent"
+        ],
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23207.703, 91901.3, 6012.8115",
+      "Rotation": "0, 0, 5.923185"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E4:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B93:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23015.031, 91610.68, 6031.0337",
+      "Rotation": "0, 0, 0.27576202"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E5:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "054576:DLCCoast.esm",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-22684.516, 91394.12, 5973.1226",
+      "Rotation": "0, 0, 3.4209535"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E6:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B92:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-22692.756, 91782.445, 6031.1226",
+      "Rotation": "0, 0, 3.420964"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E7:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B93:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-22938.832, 91853.04, 6031.1226",
+      "Rotation": "0, 0, 3.4209466"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E8:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B92:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23191.656, 91926.71, 6031.0337",
+      "Rotation": "0, 0, 3.417353"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000E9:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B92:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23261.36, 91680.38, 6031.0337",
+      "Rotation": "0, 0, 0.2757655"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000EA:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B92:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-22763.348, 91536.37, 6031.1226",
+      "Rotation": "0, 0, 0.27936265"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000EB:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "054576:DLCCoast.esm",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23403.326, 91601.04, 5973.0337",
+      "Rotation": "0, 0, 3.4173598"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000EC:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "05D70B:DLCCoast.esm",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-22684.516, 91394.12, 5845.1226",
+      "Rotation": "0, 0, 3.4209535"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000ED:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B95:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-22925.307, 91851.39, 6030.0645",
+      "Rotation": "0, 0, 3.408504"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000EE:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B94:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23172.242, 91918.91, 6030.0645",
+      "Rotation": "0, 0, 3.4085007"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000EF:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B97:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-22692.758, 91782.445, 6031.1226",
+      "Rotation": "0, 0, 3.4209483"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F0:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B97:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-22692.756, 91782.445, 6031.1226",
+      "Rotation": "0, 0, 4.99175"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F1:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B95:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23191.656, 91926.71, 6031.0337",
+      "Rotation": "0, 0, 1.8465618"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F3:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B89:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23119.082, 91848.32, 6013.0205",
+      "Rotation": "0, 0, 3.3943355"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F4:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B89:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-22853.223, 91824.29, 6011.749",
+      "Rotation": "0, 0, 4.9541817"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F7:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "074BB1:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23141.195, 91982.97, 6013.0747",
+      "Rotation": "0, 0, 3.4463584"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F8:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0DB83B:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-22526.377, 91510.625, 5952.998",
+      "Rotation": "0, 0, 2.9155498"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000F9:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0A46FB:Fallout4.esm",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-22182.38, 91067.516, 5945.058",
+      "Rotation": "0, 0, 1.8836815"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "0000FA:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000918:DLCworkshop01.esm",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23004.695, 91954.07, 6013.0747",
+      "Rotation": "0, 0, 0.24983166"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000103:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000017:SBS - LivingTenpinesBluff.esp",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23773.37, 90902.4, 6017.125",
+      "Rotation": "0, 0, 3.1410587"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000104:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000024:SBS - LivingTenpinesBluff.esp",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23773.438, 91030.38, 6017.125",
+      "Rotation": "0, 0, 3.1410499"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000105:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000024:SBS - LivingTenpinesBluff.esp",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23901.365, 90902.33, 6017.125",
+      "Rotation": "0, 0, 1.5702535"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000106:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00002B:SBS - LivingTenpinesBluff.esp",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23901.303, 90774.336, 6017.125",
+      "Rotation": "0, 0, 1.5702587"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000107:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00002B:SBS - LivingTenpinesBluff.esp",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23901.44, 91030.33, 6017.125",
+      "Rotation": "0, 0, 3.141062"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00010F:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23645.305, 90775.46, 6017.125",
+      "Rotation": "0, 0, 6.2826495"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000110:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0B98:Fallout4.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23645.44, 91030.46, 6017.125",
+      "Rotation": "0, 0, 3.1410534"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000111:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BB7:Fallout4.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23773.37, 90902.4, 6017.125",
+      "Rotation": "0, 0, 4.711864"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000112:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1B4ABD:Fallout4.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-22409.521, 91954.84, 5851.072",
+      "Rotation": "0, 0, 2.8180926"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000113:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1B4ABD:Fallout4.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-22162.715, 91970.086, 5851.072",
+      "Rotation": "0, 0, 3.3416913"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000117:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1B4ABC:Fallout4.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-21691.008, 90351.69, 5888.2036",
+      "Rotation": "0, 0, 4.728078"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000119:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1B4ABB:Fallout4.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-21686.994, 90607.664, 5952.2036",
+      "Rotation": "0, 0, 1.5864886"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011A:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1B4ABC:Fallout4.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-21682.979, 90863.63, 5888.2036",
+      "Rotation": "0, 0, 4.728078"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011B:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1B4ABD:Fallout4.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-21645.906, 91114.72, 5824.2036",
+      "Rotation": "0, 0, 1.8482897"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011C:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0E0BB3:Fallout4.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23617.852, 90902.48, 5974.4585",
+      "Rotation": "0, 0, 6.2826567"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011D:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1B4ABC:Fallout4.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-24030.928, 90506.836, 5925.487",
+      "Rotation": "0, 0, 4.754921"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00011E:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1B4ABA:Fallout4.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-24041.814, 90251.07, 5989.487",
+      "Rotation": "0, 0, 1.6133281"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012C:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1B4ABD:Fallout4.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-24040.895, 91780.29, 5965.0005",
+      "Rotation": "0, 0, 1.7690395"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012D:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1B4ABD:Fallout4.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23687.297, 92061.05, 5961.6323",
+      "Rotation": "0, 0, 2.965475"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012E:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1B4ABB:Fallout4.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23433.746, 92072.52, 5961.6323",
+      "Rotation": "0, 0, 0.08567647"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00012F:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1B4ABC:Fallout4.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-24041.723, 91271.57, 5901.0005",
+      "Rotation": "0, 0, 4.648859"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000130:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1B4ABB:Fallout4.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-24057.977, 91527.055, 5965.0005",
+      "Rotation": "0, 0, 1.5072559"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013B:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0025EF:DLCCoast.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-21946.396, 90731.75, 5979.56",
+      "Rotation": "0, 0, 0.37746412"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013C:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0025E1:DLCCoast.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-22362.32, 91803.3, 5959.5776",
+      "Rotation": "0, 0, 1.1425831"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013D:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0025E1:DLCCoast.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23847.172, 90517.18, 5995.718",
+      "Rotation": "0, 0, 5.514242"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00013F:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1A6E37:Fallout4.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-22857.908, 91925.14, 6013.093",
+      "Rotation": "0, 0, 4.234228"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000141:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "01AC44:DLCCoast.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23757.654, 90603.2, 5987.107",
+      "Rotation": "0, 0, 2.350051"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000142:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "02C59C:DLCCoast.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23696.889, 90600.95, 5987.3965",
+      "Rotation": "0, 0, 2.3963633"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000143:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "04CDC2:Fallout4.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-22628.674, 91830.56, 6013.093",
+      "Rotation": "0, 0, 5.8319273"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000144:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0711B5:Fallout4.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23919.777, 90904.16, 6017.165",
+      "Rotation": "0, 0, 1.458465"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000145:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0711B5:Fallout4.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23776.977, 91044, 6019.411",
+      "Rotation": "0, 0, 3.2699215"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000146:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0711B5:Fallout4.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23794.041, 90812.81, 6021.164",
+      "Rotation": "0, 0, 2.7533617"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000147:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "16BD71:Fallout4.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-22669.85, 91899.3, 6158.248",
+      "Rotation": "0, 0, 0.27933472"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000148:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1A6E37:Fallout4.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-22612.91, 91707.17, 6013.093",
+      "Rotation": "0, 0, 0.88505644"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000149:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "075F4A:Fallout4.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23249.217, 92030.09, 6013.0747",
+      "Rotation": "0, 0, 6.1248913"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014B:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "143AD1:Fallout4.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23248.188, 92026.664, 6061.678",
+      "Rotation": "0, 0, 5.8718376"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014C:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "02C59C:DLCCoast.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-22838.133, 91583.42, 6013.093",
+      "Rotation": "0, 0, 1.7201215"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014D:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0EA1B9:Fallout4.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-22929.717, 91927.38, 6013.15",
+      "Rotation": "0, 0, 2.9925973"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014E:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0EA1B9:Fallout4.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-22799.824, 91887, 6013.556",
+      "Rotation": "0, 0, 3.8124554"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00014F:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "1A6B84:Fallout4.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-22643.082, 91759.52, 6013.093",
+      "Rotation": "0, 0, 5.9418793"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000150:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "03F432:Fallout4.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23312.307, 91782.984, 6013.0747",
+      "Rotation": "0, 0, 1.8411112"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000154:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00080E:SettlerBuiltSettlements.esp",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-22689.842, 91862.9, 6013.093",
+      "Rotation": "0, 0, 3.5392764"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000155:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "04CD99:Fallout4.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23286.05, 91886.31, 6013.0747",
+      "Rotation": "0, 0, 1.5335525"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000156:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "04CD80:Fallout4.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23281.547, 91948.89, 6013.0747",
+      "Rotation": "0, 0, 3.0897844"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000157:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00091B:DLCworkshop01.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-22709.627, 91868.47, 6049.7656",
+      "Rotation": "0, 0, 4.95743"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000158:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000B01:DLCworkshop01.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23369.562, 91740.03, 6156.292",
+      "Rotation": "0, 0, 4.9831734"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000159:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000B01:DLCworkshop01.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-22632.273, 91541.46, 6148.3335",
+      "Rotation": "0, 0, 1.8417115"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00015D:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00080F:SettlerBuiltSettlements.esp",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-22679.188, 91857.84, 6049.7656",
+      "Rotation": "0, 0, 0.34420684"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00015E:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000918:DLCworkshop01.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23960.32, 90756.99, 6017.165",
+      "Rotation": "0, 0, 3.7316275"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00015F:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000816:SettlerBuiltSettlements.esp",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23951.326, 91057.59, 6017.165",
+      "Rotation": "0, 0, 5.0836244"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000160:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000806:SettlerBuiltSettlements.esp",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23953.957, 91050.984, 6071.8296",
+      "Rotation": "0, 0, 5.274153"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000161:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "075F3F:Fallout4.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23873.053, 91090.07, 6020.659",
+      "Rotation": "0, 0, 5.090773"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000162:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "075F3F:Fallout4.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23896.27, 90710.266, 6017.128",
+      "Rotation": "0, 0, 3.3397713"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000163:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "12F2F5:Fallout4.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23787.238, 90735.56, 6022.968",
+      "Rotation": "0, 0, 3.1710956"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000164:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000820:SettlerBuiltSettlements.esp",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23951.117, 90697.21, 6017.1255",
+      "Rotation": "0, 0, 4.095127"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000165:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "00091B:DLCworkshop01.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23876.176, 91092.85, 6053.3447",
+      "Rotation": "0, 0, 5.7784376"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000166:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000B01:DLCworkshop01.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23649.182, 90711.22, 6140.032",
+      "Rotation": "0, 0, 1.5702623"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000167:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "04CD99:Fallout4.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23815.16, 91101.19, 6020.8535",
+      "Rotation": "0, 0, 4.784939"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000168:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "02B6DD:Fallout4.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-22724.162, 91512.8, 6116.199",
+      "Rotation": "0, 0, 0.27079308"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000169:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "001515:DLCCoast.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23640.273, 90709.79, 6160.089",
+      "Rotation": "0, 0, 1.5702537"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00016B:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000856:DLCworkshop02.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23435.436, 91090.16, 5947.433",
+      "Rotation": "0, 0, 1.866839"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00016C:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000857:DLCworkshop02.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23244.844, 91060.484, 5933.323",
+      "Rotation": "0, 0, 0.667009"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00016D:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000857:DLCworkshop02.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23112.531, 91075.65, 5933.0264",
+      "Rotation": "0, 0, 1.3807629"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00016E:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "000857:DLCworkshop02.esm",
+      "Layer": "000101:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-22985.676, 91142.06, 5918.4937",
+      "Rotation": "0, 0, 1.3030382"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000172:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0008DC:DLCworkshop02.esm",
+      "Layer": "00016F:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-21784.674, 90340.16, 5996.726",
+      "Rotation": "0, 0, 1.6429063"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000173:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0008D8:DLCworkshop02.esm",
+      "Layer": "00016F:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-21784.674, 90340.16, 6252.726",
+      "Rotation": "0, 0, 3.2136977"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000174:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0008D8:DLCworkshop02.esm",
+      "Layer": "00016F:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23602.727, 91928.64, 6275.66",
+      "Rotation": "0, 0, 6.2650185"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000175:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0008DC:DLCworkshop02.esm",
+      "Layer": "00016F:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23602.727, 91928.64, 6019.66",
+      "Rotation": "0, 0, 6.2650094"
+    },
+    {
+      "MutagenObjectType": "PlacedNpc",
+      "FormKey": "000177:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1167A8:Fallout4.esm",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Layer": "00016F:SBS - LivingTenpinesBluff.esp",
+      "Position": "-21785.947, 90340.125, 6250.7266",
+      "Rotation": "0, 0, 1.6633564",
+      "MajorFlags": [
+        "InitiallyDisabled"
+      ]
+    },
+    {
+      "MutagenObjectType": "PlacedNpc",
+      "FormKey": "000178:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1167A8:Fallout4.esm",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Layer": "00016F:SBS - LivingTenpinesBluff.esp",
+      "Position": "-23602.89, 91931.55, 6273.661",
+      "Rotation": "0, 0, 0.024586454",
+      "MajorFlags": [
+        "InitiallyDisabled"
+      ]
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00017A:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "020C40:Fallout4.esm",
+      "Layer": "000179:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23766.035, 91021.56, 6021.6006",
+      "Rotation": "0, 0, 4.4907966"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00017D:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "020C40:Fallout4.esm",
+      "Layer": "000179:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23940.51, 90895.48, 6022.43",
+      "Rotation": "0, 0, 2.9205885"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "00017F:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0008D8:DLCworkshop02.esm",
+      "Layer": "000179:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-21784.674, 90340.16, 6252.726",
+      "Rotation": "0, 0, 3.2136977"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000180:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0008DC:DLCworkshop02.esm",
+      "Layer": "000179:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23602.727, 91928.64, 6019.66",
+      "Rotation": "0, 0, 6.2650094"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000181:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0008D8:DLCworkshop02.esm",
+      "Layer": "000179:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-23602.727, 91928.64, 6275.66",
+      "Rotation": "0, 0, 6.2650185"
+    },
+    {
+      "MutagenObjectType": "PlacedObject",
+      "FormKey": "000182:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "VirtualMachineAdapter": {
+        "Scripts": [
+          {
+            "Name": "DefaultDisableHavokOnLoad"
+          }
+        ]
+      },
+      "Base": "0008DC:DLCworkshop02.esm",
+      "Layer": "000179:SBS - LivingTenpinesBluff.esp",
+      "EnableParent": {
+        "Reference": "00018E:SBS - LivingTenpinesBluff.esp",
+        "Unknown": "0x000000"
+      },
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Position": "-21784.674, 90340.16, 5996.726",
+      "Rotation": "0, 0, 1.6429063"
+    },
+    {
+      "MutagenObjectType": "PlacedNpc",
+      "FormKey": "000186:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1167A8:Fallout4.esm",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Layer": "000179:SBS - LivingTenpinesBluff.esp",
+      "Position": "-23602.89, 91931.55, 6273.6616",
+      "Rotation": "0, 0, 0.024586454",
+      "MajorFlags": [
+        "InitiallyDisabled"
+      ]
+    },
+    {
+      "MutagenObjectType": "PlacedNpc",
+      "FormKey": "000188:SBS - LivingTenpinesBluff.esp",
+      "MajorRecordFlagsRaw": 2048,
+      "Fallout4MajorRecordFlags": [
+        "InitiallyDisabled"
+      ],
+      "Base": "1167A8:Fallout4.esm",
+      "LinkedReferences": [
+        {
+          "KeywordOrReference": "054BA6:Fallout4.esm",
+          "Reference": "09B1AC:Fallout4.esm"
+        }
+      ],
+      "Layer": "000179:SBS - LivingTenpinesBluff.esp",
+      "Position": "-21785.947, 90340.125, 6250.7266",
+      "Rotation": "0, 0, 1.6633564",
+      "MajorFlags": [
+        "InitiallyDisabled"
+      ]
+    }
+  ],
+  "MajorFlags": [
+    "0x40000"
+  ]
+}
