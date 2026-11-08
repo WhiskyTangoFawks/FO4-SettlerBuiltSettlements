@@ -1,0 +1,179 @@
+{
+  "FormKey": "00001D:SBS - LivingCoastalCottage.esp",
+  "EditorID": "vss_ShackPrefabHallway01",
+  "ObjectBounds": {
+    "First": "-130, -135, -14",
+    "Second": "128, 136, 210"
+  },
+  "PreviewTransform": "140D96:Fallout4.esm",
+  "Model": {
+    "File": "Architecture\\Shacks\\vss\\ShackPrefabHallway01.nif",
+    "Data": "0x040000000C000000000000000400000005000000003D5B8464647300DAC2327CD9515DE764647300DAC2327CBD9EC32164647300DAC2327C64F2C54264647300DAC2327CB0E4DF1464647300DAC2327C6988D97764647300DAC2327CD6602A0164647300DAC2327C0F0C2C6264647300DAC2327C11E5F98264647300DAC2327C77610C9764647300DAC2327C7A1B10A264647300DAC2327CC7B8880764647300DAC2327C96965A016267736DFAFCA62EB69E2B3C6267736DFAFCA62EB2AA61036267736DFAFCA62EFB61461C6267736DFAFCA62E926D60A96267736DFAFCA62E"
+  },
+  "Properties": [
+    {
+      "ActorValue": "000337:Fallout4.esm",
+      "Value": 32.0
+    },
+    {
+      "ActorValue": "00033D:Fallout4.esm",
+      "Value": 1.0
+    },
+    {
+      "ActorValue": "249D41:Fallout4.esm",
+      "Value": 256.0
+    }
+  ],
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Wood hallway"
+  },
+  "MaxAngle": 90.0,
+  "LeafAmplitude": 1.0,
+  "LeafFrequency": 1.0,
+  "NavmeshGeometry": {
+    "Parent": {
+      "MutagenObjectType": "CellNavmeshParent",
+      "Parent": "000025:Fallout4.esm"
+    },
+    "Vertices": [
+      "-127.642265, -105.051414, 4.5776367E-05",
+      "-128.09169, 105.11943, 0.00012207031",
+      "127.812515, -105.580154, -1.5258789E-05",
+      "127.806984, 106.26038, 3.0517578E-05",
+      "128.08044, -129.06064, 208.99994",
+      "-127.69563, -127.79573, 209",
+      "127.74945, 128.25082, 208.99994",
+      "-128.05817, 127.9516, 209"
+    ],
+    "Triangles": [
+      {
+        "Vertices": "0, 2, 1",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": 1,
+        "EdgeLink_2_0": -1,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ],
+        "CoverFlags": 5
+      },
+      {
+        "Vertices": "1, 2, 3",
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": -1,
+        "Height": 170.0,
+        "Flags": [
+          "Found"
+        ],
+        "CoverFlags": 6
+      },
+      {
+        "Vertices": "4, 6, 5",
+        "EdgeLink_0_1": -1,
+        "EdgeLink_1_2": 3,
+        "EdgeLink_2_0": -1,
+        "Height": 3.4028235E+38,
+        "CoverFlags": 5
+      },
+      {
+        "Vertices": "5, 6, 7",
+        "EdgeLink_0_1": 2,
+        "EdgeLink_1_2": -1,
+        "EdgeLink_2_0": -1,
+        "Height": 3.4028235E+38,
+        "CoverFlags": 6
+      }
+    ],
+    "Cover": [
+      {
+        "Vertex1": 2,
+        "Data": 2147633656
+      },
+      {
+        "Vertex2": 1,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 1,
+        "Vertex2": 3,
+        "Data": 150008
+      },
+      {
+        "Vertex1": 3,
+        "Vertex2": 2,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 6,
+        "Vertex2": 4,
+        "Data": 2147485968
+      },
+      {
+        "Vertex1": 4,
+        "Vertex2": 5,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 5,
+        "Vertex2": 7,
+        "Data": 2320
+      },
+      {
+        "Vertex1": 7,
+        "Vertex2": 6,
+        "Data": 2320
+      }
+    ],
+    "CoverTriangleMappings": [
+      {},
+      {
+        "Cover": 14,
+        "Triangle": 6
+      },
+      {
+        "Cover": 5,
+        "Triangle": 3
+      },
+      {
+        "Cover": 2,
+        "Triangle": 1
+      },
+      {
+        "Cover": 6,
+        "Triangle": 2
+      },
+      {
+        "Cover": 13,
+        "Triangle": 7
+      },
+      {
+        "Cover": 10,
+        "Triangle": 5
+      },
+      {
+        "Cover": 8,
+        "Triangle": 4
+      }
+    ],
+    "Waypoints": [
+      {
+        "Location": "9.40961, -50.57349, 3.2861713E-05"
+      }
+    ],
+    "GridSize": 1,
+    "GridMaxDistance": "256.17212, 257.31146",
+    "GridMin": "-128.09169, -129.06064, -1.5258789E-05",
+    "GridMax": "128.08044, 128.25082, 3.4028235E+38",
+    "GridArrays": {
+      "GridCell": [
+        4,
+        0,
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  }
+}

@@ -1,0 +1,7 @@
+*
+!/.gitignore
+!/.gitattributes
+!/build.json
+!/plugin-source/
+!/plugin-source/**
+!/SBS\ -\ Zed410s\ Living\ Commonwealth\ Collection.manifest.json

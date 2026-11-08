@@ -1,0 +1,52 @@
+{
+  "ModKey": "SBS - LivingCoastalCottage.esp",
+  "GameRelease": "Fallout4",
+  "ModHeader": {
+    "Flags": [
+      "Small"
+    ],
+    "Stats": {
+      "NextFormID": 437
+    },
+    "Author": "",
+    "OverriddenForms": [
+      "0D2130:Fallout4.esm",
+      "0D2131:Fallout4.esm",
+      "0D2132:Fallout4.esm",
+      "0D2135:Fallout4.esm",
+      "0D2136:Fallout4.esm",
+      "0D2137:Fallout4.esm",
+      "0D213B:Fallout4.esm",
+      "16822B:Fallout4.esm",
+      "168250:Fallout4.esm",
+      "168267:Fallout4.esm",
+      "168273:Fallout4.esm",
+      "168937:Fallout4.esm",
+      "16893D:Fallout4.esm",
+      "176908:Fallout4.esm",
+      "17690C:Fallout4.esm",
+      "17690D:Fallout4.esm",
+      "17690E:Fallout4.esm",
+      "17690F:Fallout4.esm",
+      "176910:Fallout4.esm",
+      "176913:Fallout4.esm",
+      "176914:Fallout4.esm",
+      "176915:Fallout4.esm",
+      "176916:Fallout4.esm",
+      "176917:Fallout4.esm",
+      "176919:Fallout4.esm",
+      "17691B:Fallout4.esm",
+      "17691E:Fallout4.esm",
+      "17691F:Fallout4.esm",
+      "176938:Fallout4.esm",
+      "176939:Fallout4.esm",
+      "17693A:Fallout4.esm",
+      "238902:Fallout4.esm",
+      "238935:Fallout4.esm",
+      "2389FC:Fallout4.esm",
+      "2389FD:Fallout4.esm",
+      "2389FE:Fallout4.esm",
+      "240CDE:Fallout4.esm"
+    ]
+  }
+}
